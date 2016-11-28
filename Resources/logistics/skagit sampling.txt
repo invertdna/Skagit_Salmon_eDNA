@@ -1,0 +1,22 @@
+Field Samples:
+
+4 replicate qPCRs per DNA sample
+
+1 DNA extraction per sample
+
+6 water samples per event
+
+10 events per season (seine)
+
+10 events per season (fyke)
+
+4 seasons total
+
+feb
+
+april
+
+may
+
+
+

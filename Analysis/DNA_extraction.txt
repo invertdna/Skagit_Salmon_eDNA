@@ -1,0 +1,77 @@
+Modified from Renshaw et al. (2014) DNA Extraction Protocol
+
+* Remember to include controls:
+  - 1 using only 900uL Longmire solution (noDNA)
+  - 1 using tissue in Longmire solution
+
+* Most of these steps are to be done in a hood. Phenol is really dangerous, and so is chloroform.
+
+Start with:
+47mm cellulose nitrate filter in 1000uL of Longmire buffer in a 2mL centrifuge tube
+
+INGREDIENTS (per N samples)
+- 1.5mL tubes (1N)
+- 2mL tubes (2)
+- 1000uL filter tips (4)
+- 10uL filter tips (1)
+- phenol:chloroform:isoamyl alcohol (25:24:1) aka "PCI" (900uL)
+- chloroform or chloroform:isoamyl 24:1 (1400uL)
+- 5M NaCl (20uL)
+- isopropanol aka 2-propanol 99.9% (500uL)
+- PCR grade water (200uL)
+
+EQUIPMENT PER BATCH:
+- water bath or incubator
+- centrifuge
+- dryer
+- pipettes (1000uL, 100uL or 20uL, 10uL)
+
+* Preheat the incubator (takes ~30 min)
+
+* Get out all your reagents and supplies (pipette tips, etc)
+
+1. Spin the samples briefly to ensure the filter is squished down to the bottom of the tube with no air bubbles. The tubes end up being really full, so this is important.
+
+2. Incubate samples at 65ºC for 30 minutes. (We use a water bath)
+
+3. While the samples are in the incubator:
+  - Add 700uL chloroform to each of two sets of 2mL tubes. Label them (sequential numbers are fine, these aren't the final tubes), and set aside.
+  - Add 20uL of 5M NaCl and 500uL of isopropanol to a fresh set of 1.5mL tubes. Label (these are the final tubes) and put in the freezer.
+
+4. After incubation (turn off the incubator!), add 900uL of phenol:chloroform:isoamyl alcohol to each tube.
+
+5. Shake the tubes vigorously for 60 seconds.
+
+6. Centrifuge at 17.0*g for 5 minutes.
+
+7. Remove 900uL of the aqueous (top) layer, transfer to first set of tubes containing 700uL chloroform.
+
+8. Shake the tubes vigorously for 60 seconds.
+
+9. Centrifuge at 17.0*g for 5 minutes
+
+10. Remove 800uL of the aqueous (top) layer, transfer to the second set of tubes containing 700uL chloroform.
+
+11. Shake the tubes vigorously for 60 seconds.
+
+12. Centrifuge at 17.0*g for 5 minutes.
+
+13. Transfer 700uL of the aqueous (top) layer to the tubes containing the isopropanol/NaCl mixture.
+
+14. Allow to precipitate at -20ºC overnight
+
+** THE FOLLOWING DAY **
+
+15. Centrifuge tubes at 17.0*g for 30 minutes.
+
+16. While those centrifuge, set out some clean Kimwipes and a small vessel to contain the salt/isopropanol solution.
+
+17. Pour off liquid slowly, and set the tube upside-down on the clean Kimwipe.
+
+18. Using a 10uL pipette with a clean tip, dab off and remove any drops.
+
+19. Set in a tube rack and let dry in the hood for 2 hours.
+
+20. Add 200uL PCR-grade water.
+
+21. Vortex to dissolve DNA; spin very briefly to get liquid down from cap.

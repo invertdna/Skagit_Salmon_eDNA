@@ -1,0 +1,40 @@
+# TODO
+# [ ] go over list with Linda, Anna
+# [ ] check original list of target species
+# [ ] ?"think of data"?
+# [ ] qPCR protocol from USGS/Piper
+# [ ] investigate sequencing primers (12 mifish)
+
+Timeline + Goals
+2016-10-31 Have some preliminary data to include in a renewal (chinook qPCR)
+2016-XX-XX Design qPCR primers for ( shiner perch | coho | smelt )
+2016-11-01 Field sampling begins
+2017-04-01 Field sampling ends
+2017-XX-XX Nature paper
+
+To get sequence data, we need: (we are doing sequencing @NWGC)
+  - Flowcell (N?)
+  - reagent kit (N? length?)
+  - library quantification (qPCr? TapeStation)
+  - library prep kit (including indexes)
+  - PCR cleanup/size selection (beads? etc?)
+  - PCR reagents (taq, indexed primers)
+  - clean DNA
+
+To get qPCR data, we need:
+  - qPCR plates
+  - qPCR reagents (ask Anna+Piper, Marshall+Duda for protocols)
+  - clean DNA
+
+To get clean DNA, we need:
+  - DNA quantitation (Qubit)
+  - DNA extraction stuff (Phenol Chloroform -- concerns about consistency?)
+  - filtered samples
+
+To get filtered samples, we need:
+  - filter cups
+  - more forceps?
+  - bags/etc (I think these are plentiful in lab)
+  - plastic containers?
+  - bleach
+  - bottles?

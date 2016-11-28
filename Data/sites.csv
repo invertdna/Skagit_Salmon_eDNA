@@ -1,0 +1,24 @@
+net,indexed,site_name,lat,lon
+seine,TRUE,Strawberry Point North,48.32140,-122.51651
+seine,TRUE,Brown Point,48.26974,-122.45904
+seine,FALSE,Random 1 2016-05-31 Utsalady Point,48.25283,-122.49639
+seine,FALSE,Random 2 2016-05-31 Maple Grove,48.25496,-122.50956
+seine,TRUE,Mariner's Bluff,48.28214,-122.53178
+fyke,TRUE,Brown Slough Outside,48.333791,-122.415149
+fyke,TRUE,Brown Slough Dike Side,48.337766,-122.414279
+fyke,TRUE,Ika Upper,48.365075,-122.505839
+fyke,TRUE,Ika Lower,NA,NA
+fyke,TRUE,Cattail,NA,NA
+fyke,TRUE,Grain of Sand,NA,NA
+seine,TRUE,Lone Tree Point,48.40744,-122.55612
+seine,TRUE,Hoypus,48.41127,-122.60754
+seine,TRUE,Dugualla Bluff,48.37722,-122.58163
+seine,FALSE,Random Middle 433,48.36977,-122.58185
+seine,TRUE,Turner's Spit North,48.4482,-122.55061
+seine,FALSE,Random near Camp Grande,48.24618,-122.53328
+seine,TRUE,Goat Island,NA,NA
+fyke,TRUE,Fir Island Farms,NA,NA
+fyke,TRUE,Boat Ramp,NA,NA
+fyke,TRUE,Freshwater Pond,NA,NA
+fyke,TRUE,Deepwater,NA,NA
+fyke,TRUE,Tom Moore,NA,NA
