@@ -1,0 +1,8 @@
+Chinook Assay CKCO3_464-534
+Uses species specific region of mtDNA CO3
+TaqMan Gene Expression custom design assay 
+Reporter/Quencher: FAM/MGB-NFQ
+
+Forward Primer: ATTCCATGGCCTACACGTGATT
+Reverse Primer: GGTATTGGACCTGTCGCAGAAG
+Probe: ATCAACCTTTCTAGCCGTT
