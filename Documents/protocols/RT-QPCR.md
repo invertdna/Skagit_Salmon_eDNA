@@ -1,4 +1,8 @@
-### RT-QPCR
+### QPCR: quantitative real-time PCR
+
+Follow the MIQE Guidelines.
+recomendations:
+  - refer to Taqman probes as hydrolysis probes
 
 For all following procedures, conduct at LEAST three replicate PCRs per DNA sample (include extraction negative and positive controls, and field negative controls, as well as PCR negative controls, and standard dilution series).
 
@@ -24,7 +28,10 @@ GGTATTGGACCTGTCGCAGAAG
 >USGS_CKCO3-PROBE
 ATCAACCTTTCTAGCCGTT
 
-These come as 20x stock, and are then diluted to 10x working solution in ultrapure water.
+MH: These come as 20x stock, and are then diluted to 10x working solution in ultrapure water.
+
+current probe: "Custom TaqMan MGB Probe, 100 uM"
+more info [here](https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/real-time-digital-PCR-applications-support-center/taqman-primers-and-probes-support/taqman-primers-and-probes-support-getting-started.html).
 
 **Inhibition**
 
@@ -53,10 +60,15 @@ step3_time:
 final_temp:
 final_time:
 
-**Quantitation**
+### Quantitation
 
-serial dilution:
-6 point serial dilution from 100,000 to 10 copies/reaction
+#### serial dilution:
+MH:6 point serial dilution from 100,000 to 10 copies/reaction
+
+To prepare dilution, repeat this procedure for each :
+  - aliquot of full strength template added to strip
+  -
+
 
 For each quantitation reaction:
 
@@ -64,7 +76,7 @@ For each quantitation reaction:
 - 0.5 microliter 10x primer/probe mix
 - 3 microliter DNA template
 - ??? microliter water
-- 10 microliter total volume
+- 10 microliter total volume (Anna Elz uses 12uL)
 
 Thermal cycling conditions (Instrument: ABI ViiA7)
 (note: same as above but with 45 cycles instead of 40)
