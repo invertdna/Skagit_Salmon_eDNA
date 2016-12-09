@@ -1,7 +1,7 @@
-### QPCR: quantitative real-time PCR
+### qPCR: quantitative real-time PCR
 
 **REAGENTS**
-(per N samples, where N = 3 * (number environmental samples + 8 dilution steps))
+Per N samples, where N = 3 * (number environmental samples + 8 dilution steps, inclusive of no DNA aka NTC)
 - primer 1 @ 10uM
 - primer 2 @ 10uM
 - probe @ 10uM
