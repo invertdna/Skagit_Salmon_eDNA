@@ -1,0 +1,174 @@
+STURGEON,Acipenser
+SPEARNOSE.POACHER,Agonopsis vulsa
+STUR.POACHER,
+O.U.POACHER,
+TUBENOSE,Pallasina barbata
+LANCE.a,Ammodytes hexapterus
+LANCE.pl,Ammodytes hexapterus
+LANCE.u,Ammodytes hexapterus
+TUBESNT,Aulorhynchus flavidus
+MIDSHIPMAN,Porichthys notatus
+PACIFIC.DAB,Citharichthys sordidus
+SPECKLED.DAB,Citharichthys stigmaeus
+SUCKER,
+PUMPKN,
+BLUEGILL,Lepomis macrochirus
+BASS,unknown
+O.U.SUNFISH,
+CRAPPIE,
+SHAD,Alosa sapidissima
+HERR.a,Clupea pallasii
+HERR.pl,Clupea pallasii
+HERR.u,Clupea pallasii
+NANCHOV.a,Engraulis mordax
+NANCHOV.pl,Engraulis mordax
+SARDINE,Sardinops sagax
+CORALLINE.SCULP,Artedius corallinus
+PADD.SCULP,Artedius fenestralis
+ROSYLIP.SCULP,Ascelichthys rhodorus
+SILVERSPOTTED.SC,Blepsias cirrhosus
+ROUGHBACK.SCULP,Chitonotus pugetensis
+SHARPNOSE,Clinocottus acuticeps
+CALICO.SCULP,Clinocottus embryum
+COAST.SCULP,Cottus aleuticus
+PRICKLY.SCULP,Cottus asper
+SLIMY.SCULP,
+BUFF,Enophrys bison
+FW.SCULP,
+SOFT.SCULP,Gilbertidia sigalutes
+RED.IRISH.LORD,Hemilepidotus hemilepidotus
+BROWN.IR.LORD,Hemilepidotus spinosus
+NORTH.SCULP,Icelinus borealis
+STAG,
+GRT.SCULP,Myoxocephalus polyacanthocephalus
+SAILFIN,Nautichthys oculofasciatus
+TIDEPOOL.SCULP,
+O.U.SCULP,
+TADPOLE.SCULP,Psychrolutes paradoxus
+GRUNT.SCULP,Rhamphocottus richardsonii
+CABEZON,Scorpaenichthys marmoratus
+MANACLED.SCULP,Synchirus gilli
+LUMP,Eumicrotremus orbis
+SNAILFISH,Liparididae
+LK.CHUB,
+PEAMTH,
+O.U.CHUB,
+LONGNOSE.DACE,
+DACE,
+REDSIDE.SHINER,
+KELP.PERCH,Brachyistius frenatus
+SHINER,Cymatogaster aggregata
+STRIPED,
+O.U.PERCH,
+WHITE.SEAPERCH,Phanerodon furcatum
+PILE.PERCH,Damalichthys vacca
+PACIFIC.COD,Gadus macrocephalus
+gadid.unk,Gadidae
+TOMCOD,Microgadus proximus
+O.U.COD,
+POLLOCK,Theragra chalcogramma
+STICKL,Gasterosteus aculeatus
+ARROW.GOBY,Clevelandia ios
+BAY.GOBY,Lepidogobius lepidus
+KELP.GRNLNG,Hexagrammos decagrammus
+ROCK.GREENLING,Hexagrammos lagocephalus
+MASK.GRNLNG,Hexagrammos octogrammus
+O.U.GREENLING,
+WHITESPOT.GR,Hexagrammos stelleri
+LINGCOD,Ophiodon elongatus
+PAINTED.GRNLING,Oxylebius pictus
+BRN.BULLHEAD,
+DUNGI.u.size,
+DUNGI.small,
+DUNGI.legal,
+RED.ROCK.CRAB,
+O.U.CRAB,
+SHRIMP,
+FW.MUSSEL,
+SHORE.CRAB,
+KELP.CRAB,
+LANTERNFSH,Myctophidae
+BROTULA,Brosmophycis marginata
+SMELT.j,Hypomesus pretiosus
+SMELT.a,Hypomesus pretiosus
+SMELT.pl,Hypomesus pretiosus
+SMELT.u,Hypomesus pretiosus
+LONGFIN.SMELT,Spirinchus thaleichthys
+EULACHON,Thaleichthys pacificus
+HERMIT.CR,
+DECORATOR.CR,
+Y.PERCH,
+LAMP,Lampetra
+PENPT.GUNL,Apodichthys flavidus
+LONGFIN.GUN,Pholis clemensi
+CRES.GUNL,Pholis laeta
+SADLBCK.GUNL,Pholis ornata
+RED.GUNNEL,Pholis schultzi
+GUNNEL,
+ROCKWEED.GUN,Xererpes fucorum
+GUNNL.PRICK,
+HYBRID.SOLE,Inopsetta ischyra
+BUTTER.SOLE,Isopsetta isolepis
+ROCK.SOLE,Lepidopsetta bilineata
+DOVER.SOLE,Microstomus pacificus
+ENG.SOLE,Parophrys vetulus
+STARRY,
+CO.SOLE,Oncorhynchus kisutch
+SAND.SOLE,Psettichthys melanostictus
+O.U.FLAT,
+O.U.FLAT.pl,
+O.U.SKATE,
+CT.adult,Oncorhynchus clarkii
+CT.0.,Oncorhynchus clarkii
+CT.1..,Oncorhynchus clarkii
+PK.ADULT,Oncorhynchus gorbuscha
+PK.0.,Oncorhynchus gorbuscha
+CH.0..em,Oncorhynchus keta
+CH.ADULT,Oncorhynchus keta
+CH.0.,Oncorhynchus keta
+CO.ADULT.ucwt,Oncorhynchus kisutch
+CO.ADULT.em,Oncorhynchus kisutch
+CO.ADULT.nem,Oncorhynchus kisutch
+CO.0.,Oncorhynchus kisutch
+CO.1..ucwt,Oncorhynchus kisutch
+CO.1..em,Oncorhynchus kisutch
+CO.1..nem,Oncorhynchus kisutch
+RB.0.,
+STHD.em,Oncorhynchus mykiss
+STHD.nem,Oncorhynchus mykiss
+RB.1...em,
+RB.1...nem,
+TROUT.0.,
+SOCK.ADULT,Oncorhynchus nerka
+SOCK.0.,Oncorhynchus nerka
+SOCK.1...em,Oncorhynchus nerka
+SOCK.1...nem,Oncorhynchus nerka
+CK.ADULT.ucwt,Oncorhynchus tshawytscha
+CK.ADULT.em,Oncorhynchus tshawytscha
+CK.ADULT.nem,Oncorhynchus tshawytscha
+CK.0..ucwt,Oncorhynchus tshawytscha
+CK.0..em,Oncorhynchus tshawytscha
+CK.0..nem,Oncorhynchus tshawytscha
+CK.1..ucwt,Oncorhynchus tshawytscha
+CK.1..em,Oncorhynchus tshawytscha
+CK.1..nem,Oncorhynchus tshawytscha
+WF,
+ATLANTIC.ADULT,unknown
+ATLANTIC.0.,Salmo salar
+ATLANTIC.1..,Salmo salar
+DV.BT,
+ROCKFISH,Sebastes
+O.U.ROCKFISH,
+COPPER.ROCKFSH,Sebastes caurinus
+SPLITNOSE.ROCKFSH,
+QUILLBACK.ROCKFISH,Sebastes maliger
+DOGFISH,Squalus acanthias
+HIGH.COCKSCOMB,Anoplarchus purpurescens
+SNAKE,Lumpenus sagitta
+BLK.PRICKLE,Xiphister atropurpureus
+POMPANO,
+PIPEFISH,Syngnathus leptorhynchus
+SANDFISH,Trichodon trichodon
+O.U.FISH,
+O.U.LARVAL.FISH,
+O.U.fish.pl,
