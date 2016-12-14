@@ -35,6 +35,8 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 - Cover the plate with a clear seal, and wipe with a rubber spatula to seal it tightly.
 - Keeping a Kimwipe underneath, load the plate and centrifuge it briefly.
 
+<div style="page-break-after: always;"></div>
+
 #### RUNNING THE MACHINE (Applied Biosystems 7900HT)
 - Open the software SDS.
 - File > New
