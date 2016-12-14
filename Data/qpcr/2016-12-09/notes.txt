@@ -1,0 +1,2 @@
+# notes
+- accidentally pipetted SKA008_0.1 into wells C4, C5, C6 in addition to the intended wells (B4, B5, B6). I tried to correct this by removing 2 microliters from the incorrect wells, and then adding 2 microliters of the correct sample.
