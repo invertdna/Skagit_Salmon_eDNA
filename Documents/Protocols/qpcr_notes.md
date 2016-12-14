@@ -30,3 +30,4 @@ more info [here](https://www.thermofisher.com/us/en/home/technical-resources/tec
 #### NOTES
 - It seems the standard volume of mastermix is 0.5 * total reaction volume
 - EMM2 = TaqMan® Environmental Master Mix 2.0 (Applied Biosystems); ThermoFisher Scientific Catalog number: 4396838;	200 reactions	$550.40
+- In order to minimize the number of times that reagents are frozen and thawed, try to prepare stocks in amounts that will be used up in one go (i.e. for batches of 96 reactions with extra to account for pipetting errors)
