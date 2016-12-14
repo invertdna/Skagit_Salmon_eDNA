@@ -7,6 +7,7 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 - probe @ 10uM
 - PCR Master Mix @ 1x
 - PCR grade water
+- DNA templates at 1:10 (5uL sample plus 45 uL water, total volume = 50uL)
 
 **CONSUMABLES** (per N samples)
 - 1.5mL tubes (1 per primer set)
