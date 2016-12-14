@@ -16,3 +16,13 @@ To prepare 3 sets of dilutions:
     - transfer 2 uL from tube 7 to THE TRASH! LEAVE IT PURE WATER.
   - aliquot of full strength template added to strip
   -
+
+2016-12-09:
+1. Get out three 8-strip tubes, or use three columns of a PCR plate
+2. Add 4.5 microliters of water to wells 2:8 of each column
+3. Add 5.0 microliters of DNA from sample ("Chinook3") to well 1.
+4. For wells 1 through 6 of each column:
+  - With a fresh tip, pipette to mix.
+  - Move 0.5 microliters from this well to the next
+  - pipette to mix, and discard tip.
+5. When you get to well 7, repeat above procedure but DO NOT add to the next well. Discard the 0.5 microliters with the tip.
