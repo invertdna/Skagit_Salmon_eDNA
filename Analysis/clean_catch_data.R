@@ -61,6 +61,3 @@ catch_data <- data.frame(sample_id, event_id, catch_data[,org_present])
 # isolate chinook
 catch_chinook <- catch_data[,c(1, 2, grep("^CK", colnames(catch_data)))]
 
-catch_chinook[, "event_id"] 
-
-water[,"event_id"]
