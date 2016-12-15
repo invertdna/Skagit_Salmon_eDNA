@@ -42,9 +42,11 @@ short_time <- gsub(" ", "-", short_time)
 # create unique sample identifiers
 sample_id <- paste(site_abbr, short_time, sep = "-")
 
+event_id  <- substr(sample_id, 1, 13)
+
 #-------------------------------------------------------------------------------
 # isolate metadata and data
-catch_metadata <- data.frame(sample_id, catch_data[,-count_colnums])
+catch_metadata <- data.frame(sample_id, event_id, catch_data[,-count_colnums])
 
 # get names of columns where organism was observed at least once
 org_absent  <- names(which(colSums(catch_data[,count_colnames]) < 1 ))
@@ -53,10 +55,12 @@ org_present <- names(which(colSums(catch_data[,count_colnames]) > 0 ))
 
 #-------------------------------------------------------------------------------
 # remove organisms with no counts
-catch_data <- data.frame(sample_id, catch_data[,org_present])
+catch_data <- data.frame(sample_id, event_id, catch_data[,org_present])
 
 #-------------------------------------------------------------------------------
 # isolate chinook
-catch_chinook <- catch_data[,c(1, grep("^CK", colnames(catch_data)))]
+catch_chinook <- catch_data[,c(1, 2, grep("^CK", colnames(catch_data)))]
 
+catch_chinook[, "event_id"] 
 
+water[,"event_id"]
