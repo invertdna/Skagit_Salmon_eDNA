@@ -17,7 +17,3 @@ water$event_id <- paste(
   )
 
 
-water[,"site_name"]
-water[,""]
-water[,]
-
