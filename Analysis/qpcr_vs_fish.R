@@ -69,7 +69,7 @@ plot_dat <- data.frame(
 #-------------------------------------------------------------------------------
 # assess the fit of a linear model
 model_linear <- lm(dna ~ log(fish + 1), data = plot_dat)
-summary(model_linear)
+model_linear_summary <- summary(model_linear)
 
 x_pred <- 0:max(plot_dat$fish)
 
@@ -85,6 +85,29 @@ con95 <- predict(
 
 #-------------------------------------------------------------------------------
 # requires plot_dat, with columns named "dna" and "fish"
+plot_name <- "DNA_by_seine_chinook"
+
+EXPORT <- TRUE
+
+if(!exists("legend_text")){legend_text <- list()}
+legend_text[plot_name] <- {"
+Concentration of Chinook Salmon DNA plotted against Chinook Salmon captured in beach seines at 10 sites in Skagit Bay.
+At each site, 2 beach seines and 3-4 water samples were collected. 
+The total number of Chinook across seine surveys is plotted here. 
+DNA was extracted from each bottle and used as template in 3 independent qPCRs; 
+the median of these is taken, and the site concentration is taken as the median of these estimates.
+A linear model demonstrates that the intercept cannot be distinguished from 0 (p = 0.596), 
+while the number of fish (log(x+1)) was a significant predictor of DNA concentration (p = 0.000762).
+"}
+
+if(EXPORT){
+  pdf_file    <- file.path(fig_dir, paste(plot_name, ".pdf", sep = ""))
+  legend_file <- file.path(fig_dir, paste(plot_name, "_legend.txt", sep = ""))
+  writeLines(legend_text[[plot_name]], con = legend_file)
+  pdf(file = pdf_file, width = 5, height = 5) #, width = 8, height = 3
+}
+
+par(mar = c(4,5,1,1))
 plot(
   x = log(plot_dat$fish + 1), 
   y = plot_dat$dna, 
@@ -105,8 +128,8 @@ axis(2, las = 1)
 abline(model_linear, col = "cornflowerblue", lwd = 2)
 
 box()
+
+if(EXPORT){
+  dev.off()
+}
 #-------------------------------------------------------------------------------
-
-
-
-

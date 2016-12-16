@@ -1,0 +1,9 @@
+
+Concentration of Chinook Salmon DNA plotted against Chinook Salmon captured in beach seines at 10 sites in Skagit Bay.
+At each site, 2 beach seines and 3-4 water samples were collected. 
+The total number of Chinook across seine surveys is plotted here. 
+DNA was extracted from each bottle and used as template in 3 independent qPCRs; 
+the median of these is taken, and the site concentration is taken as the median of these estimates.
+A linear model demonstrates that the intercept cannot be distinguished from 0 (p = 0.596), 
+while the number of fish (log(x+1)) was a significant predictor of DNA concentration (p = 0.000762).
+
