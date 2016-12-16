@@ -48,10 +48,23 @@ chinook_by_event <- sapply( split(
   ), sum)
 #-------------------------------------------------------------------------------
 
+
 #-------------------------------------------------------------------------------
 # which events have both?
 events_in_both <- intersect(names(dna_by_event), names(chinook_by_event))
 #-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
+# collate data on catch and DNA for each bottle
+plot_dat_bottle <- data.frame(
+  event_id = bottle_to_event, 
+  bottle   = names(dna_by_bottle_med), 
+  dna      = dna_by_bottle_med,
+  fish     = chinook_by_event[bottle_to_event]
+)[!is.na(bottle_to_event),] # remove rows of standards
+#-------------------------------------------------------------------------------
+
 
 #-------------------------------------------------------------------------------
 # arrange for plotting and modelling
@@ -87,7 +100,7 @@ con95 <- predict(
 # requires plot_dat, with columns named "dna" and "fish"
 plot_name <- "DNA_by_seine_chinook"
 
-EXPORT <- TRUE
+EXPORT <- FALSE
 
 if(!exists("legend_text")){legend_text <- list()}
 legend_text[plot_name] <- {"
@@ -114,8 +127,16 @@ plot(
   axes = FALSE, 
   xlab = "Total Chinook", 
   ylab = expression(paste("Concentration Chinook DNA (pg/", mu, "L)", sep = "")), 
+  pch = 19, col = "black", 
   las = 1
   )
+
+# add points for each bottle
+points(
+  x = plot_dat_bottle$fish, 
+  y = plot_dat_bottle$dna
+)
+
 xaxis_ticks <- c(0, 5, 10, 25, 50, 100, 200)
 
 axis(1, 
