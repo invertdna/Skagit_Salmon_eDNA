@@ -1,0 +1,7 @@
+comp		rxn		all
+primer1		0.9		99
+primer2		0.9		99
+probe		0.2		22
+sample		2		220
+mastermix	5		550
+water		1		110
