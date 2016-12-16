@@ -147,3 +147,10 @@ qpcr_data$event_id <- water[, "event_id"][match(
 # add inferred concentration from standard
 qpcr_data$QuantBackCalc <- qpcr_data[,"Quantity"] * std1_conc
 #-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
+# convert quantities to picograms per microliter (makes plotting better)
+qpcr_data[,"QuantBackCalc"] <- qpcr_data[,"QuantBackCalc"] * 1000
+#-------------------------------------------------------------------------------
+
