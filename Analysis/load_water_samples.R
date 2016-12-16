@@ -3,11 +3,9 @@
 
 # requires an object "catch_metadata"
 
-head(catch_metadata)
+water_file <- file.path(data_dir, "water_samples.csv")
 
-water <- read.csv(file.path(data_dir, "water_samples.csv"), stringsAsFactors = FALSE)
-
-water[,"lab_label"]
+water <- read.csv(water_file, stringsAsFactors = FALSE)
 
 water$site_abbr <- site_trans[match(water[,"site_name"], site_trans[,3]), 1]
 
