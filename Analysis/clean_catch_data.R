@@ -1,5 +1,4 @@
 # clean catch data
-library(magrittr) # pipes: %>%
 
 #-------------------------------------------------------------------------------
 # Where is the file?
