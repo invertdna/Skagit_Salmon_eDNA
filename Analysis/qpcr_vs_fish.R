@@ -2,6 +2,11 @@
 
 
 #-------------------------------------------------------------------------------
+# convert quantities to picograms per microliter (makes plotting better)
+qpcr_data[,"QuantBackCalc"] <- qpcr_data[,"QuantBackCalc"]*1000
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
 # get median dna per bottle across the three replicate qPCR reactions
 dna_by_bottle <- split(qpcr_data[,"QuantBackCalc"], qpcr_data[,"template_name"])
 
@@ -73,7 +78,7 @@ fish <- chinook_by_event[events_in_both]
 
 plot_dat <- data.frame(
   event = names(unlist(dna)), 
-  dna   = unlist(dna) * 1000, 
+  dna   = unlist(dna), 
   fish  = rep(fish, times = sapply(dna, length))
 )
 #-------------------------------------------------------------------------------
