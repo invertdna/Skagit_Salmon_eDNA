@@ -3,6 +3,9 @@
 
 # requires an object called "water"
 
+# what was the concentration of the standard in nanograms per microliter
+std1_conc <- 9.36
+
 #-------------------------------------------------------------------------------
 qpcr_data_file <- list()
 
@@ -137,4 +140,10 @@ qpcr_data$event_id <- water[, "event_id"][match(
   water[,"lab_label"]
   )
 ]
+#-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
+# add inferred concentration from standard
+qpcr_data$QuantBackCalc <- qpcr_data[,"Quantity"] * std1_conc
 #-------------------------------------------------------------------------------
