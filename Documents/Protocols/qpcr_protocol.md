@@ -8,6 +8,7 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 - PCR Master Mix @ 1x
 - PCR grade water
 - DNA templates at 1:10 (5uL sample plus 45 uL water, total volume = 50uL)
+- Dilution series (3 replicates each of 1:1 through 1:1000000 and 0:1)
 
 **CONSUMABLES** (per N samples)
 - 1.5mL tubes (1 per primer set)
@@ -38,32 +39,32 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 <div style="page-break-after: always;"></div>
 
 #### RUNNING THE MACHINE (Applied Biosystems 7900HT)
-- Open the software SDS.
-- File > New
+- Open the software SDS. (Login as admin; no password needed)
+- `File` > `New`, `OK`
 - Assay: Standard Curve.
 - Tab `Setup`:
   - Add detector (bottom left):
     - `New` > `Name`, reporter = `FAM`
   - select the new row and then click `copy to plate document`
+  - highlight all wells you're using (if you are using all wells, select all), and click `use`.
   - highlight wells for NTC and select `NTC` under column `task`
   - highlight wells for dilution series, set `task` to `standard` and set quantity
   - highlight all wells and check the `Use` box in `detector` on the right side
 - Tab `Instrument`:
   - Tab `Thermal Cycler`:
-    - **IMPORTANT! Set the volume correctly!**
+    - **IMPORTANT! Set the reaction volume!** (top right corner)
     - Set thermal cycler conditions
   - Tab `Real Time`:
-    - Connect to instrument
-    - Select "Open/Close"
+    - `Connect to instrument`
+    - Select `Open/Close`
     - Load plate with first well (A1) in the correct position
-- Click `Start Run`,
-- Select `Save Changes`
-- Select a place to save it.
-- GO!
+- Click `Start Run`, and when asked if you'd like to save changes, click `Yes`.
+- Create a new directory using the plate ID (e.g. `CKCO3-20160317`) and save your file there.
+- Bob's your uncle!
 
 #### AFTER THE RUN
 - Close the run (and the software?)
 - Reopen the run
 - Click `Analysis` > `Analyze` (or bright green triangle button)
 - Click `File` > `Save`
-- Click `File` > `Export` > and one by one, export data in plain text format
+- Click `File` > `Export` > and one by one, export data in plain text format named by the file type (e.g. `results_table.txt`).
