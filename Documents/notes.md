@@ -1,5 +1,11 @@
 Notes
 
+2017-01-11 Notes
+- Specificity of chinook qPCR assay
+  - Chinook and Coho may share some variation at COX3; we should test on DNA from tissue
+  - Piper has tissue from these species and populations from which the variation is known. She offered to extract DNA alongside other extractions she's planning to do anyway.
+  - We'll need to run the qPCR on these extractions
+
 2016-04-21 Planning meeting
 
 - Fish (smolts) come downstream as early as February
