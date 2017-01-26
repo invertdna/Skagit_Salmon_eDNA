@@ -1,6 +1,8 @@
-Notes
+# Notes
 
-# 2017-01-23
+[Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
+
+## 2017-01-23
 - Skagit River Systems Coop sampling schedule:
   - Seine: 12 index sites; 2x per month on NEAP tides
   - Fykes: 7 index sites;  2x per month on SPRING tides (high in AM)
@@ -31,13 +33,13 @@ Notes
   - __________: begin early Feb and quickly peak; wind down through March, second slow peak in early May.
 
 
-# 2017-01-11
+## 2017-01-11
 - Specificity of chinook qPCR assay
   - Chinook and Coho may share some variation at COX3; we should test on DNA from tissue
   - Piper has tissue from these species and populations from which the variation is known. She offered to extract DNA alongside other extractions she's planning to do anyway.
   - We'll need to run the qPCR on these extractions
 
-# 2016-04-21 Planning meeting
+## 2016-04-21 Planning meeting
 - Fish (smolts) come downstream as early as February
 - Rearing continues until it gets warm, usually May or June
 - both sampling techniques start in February, continue through about September
