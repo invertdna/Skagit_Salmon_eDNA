@@ -1,37 +1,43 @@
 This repository documents the analysis of environmental DNA in the Skagit Bay of Puget Sound in Washington, USA.
 
-# AUTHORS
+### Contents
+* `Analysis/`: Code to run analyses. Start with `0_load_project.R`.
 
-Andrew Olaf Shelton
-ole.shelton@noaa.gov
-Northwest Fisheries Science Center
+* `Data/`: Raw data. Do not edit directly.
+
+* `Figures/`: Figures and legends.
+
+* `Documents/`:  
+  - `notes.md`: Running document of notes. Add and date entries to the top.  
+  - `Manuscript/`: Subdirectories containing manuscript versions. If you're not comfortable with Latex, edit the Google Doc.  
+    - `v0.2/`:  First digit iterates with journal submission, second with revisions (internal or external). v0.* for pre-submission.  
+  - `Logistics/`: Internal logistical documents (budget, sampling, etc.).  
+  - `Proposal/`: Initial and renewal proposals.  
+  - `Protocols/`: Lab and field protocols.  
+
+* `Vault/`: Old junk we probably don't need anymore.
+
+
+### Authors
+
+[Andrew Olaf Shelton](ole.shelton@noaa.gov) (NWFSC)
+
+[James Lawrence O'Donnell](jodonnellbio@gmail.com) (SMEA)
+
+[Ryan Patrick Kelly](rpkelly@uw.edu) (SMEA)
+
+[Linda Park](linda.park@noaa.gov) (NWFSC)
+
+Correigh Greene (NWFSC)
+
+- NWFSC: Northwest Fisheries Science Center
 NOAA Fisheries
 2725 Montlake Blvd E
 Seattle, Washington 98112, USA
 
-James Lawrence O'Donnell
-jodonnellbio@gmail.com
-School of Marine and Environmental Affairs
+- SMEA: School of Marine and Environmental Affairs
 University of Washington
 3707 Brooklyn Ave NE
 Seattle, Washington 98105, USA
 
-Ryan Patrick Kelly
-rpkelly@uw.edu
-School of Marine and Environmental Affairs
-University of Washington
-3707 Brooklyn Ave NE
-Seattle, Washington 98105, USA
 
-Linda Park
-linda.park@noaa.gov
-Northwest Fisheries Science Center
-NOAA Fisheries
-2725 Montlake Blvd E
-Seattle, Washington 98112, USA
-
-Correigh Greene
-Northwest Fisheries Science Center
-NOAA Fisheries
-2725 Montlake Blvd E
-Seattle, Washington 98112, USA
