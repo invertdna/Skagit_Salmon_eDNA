@@ -8,8 +8,8 @@
   - Fykes: 7 index sites;  2x per month on SPRING tides (high in AM)
 
 - Total samples:
-  - Fyke:   7 sites * 4 samples * 4 visits (original math was 7*4*5)
-  - Seine: 12 sites * 4 samples * 4 visits (original math was 7*4*5)
+  - Fyke:   7 sites * 4 samples * 4 visits (original math was 7 * 4 * 5)
+  - Seine: 12 sites * 4 samples * 4 visits (original math was 7 * 4 * 5)
 - Crew needed:
   - Seines: 1 boat driver, 2 sample collectors
   - Fykes:  2 sample collectors
