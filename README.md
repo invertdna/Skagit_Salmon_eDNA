@@ -28,7 +28,7 @@ This repository documents the analysis of environmental DNA in the Skagit Bay of
 
 [Linda Park](linda.park@noaa.gov) (NWFSC)
 
-Correigh Greene (NWFSC)
+[Correigh Greene](correigh.greene@noaa.gov) (NWFSC)
 
 - NWFSC: Northwest Fisheries Science Center
 NOAA Fisheries
