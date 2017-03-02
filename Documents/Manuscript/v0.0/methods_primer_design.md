@@ -11,4 +11,4 @@ The in-silico based qPCR assay design approach is as follows:
 
 - Using (alignments and visual inspection?), identify a region of the mitochondrial genome where there are fixed differences between target species, their close relatives, and a selection of non-targets. Ryan found that Cytochrome c oxidase subunit I (MT-CO1) was (________ why was CO1 bad?), while cytochrome b (MY-CYB).
 - We gathered sequence data from NCBI's nucleotide sequence database ('GenBank') using the query '"Embiotocidae"[organism] AND gene_in_mitochondrion[PROP] AND ("cytochrome b") NOT ("COI")'.
-- After properly formatting the database (using 'ecoPCRFormat.py'), we used ecoPrimers to (DO SOME STUFF)
+- After properly formatting the database (using 'ecoPCRFormat.py --taxonomy (path to taxdump) --name (output name) --genbank (path to our embiotocid sequence database)'), we used ecoPrimers to (DO SOME STUFF)
