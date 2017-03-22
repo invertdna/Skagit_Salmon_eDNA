@@ -7,6 +7,7 @@ library(sp) # SpatialPoints
 library(raster) # raster
 library(colorspace) # sequential_hcl
 library(rasterVis) # rasterTheme, levelplot
+library(rgdal)
 
 # read in the base layer
 tif_file <- file.path(data_dir, "ngdc_pug_snd_dm_subset.tif")
