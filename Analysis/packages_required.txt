@@ -1,0 +1,5 @@
+colorspace
+raster
+rasterVis
+reshape2
+sp
