@@ -17,6 +17,15 @@ fig_dir <- file.path("..", "Figures")
 R_files <- list.files(path = "functions", pattern = "\\.R$", full.names = TRUE)
 sapply(R_files, source)
 
+################################################################################
+# LOAD PACKAGES
+################################################################################
+package_req <- read.table("packages_required.txt", stringsAsFactors = FALSE)[,1]
+for(package in package_req){
+	if(! package %in% installed.packages()){
+		install.packages(package)
+	}
+}
 
 ################################################################################
 # LOAD DATA
