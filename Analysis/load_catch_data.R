@@ -29,7 +29,7 @@ DateTime <- as.POSIXct(paste(catch_data[,"Date"], catch_data[,"Time"]))
 
 # abbreviate site names
 file_path  <- file.path(data_dir, "site_codes.txt")
-site_trans <- read.table(file_path, stringsAsFactors = FALSE)
+site_trans <- read.table(file_path, stringsAsFactors = FALSE, header = TRUE)
 site_abbr  <- site_trans[match(catch_data$Site, site_trans[,2]),1]
 
 short_time <- gsub(":00$", "", DateTime)
