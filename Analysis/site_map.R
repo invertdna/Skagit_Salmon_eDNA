@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # plot map of sampled site
-EXPORT <- FALSE
+EXPORT <- TRUE
 
 library(sp) # SpatialPoints
 library(raster) # raster
@@ -13,7 +13,7 @@ library(rgdal)
 tif_file <- file.path(data_dir, "ngdc_pug_snd_dm_subset.tif")
 
 # read in the points
-sites_file <- "sites.csv"
+sites_file <- "site_data.csv"
 colname_lat <- "lat"
 colname_lon <- "lon"
 
@@ -26,10 +26,10 @@ sites <- read.csv(
 sites <- sites[!is.na(sites$lat),]
 
 # create bounding box
-xleft  <- -122.84
+xleft  <- -122.65
 xright <- -122.25
 yupper <- 48.48
-ylower <- 48.18
+ylower <- 48.25
 
 range_lon <- c(xleft,xright)
 range_lat <- c(ylower, yupper)
@@ -74,6 +74,17 @@ col_depth[length(col_depth)] <- "cornsilk3" # set the color of the land
 # r <- setValues(r, 1:ncell(r))
 # plot(r, col = col_depth)
 
+col_depth_alt <- diverge_hcl(n_col, 
+  h = c(260, 60), 
+  c = c(60, 30), 
+  l = c(20, 70), 
+  power = 1, gamma = NULL, fixup = TRUE, alpha = 1)
+
+# check the colors
+# r <- raster(nrows=1, ncols= n_col)
+# r <- setValues(r, 1:ncell(r))
+# plot(r, col = col_depth_alt)
+
 
 #-------------------------------------------------------------------------------
 # PLOTTING
@@ -111,9 +122,6 @@ layer(sp.points(
   mypoints[sites$net == "seine" & sites$revisit == "index"], 
   col = "orangered", cex = 1, lwd = 2, pch = 1
 ))
-
-
-
 
 if(EXPORT){
   dev.off()
