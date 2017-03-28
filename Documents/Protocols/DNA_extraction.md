@@ -50,25 +50,25 @@ P2. Get out all your reagents and supplies (pipette tips, etc)
     - Add 700uL chloroform to each of two sets of 2mL tubes. Label them (sequential numbers are fine, these aren't the final tubes), and set aside.
     - Add 20uL of 5M NaCl and 500uL of isopropanol to a fresh set of 1.5mL tubes. Label (these are the final tubes) and put in the freezer.
 
-4. After incubation (turn off the incubator!), add 900uL of phenol:chloroform:isoamyl alcohol to each tube.
+4. After incubation (turn off the incubator!), add 800uL of phenol:chloroform:isoamyl alcohol to each tube.
 
 5. Shake the tubes vigorously for 60 seconds.
 
 6. Centrifuge at 17.0*g for 5 minutes.
 
-7. Remove 900uL of the aqueous (top) layer, transfer to first set of tubes containing 700uL chloroform.
+7. Remove 750uL of the aqueous (top) layer, transfer to first set of tubes containing 700uL chloroform.
 
 8. Shake the tubes vigorously for 60 seconds.
 
 9. Centrifuge at 17.0*g for 5 minutes
 
-10. Remove 800uL of the aqueous (top) layer, transfer to the second set of tubes containing 700uL chloroform.
+10. Remove 700uL of the aqueous (top) layer, transfer to the second set of tubes containing 700uL chloroform.
 
 11. Shake the tubes vigorously for 60 seconds.
 
 12. Centrifuge at 17.0*g for 5 minutes.
 
-13. Transfer 700uL of the aqueous (top) layer to the tubes containing the isopropanol/NaCl mixture.
+13. Transfer 650uL of the aqueous (top) layer to the tubes containing the isopropanol/NaCl mixture.
 
 14. Allow to precipitate at -20ºC overnight (16 hours).
 
