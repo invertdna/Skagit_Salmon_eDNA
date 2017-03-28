@@ -20,3 +20,4 @@
 "STRPTS"  "Strawberry Pt S"  "Strawberry Point South"
 "TURSPN"  "Turners Spit N"  "Turner's Spit North"
 "GOATIS"  "Goat Island"  "Goat Island"
+"FWPOND"  "Freshwater Pond"  "Freshwater Pond New"

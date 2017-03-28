@@ -108,7 +108,7 @@ layer(sp.points(
   col = "orangered", cex = 1, lwd = 2, pch = 2
 )) +
 layer(sp.points(
-  mypoints[sites$net == "seine" & sites$indexed == "TRUE"], 
+  mypoints[sites$net == "seine" & sites$revisit == "index"], 
   col = "orangered", cex = 1, lwd = 2, pch = 1
 ))
 
