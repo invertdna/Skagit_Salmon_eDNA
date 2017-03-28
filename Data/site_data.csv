@@ -1,0 +1,28 @@
+site_name,Abbr,net,revisit,lat,lon,LatLonSource,NameSRSC
+Boat Ramp,BOATRA,seine,index,48.324580,-122.373498,GoogleMaps,Wylie Boat Ramp
+Brown Point,BROWPT,seine,index,48.26974,-122.45904,GPS,Brown Point (X)
+Brown Slough Dike Side,BRSLDS,fyke,index,48.337766,-122.414279,GoogleMaps,Browns Sl Diked Side
+Brown Slough Outside,BRSLBC,fyke,random,48.333791,-122.415149,GoogleMaps,Browns Sl Barrow Ch
+Cattail,CATSAL,fyke,index,48.359148,-122.476651,PowerPoint,Cattail Saltmarsh
+Deepwater,DEEPWA,fyke,index,48.308418,-122.367181,GoogleMaps,Deepwater
+Dugualla Bluff,DUGUAL,seine,index,48.37722,-122.58163,GPS,Dugualla Bluff
+Fir Island Farms,FIFARM,fyke,random,48.33771,-122.4144,GPS,Fir Island Farms
+Freshwater Pond,FWPOND,fyke,index,48.31421,-122.3777,GPS,Freshwater Pond New
+Goat Island,GOATIS,seine,index,48.360889,-122.534681,GoogleMaps,Goat Island
+Grain of Sand,GRAINS,fyke,index,48.364393,-122.419445,PowerPoint,Grain of Sand
+Hoypus,HOYPTE,seine,index,48.41127,-122.60754,GPS,Hoypus Pt E
+Ika Lower,IKALOW,fyke,index,48.364940,-122.505745,GoogleMaps,Ika Lower
+Ika Upper,IKAUPP,fyke,index,48.367222,-122.500745,GoogleMaps,Ika Upper
+Lone Tree Point,LOTRPT,seine,index,48.40744,-122.55612,GPS,Lone Tree Pt
+Mariner's Bluff,MARINB,seine,index,48.28214,-122.53178,GPS,Mariners Bluff
+Random 1 2016-05-31 Utsalady Point,RS1548,seine,random,48.25283,-122.49639,GPS,Random South 1548
+Random 2 2016-05-31 Maple Grove,RS1578,seine,random,48.25496,-122.50956,GPS,Random South 1578
+Random Middle 433,RM0433,seine,random,48.36977,-122.58185,GPS,Random Middle 433
+Random North 1194,RN1194,seine,random,NA,NA,NA,Random North 1194
+Random North 1219,RN1219,seine,random,NA,NA,NA,Random North 1219
+Random South 147,RS0147,seine,random,NA,NA,NA,Random South 147
+Random near Camp Grande,RS1625,seine,random,48.24618,-122.53328,GPS,Random South 1625
+Strawberry Point North,STRPTN,seine,index,48.32140,-122.51651,GPS,Strawberry Pt N
+Strawberry Point South,STRPTS,seine,index,NA,NA,NA,Strawberry Pt S
+Tom Moore,TOMMOO,fyke,index,48.281400,-122.377798,GoogleMaps,Tom Moore
+Turner's Spit North,TURSPN,seine,index,48.44820,-122.55061,GPS,Turners Spit N
