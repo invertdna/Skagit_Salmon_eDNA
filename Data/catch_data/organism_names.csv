@@ -1,7 +1,7 @@
 STURGEON,Acipenser
 SPEARNOSE.POACHER,Agonopsis vulsa
-STUR.POACHER,
-O.U.POACHER,
+STUR.POACHER,Agonus acipenserinus
+O.U.POACHER,unknown
 TUBENOSE,Pallasina barbata
 LANCE.a,Ammodytes hexapterus
 LANCE.pl,Ammodytes hexapterus
@@ -10,12 +10,12 @@ TUBESNT,Aulorhynchus flavidus
 MIDSHIPMAN,Porichthys notatus
 PACIFIC.DAB,Citharichthys sordidus
 SPECKLED.DAB,Citharichthys stigmaeus
-SUCKER,
-PUMPKN,
+SUCKER,Catostomidae
+PUMPKN,Lepomis gibbosus
 BLUEGILL,Lepomis macrochirus
 BASS,unknown
-O.U.SUNFISH,
-CRAPPIE,
+O.U.SUNFISH,unknown
+CRAPPIE,Pomoxis
 SHAD,Alosa sapidissima
 HERR.a,Clupea pallasii
 HERR.pl,Clupea pallasii
@@ -32,40 +32,40 @@ SHARPNOSE,Clinocottus acuticeps
 CALICO.SCULP,Clinocottus embryum
 COAST.SCULP,Cottus aleuticus
 PRICKLY.SCULP,Cottus asper
-SLIMY.SCULP,
+SLIMY.SCULP,Cottus cognatus
 BUFF,Enophrys bison
-FW.SCULP,
+FW.SCULP,Cottus
 SOFT.SCULP,Gilbertidia sigalutes
 RED.IRISH.LORD,Hemilepidotus hemilepidotus
 BROWN.IR.LORD,Hemilepidotus spinosus
 NORTH.SCULP,Icelinus borealis
-STAG,
+STAG,Leptocottus armatus
 GRT.SCULP,Myoxocephalus polyacanthocephalus
 SAILFIN,Nautichthys oculofasciatus
-TIDEPOOL.SCULP,
-O.U.SCULP,
+TIDEPOOL.SCULP,Oligocottus maculosus
+O.U.SCULP,unknown
 TADPOLE.SCULP,Psychrolutes paradoxus
 GRUNT.SCULP,Rhamphocottus richardsonii
 CABEZON,Scorpaenichthys marmoratus
 MANACLED.SCULP,Synchirus gilli
 LUMP,Eumicrotremus orbis
 SNAILFISH,Liparididae
-LK.CHUB,
-PEAMTH,
-O.U.CHUB,
-LONGNOSE.DACE,
-DACE,
-REDSIDE.SHINER,
+LK.CHUB,Couesius plumbeus
+PEAMTH,Mylocheilus caurinus
+O.U.CHUB,unknown
+LONGNOSE.DACE,Rhinichthys cataractae
+DACE,Rhinichthys
+REDSIDE.SHINER,Richardsonius balteatus
 KELP.PERCH,Brachyistius frenatus
 SHINER,Cymatogaster aggregata
-STRIPED,
-O.U.PERCH,
+STRIPED,unknown
+O.U.PERCH,unknown
 WHITE.SEAPERCH,Phanerodon furcatum
 PILE.PERCH,Damalichthys vacca
 PACIFIC.COD,Gadus macrocephalus
 gadid.unk,Gadidae
 TOMCOD,Microgadus proximus
-O.U.COD,
+O.U.COD,unknown
 POLLOCK,Theragra chalcogramma
 STICKL,Gasterosteus aculeatus
 ARROW.GOBY,Clevelandia ios
@@ -73,20 +73,20 @@ BAY.GOBY,Lepidogobius lepidus
 KELP.GRNLNG,Hexagrammos decagrammus
 ROCK.GREENLING,Hexagrammos lagocephalus
 MASK.GRNLNG,Hexagrammos octogrammus
-O.U.GREENLING,
+O.U.GREENLING,unknown
 WHITESPOT.GR,Hexagrammos stelleri
 LINGCOD,Ophiodon elongatus
 PAINTED.GRNLING,Oxylebius pictus
-BRN.BULLHEAD,
-DUNGI.u.size,
-DUNGI.small,
-DUNGI.legal,
-RED.ROCK.CRAB,
-O.U.CRAB,
-SHRIMP,
-FW.MUSSEL,
-SHORE.CRAB,
-KELP.CRAB,
+BRN.BULLHEAD,Ameiurus nebulosus
+DUNGI.u.size,Metacarcinus magister
+DUNGI.small,Metacarcinus magister
+DUNGI.legal,Metacarcinus magister
+RED.ROCK.CRAB,Cancer productus
+O.U.CRAB,unknown
+SHRIMP,unknown
+FW.MUSSEL,Unionoida
+SHORE.CRAB,unknown
+KELP.CRAB,Pugettia producta
 LANTERNFSH,Myctophidae
 BROTULA,Brosmophycis marginata
 SMELT.j,Hypomesus pretiosus
@@ -95,29 +95,29 @@ SMELT.pl,Hypomesus pretiosus
 SMELT.u,Hypomesus pretiosus
 LONGFIN.SMELT,Spirinchus thaleichthys
 EULACHON,Thaleichthys pacificus
-HERMIT.CR,
-DECORATOR.CR,
-Y.PERCH,
+HERMIT.CR,Paguroidea
+DECORATOR.CR,Majoidea
+Y.PERCH,Perca flavescens
 LAMP,Lampetra
 PENPT.GUNL,Apodichthys flavidus
 LONGFIN.GUN,Pholis clemensi
 CRES.GUNL,Pholis laeta
 SADLBCK.GUNL,Pholis ornata
 RED.GUNNEL,Pholis schultzi
-GUNNEL,
+GUNNEL,Pholididae
 ROCKWEED.GUN,Xererpes fucorum
-GUNNL.PRICK,
+GUNNL.PRICK,unknown
 HYBRID.SOLE,Inopsetta ischyra
 BUTTER.SOLE,Isopsetta isolepis
 ROCK.SOLE,Lepidopsetta bilineata
 DOVER.SOLE,Microstomus pacificus
 ENG.SOLE,Parophrys vetulus
-STARRY,
+STARRY,Platichthys stellatus
 CO.SOLE,Oncorhynchus kisutch
 SAND.SOLE,Psettichthys melanostictus
-O.U.FLAT,
-O.U.FLAT.pl,
-O.U.SKATE,
+O.U.FLAT,unknown
+O.U.FLAT.pl,unknown
+O.U.SKATE,unknown
 CT.adult,Oncorhynchus clarkii
 CT.0.,Oncorhynchus clarkii
 CT.1..,Oncorhynchus clarkii
@@ -133,12 +133,12 @@ CO.0.,Oncorhynchus kisutch
 CO.1..ucwt,Oncorhynchus kisutch
 CO.1..em,Oncorhynchus kisutch
 CO.1..nem,Oncorhynchus kisutch
-RB.0.,
+RB.0.,unknown
 STHD.em,Oncorhynchus mykiss
 STHD.nem,Oncorhynchus mykiss
-RB.1...em,
-RB.1...nem,
-TROUT.0.,
+RB.1...em,unknown
+RB.1...nem,unknown
+TROUT.0.,unknown
 SOCK.ADULT,Oncorhynchus nerka
 SOCK.0.,Oncorhynchus nerka
 SOCK.1...em,Oncorhynchus nerka
@@ -152,23 +152,23 @@ CK.0..nem,Oncorhynchus tshawytscha
 CK.1..ucwt,Oncorhynchus tshawytscha
 CK.1..em,Oncorhynchus tshawytscha
 CK.1..nem,Oncorhynchus tshawytscha
-WF,
-ATLANTIC.ADULT,unknown
+WF,unknown
+ATLANTIC.ADULT,Salmo salar
 ATLANTIC.0.,Salmo salar
 ATLANTIC.1..,Salmo salar
-DV.BT,
+DV.BT,unknown
 ROCKFISH,Sebastes
-O.U.ROCKFISH,
+O.U.ROCKFISH,unknown
 COPPER.ROCKFSH,Sebastes caurinus
-SPLITNOSE.ROCKFSH,
+SPLITNOSE.ROCKFSH,Sebastes diploproa
 QUILLBACK.ROCKFISH,Sebastes maliger
 DOGFISH,Squalus acanthias
 HIGH.COCKSCOMB,Anoplarchus purpurescens
 SNAKE,Lumpenus sagitta
 BLK.PRICKLE,Xiphister atropurpureus
-POMPANO,
+POMPANO,Peprilus simillimus
 PIPEFISH,Syngnathus leptorhynchus
 SANDFISH,Trichodon trichodon
-O.U.FISH,
-O.U.LARVAL.FISH,
-O.U.fish.pl,
+O.U.FISH,unknown
+O.U.LARVAL.FISH,unknown
+O.U.fish.pl,unknown
