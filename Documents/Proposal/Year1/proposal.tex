@@ -1,0 +1,909 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+
+\textbf{1. Project Title:}{~}
+
+Improving techniques for estimating abundance and habitat use in
+nearshore marine habitats using environmental DNA.
+
+\textbf{2. Investigators:{~}}
+
+A. Ole Shelton (NWFSC), Ryan Kelly (University of Washington), Correigh
+Greene (NWFSC), Linda Park (NWFSC)
+
+\textbf{3. Project Duration and Requested Funds:{~}}
+
+2 years, 112.5K per year.
+
+\textbf{4. Summary:{~}}
+
+Organisms of all kinds shed cells containing diagnostic DNA into the
+environment, which can be recovered and assigned to a taxon based upon
+its match to known sequences. Because DNA degrades under most ambient
+environmental conditions---the half-life of DNA in fresh- and saltwater
+is approximately 24-48 hours (\emph{1,2})---this environmental DNA
+(eDNA) provides a snapshot of the species recently present in the
+sampled habitat. However, while it is widely accepted that DNA can be
+collected and identified from a range of environmental samples,
+connecting field collections of eDNA with abundance surveys remains
+largely unexplored.
+
+{~}Here, we propose to develop eDNA survey methods to quantify fish
+communities (with a focus on salmon, herring, and smelt species) in a
+nearshore estuarine habitat in Puget Sound.{~ }To compare the efficacy
+of eDNA and traditional methods, we will collect water samples in
+parallel with collections made via three traditional net sampling
+methods, targeting nearshore fish communities that provide a range of
+spatial sampling scales (from meters to 100s of meters). We will use
+both quantitative PCR (qPCR) and massively parallel DNA sequencing
+technologies to provide eDNA data. We will then apply a newly developed
+statistical framework to provide field estimates of the relationship
+between species abundance and eDNA. Our replicated sampling
+design---using three field methods at three spatial scales---provides an
+opportunity to understand the appropriate spatial scale for eDNA
+sampling, and the potential value and pitfalls of eDNA surveys for
+understanding patterns of fish abundance.
+
+\textbf{}
+
+\textbf{5. Scope, Objectives, Merit:} {~}
+
+{{ }}Early life-history is a critical period for most commercially
+important fishes. For anadromous salmonids, the transition from
+freshwater to the marine environment is a key determinant of marine
+survival and fisheries productivity. Similarly, ecologically important
+forage fish (e.g. herring and smelt) use nearshore and estuarine
+habitats as spawning and rearing grounds. Thus, accurate estimates of
+fish abundance in nearshore estuarine areas are critical to
+understanding early life-history survival and play an important, poorly
+understood role in driving stock assessment models. However, estimates
+of fish abundance in the nearshore habitats are difficult and expensive
+to obtain using traditional sampling methods; shallow water and
+vegetation interfere with acoustic surveys, turbid water often hinders
+visual surveys, and the presence of vegetation and other structures
+restricts the efficacy of some net survey techniques. Nonetheless,
+estimating salmon and other fish species' abundance is especially
+important in light of (a) continued loss of foundational vegetated
+habitats such as seagrass beds, salt marshes, and other coastal
+wetlands, and (b) restoration efforts intended to mitigate such losses.
+Assessing the importance of nearshore habitats to salmonids and forage
+fish ---and the success of nearshore restoration efforts in
+particular---requires efficient methods for quantifying abundance in
+these habitats. \textbf{We propose to apply recently developed
+environmental DNA (eDNA) survey techniques to assess the fish
+communities across three habitats used at different points during the
+salmon migration from freshwater to the ocean.} We will characterize the
+abundance of salmonids and other commercially valuable and ecologically
+important fish in three distinct estuarine habitats; these three
+habitats offer the additional benefit of comparing results across three
+different spatial sampling techniques. If successful, this project would
+adapt a rapidly-developing, innovative technology that could inform
+stock assessments nationwide.
+
+This project has three main objectives: \textbf{(1)} Validate and
+improve eDNA methods for rapidly detecting the occurrence and abundance
+of ecologically important coastal fish; \textbf{(2)} Assess the efficacy
+of eDNA methods by comparing estimates of occurrence and abundance from
+traditional net sampling and eDNA methods across three existing sampling
+methodologies; \textbf{(3)} Compare costs and relative benefits of eDNA
+methodologies relative to traditional sampling methods. The project will
+improve abundance estimates for species that are ecologically and
+commercially important but difficult to survey, including juvenile
+salmon (\emph{Oncorhynchus} spp.) and forage fish (e.g. herring
+(\emph{Clupea pallasi}) and smelt (family \emph{Osmeridae})). Herring
+and smelt have been estimated as the most numerically abundant fish but
+exhibit recent declines, while Chinook salmon populations in this river
+system are ESA-listed, but suffer from poor quantification (\emph{3,4}).
+
+{ }We will focus on developing rigorous eDNA methods in a single estuary
+and will compare results from eDNA samples with three widely used net
+sampling techniques (Fyke net, beach seine, surface trawl). Each of
+these sampling methods occurs in distinct habitats and samples different
+cumulative areas (increasing from the scale of \textasciitilde{}1 to
+100s of meters); as such, we expect the match between eDNA and net
+sample to vary with each sampling method. Concordance should be highest
+for Fyke nets and lowest for surface trawls. However, the rate at which
+the concordance between eDNA and sampling scale changes is itself a
+useful metric because it has direct implications for the appropriate
+scale at which to apply eDNA methods in the field. Beyond individual
+sample-to-sample comparisons, we will calculate aggregative measures of
+fish density from traditional and eDNA methods. Such sample aggregation
+is a critical step in the development of abundance indices that feed
+directly into most stock assessments. Thus our research plan provides
+information on two pressing questions for the future use of eDNA in
+stock assessments: (1) at what spatial scale can eDNA accurately reflect
+local abundance? and (2) can eDNA provide integrated metrics of
+abundance on scales useful for management?
+
+Developing quantitative applications, such as we propose here, is the
+key next step in the evolution of eDNA into a practically useful tool,
+pointing the way to such uses as stock assessments, counts of endangered
+or invasive species, and other quantitative surveys for species and
+communities of interest. Accordingly, the work we propose here applies
+NMFS-wide, and additionally has benefits that will ramify outside of the
+agency. For example, USGS and State agencies have expressed interest in
+surveying salmonids and protected species with eDNA (pers. comm.), work
+that the proposed project would directly inform. \textbf{In short, we
+propose to lay the necessary methodological and quantitative groundwork
+to make eDNA useful for NMFS and others.} An added benefit of eDNA
+methods for NMFS is the potential to bring down the future costs of
+survey work: on a per-sample basis, eDNA appears likely to become
+cheaper than many traditional sampling methods. Finally, the project
+would contribute to a durable collaboration between the NWFSC and UW
+researchers in the College of the Environment, leveraging NMFS's
+financial and human resources.
+
+\textbf{6. Defined Uncertainties:{~}}
+
+The idea that one can sample a volume of water, sequence the DNA
+present, and report what species are living nearby is widely accepted
+among microbial biologists (e.g \emph{5,6}). For fisheries ecologists
+that have historically use manual count data, eDNA has quickly become a
+potential new avenue through which to examine the world, but has yet to
+come into common practical use because of unknowns surrounding
+quantification.{ Preliminary data in hand demonstrate eDNA's
+feasibility, appropriate spatial scale, and suitable taxonomic breadth
+for the proposed project.}
+
+To date, no eDNA study has explicitly linked biomass to field estimates
+under field conditions and very few have linked them under controlled
+laboratory conditions (\emph{7}). Instead, most researchers have either
+asserted that the proportion of sequences observed from environmental
+samples mirrors the abundance (either count or biomass) of physically
+collected individuals (\emph{6}). While these assertions may accurately
+reflect a functional link between individuals and DNA in the
+environment, a diverse set of processes that separate the biomass of
+source animals and the observed DNA fragments means that there are a
+large number of ways to arrive at spurious correlations between eDNA and
+observed catches.{~}
+
+A pervasive concern in the eDNA literature is determining the
+appropriate spatial scale for eDNA studies. Current evidence suggests
+that eDNA can distinguish ecological communities at scales of 60-100m,
+even in a dynamic marine nearshore environment (Fig. 1), and is useful
+for detecting even rare species (\emph{1,8}). Our proposed work advances
+eDNA methods by providing a link between fish abundance and eDNA surveys
+and an application for rapidly assessing nearshore habitat use by fish.
+
+At present, methods for eDNA are not sufficiently well developed to make
+full inference about density or biomass in an ecological community from
+eDNA alone. Similar challenges confront estimation of density and
+biomass based on traditional sampling methods (\emph{9,10,11}), but do
+not prevent researchers from making the best approximations possible
+given existing knowledge and data. We will apply a newly developed
+Bayesian statistical framework to assess uncertainties in linking
+biomass to eDNA reads, leveraging a large body of statistical thought
+from the fisheries literature and analogizing eDNA to the use of a new
+``net'' used to sample target fish species.{~}
+
+\textbf{7. NMFS wide concern:}{~}
+
+eDNA has widespread applicability for ecosystem-based management in all
+NMFS regions because of its potential to assess many species present in
+an area, not just the target fishery species. More immediately, methods
+development for salmon have application to ESA-listed species in three
+regions (Northeast, Northwest, and Southwest). The noninvasive nature of
+eDNA sampling should be especially useful for fisheries that have been
+curtailed due to overfishing---making existing data on the status of the
+target species extremely limited---as well as for species where
+gear-avoidance or difficult habitats interfere with traditional
+assessment methods. The presence of eDNA is also independent of species
+or gear-type of a fishery; thus development of laboratory tools and
+analysis methods could be used to augment assessments of a wide range of
+species including forage fish, groundfish, and crustaceans; for example,
+preliminary eDNA surveys could maximize cost-effectiveness in the
+immediate future by highlighting spatial areas in which to focus manual
+sampling. One long-term potential application for this method would be
+the development of autonomous samplers that could be deployed to collect
+eDNA (water) repeatedly over time to provide a detailed temporal picture
+of fish abundance and movement. {~}
+
+Our proposal addresses ASTWG themes \textbf{2} (Remote species
+identification and enumeration) and \textbf{5} (Efficient Ecosystem
+Surveys), and is broadly applicable within NMFS, with potential uses in
+stock assessments, counts of endangered or invasive species, and other
+quantitative surveys for species and communities of interest.
+
+\textbf{8. Technical Approach:}
+
+Our approach has three components: 1) Field collection of eDNA samples
+conducted in parallel with existing nearshore sampling using three
+sampling techniques. 2) Laboratory processing of eDNA samples to produce
+quantitative estimates of DNA abundance and 3) application of novel
+statistical approaches to generate defensible estimates of biomass from
+eDNA and comparison of estimates from eDNA to those derived from
+traditional sampling methods. We discuss each in turn.
+
+\textbf{\emph{Field collections}.} This project will align with the
+Skagit River Intensively Monitored Watershed Project, which tracks
+status and trends of species in the Skagit River estuary and Bay (Fig.
+2), including all species of Pacific salmon and several forage fish
+species (\emph{12}). The focal species is Chinook salmon, which is
+listed as threatened under the Endangered Species Act. Small
+(\textless{}50 mm) Chinook leave freshwater and rear in the estuary
+before migrating to the Pacific Ocean (\emph{3}). Substantial variation
+in migration timing and fish movement complicates traditional
+estimations of abundance; nevertheless these data represent the longest
+time series of juvenile abundance Puget Sound salmon and are vital for
+determining stock status, trends, and responses to habitat restoration
+efforts.{~}
+
+The Skagit Intensively Monitored Watershed Project counts Chinook salmon
+at four life stages. We will focus on three stages: estuary residence in
+channels and impoundments, nearshore intertidal residence along beaches
+and in lagoons, and subtidal residence in Skagit Bay (Fig. 2, Table 1).
+Sampling in each habitat requires different sampling gear and
+complicates abundance estimates across habitats. In estuary channels and
+nearshore lagoons, capture efficiency can be very high
+(\textgreater{}50\%), while efficiency in other habitats is much lower
+(\textless{} 10\%). These various sampling procedures highlight the
+potential utility of eDNA for estimating local abundance, calibrating
+eDNA to each procedure individually.{~}
+
+Beyond salmonids, Pacific herring, surf smelt, stickleback, and Pacific
+sandlance reside in Skagit Bay. The multi-species eDNA techniques we
+propose will capture these and other species inhabiting estuarine and
+nearshore habitats at various times of the year.
+
+We will collect three 1L water (eDNA) samples in each of three seasons
+(February-April, May-July, and August-October). The first two seasons
+represent prime sampling windows when Chinook salmon and forage fish are
+abundant in the estuary and bay; fall sampling will serve as negative
+controls. Water samples will be taken in triplicate at each location. We
+will record environmental covariates to assess their effects on
+concordance between eDNA and net sampling.
+
+\textbf{\emph{Environmental DNA methods.}} There are two distinct
+approaches for eDNA analysis. In the first, the amount DNA from a single
+target taxon is quantified using quantitative PCR (qPCR; \emph{8}), by
+comparing the amplification rate of a field sample to one of a standard
+of known concentration. This protocol quantitatively assesses changes in
+single target-species' DNA concentrations in the field (\emph{13,14}).
+
+In the second technique a single locus is PCR-amplified from all genomes
+present in a sample, the resulting products (amplicons) are sequenced,
+and the resulting sequences are matched to those of known species in a
+large database (\emph{15}). Amplicon sequencing can provide data for a
+hundreds of taxa in the sampled community, but only provides information
+about relative abundance of DNA in the sample.{~}
+
+We propose to combine these two methods, using 1) qPCR to quantify the
+abundance of key species, and 2) amplicon sequencing to provide the
+relative abundance for dozens of species in the community, and then 3)
+linking qPCR and sequencing results to provide the first quantitative
+survey of an entire community (\emph{16}).
+
+For our focal species (salmonids and forage fish), there is sufficient
+published and unpublished genetic information to reliably identify taxa
+to the species level with both qPCR and sequencing approaches. \emph{14}
+provides qPCR primers for Chinook salmon and colleagues at the US
+Geological Survey have developed qPCR primers specific for eight
+salmonid species (J. Duda pers. comm.). We will choose the three species
+most frequently observed in the previous year's net surveys for qPCR,
+and quantify eDNA using replicate qPCRs from each of the triplicate
+water samples.{~}
+
+We will then use three sets of primers to generate mixed-species
+amplicons for sequencing. We will use primers with the following target
+genes and taxa: 16S mtRNA (16S; targeting fish and a diverse range of
+invertebrate taxa in Puget Sound; \emph{16}), 12S mtDNA (targeting
+vertebrates; \emph{17}), and we will use the software ecoPrimers
+(\emph{18}) to develop a novel primer set that will amplify a region of
+mitochondrial cytochrome c oxidase I (CO1), which varies consistently
+among the three target taxa chosen for qPCR.{~}
+
+\textbf{\emph{Linking eDNA and net surveys.}} Matching \textbf{} eDNA
+field sampling and existing net sampling protocols will reveal the
+relationship between fish abundance and eDNA. While there are challenges
+for translating observations of eDNA into biomass, these are largely
+analogous to those faced by traditional sampling methods (Fig. 3;
+\emph{16}); we view eDNA sampling as a new ``net'' with a unique set of
+traits that can produce statistical biases in the estimation of
+abundance. Elsewhere the PIs have developed a statistical framework for
+quantifying the stages connecting biomass to observed eDNA counts (Fig.
+3, \emph{16}). This proposal provides an ideal application of these new
+methods and in a management relevant setting.
+
+An unresolved issue is how DNA is shed and disperses in the environment
+(\emph{14}). Our multi-scale field sampling approach allows us to
+explore the relationship between eDNA and fish abundance across spatial
+scales. We expect the strongest eDNA-net correlations to be in estuarine
+channels, and weakest correlations to be in offshore trawls, consistent
+with the spatial scales of sampling in those habitats.{~}
+
+Beyond individual eDNA-to-net-sample comparisons, we will also compare
+aggregated estimates of abundance. In stock assessments, such abundance
+indices provide estimates of overall average density and trends through
+time; identical procedures can be performed with eDNA data. Thus while a
+single eDNA sample may not perfectly reflect abundance observed in an
+adjacent sample, on an aggregate basis both traditional and eDNA methods
+should provide equivalent estimates of mean abundance of the fish
+community. We expect strong concordance between aggregate estimates
+across all three scales of investigation.
+
+\textbf{9. Literature Cited:}
+
+\begin{itemize}
+\tightlist
+\item
+  Thomsen, P. F. \emph{et al.} Monitoring endangered freshwater
+  biodiversity using environmental DNA. 2012. \emph{Molecular Ecology}
+  21, 2565--2573.
+\item
+  Turner, C. R. \emph{et al.} 2014. Particle size distribution and
+  optimal capture of aqueous macrobial eDNA. \emph{Methods in Ecology
+  and Evolution} 5:676--68.
+\item
+  Beamer, E., A. et al. 2005. Delta and nearshore restoration for the
+  recovery of wild Skagit River Chinook salmon: Linking estuary
+  restoration to wild Chinook salmon populations. Supplement to Skagit
+  Chinook Recovery Plan, Skagit River System Cooperative, LaConner, WA.
+  Available at: www.skagitcoop.org.
+\item
+  Zimmerman, M. S., C. Kinsel, E. Beamer, E. Conner, and D. Pflug. 2015.
+  Abundance, survival, and life history strategies of juvenile migrant
+  Chinook in the Skagit River, Washington. \emph{Transactions of the
+  American Fisheries Society} 144:627--641.
+\item
+  Venter, J.C., \emph{et al.} 2004. Environmental genome shotgun
+  sequencing of the Sargasso Sea. \emph{Science} 304:66-74.
+\item
+  deVargas, C., et al. 2015. Eukaryotic plankton diversity in the sunlit
+  ocean. \emph{Science} \emph{348:} 1261605.
+\item
+  Takahara, T., T. Minamoto, H. Yamanaka, H. Doi, Z. Kawabata. 2012.
+  Estimation of fish biomass using environmental DNA. \emph{PLoS ONE},
+  \emph{7:}e35868.
+\item
+  Jerde, C.L., A.R. Mahon, W.L. Chadderton, D.M Lodge. 2011.
+  `Sight-unseen' detection of rare aquatic species using environmental
+  DNA. \emph{Conservation Letters} 4:150--157.
+\item
+  Burnham, K.P. D.R. Anderson, J.L. Laake. 1980. Estimation of density
+  from line transect sampling of biological populations. \emph{Wildlife
+  Monographs} 72:3-202.
+\item
+  Hankin, D.G., G.H. Reeves 1988. Estimating total fish abundance and
+  total habitat area in small streams basesd on visual estimation
+  methods. \emph{Canadian Journal of Fisheries and Aquatic Science}
+  45:834-844.
+\item
+  Kéry, M., J.A. Royle. 2010. Hierarchical modelling and estimation of
+  abundance and population trends in metapopulation designs.
+  \emph{Journal of Animal Ecology} 79:453--461.
+\item
+  Greene, C.M., L. Kuehne, C. Rice, K. Fresh, D. Penttila. 2015. Forty
+  years of change in forage fish and jellyfish abundance across greater
+  Puget Sound, Washington (USA): anthropogenic and climate associations.
+  \emph{Marine Ecology Progress Series} 525:153-170.
+\item
+  Goldberg, C.S., D.S. Pilliod, R.S. Arkle, L.P. Waits. 2011 Molecular
+  detection of vertebrates in stream water: a demonstration using Rocky
+  Mountain tailed frogs and Idaho giant salamanders. \emph{PloS one}
+  6:e22746.
+\item
+  Laramie, M.B., D.S. Pilliod, C.S. Goldberg. 2015. Characterizing the
+  distribution of an endangered salmonid using environmental DNA
+  analysis. \emph{Biological Conservation} 183:29-37.
+\item
+  Leray, M., N. Knowlton. 2015. DNA barcoding and metabarcoding of
+  standardized samples reveal patterns of marine benthic diversity.
+  Proc. Natl. Acad. Sci. {~112:2076--2081}.
+\item
+  Shelton, A.O., J.L. O'Donnell, J.F. Samhouri, N. Lowell, G. Williams,
+  R.P. Kelly. \emph{In Revision.} A statistical framework for inferring
+  biological communities from environmental DNA\emph{. Ecological
+  Applications}.
+\item
+  Port, J. A. \emph{et al. In Review.} Assessing the vertebrate
+  community of a kelp forest ecosystem using environmental DNA.
+  Molecular Ecology.
+\item
+  Riaz, T. \emph{et al.} 2011. ecoPrimers: inference of new DNA barcode
+  markers from whole genome sequence analysis. \emph{Nucleic Acids
+  Research} 39:e145--e145.
+\end{itemize}
+
+\textbf{10. Expected Results:{~}}
+
+We expect to produce a quantitative assessment of an advanced sampling
+technique that, if properly validated, could significantly extent NMFS's
+capacity to survey target species and to conduct ecosystem assessments.
+We will lay necessary groundwork to make eDNA useful for NMFS and
+others. We believe this is reasonably accomplishable based upon existing
+and ongoing work in our laboratory group, which has included sequencing
+over 300 individual PCR products from Puget Sound water samples; our
+team brings significant field-sampling and eDNA experience to bear on
+the question of how traditional and genetic sampling methods can be
+cross-validated.
+
+\begin{itemize}
+\tightlist
+\item
+  {Year 1 Deliverables:} Broad-scale report on fish communities from
+  eDNA, validated proof-of-concept, and molecular tools for future
+  use.{~ }Preliminary comparison of eDNA and net sampling for all three
+  methods.
+\item
+  {Year 2 Deliverables}: Full description of traditional and eDNA
+  samples for fish community. Comparisons of aggregate abundance metrics
+  and indices of abundance. Cost-benefit comparison of eDNA and net
+  methodologies.
+\end{itemize}
+
+\textbf{11. Probability of success} (200 word limit).{~}
+
+Year 1 deliverables have a high probability of success, given
+preliminary data (Fig. 1) and recent experience with the relevant
+techniques. eDNA validation with existing methods is straightforward
+using the statistical framework developed by the PIs in (\emph{16}).
+Preliminary data from Puget Sound include sequences from many of the
+target taxa and other interacting species in the nearshore community.
+
+Year 2 deliverables are less certain, given unknown performance of
+additional molecular tools; mapping the spatial and temporal dynamics of
+key taxa is very likely to succeed. However, the simultaneous use of
+multiple species-specific markers across multiple spatial scales will
+inform appropriate spatial and temporal scales of investigation for
+eDNA, and the work will reflect these scales. We will endeavor to reduce
+these key uncertainties with rigorous \emph{in silico} and lab-based
+testing (for new markers) and by leveraging existing research with
+partners working in Monterey and Puget Sound to validate markers in
+development. Despite these uncertainties, marrying molecular and
+traditional surveys holds great promise for improving ecosystem surveys
+and stock assessments alike. Cost-benefit analysis is straightforward,
+with high probability of success.\textbf{}
+
+\textbf{12. Schedule of Project Milestones:{~}}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+\textbf{Year}\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+\textbf{Date}\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+\textbf{Activities}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+2016\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Spring-Summer{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Receive grant{~}
+
+Hire postdoctoral researcher
+
+Collect field water samples in conjunction with Skagit Intensively
+Monitored Watershed Project\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Fall{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Complete 2016 eDNA collections.
+
+Initiate laboratory work.
+
+{~ ~ ~ }(qPCR, marker development, and sequencing)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+2017\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Winter{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Perform laboratory assays of qPCR for 2016{~}
+
+Complete processing of sequencing samples, send to sequencing center,
+perform primary bioinformatics analyses
+
+eDNA collections (Feb. 2017); bioinformatics\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Spring{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+eDNA collections
+
+Perform preliminary comparison of eDNA and net sampling results.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Summer{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
+Final eDNA collections and lab processing; sequencing\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+Fall{~}\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+Final statistical and bioinformatics analysis{~}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+2018{ }\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+Winter 2018\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright\strut
+Complete analysis and write results for publication\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{13. Expertise of Principle Investigators and Partnerships:} (500
+word limit).{~}
+
+Shelton will be in charge of overseeing the statistical analysis of eDNA
+data and the development of new methods for application as necessary.
+Shelton has experience developing and applying new statistical methods
+to environmental and population data. Shelton will work with Greene to
+develop appropriate metrics for linking and comparing traditional and
+eDNA data.{~}
+
+Greene will oversee field sampling, consistent with his role with the
+Skagit Intensively Monitored Watershed Project and will use his
+statistical expertise to aid the postdoc and Shelton in analyses.{~}
+
+Park and Kelly will oversee the molecular aspects of the study including
+proper sample collection, preparation, molecular techniques, and
+bioinformatics analysis. Park has extensive expertise developing and
+analyzing environmental and tissue-derived genetic samples for use in
+practical NMFS applications. Kelly has experience developing and using
+eDNA amplicon-sequencing protocols for marine ecosystem surveys over the
+past several years in Monterey, CA, and Puget Sound, WA.
+
+Postdoc, TBD, will carry out day-to-day project activities, and will be
+responsible for coordinating activities among the principal
+investigators. Relevant expertise will include molecular and
+bioinformatics techniques, and familiarity with field methods and taxa.
+
+\textbf{}
+
+\textbf{14. Investigators and Affiliations:}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+\textbf{Investigator}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+\textbf{Affiliation}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+A. Ole Shelton\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+NWFSC, Conservation Biology Division\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+Ryan P. Kelly\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+University of Washington,{~}
+
+School of Marine and Environmental Affairs\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Correigh Greene\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+NWFSC, Fish Ecology Division\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Linda Park\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+NWFSC, Conservation Biology Division\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{15. Cost Estimates:} (in table format).{~}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+\textbf{Itemized Annual Budget}\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+\textbf{}\\
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Contract postdoc for laboratory and field work (incl. indirect)\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+92,000\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Molecular supplies: DNA extraction supplies, primers for multiplexing,
+DNA library preparation and QA/QC, sampling bottles, filters, etc.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+10,500\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Contract for sequencing service and associated supplies\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+10,000\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+\textbf{{ }\$112,500}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{}\\
+
+\textbf{16. Budget Justification:} {~}
+
+The proposed research will require personnel dedicated full-time to this
+project, thus the majority of the budget supports a postdoctoral
+researcher who will be performing field collections, laboratory
+procedures, and data analyses. Supply costs for field and laboratory
+work are included, with the largest non-personnel expense being the
+contract for next-generation sequencing services. While this expense
+might appear large the power of the technique lies in the tens of
+millions of sequences that will be generated and the actual cost per
+sample (and per sequence) is quite low. {~}
+
+\textbf{}
+
+\textbf{17. Supporting Figures and Tables:{~}}
+
+\textbf{}\\
+
+\textbf{Table 1}. Sampling efforts focused on Chinook salmon in the
+Skagit River Intensively Monitored Watershed Project.
+
+\begin{longtable}[]{@{}lllllll@{}}
+\toprule
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Habitat}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Sampling technique}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Area sampled}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Sampling months}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Sampling frequency}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Sites sampled\textsuperscript{1}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Sampling efficiency}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Estuary channels\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Fyke trap\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+250-4700 m\textsuperscript{2}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Feb-July\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Bi-weekly\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+11\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+20-60\%\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Bay beaches, lagoons\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Beach seine\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+300-700 m\textsuperscript{2}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Feb-Sept\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Bi-weekly\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+32\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+70-90\%\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Bay subtidal surface waters\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Kodiak trawl\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+8-9000 m\textsuperscript{3}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Apr-Sept\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Monthly\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+12\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Unknown but low*\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+*camera-based observations have revealed substantial escapement of fish,
+particularly large size classes.
+
+\textsuperscript{1}Includes both index sites (sites repeated each
+sampling event) and random sites (sites sampled randomly with
+replacement each sampling event).
+
+\begin{itemize}
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+  \textbf{Figure 1.} Spatial trends in eDNA and visual count data across
+  a spatial transect through different marine habitats and sub-habitats
+  in Monterey Bay, CA. eDNA counts (expressed as proportions of
+  annotated reads) for three replicate samples are plotted for each
+  sample site. eDNA counts were significantly~associated with habitat
+  for all taxa listed (KW, P\textless{}0.05). Visual counts are~included
+  for taxa seen on accompanying dive surveys. Loess curves for visual
+  counts are only included for taxa with \textgreater{}15 counts total
+  across all surveyed sites, and are not best-fit lines. Plot background
+  (white and gray shading) distinguishes the following habitat types,
+  moving away from shore: seagrass, kelp forest, shallow sandy bottom,
+  rocky reef, deep sandy bottom, and open water. From \emph{17.}
+\item
+  \emph{}
+\item
+  \emph{}
+\item
+  \emph{}
+\item
+  \emph{}
+\item
+  \emph{}
+\item
+  \emph{}
+\item
+  \emph{}
+\end{itemize}
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\emph{}\\
+
+\textbf{}
+
+\textbf{}\\
+
+\textbf{Figure 2.} Map of the Skagit River (in Northern Puget Sound, WA)
+mainstem, estuarine tidal delta, and Skagit Bay, with sites sampled by
+different gear types indicated by different shapes.{~ }Squares indicate
+Fyke net sites, circles (both open and filled) indicate beach seine
+sites, and filled triangles indicate offshore trawl sampling sites. Only
+index sites are shown (site which are sampled during every sampling
+period).
+
+\textbf{}\\
+
+\textbf{}\\
+
+\textbf{Figure 3:} A schematic illustration of the process of sampling
+ecological communities using eDNA and traditional sampling methods.
+Boxes correspond to latent states, while arrows and greek letters
+represent process contributing to the transitions between states. While
+we present only one eDNA path and one traditional sampling path,
+recognize that there are many potential variations on the form of this
+figure depending on the details of a particular protocol. Note that the
+eDNA and traditional sampling branches of this schematic are not
+directly comparable (there are no arrows that connect white and black
+boxes). From (\emph{16}).
+
+\textbf{}
+
+\textbf{}\\
+
+\textbf{18. Curriculum Vitae:{~}}
+
+{ }See supporting documents
+
+\textbf{19. Letter of Recommendation}: An optional letter of support
+from a stock assessment scientist or science director explaining how
+your proposal has the potential to improve the accuracy, precision, and
+timely of scientific information for the assessment of living marine
+resource{~}
+
+\textbf{}
+
+\textbf{}\\
+
+\end{document}
