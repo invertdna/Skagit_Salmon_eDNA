@@ -1,7 +1,7 @@
 STURGEON,Acipenser
 SPEARNOSE.POACHER,Agonopsis vulsa
 STUR.POACHER,Agonus acipenserinus
-O.U.POACHER,unknown
+O.U.POACHER,Agonidae
 TUBENOSE,Pallasina barbata
 LANCE.a,Ammodytes hexapterus
 LANCE.pl,Ammodytes hexapterus
@@ -13,8 +13,8 @@ SPECKLED.DAB,Citharichthys stigmaeus
 SUCKER,Catostomidae
 PUMPKN,Lepomis gibbosus
 BLUEGILL,Lepomis macrochirus
-BASS,unknown
-O.U.SUNFISH,unknown
+BASS,Micropterus
+O.U.SUNFISH,Centrarchidae
 CRAPPIE,Pomoxis
 SHAD,Alosa sapidissima
 HERR.a,Clupea pallasii
@@ -43,7 +43,7 @@ STAG,Leptocottus armatus
 GRT.SCULP,Myoxocephalus polyacanthocephalus
 SAILFIN,Nautichthys oculofasciatus
 TIDEPOOL.SCULP,Oligocottus maculosus
-O.U.SCULP,unknown
+O.U.SCULP,Cottidae
 TADPOLE.SCULP,Psychrolutes paradoxus
 GRUNT.SCULP,Rhamphocottus richardsonii
 CABEZON,Scorpaenichthys marmoratus
@@ -58,8 +58,8 @@ DACE,Rhinichthys
 REDSIDE.SHINER,Richardsonius balteatus
 KELP.PERCH,Brachyistius frenatus
 SHINER,Cymatogaster aggregata
-STRIPED,unknown
-O.U.PERCH,unknown
+STRIPED,Embiotoca lateralis
+O.U.PERCH,Embiotocidae
 WHITE.SEAPERCH,Phanerodon furcatum
 PILE.PERCH,Damalichthys vacca
 PACIFIC.COD,Gadus macrocephalus
@@ -73,7 +73,7 @@ BAY.GOBY,Lepidogobius lepidus
 KELP.GRNLNG,Hexagrammos decagrammus
 ROCK.GREENLING,Hexagrammos lagocephalus
 MASK.GRNLNG,Hexagrammos octogrammus
-O.U.GREENLING,unknown
+O.U.GREENLING,Hexagrammidae
 WHITESPOT.GR,Hexagrammos stelleri
 LINGCOD,Ophiodon elongatus
 PAINTED.GRNLING,Oxylebius pictus
@@ -82,10 +82,10 @@ DUNGI.u.size,Metacarcinus magister
 DUNGI.small,Metacarcinus magister
 DUNGI.legal,Metacarcinus magister
 RED.ROCK.CRAB,Cancer productus
-O.U.CRAB,unknown
-SHRIMP,unknown
+O.U.CRAB,Brachyura
+SHRIMP,Decapoda - shrimp
 FW.MUSSEL,Unionoida
-SHORE.CRAB,unknown
+SHORE.CRAB,Hemigrapsus oregonensis
 KELP.CRAB,Pugettia producta
 LANTERNFSH,Myctophidae
 BROTULA,Brosmophycis marginata
@@ -115,9 +115,9 @@ ENG.SOLE,Parophrys vetulus
 STARRY,Platichthys stellatus
 CO.SOLE,Oncorhynchus kisutch
 SAND.SOLE,Psettichthys melanostictus
-O.U.FLAT,unknown
-O.U.FLAT.pl,unknown
-O.U.SKATE,unknown
+O.U.FLAT,Pleuronectiformes
+O.U.FLAT.pl,Pleuronectiformes
+O.U.SKATE,Rajidae
 CT.adult,Oncorhynchus clarkii
 CT.0.,Oncorhynchus clarkii
 CT.1..,Oncorhynchus clarkii
@@ -133,12 +133,12 @@ CO.0.,Oncorhynchus kisutch
 CO.1..ucwt,Oncorhynchus kisutch
 CO.1..em,Oncorhynchus kisutch
 CO.1..nem,Oncorhynchus kisutch
-RB.0.,unknown
+RB.0.,Oncorhynchus mykiss
 STHD.em,Oncorhynchus mykiss
 STHD.nem,Oncorhynchus mykiss
-RB.1...em,unknown
-RB.1...nem,unknown
-TROUT.0.,unknown
+RB.1...em,Oncorhynchus mykiss
+RB.1...nem,Oncorhynchus mykiss
+TROUT.0.,Salmonidae
 SOCK.ADULT,Oncorhynchus nerka
 SOCK.0.,Oncorhynchus nerka
 SOCK.1...em,Oncorhynchus nerka
@@ -158,7 +158,7 @@ ATLANTIC.0.,Salmo salar
 ATLANTIC.1..,Salmo salar
 DV.BT,unknown
 ROCKFISH,Sebastes
-O.U.ROCKFISH,unknown
+O.U.ROCKFISH,Sebastes
 COPPER.ROCKFSH,Sebastes caurinus
 SPLITNOSE.ROCKFSH,Sebastes diploproa
 QUILLBACK.ROCKFISH,Sebastes maliger
@@ -169,6 +169,6 @@ BLK.PRICKLE,Xiphister atropurpureus
 POMPANO,Peprilus simillimus
 PIPEFISH,Syngnathus leptorhynchus
 SANDFISH,Trichodon trichodon
-O.U.FISH,unknown
-O.U.LARVAL.FISH,unknown
-O.U.fish.pl,unknown
+O.U.FISH,Actinopterygii
+O.U.LARVAL.FISH,Actinopterygii
+O.U.fish.pl,Actinopterygii
