@@ -1,0 +1,24 @@
+JN125250.1 Hyperprosopon argenteum clone Harg cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125246.1 Hyperprosopon ellipticum clone Hell cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125242.1 Amphistichus rhodoterus clone Arho4 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125239.1 Amphistichus koelzi clone Ak5 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125237.1 Amphistichus koelzi clone Akoe cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125241.1 Amphistichus rhodoterus clone Arho3 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125238.1 Amphistichus koelzi clone Ak4 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125240.1 Amphistichus rhodoterus clone Arho cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125249.1 Hyperprosopon ellipticum clone Hell4 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125248.1 Hyperprosopon ellipticum clone Hell3 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+JN125247.1 Hyperprosopon ellipticum clone Hell2 cytochrome b (cytochrome b) gene, partial cds; mitochondrial
+AF370623.1 Cymatogaster aggregata cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product
+AY208612.1 Embiotoca lateralis isolate stri-x-2788 cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+DQ082916.1 Embiotoca lateralis cytochrome b (cytb) gene, partial cds; mitochondrial
+AF159330.1 Damalichthys vacca cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+AF159329.1 Cymatogaster aggregata cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+AF159328.1 Brachyistius frenatus cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+DQ082915.1 Amphistichus rhodoterus cytochrome b (cytb) gene, partial cds; mitochondrial
+AF159337.1 Phanerodon furcatus cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+AF159332.1 Hyperprosopon argenteum cytochrome b gene, partial cds; mitochondrial gene for mitochondrial product
+FJ264490.1 Embiotoca lateralis voucher UW:113232 cytochrome b gene, partial cds; mitochondrial
+FJ264275.1 Embiotoca lateralis voucher UW:047630 cytochrome b gene, partial cds; mitochondrial
+FJ264274.1 Embiotoca lateralis voucher UW:047629 cytochrome b gene, partial cds; mitochondrial
+FJ264265.1 Cymatogaster aggregata voucher UW:047307 cytochrome b gene, partial cds; mitochondrial
