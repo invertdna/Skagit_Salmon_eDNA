@@ -5,21 +5,28 @@
 # get median dna per bottle across the three replicate qPCR reactions
 dna_by_bottle <- split(qpcr_data[,"QuantBackCalc"], qpcr_data[,"template_name"])
 
-log1 <- function(x){
-  return(log(x + 0.00001))
-}
+logadj <- function(x, ladj){log(x + ladj)}
 
-log_dna_by_bottle <- lapply(dna_by_bottle, log1)
+log_adj <- 0.11 # was 0.00001
+
+log_dna_by_bottle <- lapply(dna_by_bottle, function(x) logadj(x, ladj = log_adj))
+
+xtr <- axtr(unlist(dna_by_bottle), log_adj)
 par(mar = c(4, 5, 1, 1))
 stripchart(
-  x = lapply(dna_by_bottle, log1), 
-  method = "jitter", 
-  pch = 21, 
+  x = log_dna_by_bottle, 
+  # method = "jitter", 
+  pch = 21, cex = 0.5, col = grey(0.5), 
+  xaxt = 'n', xlab = "DNA copies per reaction", 
   las = 1
   )
-stripchart(lapply(lapply(dna_by_bottle, log1), mean), col = "red", add = TRUE)
-stripchart(lapply(lapply(dna_by_bottle, log1), median), col = "blue", , pch = 2, add = TRUE)
-
+axis(1, at = xtr$tick, labels = xtr$lab)
+stripchart(lapply(log_dna_by_bottle, median), lwd = 2, add = TRUE, 
+  col = "blue", pch = 3)
+stripchart(lapply(log_dna_by_bottle, mean), lwd = 6, add = TRUE, 
+  col = "red", pch = "|")
+legend('bottomright', bty = "n", 
+  legend = c('median', 'mean'), pch = c(3, 124), col = c("blue", "red"))
 dna_by_bottle_med <- sapply(dna_by_bottle, median)
 #-------------------------------------------------------------------------------
 
@@ -90,7 +97,7 @@ plot_dat <- data.frame(
 model_linear <- lm(dna ~ fish, data = plot_dat)
 model_linear_summary <- summary(model_linear)
 
-x_pred <- 0:max(plot_dat$fish)
+x_pred <- seq(from = 0, to = max(plot_dat_bottle$fish), length.out = 10)
 
 con95 <- predict(
     object   = model_linear,
@@ -140,8 +147,7 @@ plot(
   ylab = expression(paste("Concentration Chinook DNA (pg/", mu, "L)", sep = "")), 
   las = 1
   )
-
-abline(model_linear, col = "cornflowerblue", lwd = 2)
+plot_model(con95, x_pred, line_color = "cornflowerblue")
 
 # add medians
 points(
@@ -158,7 +164,6 @@ axis(1,
   )
 
 axis(2, las = 1)
-
 
 box()
 
