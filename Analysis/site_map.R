@@ -67,7 +67,10 @@ col_depth <- sequential_hcl(n_col,
   c. = c(60, 30), 
   l = c(20, 70), 
   power = 1, gamma = NULL, fixup = TRUE, alpha = 1)
-col_depth[length(col_depth)] <- "cornsilk3" # set the color of the land
+
+# set the color of the land was cornsilk3
+# match_ppt_map <- rgb(203, 226, 188, maxColorValue = 255)
+col_depth[length(col_depth)] <- 'cornsilk3'
 
 # check the colors
 # r <- raster(nrows=1, ncols= n_col)
