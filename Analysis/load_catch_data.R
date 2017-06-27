@@ -1,5 +1,7 @@
 # clean catch data
 
+# requires site data is loaded
+
 #-------------------------------------------------------------------------------
 # Where is the file?
 file_path <- file.path(data_dir, "catch_data", "2016-05.csv")
@@ -28,8 +30,6 @@ DateTime <- as.POSIXct(paste(catch_data[,"Date"], catch_data[,"Time"]))
 
 
 # abbreviate site names
-file_path  <- file.path(data_dir, "sites.csv")
-sites <- read.csv(file_path, stringsAsFactors = FALSE, header = TRUE)
 site_abbr  <- sites[match(catch_data$Site, sites[,"NameSRSC"]),"Abbr"]
 
 short_time <- gsub(":00$", "", DateTime)
