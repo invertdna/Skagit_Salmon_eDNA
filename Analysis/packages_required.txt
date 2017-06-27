@@ -1,4 +1,7 @@
 colorspace
+data.table
+googlesheets
+lubridate
 raster
 rasterVis
 reshape2
