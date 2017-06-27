@@ -2,6 +2,14 @@
 
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
+## 2017-06-27
+- For first round of sequencing, focus on beach seine index sites
+- All sites visited at least 4 times
+- Wylie Boat Ramp and Goat Island not sampled in summer 2016
+- Sites sampled five times in 2017:
+  - Turners, Strawberry, Lone Tree, Hoypus, Goat, Dugualla
+
+
 ## 2017-01-23
 - Skagit River Systems Coop sampling schedule:
   - Seine: 12 index sites; 2x per month on NEAP tides
