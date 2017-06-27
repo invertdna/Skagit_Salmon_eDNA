@@ -19,4 +19,27 @@ water$event_id <- paste(
   format(water$date, "%y%m%d"), sep = "-"
   )
 
+# Add a POSIX compliant date-time variable
+v1 <- strsplit(water$time, "")
+
+make6 <- function(x){
+  if(any(is.na(x)) | length(x) == 6){
+    return(x)
+  } else {
+    return(c(x, "0", "0"))
+  }
+}
+
+v1 <- lapply(v1, make6)
+
+str2time <- function(x){
+  if(any(is.na(x))){
+    return(x)
+  } else {
+    paste0(x[c(TRUE, FALSE)], x[c(FALSE, TRUE)], collapse = ":")
+  }
+}
+
+temp <- sapply(v1, str2time)
+water$datetime <- ymd_hms(paste(water$date, temp), tz = "America/Los_Angeles")
 
