@@ -29,8 +29,8 @@ DateTime <- as.POSIXct(paste(catch_data[,"Date"], catch_data[,"Time"]))
 
 # abbreviate site names
 file_path  <- file.path(data_dir, "sites.csv")
-site_trans <- read.csv(file_path, stringsAsFactors = FALSE, header = TRUE)
-site_abbr  <- site_trans[match(catch_data$Site, site_trans[,"NameSRSC"]),"Abbr"]
+sites <- read.csv(file_path, stringsAsFactors = FALSE, header = TRUE)
+site_abbr  <- sites[match(catch_data$Site, sites[,"NameSRSC"]),"Abbr"]
 
 short_time <- gsub(":00$", "", DateTime)
 short_time <- gsub("^20", "", short_time)
