@@ -1,18 +1,25 @@
-DNA <- read.table(
-  file = "DNA_extractions - DNA_extractions.csv.tsv",
-  sep = "\t",
-  quote = "",
-  header = TRUE, 
-  stringsAsFactors = FALSE
-)
 
-FILTERS <- read.table(
-  file = "samples_master - Sheet1.tsv", 
-  sep = "\t",
-  quote = "",
-  header = TRUE, 
-  stringsAsFactors = FALSE
-)
+library(googlesheets)
+
+DNA_sheet_key <- "1rXBXtXW7Ov1Z_LMZo_2G8Wjo_XStsl9WerGKdnylBGw"
+
+DNA <- data.table(gs_read(gs_key(DNA_sheet_key)))
+
+done <- DNA[,gsub(pattern = "SKA-", "", source_label)]
+
+to_extract <- to_pcr[ # from choose_samples.R
+  !lab_label %in% done, 
+  .(event_id, field_rep, filter_box, lab_label)
+]
+# fwrite(to_extract, "to_extract.csv")
+
+# FILTERS <- read.table(
+#   file = "samples_master - Sheet1.tsv", 
+#   sep = "\t",
+#   quote = "",
+#   header = TRUE, 
+#   stringsAsFactors = FALSE
+# )
 
 names(FILTERS)
 
