@@ -24,3 +24,5 @@ to_pcr <- water[
     filter_notes, preservative_ml)
 ]
 
+# fwrite(to_pcr, "to_pcr.csv")
+
