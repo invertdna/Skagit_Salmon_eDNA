@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # plot map of sampled site
-EXPORT <- TRUE
+EXPORT <- FALSE
 
 library(sp) # SpatialPoints
 library(raster) # raster
@@ -13,7 +13,7 @@ library(rgdal)
 tif_file <- file.path(data_dir, "ngdc_pug_snd_dm_subset.tif")
 
 # read in the points
-sites_file <- "site_data.csv"
+sites_file <- "sites.csv"
 colname_lat <- "lat"
 colname_lon <- "lon"
 
