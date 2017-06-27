@@ -1,18 +1,13 @@
-# after first loading, it will open a browser and ask you to authorize
-library(googlesheets)
+
+# requires environmental samples data
+# (see load_water_samples.R or 0_load_project.R)
+
 library(data.table)
-# library(lubridate)
+library(lubridate) # date()
 
 EXPORT <- FALSE
 
-# list all available sheets
-my_sheets <- gs_ls()
-
-GS <- gs_key("1IzJG3jaZCNXu6GNtx0ltsyJn0D8bprWs6NcYXCTGg_A")
-
-DT <- data.table(gs_read(GS, ws = 1))
-
-SITEDATES <- split(DT$Date, DT$SiteName)
+SITEDATES <- split(water$date, water$site_name)
 
 # exclude randoms and aquariums
 SITEDATES <- SITEDATES[!grepl(pattern = "Random|Aquarium", names(SITEDATES))]
