@@ -1,5 +1,6 @@
 ################################################################################
 # requires objects: water, sites
+library(data.table)
 
 sites <- data.table(sites)
 
