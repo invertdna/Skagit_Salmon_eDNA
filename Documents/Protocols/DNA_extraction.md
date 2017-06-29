@@ -56,19 +56,19 @@ P2. Get out all your reagents and supplies (pipette tips, etc)
 
 6. Centrifuge at 17.0*g for 5 minutes.
 
-7. Remove 750uL of the aqueous (top) layer, transfer to first set of tubes containing 700uL chloroform.
+7. Remove as much as possible of the aqueous (top) layer, transfer to first set of tubes containing 700uL chloroform (was 750uL).
 
 8. Shake the tubes vigorously for 60 seconds.
 
 9. Centrifuge at 17.0*g for 5 minutes
 
-10. Remove 700uL of the aqueous (top) layer, transfer to the second set of tubes containing 700uL chloroform.
+10. Remove as much as possible of the aqueous (top) layer, transfer to the second set of tubes containing 700uL chloroform.
 
 11. Shake the tubes vigorously for 60 seconds.
 
 12. Centrifuge at 17.0*g for 5 minutes.
 
-13. Transfer 650uL of the aqueous (top) layer to the tubes containing the isopropanol/NaCl mixture.
+13. Transfer 900uL of the aqueous (top) layer to the tubes containing the isopropanol/NaCl mixture.
 
 14. Allow to precipitate at -20ºC overnight (16 hours).
 
