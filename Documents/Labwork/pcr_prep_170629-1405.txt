@@ -1,0 +1,7 @@
+param_type,param_name,uL_per_rxn,uL_per_8rxn,uL_per_32_rxn
+mastermix,Phusion High-Fidelity PCR Master Mix with HF Buffer,12.5,100,400
+DMSO,DMSO,0.1875,1.5,6
+primer,50-50 mix of 16S prey forward primers (groundfish and salmon) with adapter,1.25,10,40
+primer,16S prey reverse with adapter,1.25,10,40
+water,water,5.8125,46.5,186
+template,"eDNA - ""50ng per 25uL rxn""",4,32,128

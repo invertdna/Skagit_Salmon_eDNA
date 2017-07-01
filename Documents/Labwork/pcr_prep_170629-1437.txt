@@ -1,0 +1,10 @@
+param_type,param_name,uL_per_rxn,uL_per_8rxn,uL_per_32_rxn
+buffer,Promega GoTaq Flexi Buffer,8,64,256
+taq,Promega GoTaq Flexi DNA Polymerase,0.4,3.2,12.8
+dNTPs,"each of dATP, dTTP, dCTP, dGTP",0.8,6.4,25.6
+primer,Salmon-F,0.8,6.4,25.6
+primer,16S-R,0.8,6.4,25.6
+MgCl2,MgCl2,4.8,38.4,153.6
+BSA,BSA,0.2,1.6,6.4
+water,water,20.2,161.6,646.4
+template,eDNA - 4uL per 40uL,4,32,128
