@@ -8,11 +8,13 @@ library(raster) # raster
 library(colorspace) # sequential_hcl
 library(rasterVis) # rasterTheme, levelplot
 library(rgdal)
+library(grid)
+library(geosphere)
 
-# read in the base layer
+# specify in the base layer
 tif_file <- file.path(data_dir, "ngdc_pug_snd_dm_subset.tif")
 
-# read in the points
+# specify in the sites file
 sites_file <- "sites.csv"
 colname_lat <- "lat"
 colname_lon <- "lon"
@@ -40,6 +42,7 @@ pt_lat <- sites[,colname_lat]
 # set points to add
 mypoints <- SpatialPoints(cbind(pt_lon, pt_lat))
 
+# read in the map layer
 data_raster <- raster(tif_file)
 
 # convert from decimeters to meters
@@ -105,13 +108,29 @@ if(EXPORT){
   pdf_file    <- file.path(fig_dir, paste(plot_name, ".pdf", sep = ""))
   legend_file <- file.path(fig_dir, paste(plot_name, "_legend.txt", sep = ""))
   writeLines(legend_text[[plot_name]], con = legend_file)
-  pdf(file = pdf_file, width = 6, height = 4)
+  pdf(file = pdf_file, width = 6, height = 4.5)
 }
 
-par(mar = c(5,6,1,4))
+# par(mar = c(5,6,1,4)) # this doesn't appear to work with grid graphics
 
 myTheme <- rasterTheme(region = col_depth)
 myTheme$add.line$col <- hsv(0,0.1,0.1, alpha = 0.2) # contour line colors
+
+Narrow_pos <- c(
+  x = xmin(data_raster) + 0.95*(xmax(data_raster) - xmin(data_raster)),
+  y = ymin(data_raster) + 0.9*(ymax(data_raster) - ymin(data_raster))
+)
+
+scale_start <- -122.35
+scale_y <- 48.47
+scale_length_m <- 5000
+scale_segments <- 5
+scale_breaks <- seq(from = 0, to = scale_length_m, 
+  length.out = scale_segments + 1)
+x_scale <- destPoint(p = c(scale_start, scale_y), b = 90, 
+  d = scale_breaks)
+scale_labels <- c("km", as.character(scale_breaks[-1] / 1000))
+
 levelplot(
   x = data_raster, 
   margin = FALSE, contour = TRUE, 
@@ -124,7 +143,41 @@ layer(sp.points(
 layer(sp.points(
   mypoints[sites$net == "seine" & sites$revisit == "index"], 
   col = "orangered", cex = 1, lwd = 2, pch = 1
-))
+)) + 
+layer({
+  # North Arrow
+  SpatialPolygonsRescale(layout.north.arrow(type = 2), 
+    offset = c(Narrow_pos["x"], Narrow_pos["y"]), 
+    col = "black", fill = grey(0), 
+    scale = 0.02
+  )
+  grid.text(
+    label = "N", 
+    x = Narrow_pos["x"], y = Narrow_pos["y"], 
+    gp = gpar(cex = 1.2, col = "black"), 
+    hjust = 0.2, vjust = 1, 
+    default.units = 'native'
+  )
+}) + 
+layer({
+  # Scale Bar
+  grid.rect(x = x_scale[-1,1], y = scale_y, 
+    width = diff(x_scale[,1]), height = 0.001, 
+    gp = gpar(fill = rep(c('white', 'black') , 2)), 
+    default.units = 'native'
+  )
+  grid.text(
+    x = x_scale[,1], y = scale_y, label = scale_labels,
+    gp = gpar(cex = 0.5), rot = 0, vjust = -0.5,
+    default.units = 'native'
+  )
+})
+# depth legend
+ck <- seekViewport("plot_01.legend.right.vp")
+grid.text("Depth \n(m)", x = unit(0, "npc"), y = unit(0, "npc"), 
+          # just = c("left", "top"), 
+          hjust = 0, vjust = 1.5,
+          gp = gpar(cex = 0.9))
 
 if(EXPORT){
   dev.off()

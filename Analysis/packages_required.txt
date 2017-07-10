@@ -1,6 +1,8 @@
 colorspace
 data.table
+geosphere
 googlesheets
+grid
 lubridate
 raster
 rasterVis
