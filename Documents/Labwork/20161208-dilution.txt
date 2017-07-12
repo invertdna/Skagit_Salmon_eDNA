@@ -1,0 +1,22 @@
+
+PRIMERS
+stock conc (MICROmolar): 100
+desired conc (MICROmolar): 10
+desired vol (MICROliters): 110
+
+stock to add (MICROliters):  11
+water to add (MICROliters):  99
+
+
+PROBE
+stock conc (MICROmolar): 100
+desired conc (MICROmolar): 10
+desired vol (MICROliters): 25
+
+stock to add (MICROliters):  2.5
+water to add (MICROliters): 22.5
+
+
+TEMPLATE:
+for 1:10, add 5uL template to 45uL water (total 50uL)
+for 1:100, add 5uL template to 495uL water (total 500uL)

@@ -1,0 +1,21 @@
+QPCR REACTION SETUP
+reaction volume (MICROliters): 10
+
+PRIMERS:
+initial concentration (MICROmolar): 10
+desired concentration in reaction (MICROliters): 0.9
+per reaction (MICROliters): 0.9
+
+PROBE:
+initial concentration (MICROmolar): 10
+desired concentration in reaction (MICROliters): 0.2
+per reaction (MICROliters): 0.2
+
+Number reactions: 96
+Number reactions (accounting for error): 110
+
+total primer 1: 0.9*110 =  99.0
+total primer 2: 0.9*110 =  99.0
+total probe:    0.2*110 =  22.0
+total water:    1.0*110 = 110.0
+total MM:       5.0*110 = 550.0
