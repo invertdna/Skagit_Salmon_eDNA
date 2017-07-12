@@ -1,0 +1,107 @@
+SDS 2.3	Absolute QuantificationResults	1.0
+Filename	CKCO3-170712
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	7/12/17 12:56:46 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Position	Flag	Sample	Detector	Task	Ct	Ct Median	Quantity	Qty mean	Qty stddev	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+A1	Passed	A1	jimmy161209	Standard	30.942732		1.0															
+A2	Passed	A2	jimmy161209	Standard	30.576668		1.0															
+A3	Passed	A3	jimmy161209	Standard	30.670994		1.0															
+A4	Passed	A4	jimmy161209	Standard	30.381197		1.0															
+A5	Passed	A5	jimmy161209	Unknown	35.242096		0.04170698															
+A6	Flagged	A6	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A7	Flagged	A7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A8	Flagged	A8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A9	Flagged	A9	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A10	Flagged	A10	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A11	Flagged	A11	jimmy161209	Unknown	Undetermined		0.0								true			true				
+A12	Flagged	A12	jimmy161209	Unknown	Undetermined		0.0								true			true				
+B1	Passed	B1	jimmy161209	Standard	33.18199		0.1															
+B2	Passed	B2	jimmy161209	Standard	34.25136		0.1															
+B3	Passed	B3	jimmy161209	Standard	33.488712		0.1															
+B4	Passed	B4	jimmy161209	Standard	34.982563		0.1															
+B5	Passed	B5	jimmy161209	Unknown	35.58974		0.03280295															
+B6	Passed	B6	jimmy161209	Unknown	35.63502		0.031792782															
+B7	Flagged	B7	jimmy161209	Unknown	37.038387		0.012058942								true							
+B8	Flagged	B8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+B9	Passed	B9	jimmy161209	Unknown	33.179283		0.17340691															
+B10	Passed	B10	jimmy161209	Unknown	32.706398		0.24040037															
+B11	Passed	B11	jimmy161209	Unknown	32.722054		0.23781455															
+B12	Passed	B12	jimmy161209	Unknown	32.672874		0.24603249															
+C1	Flagged	C1	jimmy161209	Standard	Undetermined		0.01								true			true				
+C2	Flagged	C2	jimmy161209	Standard	Undetermined		0.01								true			true				
+C3	Flagged	C3	jimmy161209	Standard	Undetermined		0.01								true			true				
+C4	Flagged	C4	jimmy161209	Standard	Undetermined		0.01								true			true				
+C5	Flagged	C5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+C6	Passed	C6	jimmy161209	Unknown	36.154053		0.022213425															
+C7	Flagged	C7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+C8	Passed	C8	jimmy161209	Unknown	36.38831		0.018894566															
+C9	Passed	C9	jimmy161209	Unknown	33.58832		0.13072304															
+C10	Passed	C10	jimmy161209	Unknown	32.989162		0.19774427															
+C11	Passed	C11	jimmy161209	Unknown	33.524384		0.1366262															
+C12	Passed	C12	jimmy161209	Unknown	32.7537		0.23267202															
+D1	Flagged	D1	jimmy161209	Standard	Undetermined		0.0010								true			true				
+D2	Flagged	D2	jimmy161209	Standard	Undetermined		0.0010								true			true				
+D3	Flagged	D3	jimmy161209	Standard	Undetermined		0.0010								true			true				
+D4	Flagged	D4	jimmy161209	Standard	Undetermined		0.0010								true			true				
+D5	Flagged	D5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+D6	Flagged	D6	jimmy161209	Unknown	Undetermined		0.0								true			true				
+D7	Flagged	D7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+D8	Flagged	D8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+D9	Passed	D9	jimmy161209	Unknown	31.747953		0.46609557															
+D10	Passed	D10	jimmy161209	Unknown	31.644041		0.5007827															
+D11	Passed	D11	jimmy161209	Unknown	31.732458		0.47111145															
+D12	Passed	D12	jimmy161209	Unknown	31.976929		0.3979063															
+E1	Flagged	E1	jimmy161209	Standard	Undetermined		1.0E-4								true			true				
+E2	Flagged	E2	jimmy161209	Standard	Undetermined		1.0E-4								true			true				
+E3	Flagged	E3	jimmy161209	Standard	Undetermined		1.0E-4								true			true				
+E4	Flagged	E4	jimmy161209	Standard	Undetermined		1.0E-4								true			true				
+E5	Flagged	E5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+E6	Passed	E6	jimmy161209	Unknown	35.870987		0.027010782															
+E7	Flagged	E7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+E8	Flagged	E8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+E9	Flagged	E9	jimmy161209	Unknown	Undetermined		0.0								true			true				
+E10	Passed	E10	jimmy161209	Unknown	35.367092		0.03825684															
+E11	Flagged	E11	jimmy161209	Unknown	Undetermined		0.0								true			true				
+E12	Passed	E12	jimmy161209	Unknown	35.32824		0.039297517															
+F1	Flagged	F1	jimmy161209	Standard	Undetermined		1.0E-5								true			true				
+F2	Flagged	F2	jimmy161209	Standard	Undetermined		1.0E-5								true			true				
+F3	Flagged	F3	jimmy161209	Standard	Undetermined		1.0E-5								true			true				
+F4	Flagged	F4	jimmy161209	Standard	Undetermined		1.0E-5								true			true				
+F5	Flagged	F5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F6	Flagged	F6	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F7	Flagged	F7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F8	Flagged	F8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F9	Passed	F9	jimmy161209	Unknown	34.869133		0.0539635															
+F10	Flagged	F10	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F11	Flagged	F11	jimmy161209	Unknown	Undetermined		0.0								true			true				
+F12	Passed	F12	jimmy161209	Unknown	36.743122		0.014787364															
+G1	Flagged	G1	jimmy161209	Standard	Undetermined		1.0E-6								true			true				
+G2	Flagged	G2	jimmy161209	Standard	Undetermined		1.0E-6								true			true				
+G3	Flagged	G3	jimmy161209	Standard	Undetermined		1.0E-6								true			true				
+G4	Flagged	G4	jimmy161209	Standard	Undetermined		1.0E-6								true			true				
+G5	Flagged	G5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+G6	Flagged	G6	jimmy161209	Unknown	Undetermined		0.0								true			true				
+G7	Flagged	G7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+G8	Flagged	G8	jimmy161209	Unknown	Undetermined		0.0								true			true				
+G9	Passed	G9	jimmy161209	Unknown	35.16677		0.04393461															
+G10	Passed	G10	jimmy161209	Unknown	36.07654		0.023435237															
+G11	Passed	G11	jimmy161209	Unknown	35.191837		0.043180402															
+G12	Passed	G12	jimmy161209	Unknown	35.671886		0.030993357															
+H1	Flagged	H1	jimmy161209	NTC	Undetermined		0.0								true							
+H2	Flagged	H2	jimmy161209	NTC	Undetermined		0.0								true							
+H3	Flagged	H3	jimmy161209	NTC	Undetermined		0.0								true							
+H4	Flagged	H4	jimmy161209	NTC	Undetermined		0.0								true							
+H5	Flagged	H5	jimmy161209	Unknown	Undetermined		0.0								true			true				
+H6	Flagged	H6	jimmy161209	Unknown	Undetermined		0.0								true			true				
+H7	Flagged	H7	jimmy161209	Unknown	Undetermined		0.0								true			true				
+H8	Passed	H8	jimmy161209	Unknown	36.307793		0.019975264															
+H9	Flagged	H9	jimmy161209	Unknown	Undetermined		0.0								true			true				
+H10	Flagged	H10	jimmy161209	Unknown	Undetermined		0.0								true			true				
+H11	Flagged	H11	jimmy161209	Unknown	38.367756		0.004813818								true							
+H12	Passed	H12	jimmy161209	Unknown	35.92328		0.026052495															
