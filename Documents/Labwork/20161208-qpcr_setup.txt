@@ -3,13 +3,13 @@ reaction volume (MICROliters): 10
 
 PRIMERS:
 initial concentration (MICROmolar): 10
-desired concentration in reaction (MICROliters): 0.9
-per reaction (MICROliters): 0.9
+desired concentration in reaction (MICROmolar): 0.9
+vol per reaction (MICROliters): 0.9
 
 PROBE:
 initial concentration (MICROmolar): 10
-desired concentration in reaction (MICROliters): 0.2
-per reaction (MICROliters): 0.2
+desired concentration in reaction (MICROmolar): 0.2
+vol per reaction (MICROliters): 0.2
 
 Number reactions: 96
 Number reactions (accounting for error): 110
