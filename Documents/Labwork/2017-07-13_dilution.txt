@@ -1,0 +1,14 @@
+Input DNA:
+
+for CKCO3:
+  Species: Oncorhynchus tshawytscha (Chinook Salmon)
+  Sample: 33497-5769
+  initial concentration = 1:5
+
+for CYAGcytb:
+  Species: Cymatogaster aggregata (Shiner Surfperch)
+  Sample: CYAG090720A
+  initial concentration = 1:2
+
+Starting volume: 88ul in tube 1; 80uL water in tube 2:8.
+  
