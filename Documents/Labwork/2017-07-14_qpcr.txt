@@ -1,0 +1,41 @@
+qPCR 2017-07-14
+
+Reagents:
+reaction volume (MICROliters): 10
+
+PRIMERS:
+initial concentration (MICROmolar): 10
+desired concentration in reaction (MICROmolar): 0.9
+vol per reaction (MICROliters): 0.9
+
+PROBE:
+initial concentration (MICROmolar): 10
+desired concentration in reaction (MICROmolar): 0.2
+vol per reaction (MICROliters): 0.2
+
+Number reactions: 48
+Number reactions (accounting for error): 55
+
+total primer 1: 0.9*55 =  49.5
+total primer 2: 0.9*55 =  49.5
+total probe:    0.2*55 =  11.0
+total water:    1.0*55 = 55.0
+total MM:       5.0*55 = 275.0
+
+environmental Samples:
+091
+092
+093
+094
+096
+097
+098
+099
+
+Plus dilution Series (8)
+
+Total Samples: 16
+
+Replicates per sample: 3
+
+Total Reactions: 48
