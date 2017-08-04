@@ -2,6 +2,10 @@
 
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
+## 2017-08-03
+- After PCR1, our samples had between 3 and 14 ng/uL
+- Average expected fragment size after PCR1: 443bp
+
 ## 2017-06-27
 - For first round of sequencing, focus on beach seine index sites
 - All sites visited at least 4 times
