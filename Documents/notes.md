@@ -5,6 +5,9 @@
 ## 2017-08-03
 - After PCR1, our samples had between 3 and 14 ng/uL
 - Average expected fragment size after PCR1: 443bp
+- SPRI size selection recommends sample volume should be ≥ 50 μL (but see illumina 16S metagenomic protocol)
+- Sequalprep requires as input no more than 25uL of PCR product, containing at least 250 ng of amplicons.
+- Thus, concentration after cleanup of PCR2 must be at least 10 ng/uL
 
 ## 2017-06-27
 - For first round of sequencing, focus on beach seine index sites
