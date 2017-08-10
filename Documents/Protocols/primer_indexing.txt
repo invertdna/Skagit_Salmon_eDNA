@@ -20,7 +20,7 @@ llllllllllllllssssssssssssssssssspppppppppppppppppppppppppppp
 
 
 Reverse (54bp)
-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGggattgcgctgttatcccta
+GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGGATTGCGCTGTTATCCCTA
 lllllllllllllllssssssssssssssssssspppppppppppppppppppp
 
 
