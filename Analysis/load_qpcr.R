@@ -125,19 +125,22 @@ qpcr_data <- qpcr_data[
 to_rename <- which(grepl("_0.1", qpcr_data[,"template_name"]) &
      qpcr_data[,"Task"] == "Unknown")
 
-new_names <- gsub("SKA", "SKA-", 
-    gsub("_0.1", "", 
-      qpcr_data[to_rename,"template_name"]))
-
+new_names <- gsub("_0.1", "", qpcr_data[to_rename,"template_name"])
 qpcr_data[to_rename, "template_name"] <- new_names
 #-------------------------------------------------------------------------------
 
 
 #-------------------------------------------------------------------------------
+# remove project prefix ('SKA' | 'SKA-')
+qpcr_data[,"template_name"] <- gsub("SKA|SKA-", "", qpcr_data[,"template_name"])
+#-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
 # add event_id column to qPCR data
-qpcr_data$event_id <- water[, "event_id"][match(
-  qpcr_data[,"template_name"],
-  water[,"lab_label"]
+qpcr_data$event_id <- water[["event_id"]][match(
+  qpcr_data[["template_name"]],
+  water[["lab_label"]]
   )
 ]
 #-------------------------------------------------------------------------------
