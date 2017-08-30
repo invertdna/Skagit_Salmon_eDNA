@@ -38,4 +38,37 @@ to_extract <- to_pcr[ # from choose_samples.R
   ]
 # fwrite(to_extract, "to_extract.csv")
 
+################################################################################
+# choose samples for qPCR
+################################################################################
+source("load_qpcr.R")
+source("load_dna.R")
+
+qpcr <- qpcr_data
+done.ext <- unique(DNA[["extraction_label"]])
+done.qpcr <- unique(qpcr[["template_name"]])
+
+# which events are already in qpcr data
+done.events <- water[ lab_label %in% done.qpcr, unique(event_id)]
+
+# find events that are not already in qpcr, but that *have* been extracted, and are field samples
+to_qpcr <- water[ 
+  !(event_id %in% done.events) & 
+    lab_label %in% done.ext & 
+    datetime > "2017-01-01" & 
+    sample_type == "water-marine", 
+       # .(event_id, lab_label)
+       ]
+to_qpcr <- to_qpcr[event_reps > 2]
+
+to_qpcr <- to_qpcr[!(field_notes %like% "mesh"),]
+to_qpcr <- to_qpcr[!(filter_notes %like% "trash"),]
+
+# need 1 less:
+to_qpcr <- to_qpcr[-1,]
+
+# fwrite(to_qpcr, file = "to_qpcr.csv")
+
+samples <- sort(to_qpcr[,lab_label])
+# write.table(samples, file = "samples.txt", quote = FALSE, row.names = FALSE, col.names = FALSE)
 
