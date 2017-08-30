@@ -1,10 +1,13 @@
 ################################################################################
-# requires objects: water, sites
 library(data.table)
 
-sites <- data.table(sites)
+# requires objects: water, sites
+source("load_site_data.R")
+source("load_water_samples.R")
 
-seine_index <- sites[net %like% "seine" & revisit %like% "index", site_name]
+site.dt <- data.table(sites)
+
+seine_index <- site.dt[net %like% "seine" & revisit %like% "index", site_name]
 
 # DT <- water[site_name %in% seine_index, ]
 DT <- water[site_name %in% seine_index & date > "2016-12-31",] #unique(date), by = site_name
@@ -26,4 +29,13 @@ to_pcr <- water[
 ]
 
 # fwrite(to_pcr, "to_pcr.csv")
+
+
+source("load_dna.R")
+to_extract <- to_pcr[ # from choose_samples.R
+  !lab_label %in% DNA, 
+  .(event_id, field_rep, filter_box, lab_label)
+  ]
+# fwrite(to_extract, "to_extract.csv")
+
 
