@@ -1,4 +1,4 @@
-counts_net
+counts_net # simulated data
 
 split_sp_by_site <- function(data, sp){
   x <- data[data$species == sp, ]
@@ -13,7 +13,6 @@ split_sp_by_season <- function(data, sp){
 
 boxplot(split_sp_by_site(counts_net, "Cymatogaster aggregata"))
 boxplot(split_sp_by_season(counts_net, "Cymatogaster aggregata"))
-
 boxplot(split_sp_by_season(counts_net, "Oncorhynchus tshawytscha"))
 
 

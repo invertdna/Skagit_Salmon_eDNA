@@ -1,5 +1,7 @@
 # clean catch data
 
+library(data.table)
+
 # requires site data is loaded
 
 #-------------------------------------------------------------------------------
@@ -59,4 +61,33 @@ catch_data <- data.frame(sample_id, event_id, catch_data[,org_present])
 #-------------------------------------------------------------------------------
 # isolate chinook
 catch_chinook <- catch_data[,c(1, 2, grep("^CK", colnames(catch_data)))]
+
+#-------------------------------------------------------------------------------
+# use scientific names
+file_org_names <- file.path(data_dir, "catch_data", "organism_names.csv")
+org_names <- read.csv(file_org_names, header = FALSE, stringsAsFactors = FALSE)
+colnames(org_names) <- c("common", "scientific")
+
+# I should convert this to long form, and make separate columns for life history
+namecols <- which(colnames(catch_data) %in% org_names[,"common"])
+match_v <- match(colnames(catch_data)[namecols], org_names[,"common"])
+newnames <- org_names[match_v, "scientific"]
+colnames(catch_data)[namecols] <- newnames
+
+# this stuff always seems to be so much easier in data.table...
+cddt <- data.table(catch_data)
+
+catch_data.l <- data.table(melt(catch_data, variable.name = "taxon"))
+
+# combine duplicate observations of the same taxa
+indexVars <- c("sample_id", "event_id", "taxon")
+catch_data.l <- catch_data.l[ , list(value = sum(value)), by = c(indexVars)]
+
+cdse <- catch_data.l[ , list(value = sum(value)), by = c("event_id", "taxon")]
+cdse[taxon %like% "Cymatogaster",]
+plot(cdse[taxon %like% "Cymatogaster", value])
+
+summer16_events <- levels(cdse$event_id)
+
+water[event_id %in% summer16_events,.(event_id, lab_label)]
 
