@@ -2,7 +2,7 @@
 library(data.table)
 
 # requires objects: water, sites
-source("load_site_data.R")
+source("load_sites.R")
 source("load_water_samples.R")
 
 site.dt <- data.table(sites)

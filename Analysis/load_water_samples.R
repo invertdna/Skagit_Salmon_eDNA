@@ -6,7 +6,7 @@ library(googlesheets)
 library(data.table)
 library(lubridate)
 
-source("load_site_data.R")
+source("load_sites.R")
 
 # water_file <- file.path(data_dir, "water_samples.csv")
 # water <- read.csv(water_file, stringsAsFactors = FALSE)

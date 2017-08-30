@@ -3,7 +3,7 @@
 library(data.table)
 
 # requires site data is loaded
-source("load_site_data.R")
+source("load_sites.R")
 
 #-------------------------------------------------------------------------------
 # Where is the file?
