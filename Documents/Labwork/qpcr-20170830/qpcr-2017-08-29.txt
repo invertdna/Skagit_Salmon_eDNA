@@ -1,0 +1,39 @@
+August 29th 2017
+
+qPCR 2017-08-29
+Serf Perch qPCR assay testing.
+
+Primers:Two mastermixes to test two different forward primers, all primers at 10 um
+	CYAG-F-J001 with RPK-R1
+	CYAG F-J002 with RPK-R2
+
+Sample: dilution series of a 1:5 dilution of tissue DNA at 2ng/ul of sample 33497-5769 
+
+Probe: Cymat qPCR R probe (10 um)
+
+Mastermix: Taqman Environmental MM 2.0
+
+In lab mastermix recipe: (as derived from previous mixes from JO'D)
+	Number reactions per mastermix: 24 (triplicate reactions)
+	Rounded for error: 30
+
+	Primer F: 0.9*30=27
+	Primer R: 0.9*30=27
+	Probe:    0.2*30=6
+	Water:    1.0*30=30
+	MM:	  5.0*30=150
+
+
+Pipette 8 ul lab mastermix and 2 ul sample DNA (dilution series) into final plate
+
+
+Plate layout:
+	1-3		4-6
+A	1_MM1		1_MM2
+B	1e-1_MM1	1e-1_MM2
+C	1e-2_MM1	1e-2_MM2
+D	1e-3_MM1	1e-3_MM2
+E	1e-4_MM1	1e-4_MM2
+F	1e-5_MM1	1e-5_MM2
+G	1e-6_MM1	1e-6_MM2
+H	0_MM1		0_MM2
