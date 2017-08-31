@@ -43,9 +43,11 @@ to_extract <- to_pcr[ # from choose_samples.R
 ################################################################################
 source("load_qpcr.R")
 source("load_dna.R")
+source("load_cleaned.R")
 
 qpcr <- qpcr_data
 done.ext <- unique(DNA[["extraction_label"]])
+done.clean <- cleaned[,Sample]
 done.qpcr <- unique(qpcr[["template_name"]])
 
 # which events are already in qpcr data
@@ -71,4 +73,3 @@ to_qpcr <- to_qpcr[-1,]
 
 samples <- sort(to_qpcr[,lab_label])
 # write.table(samples, file = "samples.txt", quote = FALSE, row.names = FALSE, col.names = FALSE)
-
