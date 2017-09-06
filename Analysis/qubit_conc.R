@@ -7,7 +7,7 @@ qubit <- fread(qubit_file)
 names(qubit) <- gsub(" ", ".", names(qubit))
 
 
-sample.env <- substr(qubit$Lab.Sample.ID, 1, 7)
+sample.env <- substr(qubit$Sample_Name, 1, 7)
 
 qubit$sample.env <- sample.env
 
