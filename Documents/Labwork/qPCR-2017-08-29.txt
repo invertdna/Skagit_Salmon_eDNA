@@ -1,0 +1,70 @@
+August 29th 2017
+
+qPCR 2017-08-29
+Serf Perch qPCR assay testing-with environmental samples
+
+Primers:Primer set chosen from 2017-08-29 Serf Perch standards assay test, all primers at 10 um
+	CYAG-F-J001 with CYAG-R-Rk01
+	
+
+Dilution series (1:10) of a 1:5 dilution of tissue DNA at 2ng/ul of sample 33497-5769
+
+Samples (1:10 dilutions of Zymo cleaned eDNA extractions):
+001
+002
+003
+004
+025
+026
+027
+028
+091
+092
+093
+094
+096
+097
+098
+099 
+
+Probe: Cymat qPCR R probe (10 um)
+
+Mastermix: Taqman Environmental MM 2.0
+
+In lab mastermix recipe: (as derived from previous mixes from JO'D)
+	Number reactions per mastermix: 72 (triplicate reactions)
+	Rounded for error: 75
+
+	Primer F: 0.9*30=67.5
+	Primer R: 0.9*30=67.5
+	Probe:    0.2*30=15
+	Water:    1.0*30=75
+	MM:	  5.0*30=375
+
+
+Pipette 8 ul lab mastermix and 2 ul sample DNA (dilution series) into final plate
+
+
+Plate layout:
+	  1	  	  2		  3		4	5	6	7	8	9
+A	1		1		1		001	001	001	091	091	091
+B	1.00E-01	1.00E-01	1.00E-01	002	002	002	092	092	092
+C	1.00E-02	1.00E-02	1.00E-02	003	003	003	093	093	093
+D	1.00E-03	1.00E-03	1.00E-03	004	004	004	094	094	094
+E	1.00E-04	1.00E-04	1.00E-04	025	025	025	096	096	096
+F	1.00E-05	1.00E-05	1.00E-05	026	026	026	097	097	097
+G	1.00E-06	1.00E-06	1.00E-06	027	027	027	098	098	098
+H	0		0		0		028	028	028	099	099	099
+
+
+
+qPCR thermal profile:
+95 degrees C  10 min
+
+95 degrees C  15 sec  
+60 degrees C  1 min
+	X40
+
+
+Purpose: The assay was tested and worked with the standards this morning, this qPCR is to determine if the assay works
+on environmental samples. 
