@@ -1,0 +1,18 @@
+Run ID,Assay Name,Test Name,Test Date,Qubit® tube conc.,Units,Original sample conc.,Units,Sample Volume (µL),Dilution Factor,Std 1 RFU,Std 2 RFU,Std 3 RFU,Excitation,Emission,Green RFU,Far Red RFU,Sample ID
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043909,5/10/2017 4:39,141,ng/mL,28.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,3485.97,,N-take2
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043844,5/10/2017 4:38,154,ng/mL,30.8,ng/µL,1,200,28.96,11988.35,,Blue,Green,3804.14,,N-take 1
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043826,5/10/2017 4:38,226,ng/mL,45.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,5555.7,,94C
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043816,5/10/2017 4:38,276,ng/mL,55.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,6778.03,,94B
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043805,5/10/2017 4:38,267,ng/mL,53.4,ng/µL,1,200,28.96,11988.35,,Blue,Green,6541.47,,94A
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043756,5/10/2017 4:37,123,ng/mL,24.6,ng/µL,1,200,28.96,11988.35,,Blue,Green,3044.17,,92C
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043746,5/10/2017 4:37,143,ng/mL,28.6,ng/µL,1,200,28.96,11988.35,,Blue,Green,3552.73,,92B
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043738,5/10/2017 4:37,101,ng/mL,20.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,2512.09,,92A
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043728,5/10/2017 4:37,111,ng/mL,22.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,2743.97,,28C
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043719,5/10/2017 4:37,121,ng/mL,24.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,2996.34,,28B
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043707,5/10/2017 4:37,126,ng/mL,25.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,3118.25,,28A
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043658,5/10/2017 4:36,60.3,ng/mL,12.1,ng/µL,1,200,28.96,11988.35,,Blue,Green,1503.88,,27C
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043646,5/10/2017 4:36,130,ng/mL,26,ng/µL,1,200,28.96,11988.35,,Blue,Green,3225.18,,27B
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043636,5/10/2017 4:36,70.9,ng/mL,14.2,ng/µL,1,200,28.96,11988.35,,Blue,Green,1765.41,,27A
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043627,5/10/2017 4:36,63,ng/mL,12.6,ng/µL,1,200,28.96,11988.35,,Blue,Green,1570.67,,27C
+2017-10-05_043610,dsDNA High sensitivity,Sample_#171005-043620,5/10/2017 4:36,142,ng/mL,28.4,ng/µL,1,200,28.96,11988.35,,Blue,Green,3508.55,,27B
+2017-10-05_043537,dsDNA High sensitivity,Sample_#171005-043602,5/10/2017 4:36,194,ng/mL,19.4,ng/µL,2,100,28.96,11988.35,,Blue,Green,4790.44,,27A
