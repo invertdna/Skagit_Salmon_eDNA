@@ -11,7 +11,8 @@ source("load_sites.R")
 # water_file <- file.path(data_dir, "water_samples.csv")
 # water <- read.csv(water_file, stringsAsFactors = FALSE)
 
-env_samples_gs_key <- "1IzJG3jaZCNXu6GNtx0ltsyJn0D8bprWs6NcYXCTGg_A"
+env_samples_gs_key <- "1_ujmAo0uw0gamLh7AGc7_qz8AXIoBM0We-CjSoHFG1U"
+# key before google drive snafu: "1IzJG3jaZCNXu6GNtx0ltsyJn0D8bprWs6NcYXCTGg_A"
 
 water <- data.table(gs_read(gs_key(env_samples_gs_key)))
 
