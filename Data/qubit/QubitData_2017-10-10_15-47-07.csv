@@ -1,0 +1,23 @@
+"Run ID","Assay Name","Test Name","Test Date","Qubit® tube conc.","Units","Original sample conc.","Units","Sample Volume (µL)","Dilution Factor","Std 1 RFU","Std 2 RFU","Std 3 RFU","Excitation","Emission","Green RFU","Far Red RFU","Sample.Name"
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154434","2017/10/10 15:44:34","1.33","ng/mL","0.133","ng/µL","2","100","28.40","13941.09",,"Blue","Green","63.72",,NTC
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154424","2017/10/10 15:44:24","27.4","ng/mL","2.74","ng/µL","2","100","28.40","13941.09",,"Blue","Green","799.07",,SKA-598-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154416","2017/10/10 15:44:16","16.0","ng/mL","1.60","ng/µL","2","100","28.40","13941.09",,"Blue","Green","474.42",,SKA-598-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154406","2017/10/10 15:44:06","65.9","ng/mL","6.59","ng/µL","2","100","28.40","13941.09",,"Blue","Green","1903.01",,SKA-598-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154358","2017/10/10 15:43:58","32.0","ng/mL","3.20","ng/µL","2","100","28.40","13941.09",,"Blue","Green","931.76",,SKA-358-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154349","2017/10/10 15:43:49","52.7","ng/mL","5.27","ng/µL","2","100","28.40","13941.09",,"Blue","Green","1523.81",,SKA-358-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154339","2017/10/10 15:43:39","5.64","ng/mL","0.564","ng/µL","2","100","28.40","13941.09",,"Blue","Green","182.67",,SKA-358-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154330","2017/10/10 15:43:30","2.73","ng/mL","0.273","ng/µL","2","100","28.40","13941.09",,"Blue","Green","101.89",,SKA-357-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154320","2017/10/10 15:43:20","19.4","ng/mL","1.94","ng/µL","2","100","28.40","13941.09",,"Blue","Green","571.17",,SKA-357-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154312","2017/10/10 15:43:12","16.3","ng/mL","1.63","ng/µL","2","100","28.40","13941.09",,"Blue","Green","483.54",,SKA-357-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154302","2017/10/10 15:43:02","5.27","ng/mL","0.527","ng/µL","2","100","28.40","13941.09",,"Blue","Green","172.14",,SKA-356-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154251","2017/10/10 15:42:51","8.75","ng/mL","0.875","ng/µL","2","100","28.40","13941.09",,"Blue","Green","269.53",,SKA-356-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154241","2017/10/10 15:42:41","8.54","ng/mL","0.854","ng/µL","2","100","28.40","13941.09",,"Blue","Green","263.79",,SKA-356-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154232","2017/10/10 15:42:32","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","37.94",,SKA-115-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154223","2017/10/10 15:42:23","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","33.30",,SKA-115-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154213","2017/10/10 15:42:13","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","32.88",,SKA-115-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154205","2017/10/10 15:42:05","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","35.92",,SKA-114-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154156","2017/10/10 15:41:56","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","33.59",,SKA-114-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154148","2017/10/10 15:41:48","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","32.77",,SKA-114-PCR1-A
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154139","2017/10/10 15:41:39","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","40.74",,SKA-113-PCR1-C
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154130","2017/10/10 15:41:30","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","33.52",,SKA-113-PCR1-B
+"2017-10-10_151429","dsDNA High sensitivity","Sample_#171010-154117","2017/10/10 15:41:17","Out of range","ng/mL","Out of range","ng/µL","2","100","28.40","13941.09",,"Blue","Green","32.58",,SKA-113-PCR1-A

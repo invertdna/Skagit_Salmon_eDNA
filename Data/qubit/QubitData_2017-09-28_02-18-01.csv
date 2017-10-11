@@ -1,0 +1,10 @@
+"Run ID","Assay Name","Test Name","Test Date","Qubit® tube conc.","Units","Original sample conc.","Units","Sample Volume (µL)","Dilution Factor","Std 1 RFU","Std 2 RFU","Std 3 RFU","Excitation","Emission","Green RFU","Far Red RFU","Sample.Name"
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021731","28/09/2017 02:17:31 AM","18.5","ng/mL","1.85","ng/µL","2","100","30.08","13636.38",,"Blue","Green","534.41",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021722","28/09/2017 02:17:22 AM","48.1","ng/mL","4.81","ng/µL","2","100","30.08","13636.38",,"Blue","Green","1364.18",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021713","28/09/2017 02:17:13 AM","89.4","ng/mL","8.94","ng/µL","2","100","30.08","13636.38",,"Blue","Green","2525.42",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021704","28/09/2017 02:17:04 AM","24.6","ng/mL","2.46","ng/µL","2","100","30.08","13636.38",,"Blue","Green","705.96",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021655","28/09/2017 02:16:55 AM","44.2","ng/mL","4.42","ng/µL","2","100","30.08","13636.38",,"Blue","Green","1253.66",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021646","28/09/2017 02:16:46 AM","34.8","ng/mL","3.48","ng/µL","2","100","30.08","13636.38",,"Blue","Green","989.84",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021637","28/09/2017 02:16:37 AM","36.3","ng/mL","3.63","ng/µL","2","100","30.08","13636.38",,"Blue","Green","1032.40",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021625","28/09/2017 02:16:25 AM","27.0","ng/mL","2.70","ng/µL","2","100","30.08","13636.38",,"Blue","Green","772.63",,NA
+"2017-09-28_021415","dsDNA High sensitivity","Sample_#170928-021517","28/09/2017 02:15:17 AM","28.1","ng/mL","2.81","ng/µL","2","100","30.08","13636.38",,"Blue","Green","803.31",,NA
