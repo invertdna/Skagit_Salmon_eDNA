@@ -1,5 +1,5 @@
-"Run ID","Assay Name","Sample Name","Test Name","Test Date","Qubit tube conc.","Units","Original sample conc.","Units","Sample Volume (uL)","Dilution Factor","Std 1 RFU","Std 2 RFU","Std 3 RFU","Excitation","Emission","Green RFU","Far Red RFU"
-"2016-12-19_144734","dsDNA Broad range","AMCPMOO102","Sample_#161219-145308","2016/12/19 14:53:08","Out of range","ug/mL","Out of range","ng/uL","10","20.0","116.58","12572.16",,"Blue","Green","139.08",
-"2016-12-19_144734","dsDNA Broad range","AMCPMOO103","Sample_#161219-145257","2016/12/19 14:52:57","Out of range","ug/mL","Out of range","ng/uL","10","20.0","116.58","12572.16",,"Blue","Green","133.83",
-"2016-12-19_144734","dsDNA Broad range","AMCPMOO101-161012","Sample_#161219-145246","2016/12/19 14:52:46","0.307","ug/mL","6.14","ng/uL","10","20.0","116.58","12572.16",,"Blue","Green","1094.99",
-"2016-12-19_144734","dsDNA Broad range","POWI15","Sample_#161219-145234","2016/12/19 14:52:34","0.0277","ug/mL","0.554","ng/uL","10","20.0","116.58","12572.16",,"Blue","Green","206.28",
+Run ID,Assay Name,Sample.Name,Test Name,Test Date,Qubit® tube conc.,Units,Original sample conc.,Units,Sample Volume (µL),Dilution Factor,Std 1 RFU,Std 2 RFU,Std 3 RFU,Excitation,Emission,Green RFU,Far Red RFU
+2016-12-19_144734,dsDNA Broad range,AMCPMOO102,Sample_#161219-145308,2016/12/19 14:53:08,Out of range,ug/mL,Out of range,ng/uL,10,20.0,116.58,12572.16,,Blue,Green,139.08,
+2016-12-19_144734,dsDNA Broad range,AMCPMOO103,Sample_#161219-145257,2016/12/19 14:52:57,Out of range,ug/mL,Out of range,ng/uL,10,20.0,116.58,12572.16,,Blue,Green,133.83,
+2016-12-19_144734,dsDNA Broad range,AMCPMOO101-161012,Sample_#161219-145246,2016/12/19 14:52:46,0.307,ug/mL,6.14,ng/uL,10,20.0,116.58,12572.16,,Blue,Green,1094.99,
+2016-12-19_144734,dsDNA Broad range,POWI15,Sample_#161219-145234,2016/12/19 14:52:34,0.0277,ug/mL,0.554,ng/uL,10,20.0,116.58,12572.16,,Blue,Green,206.28,
