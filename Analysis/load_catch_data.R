@@ -75,20 +75,21 @@ match_v <- match(colnames(catch_data)[namecols], org_names[,"common"])
 newnames <- org_names[match_v, "scientific"]
 colnames(catch_data)[namecols] <- newnames
 
+catch_data.l <- melt(catch_data, id.vars = c('sample_id', 'event_id'), 
+                     variable.name = "taxon")
+
 # this stuff always seems to be so much easier in data.table...
-cddt <- data.table(catch_data)
+catch_data.l <- data.table(catch_data.l)
 
-catch_data.l <- data.table(melt(catch_data, variable.name = "taxon"))
-
-# combine duplicate observations of the same taxa
+# combine duplicate observations of the same taxa...
+# ...by SAMPLE (i.e. seine rep)...
 indexVars <- c("sample_id", "event_id", "taxon")
 catch_data.l <- catch_data.l[ , list(value = sum(value)), by = c(indexVars)]
 
+# ...or by EVENT (i.e. site visit). THIS IS THE RIGHT SET TO USE
 cdse <- catch_data.l[ , list(value = sum(value)), by = c("event_id", "taxon")]
-cdse[taxon %like% "Cymatogaster",]
-plot(cdse[taxon %like% "Cymatogaster", value])
 
-summer16_events <- levels(cdse$event_id)
-
-water[event_id %in% summer16_events,.(event_id, lab_label)]
-
+# cdse[taxon %like% "Cymatogaster",]
+# plot(cdse[taxon %like% "Cymatogaster", value])
+# summer16_events <- levels(cdse$event_id)
+# water[event_id %in% summer16_events,.(event_id, lab_label)]
