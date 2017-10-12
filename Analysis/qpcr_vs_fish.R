@@ -27,23 +27,31 @@ results2[, (cols_to_remove) := NULL]
 qpcr_data <- rbind(results1, results2)
 
 # add event id to qpcr
-qpcr_data <- merge(x = results1, 
+qpcr_data <- merge(x = qpcr_data, 
   y = water[,c("event_id", "lab_label")], 
-  by.x = "template_name", by.y = "lab_label")
+  by.x = "template_name", by.y = "lab_label", all.x = TRUE)
 
 # load catch data
+catch_onts <-cdse[taxon %like% 'Oncorhynchus tshawytscha']
 
 #-------------------------------------------------------------------------------
 # get median dna per bottle across the three replicate qPCR reactions
-dna_by_bottle <- split(qpcr_data[,"QuantBackCalc"], qpcr_data[,"template_name"])
+dna_by_bottle <- split(qpcr_data[,QuantBackCalc], qpcr_data[,template_name])
 
 logadj <- function(x, ladj){log(x + ladj)}
-
 log_adj <- 0.11 # was 0.00001
+
+qpcr_data[ , log.dna.bottle := logadj(QuantBackCalc, ladj = log_adj), 
+  by = template_name]
+
+temp <- merge(x = qpcr_data, y = catch_onts[,.(event_id, value)], 
+  by = 'event_id', all.x = TRUE)
+
 
 log_dna_by_bottle <- lapply(dna_by_bottle, function(x) logadj(x, ladj = log_adj))
 
 xtr <- axtr(unlist(dna_by_bottle), log_adj)
+
 par(mar = c(4, 5, 1, 1))
 stripchart(
   x = log_dna_by_bottle, 
