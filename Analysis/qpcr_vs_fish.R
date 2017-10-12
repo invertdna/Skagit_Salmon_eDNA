@@ -1,5 +1,30 @@
 # requires these objects: qpcr_data, catch_chinook
 
+# load water
+
+# load qpcrs
+results1 <- load_qpcr(
+  std_conc = 9.36, 
+  qpcr_data_file = "../Data/qpcr/CKCO3-161209/results/results_table.txt", 
+  sample_sheet_file = "../Data/qpcr/CKCO3-161209/setup/sample_sheet.csv"
+)
+
+results2 <- load_qpcr(
+  std_conc = 9.36, 
+  qpcr_data_file = "../Data/qpcr/CKCO3-161214/results/results_table.txt", 
+  sample_sheet_file = "../Data/qpcr/CKCO3-161214/setup/sample_sheet.csv"
+)
+
+# check extra columns, and remove c("no_lab_error", "note") before rbind
+# rbind qpcrs
+# qpcr_data <- rbind(results1, results2[,-c("no_lab_error", "note")])
+
+# add event id to qpcr
+merge(x = results1, 
+      y = water[,c("event_id", "lab_label")], 
+      by.x = "template_name", by.y = "lab_label")
+
+# load catch data
 
 #-------------------------------------------------------------------------------
 # get median dna per bottle across the three replicate qPCR reactions
