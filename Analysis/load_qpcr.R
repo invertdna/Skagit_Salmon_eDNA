@@ -38,7 +38,7 @@ load_qpcr <- function(
   full[ , template_name := gsub("SKA|SKA-", "", template_name)]
   
   # add inferred concentration from standard
-  full[, QuantBackCalc := Quantity * std1_conc]
+  full[, QuantBackCalc := Quantity * std_conc]
   
   # convert quantities to picograms per microliter (makes plotting better)
   if(quant1000){
