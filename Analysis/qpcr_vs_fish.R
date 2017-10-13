@@ -47,7 +47,7 @@ qpcr_data[ , log.dna.bottle := logadj(QuantBackCalc, ladj = log_adj),
 temp <- merge(x = qpcr_data, y = catch_onts[,.(event_id, value)], 
   by = 'event_id', all.x = TRUE)
 
-
+with(temp[!is.na(value)], plot(value, log.dna.bottle))
 log_dna_by_bottle <- lapply(dna_by_bottle, function(x) logadj(x, ladj = log_adj))
 
 xtr <- axtr(unlist(dna_by_bottle), log_adj)
