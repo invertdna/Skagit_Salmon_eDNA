@@ -6,13 +6,19 @@ library(googlesheets)
 library(data.table)
 library(lubridate)
 
-# water_file <- file.path(data_dir, "water_samples.csv")
-# water <- read.csv(water_file, stringsAsFactors = FALSE)
-
 env_samples_gs_key <- "1_ujmAo0uw0gamLh7AGc7_qz8AXIoBM0We-CjSoHFG1U"
 # key before google drive snafu: "1IzJG3jaZCNXu6GNtx0ltsyJn0D8bprWs6NcYXCTGg_A"
-
 water <- data.table(gs_read(gs_key(env_samples_gs_key)))
+
+water_file <- file.path(data_dir, "water_samples.csv")
+water_saved <- fread(water_file)
+if(!identical(water_saved, water)){
+  warning('local and remote data are not the same. You might want to refresh.')
+}
+water_refresh <- FALSE
+if(water_refresh){
+  fwrite(water, water_file)
+}
 
 # Add a POSIX compliant date-time variable
 v1 <- strsplit(water$time, "")
