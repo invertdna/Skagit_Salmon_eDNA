@@ -22,29 +22,8 @@ if(water_refresh){
 }
 
 # Add a POSIX compliant date-time variable
-v1 <- strsplit(water$time, "")
-
-make6 <- function(x){
-  if(any(is.na(x)) | length(x) == 6){
-    return(x)
-  } else {
-    return(c(x, "0", "0"))
-  }
-}
-
-v1 <- lapply(v1, make6)
-
-str2time <- function(x){
-  if(any(is.na(x))){
-    return(x)
-  } else {
-    paste0(x[c(TRUE, FALSE)], x[c(FALSE, TRUE)], collapse = ":")
-  }
-}
-
-temp <- sapply(v1, str2time)
-water$datetime <- ymd_hms(paste(water$date, temp), tz = "America/Los_Angeles")
-rm(temp)
+water$datetime <- lubridate::ymd_hms(paste(water$date, maketime(water$time)), 
+                          tz = "America/Los_Angeles")
 
 # add event ID
 source("load_sites.R")
