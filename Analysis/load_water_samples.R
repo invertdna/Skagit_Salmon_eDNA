@@ -25,11 +25,7 @@ if(water_refresh){
 water$datetime <- lubridate::ymd_hms(paste(water$date, maketime(water$time)), 
                           tz = "America/Los_Angeles")
 
-# add event ID
-source("load_sites.R")
-water <- merge(water, sites[, c("site_name", "Abbr")], by = "site_name", all.x = TRUE)
-water$event_id <- paste(
-  water$Abbr, 
-  format(water$date, "%y%m%d"), sep = "-"
-)
-
+# add event ID and site abbreviation
+sites <- load_sites("../Data/sites.csv", gps.req = FALSE)
+water[, site_abbr := sites$Abbr[match(water$site_name, sites$site_name)]]
+water[, event_id := paste(site_abbr, date, sep = "-")]
