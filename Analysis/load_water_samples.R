@@ -12,6 +12,7 @@ water <- data.table(gs_read(gs_key(env_samples_gs_key)))
 
 water_file <- file.path(data_dir, "water_samples.csv")
 water_saved <- fread(water_file)
+# TODO bug; column classes are auto-set differently by fread and gs_read
 if(!identical(water_saved, water)){
   warning('local and remote data are not the same. You might want to refresh.')
 }
