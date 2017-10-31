@@ -1,14 +1,14 @@
 site_name,Abbr,net,revisit,lat,lon,LatLonSource,NameSRSC
-Wylie Boat Ramp,BOATRA,seine,index,48.324580,-122.373498,GoogleMaps,Wylie Boat Ramp
+Wylie Boat Ramp,BOATRA,seine,index,48.324580,-122.373498,GoogleMaps,Freshwater Sl Boat Ramp
 Brown Point,BROWPT,seine,index,48.26974,-122.45904,GPS,Brown Point (X)
 Browns Slough Diked Side,BRSLDS,fyke,index,48.337766,-122.414279,GoogleMaps,Browns Sl Diked Side
 Browns Slough Out Side,BRSLBC,fyke,random,48.333791,-122.415149,GoogleMaps,Browns Sl Barrow Ch
 Cattail,CATSAL,fyke,index,48.359148,-122.476651,PowerPoint,Cattail Saltmarsh
-Deepwater,DEEPWA,fyke,index,48.308418,-122.367181,GoogleMaps,Deepwater
+Deepwater,DEEPWA,fyke,index,48.308418,-122.367181,GoogleMaps,DW Reference E Blind
 Dugualla Bluff,DUGUAL,seine,index,48.37722,-122.58163,GPS,Dugualla Bluff
 Fir Island Farms,FIFARM,fyke,random,48.33771,-122.4144,GPS,Fir Island Farms
-Freshwater Pond,FWPOND,fyke,index,48.31421,-122.3777,GPS,Freshwater Pond New
-Goat Island,GOATIS,seine,index,48.360889,-122.534681,GoogleMaps,Goat Island
+Freshwater Pond,FWPOND,fyke,index,48.31421,-122.3777,GPS,FWP New Site
+Goat Island,GOATIS,seine,index,48.360889,-122.534681,GoogleMaps,Goat Is
 Grain of Sand,GRAINS,fyke,index,48.364393,-122.419445,PowerPoint,Grain of Sand
 Hoypus,HOYPTE,seine,index,48.41127,-122.60754,GPS,Hoypus Pt E
 Ika Lower,IKALOW,fyke,index,48.364940,-122.505745,GoogleMaps,Ika Lower
@@ -27,4 +27,5 @@ Strawberry Point South,STRPTS,seine,index,NA,NA,NA,Strawberry Pt S
 Tom Moore,TOMMOO,fyke,index,48.281400,-122.377798,GoogleMaps,Tom Moore
 Turners Spit N,TURSPN,seine,index,48.44820,-122.55061,GPS,Turners Spit N
 Random North 1041,RN1041,seine,random,48.44045,-122.5794,GPS,Random North 1041
-Random 364,RX364,seine,random,48.35363,-122.5828,GPS,Random X 364
+Random 364,RM364,seine,random,48.35363,-122.5828,GPS,Random Middle 364
+Random (waypoint0333),RM432,seine,random,NA,NA,NA,Random Middle 432

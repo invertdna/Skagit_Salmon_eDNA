@@ -1,9 +1,9 @@
-install.packages("readxl")
 library(readxl)
 
 excel_file <- '/Users/jimmy.odonnell/Downloads/eDNA sample sites 2017 rh.xlsx'
-
 xls <- read_excel(excel_file)
+
+sites <- load_sites("../Data/sites.csv")
 
 library(magrittr)
 
@@ -12,22 +12,39 @@ names(xls) %>%
   gsub("SRSC DB Site Name", "Site.Name.SRSC", ., fixed = TRUE) %>% 
   gsub("Corrected Location in Bay (SiteGroup)", "Site.Group.SRSC", 
        ., fixed = TRUE) -> names(xls)
-
 names(xls)[names(xls) == "Site"] <- "Site.Name.NOAA"
 names(xls)[names(xls) == "SiteGroup"] <- "Site.Group.NOAA"
+names(xls)[names(xls) == "Sampling Gear"] <- "Sampling.Gear"
 
-# isolate site groups
-Site.Groups <- unique(xls[,c('Site.Group.NOAA', 'Site.Group.SRSC')])
-Site.Groups$Site.Group.SRSC
-Site.Group.SRSC <- Site.Groups$Site.Group.SRSC
-Site.Group.NOAA <- Site.Groups$Site.Group.NOAA
+DT <- data.table(xls)
+DT[is.na(Site.Group.SRSC), Site.Group.SRSC := Site.Group.NOAA]
 
-Site.Group.SRSC %>% is.na %>% Site.Group.NOAA[.] -
-for(i in 1:length(Site.Groups$Site.Group.SRSC)){
-  if(is.na())
+cols2keep <- c("Site.Name.NOAA", "Site.Group.NOAA", 
+  "Site.Name.SRSC", "Site.Group.SRSC", "Sampling.Gear")
+DT[,Sampling.Gear := tolower(Sampling.Gear)]
+DT[Sampling.Gear %like% "beach seine", Sampling.Gear := "seine"]
+DT[Sampling.Gear %like% "none", Sampling.Gear := "none"]
+DT[,Sampling.Gear]
+cols3keep <- setdiff(cols2keep, "Sampling.Gear")
+# view site names and groups
+unique(DT[ , cols3keep, with = FALSE])
+
+comparefull <- function(v1, v2){
+  element <- sort(union(v1, v2))
+  in.v1 <- element %in% v1
+  in.v2 <- element %in% v2
+  in.both <- element %in% v1 & element %in% v2
+  df <- data.frame(element, in.v1, in.v2, in.both)
+  return(df)
 }
+comparefull(sites$site_name, unique(DT$Site.Name.NOAA))
+comparefull(sites$NameSRSC, unique(DT$Site.Name.SRSC))
 
 # isolate site names
-Site.Names <- unique(xls[,c('Site.Name.NOAA', 'Site.Name.SRSC')])
-
-Site.Groups
+sitenames_full <- rbindlist(list(unique(DT[,.(Site.Name.NOAA, Site.Name.SRSC)]), 
+      sites[,.(site_name, NameSRSC)]))
+sitenames_full <- unique(sitenames_full[order(Site.Name.NOAA),])
+EXPORT <- FALSE
+if(EXPORT){
+  fwrite(sitenames_full, "../Data/site_names.csv")
+}
