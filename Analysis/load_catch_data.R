@@ -1,9 +1,10 @@
 # clean catch data
 
 library(data.table)
+library(lubridate)
 
 # requires site data is loaded
-source("load_sites.R")
+sites <- load_sites("../Data/sites.csv", gps.req = FALSE)
 
 #-------------------------------------------------------------------------------
 # Where is the file?
@@ -17,31 +18,18 @@ catch_data_raw <- read.csv(file_path, stringsAsFactors = FALSE)
 count_colnames <- colnames(catch_data_raw)[count_colnums]
 catch_data <- catch_data_raw
 
-
 # correct the dates to be POSIX compliant
-correct_date <- function(x){
-	x2    <- rev(strsplit(x, "-")[[1]])
-	x2[1] <- paste0("20", x2[1])
-	x2[2] <- sprintf("%02s", grep(x2[2], month.name))
-	x2[3] <- sprintf("%02s", x2[3])
-	x2    <- paste(x2, collapse = "-")
-	return(x2)
-}
-catch_data[,"Date"] <- sapply(catch_data[,"Date"], correct_date)
-
-DateTime <- as.POSIXct(paste(catch_data[,"Date"], catch_data[,"Time"]))
-
+catch_data[,"Date"] <- dmy(catch_data[,"Date"])
+DateTime <- lubridate::ymd_hm(
+  paste(catch_data[,"Date"], catch_data[,"Time"]), tz = "America/Los_Angeles"
+  )
 
 # abbreviate site names
-site_abbr  <- sites[match(catch_data$Site, sites[,"NameSRSC"]),"Abbr"]
-
-short_time <- gsub(":00$", "", DateTime)
-short_time <- gsub("^20", "", short_time)
-short_time <- gsub(":", "", short_time)
-short_time <- gsub("-", "", short_time)
-short_time <- gsub(" ", "-", short_time)
+site_abbr  <- sites$Abbr[match(catch_data$Site, sites$NameSRSC)]
 
 # create unique sample identifiers
+# gsub removes "00" from the end, "20" from the start, and drops : and -
+short_time <- gsub(" ", "-", gsub(":00$|^20|:|-", "", DateTime))
 sample_id <- paste(site_abbr, short_time, sep = "-")
 
 event_id  <- substr(sample_id, 1, 13)
@@ -54,33 +42,26 @@ catch_metadata <- data.frame(sample_id, event_id, catch_data[,-count_colnums])
 org_absent  <- names(which(colSums(catch_data[,count_colnames]) < 1 ))
 org_present <- names(which(colSums(catch_data[,count_colnames]) > 0 ))
 
-
 #-------------------------------------------------------------------------------
 # remove organisms with no counts
 catch_data <- data.frame(sample_id, event_id, catch_data[,org_present])
 
-#-------------------------------------------------------------------------------
-# isolate chinook
-catch_chinook <- catch_data[,c(1, 2, grep("^CK", colnames(catch_data)))]
+# make long form, convert to data.table
+catch_data.l <- melt(data.table(catch_data), 
+                     id.vars = c('sample_id', 'event_id'), 
+                     variable.name = "taxon")
 
 #-------------------------------------------------------------------------------
 # use scientific names
 file_org_names <- file.path(data_dir, "catch_data", "organism_names.csv")
-org_names <- read.csv(file_org_names, header = FALSE, stringsAsFactors = FALSE)
-colnames(org_names) <- c("common", "scientific")
+org_names <- read.csv(file_org_names, header = FALSE, stringsAsFactors = FALSE, 
+                      col.names = c("common", "scientific"))
+match_v <- match(levels(catch_data.l$taxon), org_names[,"common"])
+levels(catch_data.l$taxon) <- org_names[match_v,"scientific"]
 
-# I should convert this to long form, and make separate columns for life history
-namecols <- which(colnames(catch_data) %in% org_names[,"common"])
-match_v <- match(colnames(catch_data)[namecols], org_names[,"common"])
-newnames <- org_names[match_v, "scientific"]
-colnames(catch_data)[namecols] <- newnames
+# TODO make separate columns for life history?
 
-catch_data.l <- melt(catch_data, id.vars = c('sample_id', 'event_id'), 
-                     variable.name = "taxon")
-
-# this stuff always seems to be so much easier in data.table...
-catch_data.l <- data.table(catch_data.l)
-
+#-------------------------------------------------------------------------------
 # combine duplicate observations of the same taxa...
 # ...by SAMPLE (i.e. seine rep)...
 indexVars <- c("sample_id", "event_id", "taxon")
@@ -88,6 +69,10 @@ catch_data.l <- catch_data.l[ , list(value = sum(value)), by = c(indexVars)]
 
 # ...or by EVENT (i.e. site visit). THIS IS THE RIGHT SET TO USE
 cdse <- catch_data.l[ , list(value = sum(value)), by = c("event_id", "taxon")]
+
+#-------------------------------------------------------------------------------
+# isolate chinook
+catch_chinook <- cdse[taxon == "Oncorhynchus tshawytscha"]
 
 # cdse[taxon %like% "Cymatogaster",]
 # plot(cdse[taxon %like% "Cymatogaster", value])
