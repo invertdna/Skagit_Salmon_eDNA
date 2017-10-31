@@ -4,8 +4,10 @@ geosphere
 googlesheets
 grid
 lubridate
+magrittr
 raster
 rasterVis
+readxl
 reshape2
 rgdal
 sp
