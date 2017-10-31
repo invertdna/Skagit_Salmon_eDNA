@@ -52,7 +52,7 @@ LUMP,Eumicrotremus orbis
 SNAILFISH,Liparididae
 LK.CHUB,Couesius plumbeus
 PEAMTH,Mylocheilus caurinus
-O.U.CHUB,unknown
+O.U.CHUB,Cyprinidae
 LONGNOSE.DACE,Rhinichthys cataractae
 DACE,Rhinichthys
 REDSIDE.SHINER,Richardsonius balteatus
@@ -65,7 +65,7 @@ PILE.PERCH,Damalichthys vacca
 PACIFIC.COD,Gadus macrocephalus
 gadid.unk,Gadidae
 TOMCOD,Microgadus proximus
-O.U.COD,unknown
+O.U.COD,Gadiformes
 POLLOCK,Theragra chalcogramma
 STICKL,Gasterosteus aculeatus
 ARROW.GOBY,Clevelandia ios
@@ -106,7 +106,7 @@ SADLBCK.GUNL,Pholis ornata
 RED.GUNNEL,Pholis schultzi
 GUNNEL,Pholididae
 ROCKWEED.GUN,Xererpes fucorum
-GUNNL.PRICK,unknown
+GUNNL.PRICK,StichaeidaePholidae
 HYBRID.SOLE,Inopsetta ischyra
 BUTTER.SOLE,Isopsetta isolepis
 ROCK.SOLE,Lepidopsetta bilineata
@@ -156,7 +156,7 @@ WF,unknown
 ATLANTIC.ADULT,Salmo salar
 ATLANTIC.0.,Salmo salar
 ATLANTIC.1..,Salmo salar
-DV.BT,unknown
+DV.BT,Salvelinus
 ROCKFISH,Sebastes
 O.U.ROCKFISH,Sebastes
 COPPER.ROCKFSH,Sebastes caurinus
