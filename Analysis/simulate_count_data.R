@@ -38,6 +38,7 @@ coef_df$mu <- apply(X = coef_df[,3:4], MARGIN = 1, FUN = prod)
 colnames(coef_df)[3:4] <- c("month.coef", "site.coef")
 
 # from that, simulate the "TRUE" number of fish at each site:
+set.seed(1)
 countsTruth <- data.frame(
   month = coef_df$month, 
   site = coef_df$site, 
@@ -56,6 +57,7 @@ samp_per_event <- 5
 
 total_samples  <- nrow(countsTruth) * samp_per_event
 sample_lambdas <- rep(countsTruth$count * net_efficiency, each = samp_per_event)
+set.seed(1)
 counts_net <- rpois(n = total_samples, lambda = sample_lambdas)
 catch_data_sim <- data.frame(
   month   = rep(countsTruth$month, each = 5), 
@@ -64,7 +66,7 @@ catch_data_sim <- data.frame(
   count = counts_net
 )
 
-EXPORT <- TRUE
+EXPORT <- FALSE
 if(EXPORT){
   write.csv(catch_data_sim, 
     row.names = FALSE,
