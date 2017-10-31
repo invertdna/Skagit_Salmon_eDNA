@@ -16,16 +16,10 @@ tif_file <- file.path(data_dir, "ngdc_pug_snd_dm_subset.tif")
 
 # specify in the sites file
 sites_file <- "sites.csv"
-colname_lat <- "lat"
-colname_lon <- "lon"
-
-sites <- read.csv(
-  file = file.path(data_dir, sites_file), 
-  stringsAsFactors = FALSE
-)
+sites <- load_sites(sites_file)
 
 # exclude sites with no latitude data
-sites <- sites[!is.na(sites$lat),]
+sites <- sites[!is.na(lat),]
 
 # create bounding box
 xleft  <- -122.65
@@ -36,8 +30,8 @@ ylower <- 48.25
 range_lon <- c(xleft,xright)
 range_lat <- c(ylower, yupper)
 
-pt_lon <- sites[,colname_lon]
-pt_lat <- sites[,colname_lat]
+pt_lon <- sites[,lon]
+pt_lat <- sites[,lat]
 
 # set points to add
 mypoints <- SpatialPoints(cbind(pt_lon, pt_lat))
