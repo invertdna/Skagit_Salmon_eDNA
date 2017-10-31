@@ -26,7 +26,7 @@ results2[, (cols_to_remove) := NULL]
 # rbind qpcrs
 qpcr_data <- rbind(results1, results2)
 
-# add event id to qpcr
+# add event id to qpcr # TODO BUG event_id is YYYY-MM-DD here, YYMMDD elsewhere
 qpcr_data <- merge(x = qpcr_data, 
   y = water[,c("event_id", "lab_label")], 
   by.x = "template_name", by.y = "lab_label", all.x = TRUE)
