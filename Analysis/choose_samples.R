@@ -2,8 +2,8 @@
 library(data.table)
 
 # requires objects: water, sites
-source("load_sites.R")
-source("load_water_samples.R")
+sites <- load_sites("../Data/sites.csv")
+water <- load_water_samples()
 
 site.dt <- data.table(sites)
 
