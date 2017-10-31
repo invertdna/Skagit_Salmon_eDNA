@@ -3,7 +3,7 @@ library(data.table)
 
 # requires objects: water, sites
 sites <- load_sites("../Data/sites.csv")
-water <- load_water_samples()
+water <- load_water_samples("1_ujmAo0uw0gamLh7AGc7_qz8AXIoBM0We-CjSoHFG1U")
 
 site.dt <- data.table(sites)
 
