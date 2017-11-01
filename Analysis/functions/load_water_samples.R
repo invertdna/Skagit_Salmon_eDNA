@@ -1,6 +1,8 @@
 # load water samples
 #-------------------------------------------------------------------------------
-load_water_samples <- function(GSKEY){
+load_water_samples <- function(
+  GSKEY = "1_ujmAo0uw0gamLh7AGc7_qz8AXIoBM0We-CjSoHFG1U"
+){
   
   library(googlesheets)
   library(data.table)
