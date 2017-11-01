@@ -30,6 +30,6 @@ load_water_samples <- function(
   # add event ID and site abbreviation
   sites <- load_sites("../Data/sites.csv", gps.req = FALSE)
   water[, site_abbr := sites$Abbr[match(water$site_name, sites$site_name)]]
-  water[, event_id := paste(site_abbr, date, sep = "-")]
+  water[, event_id := paste(site_abbr, gsub("^20|-", "", date), sep = "-")]
   return(water)
 }
