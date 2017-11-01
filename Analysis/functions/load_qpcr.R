@@ -1,6 +1,23 @@
+#' Load qPCR output files.
+#' 
+#' @param std_conc Numeric. Concentration of 1:1 standard in ng per uL.
+#' @param qpcr_data_file String. Path to qPCR output file.
+#' @param sample_sheet_file String. Path to sample sheet file.
+#' @param drop_cols Logical. Drop columns besides "Position", "Task", "Ct", "Quantity"
+#' @param drop_100 Logical. Drop samples with template diluted 1:100.
+#' @param quant1000 Logical. Convert quantities to pg/uL for better plotting
+
+#' 
+#' @examples  
+#'   load_qpcr(
+#'     std_conc = 9.36, 
+#'     qpcr_data_file = "../Data/qpcr/CKCO3-161209/results/results_table.txt", 
+#'     sample_sheet_file = "../Data/qpcr/CKCO3-161209/setup/sample_sheet.csv"
+#'     )
+#' 
+#' @export
 load_qpcr <- function(
-  std_conc, # concentration of full-strength standard
-  qpcr_data_file, sample_sheet_file, 
+  std_conc, qpcr_data_file, sample_sheet_file, 
   drop_cols = TRUE, drop_100 = TRUE, quant1000 = TRUE)
 {
   library(data.table)
@@ -14,7 +31,10 @@ load_qpcr <- function(
     cols_to_keep <- c("Position", "Task", "Ct", "Quantity")
     qpcr_results <- qpcr_results[,cols_to_keep, with = FALSE]
   }
-
+  
+  qpcr_results[Ct == "Undetermined", Ct := NA ]
+  qpcr_results[, Ct := as.numeric(Ct) ]
+  
   qpcr_results[, plate_id := plate_id ]
   
   setup <- fread(sample_sheet_file)
