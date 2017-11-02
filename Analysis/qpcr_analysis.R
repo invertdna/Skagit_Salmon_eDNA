@@ -1,79 +1,51 @@
-plot_stdcurve <- function(qpcrdata, ...){
-  pldat <- qpcrdata[Task == "Standard", ]
-  plot(x = pldat$Ct, y = pldat$QuantBackCalc, 
-       log = 'y', 
-       # col = as.numeric(as.factor(pldat$plate_id)), 
-       # pch = as.numeric(as.factor(Task)), 
-       xlab = expression('C'['t']), ylab = "Concentration (pg/uL)", 
-       las = 1
-  )
+# Analyze qPCR data, especially 
+model_dat <- list()
+model_dat[[1]] <- results1[Task == "Standard"]
+model_dat[[2]] <- results2[Task == "Standard"]
+
+model_out <- list()
+for(i in 1:length(model_dat)){
+  model_out[[i]] <- lm(formula = Ct ~ log(Quantity), data = model_dat[[i]])
 }
-plot_stdcurve(qpcrdata = results1)
-plot_stdcurve(qpcrdata = results1)
 
-with(qpcr_data[Task == "Standard"], 
-     plot(
-       QuantBackCalc, Ct, log = 'x', 
-       ylim = c(0,50), 
-       col = as.numeric(as.factor(pldat$plate_id)), 
-       las = 1
-       )
-     )
-
-
-model_dat <- results1[Task == "Standard"]
-model_out <- lm(formula = Ct ~ log(Quantity), data = model_dat)
-
-stdplot <- function(){
-  seqx <- 10^(-6:0)
-  plot(
-    x = log(seqx), 
-    y = seq(from = 0, to = 45, length.out = length(seqx)), 
-    ylim = c(0, 45), 
-    type = "n", axes = FALSE, ann = FALSE
-  )
-  axis(1, at = log(seqx), labels = seqx)
-  axis(2, las = 1)
-  title(xlab = 'Dilution factor', ylab = expression(C[t]))
-}
 par(mar = c(4,4,1,1))
-stdplot()
-points(
-  log(model_dat$Quantity), model_dat$Ct
-  # ylim = c(0, 45), 
-  # axes = FALSE, ann = FALSE
+stdplot(cycles = 45, dil.factors = 10^(-7:0))
+mycol.h <- gghue(length(model_dat))
+mycol.l <- gghue(length(model_dat), alpha = 0.5)
+for(i in 1:length(model_dat)){
+  points(model_dat[[i]][,log(Quantity)], model_dat[[i]][,Ct], col = mycol.l[i])
+  abline(model_out[[i]], lwd = 2, col = mycol.h[i])
+  INT <- model_out[[i]]$coefficients["(Intercept)"]
+  SLO <- model_out[[i]]$coefficients[2]
+  text.coeff <- paste0(round(INT,1), " (", round(SLO, 2), ")")
+  abline(h = INT, lty = 2, col = mycol.l[i])
+  text(x = log(10^-7), y = INT, labels = text.coeff, 
+    col = mycol.h[i], adj = c(0,-0.2), #pos = 3, offset = 0.1, 
+    xpd = TRUE)
+}
+plate_ids <- sapply(model_dat, function(x) x[,unique(plate_id)])
+leg.text  <- plate_ids
+legend('topright', 
+  legend = leg.text, pch = 1, 
+  col = mycol.h, text.col = mycol.h, 
+  bty = 'n'
+)
+# box(col = grey(0.8))
+demo_transform <- FALSE
+if(demo_transform){
+  mod <- 1
+  othermod <- function(i){if(i == 1) return(2) else if(i == 2) return(1)}
+  mydat <- na.omit(model_dat[[mod]][,.(Quantity, Ct)])
+  y3 <- transform_linear(
+    x = mydat[,log(Quantity)], 
+    y = mydat[,Ct], 
+    mod2 = model_out[[othermod(mod)]]
   )
-axis(1, at = log(model_dat$Quantity), labels = model_dat$Quantity)
-axis(2, las = 1)
-title(xlab = 'Dilution factor', ylab = expression(C[t]))
-abline(model_out, lwd = 2)
-INT <- model_out$coefficients["(Intercept)"]
-abline(h = INT, col = grey(0.8), lty = 2)
-text(
-  x = min(log(model_dat$Quantity)), y = INT, 
-  labels = round(INT, 1), 
-  col = grey(0.8), pos = 2, offset = 2, xpd = TRUE
-  )
+  points(x = mydat[,log(Quantity)], y = y3, pch = 19)
+  abline(lm(y3 ~ mydat[,log(Quantity)]), col = "green", lwd = 3)
+}
 
-ptdat <- results2[Task == "Standard"]
-points(log(ptdat$Quantity), ptdat$Ct, col = "red")
-model_out <- lm(formula = Ct ~ log(Quantity), data = ptdat)
-abline(model_out, lwd = 2, col = "red")
-model_out$coefficients
-# box()
-
-
-
-
-str(model_out)
-
-CT <- model_dat[,Ct]
-na.omit(model_dat)
-
-
-# qpcr notes
-
-# unknown:
+# TODO things to think about:
 conc_in_water <- function(
   vol_field_sample, # {real}
   frac_extracted, # {0,1}
@@ -81,6 +53,4 @@ conc_in_water <- function(
   vol_into_PCR,
   vol_PCR, 
   conc_out_PCR
-){
-  
-}
+){}
