@@ -1,6 +1,7 @@
 # requires these objects: qpcr_data, catch_chinook
 
 # load water
+water <- load_water_samples()
 
 # load qpcrs
 results1 <- load_qpcr(
@@ -32,6 +33,7 @@ qpcr_data <- merge(x = qpcr_data,
   by.x = "template_name", by.y = "lab_label", all.x = TRUE)
 
 # load catch data
+cdse <- load_catch_data()
 catch_onts <-cdse[taxon %like% 'Oncorhynchus tshawytscha']
 
 #-------------------------------------------------------------------------------
