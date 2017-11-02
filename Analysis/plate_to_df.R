@@ -32,4 +32,7 @@ DF <- data.frame(
   origin
 )
 
-write.csv(DF, file = file.path("../Data", "dna_piper.csv"), row.names = FALSE)
+EXPORT <- FALSE
+if(EXPORT){
+  write.csv(DF, file = file.path("../Data", "dna_piper.csv"), row.names = FALSE)
+}
