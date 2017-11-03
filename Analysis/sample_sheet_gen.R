@@ -1,7 +1,7 @@
 ################################################################################
-setwd("~/Projects/Skagit_Salmon_eDNA/Data/qpcr/CKCO3-170712/setup")
+# setwd("~/Projects/Skagit_Salmon_eDNA/Data/qpcr/CKCO3-170712/setup")
 
-samplefile <- "2017-07-12_samples.txt"
+samplefile <- "samples.txt" # "2017-07-12_samples.txt"
 samplenames <- read.table(samplefile, colClasses = "character")[,1]
 plated <- plate_it(samplenames, plate_size = 96, reps = 4)
 EXPORT <- FALSE
