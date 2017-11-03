@@ -5,15 +5,15 @@ water <- load_water_samples()
 
 # load qpcrs
 results1 <- load_qpcr(
-  std_conc = 9.36, 
   qpcr_data_file = "../Data/qpcr/CKCO3-161209/results/results_table.txt", 
-  sample_sheet_file = "../Data/qpcr/CKCO3-161209/setup/sample_sheet.csv"
+  sample_sheet_file = "../Data/qpcr/CKCO3-161209/setup/sample_sheet.csv", 
+  std_conc = 9.36
 )
 
 results2 <- load_qpcr(
-  std_conc = 9.36, 
   qpcr_data_file = "../Data/qpcr/CKCO3-161214/results/results_table.txt", 
-  sample_sheet_file = "../Data/qpcr/CKCO3-161214/setup/sample_sheet.csv"
+  sample_sheet_file = "../Data/qpcr/CKCO3-161214/setup/sample_sheet.csv", 
+  std_conc = 9.36
 )
 
 # check extra columns: results2[,.(no_lab_error, note) ]
