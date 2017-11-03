@@ -65,7 +65,7 @@ load_qpcr <- function(
   }
   
   # drop empty rows
-  full <- full[Task != "", ]
+  if(drop_rows){full <- full[Task != "", ]}
   
   # add inferred concentration from standard
   full[, QuantBackCalc := Quantity * std_conc]
