@@ -17,7 +17,7 @@
 #' @export
 load_qpcr <- function(
   std_conc, qpcr_data_file, sample_sheet_file = NULL, 
-  drop_cols = TRUE, drop_100 = TRUE, quant1000 = TRUE)
+  drop_cols = TRUE, drop_100 = TRUE, quant1000 = TRUE, drop_rows = TRUE)
 {
   library(data.table)
   
@@ -63,7 +63,10 @@ load_qpcr <- function(
   }else{
     full <- qpcr_results
   }
-    
+  
+  # drop empty rows
+  full <- full[Task != "", ]
+  
   # add inferred concentration from standard
   full[, QuantBackCalc := Quantity * std_conc]
   
