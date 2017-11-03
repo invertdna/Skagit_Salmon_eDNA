@@ -6,7 +6,6 @@
 #' @param drop_cols Logical. Drop columns besides "Position", "Task", "Ct", "Quantity"
 #' @param drop_100 Logical. Drop samples with template diluted 1:100.
 #' @param quant1000 Logical. Convert quantities to pg/uL for better plotting
-
 #' 
 #' @examples  
 #'   load_qpcr(
