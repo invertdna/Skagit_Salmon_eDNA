@@ -25,11 +25,13 @@ load_qpcr <- function(
   plate_id <- temp[length(temp)-2]
   
   qpcr_results <- fread(qpcr_data_file)
+  colnames(qpcr_results) <- make.names(colnames(qpcr_results)) # remove spaces in names
+  colnames(qpcr_results) <- gsub("Sample.Name", "Position", colnames(qpcr_results))
 
   if(drop_cols){
-    # identify irrelevant columns for exclusion
     cols_to_keep <- c("Position", "Task", "Ct", "Quantity")
-    qpcr_results <- qpcr_results[,cols_to_keep, with = FALSE]
+    cols_to_drop <- setdiff(colnames(qpcr_results), cols_to_keep)
+    qpcr_results[,(cols_to_drop) := NULL]
   }
   
   qpcr_results[Ct == "Undetermined", Ct := NA ]
