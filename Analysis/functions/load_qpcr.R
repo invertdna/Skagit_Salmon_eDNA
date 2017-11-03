@@ -35,6 +35,9 @@ load_qpcr <- function(
   qpcr_results[Ct == "Undetermined", Ct := NA ]
   qpcr_results[, Ct := as.numeric(Ct) ]
   
+  # change 'NTC' to 'Standard'
+  qpcr_results[Task == "NTC", Task := "Standard" ]
+  
   qpcr_results[, plate_id := plate_id ]
   
   if(!is.null(sample_sheet_file)){
