@@ -22,7 +22,8 @@ load_qpcr <- function(
 {
   library(data.table)
   
-  plate_id <- strsplit(qpcr_data_file, "/")[[1]][4]
+  temp <- strsplit(qpcr_data_file, "/")[[1]]
+  plate_id <- temp[length(temp)-2]
   
   qpcr_results <- fread(qpcr_data_file)
 
