@@ -77,6 +77,6 @@ load_qpcr <- function(
     full[, QuantBackCalc := QuantBackCalc * 1000]
   }
   
-  return(full)
+  return(full[])
   
 }
