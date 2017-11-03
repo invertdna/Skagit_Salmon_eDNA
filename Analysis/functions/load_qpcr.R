@@ -16,7 +16,7 @@
 #' 
 #' @export
 load_qpcr <- function(
-  std_conc = 1, qpcr_data_file, sample_sheet_file = NULL, 
+  qpcr_data_file, std_conc = 1, sample_sheet_file = NULL, 
   drop_cols = TRUE, drop_100 = TRUE, quant1000 = TRUE, drop_rows = TRUE)
 {
   library(data.table)
