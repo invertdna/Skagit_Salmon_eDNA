@@ -5,7 +5,7 @@ model_dat[[2]] <- results2[Task == "Standard"]
 
 model_out <- list()
 for(i in 1:length(model_dat)){
-  model_out[[i]] <- lm(formula = Ct ~ log(Quantity), data = model_dat[[i]])
+  model_out[[i]] <- lm(formula = Ct ~ log10(Quantity), data = model_dat[[i]])
 }
 
 par(mar = c(4,4,1,1))
@@ -13,13 +13,13 @@ stdplot(cycles = 45, dil.factors = 10^(-7:0))
 mycol.h <- gghue(length(model_dat))
 mycol.l <- gghue(length(model_dat), alpha = 0.5)
 for(i in 1:length(model_dat)){
-  points(model_dat[[i]][,log(Quantity)], model_dat[[i]][,Ct], col = mycol.l[i])
+  points(model_dat[[i]][,log10(Quantity)], model_dat[[i]][,Ct], col = mycol.l[i])
   abline(model_out[[i]], lwd = 2, col = mycol.h[i])
   INT <- model_out[[i]]$coefficients["(Intercept)"]
   SLO <- model_out[[i]]$coefficients[2]
   text.coeff <- paste0(round(INT,1), " (", round(SLO, 2), ")")
   abline(h = INT, lty = 2, col = mycol.l[i])
-  text(x = log(10^-7), y = INT, labels = text.coeff, 
+  text(x = log10(10^-7), y = INT, labels = text.coeff, 
     col = mycol.h[i], adj = c(0,-0.2), #pos = 3, offset = 0.1, 
     xpd = TRUE)
 }
