@@ -31,7 +31,7 @@ to_pcr <- water[
 # fwrite(to_pcr, "to_pcr.csv")
 
 
-source("load_dna.R")
+DNA <- load_dna()
 to_extract <- to_pcr[ # from choose_samples.R
   !lab_label %in% DNA, 
   .(event_id, field_rep, filter_box, lab_label)
@@ -42,7 +42,7 @@ to_extract <- to_pcr[ # from choose_samples.R
 # choose samples for qPCR
 ################################################################################
 source("load_qpcr.R")
-source("load_dna.R")
+DNA <- load_dna()
 cleaned <- load_cleaned()
 
 qpcr <- qpcr_data
