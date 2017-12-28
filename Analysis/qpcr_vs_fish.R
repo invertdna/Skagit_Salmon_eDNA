@@ -76,11 +76,23 @@ dna_by_bottle_med <- sapply(dna_by_bottle, median)
 #-------------------------------------------------------------------------------
 # calculate the median estimate for each event from the bottle estimates
 bottle_to_event <- qpcr_data[
-  match(names(dna_by_bottle_med), qpcr_data[,"template_name"]),
-  "event_id"
+  match(names(dna_by_bottle_med), qpcr_data[,template_name]),
+  event_id
 ]
 
 dna_by_event_med <- sapply(split(dna_by_bottle_med, bottle_to_event), median)
+
+# alternate version:
+qpcr_data[,.(
+  event_id, 
+  medDNA = median(QuantBackCalc)), 
+  by = template_name
+][,
+  .(medmedDNA = median(medDNA)),
+  by = event_id
+][
+    order(event_id) 
+]
 #-------------------------------------------------------------------------------
 
 
@@ -92,6 +104,8 @@ dna_by_event <- split(qpcr_data[,"QuantBackCalc"], qpcr_data[,"event_id"])
 
 #-------------------------------------------------------------------------------
 # get sum of counts of chinook by sampling event
+chinook_by_event <- catch_onts[,value]
+names(chinook_by_event) <- catch_onts[,event_id]
 chinook_by_event <- sapply( split(
   catch_chinook[,3:5], catch_chinook[,"event_id"]
 ), sum)
