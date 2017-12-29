@@ -1,0 +1,112 @@
+August 30th 2017
+
+qPCR 2017-08-30
+Salmon qPCR, running a full plate of smaples
+
+Primers: USGS CKCO3-F and USGS CKCO3-R (10 um; new stocks made)
+
+Dilution series (1:10) of a 1:5 dilution of tissue DNA at 2ng/ul of sample 33497-5769
+
+Samples (1:10 dilutions of Zymo cleaned eDNA extractions):
+	-selected by Jimmy O'D based on criteria including: extracted, 
+	more than one of a sample area has been extracted, no comments 
+	in notes section simplying error in extraction process etc
+227	353	493
+228	354	494
+229	355	495
+230	356	496		ACTUALLY: Many of these samples did not have corresponding tubes, 
+231	357	497		the blank spots were filled with other cleaned samples. The plate  
+232	359	498		record below has the updated information.
+233	360	499
+234	361	500
+235	362	501
+236	363	547
+241	364	548
+242	365	549
+243	420	566
+244	421	567
+245	422	568
+253	423	569
+254	424	570
+255	430	571
+256	431	573
+261	432	574
+262	433	575
+263	434	576
+264	435	577
+265	436	578
+279	437	579
+280	438	580
+281	439	585
+288	447	586
+289	449	587
+290	450	588
+298	458	
+299	459	
+301	460	
+325	461	
+326	482	
+327	483	
+328	484	
+329	485	
+341	486	
+342	487	
+343	488	
+344	489	
+345	490	
+351	491	
+352	492	
+
+
+Probe: USGS CKCO3 (new stocks made)
+
+Mastermix: Taqman Environmental MM 2.0
+
+In lab mastermix recipe: (as derived from previous mixes from JO'D)
+	Number reactions per mastermix: 384 (triplicate reactions)
+	Rounded for error: 390
+
+	Primer F: 0.9*390=351	Mastermix to large	0.9*195=175.5 		Make two rounds of 
+	Primer R: 0.9*390=351	to fit in one tube	0.9*195=175.5		the left recipe
+	Probe:    0.2*390=78				0.2*195=39		in 2 ml tubes
+	Water:    1.0*390=390				1.0*195=195	
+	MM:	  5.0*390=1950				5.0*195=975
+
+
+Pipette 8 ul lab mastermix and 2 ul sample DNA (dilution series) into final plate
+
+
+Plate layout:
+Samples run in triplicate across three columns in a given row.
+Stn	227	235	342	446	490	--	64
+Stn	228	236	255	448	491	26	67
+Stn	229	241	256	483	492	27	91
+Stn	230	329	345	484	589	28	92
+Stn	231	341	351	486	590	57	93
+Stn	232	244	358	487	598	58	94
+Stn	327	245	264	488	354	62	96
+Stn	328	253	265	489	355	63	97
+							
+356	365	432	4	493	547	571	580
+357	2	433	449	494	548	573	585
+359	421	434	450	495	549	574	586
+360	422	435	7	496	566	575	587
+498	423	436	459	497	567	576	588
+1	424	437	460	499	568	577	8
+363	430	3	461	500	569	578	9
+364	431	439	482	501	570	579	10
+
+
+
+
+q PCR thermal profile:
+95 degrees C  10 min
+
+95 degrees C  15 sec  
+60 degrees C  1 min
+	X40
+
+Purpose: this qPCR is the Salmon assay, we're testing the samples for the salmon DNA content.
+
+Results: many replicates failed, including many instances where all three replicates failed for a sample. OUr standards had poor quality after 1 e-3. 
+	JImmy will continue to ponder. In the mean time we will move on to amplicon generation via PCR for sequencing. 
