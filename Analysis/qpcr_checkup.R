@@ -24,7 +24,7 @@ with(R3,
 abline(v = 1:20, col = grey(0.8, alpha = 0.5))
 R3[, .N, by = as.numeric(as.factor(template_name))]
 
-with(R3, points(logQuant, Ct, col = mycols[as.numeric(as.factor(DT[,Task]))], lwd = 2))
+with(R3, points(logQuant, Ct, col = mycols[as.numeric(as.factor(R3[,Task]))], lwd = 2))
 
 
 # To deal with weird data files (multiple reporters/assays):
@@ -48,3 +48,19 @@ for(i in 1:length(model_dat)){
   model_out[[i]] <- lm(formula = Ct ~ log10(Quantity), data = model_dat[[i]])
 }
 # GOTO qpcr_analysis for plotting
+
+# get the names of samples for which all replicates worked
+worked <- R4[,!any(is.na(Ct)),by = template_name][V1 == TRUE,template_name]
+good_Cts <- with(R4[template_name %in% worked, ], split(Ct, template_name))
+stripchart(good_Cts, las = 1)
+R4[template_name == "St4", max(Ct)]
+R4[Ct < 33 & template_name %in% worked, ]
+abline(h = 1:length(good_Cts), col = grey(0.9))
+abline(v = 33, col = hsv(h = 1/8, s = 0.7), lwd = 2, lty = 2)
+stripchart(good_Cts, las = 1, add = TRUE)
+
+
+with(
+na.omit(R4[,.(Ct.mean = mean(Ct), Ct.sd = sd(Ct)),by = template_name]), 
+ plot(Ct.mean, Ct.var)
+)
