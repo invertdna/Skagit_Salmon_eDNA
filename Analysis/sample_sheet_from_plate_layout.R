@@ -1,10 +1,11 @@
 setwd("~/GoogleDrive/Data/qpcr_data/Jimmy_Batch_Export/CKCO3-170830/setup")
 raw <- fread("plate_layout_abi.txt", colClasses = 'character')
 colnames(raw) <- as.character(seq(from = 1, to = 22, length.out = 8))
-raw[,plate_row := plate_rows]
 
 plate_rows <- LETTERS[1:nrow(raw)]
 plate_cols <- 1:24
+
+raw[,plate_row := plate_rows]
 
 raw.l <- melt(raw, 
   id.vars = 'plate_row', 
