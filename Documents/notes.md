@@ -2,6 +2,14 @@
 
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
+## 2018-01-08
+- Amplicon preparation:
+  - The thermal cycler profile I have been using (Ford2016_PCR1) has lower denaturation temp; the mastermix I'm using should have higher denaturation temp. This might help improve success rate. Use protocol 'Prey16S-A_JD_2017' instead (see updated manuscript google doc).
+- qPCR:
+  - redo plate. Again. But use 6 replicates per dilution level.
+  - compare SD ~ min(Ct) for each of standards, and controls.
+  - check for similar limit of detection across assays/standards
+
 ## 2017-08-03
 - After PCR1, our samples had between 3 and 14 ng/uL
 - Average expected fragment size after PCR1: 443bp
