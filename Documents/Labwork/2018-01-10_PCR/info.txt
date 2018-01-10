@@ -1,0 +1,5 @@
+prepared_by: Jimmy O'Donnell 
+date: 2018-01-10
+reaction_name: Prey16S-A_JD_2017
+thermocycler: Sucker
+protocol name: 16spreyphusion

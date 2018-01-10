@@ -1,0 +1,7 @@
+param_type,param_name,uL_per_rxn,uL_batch,uL_extra
+mastermix,Phusion High-Fidelity PCR Master Mix with HF Buffer,12.5,187.5,200
+DMSO,DMSO,0.75,11.25,12
+primer,50-50 mix of 16S prey forward primers (groundfish and salmon) with adapter,1.25,18.75,20
+primer,16S prey reverse with adapter,1.25,18.75,20
+water,water,5.25,78.75,84
+template,"Zymo cleaned and diluted 1:10",4,,
