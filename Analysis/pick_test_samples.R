@@ -23,3 +23,6 @@ EXPORT <- FALSE
 if(EXPORT){
   fwrite(outdat, file = "../Data/test_samples.csv")
 }
+
+# which test samples have already been cleaned?
+outdat[lab_label %in% cleaned[,Sample],] 
