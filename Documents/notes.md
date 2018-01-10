@@ -10,6 +10,10 @@
   - compare SD ~ min(Ct) for each of standards, and controls.
   - check for similar limit of detection across assays/standards
 
+## 2018-01-02
+- Abi caught an error:
+  - *"The sample we have listed in our data sheets as 67 is actually sample 69. The label on the tube is hard to decipher so I went back and looked at the cleaning records, we never did 67, but we did do 69. I've changed it in the plate layout_updated sheet in the folder, and in my notes, but you'll want to change the sample to 69 in anything related to this qPCR (position I4-6), and in the Aug 30th 2017 qPCR (B22-24)."*
+
 ## 2017-08-03
 - After PCR1, our samples had between 3 and 14 ng/uL
 - Average expected fragment size after PCR1: 443bp
