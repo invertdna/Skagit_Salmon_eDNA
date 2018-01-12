@@ -9,6 +9,7 @@
   - redo plate. Again. But use 6 replicates per dilution level.
   - compare SD ~ min(Ct) for each of standards, and controls.
   - check for similar limit of detection across assays/standards
+  - volume of template into 10 uL qPCR can be upped from 2 uL to 3 uL
 
 ## 2018-01-02
 - Abi caught an error:
