@@ -1,7 +1,7 @@
-Run ID,Assay Name,Test Name,Test Date,Qubit® tube conc.,Units,Original sample conc.,Units,Sample Volume (µL),Dilution Factor,Std 1 RFU,Std 2 RFU,Std 3 RFU,Excitation,Emission,Green RFU,Far Red RFU,Sample Name_Num
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114550,1/12/2018 11:45,129,ng/mL,12.9,ng/µL,2,100,50.43,14337.22,,Blue,Green,3851.59,,3
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114200,1/12/2018 11:42,590,ng/mL,59,ng/µL,2,100,50.43,14337.22,,Blue,Green,16764.35,,8
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114149,1/12/2018 11:41,86.9,ng/mL,8.69,ng/µL,2,100,50.43,14337.22,,Blue,Green,2595.88,,6
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114138,1/12/2018 11:41,144,ng/mL,14.4,ng/µL,2,100,50.43,14337.22,,Blue,Green,4277.28,,5
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114117,1/12/2018 11:41,98,ng/mL,9.8,ng/µL,2,100,50.43,14337.22,,Blue,Green,2925.46,,2
-2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114101,1/12/2018 11:41,131,ng/mL,13.1,ng/µL,2,100,50.43,14337.22,,Blue,Green,3900.24,,1
+Run ID,Assay Name,Test Name,Test Date,Qubit® tube conc.,Units,Original sample conc.,Units,Sample Volume (µL),Dilution Factor,Std 1 RFU,Std 2 RFU,Std 3 RFU,Excitation,Emission,Green RFU,Far Red RFU,Sample Name,AbiWellNum
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114550,1/12/2018 11:45,129,ng/mL,12.9,ng/µL,2,100,50.43,14337.22,,Blue,Green,3851.59,,SKA-069-Z-10,3
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114200,1/12/2018 11:42,590,ng/mL,59,ng/µL,2,100,50.43,14337.22,,Blue,Green,16764.35,,CYAG090720A(1:10),8
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114149,1/12/2018 11:41,86.9,ng/mL,8.69,ng/µL,2,100,50.43,14337.22,,Blue,Green,2595.88,,33499-5941(1:100),6
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114138,1/12/2018 11:41,144,ng/mL,14.4,ng/µL,2,100,50.43,14337.22,,Blue,Green,4277.28,,SKA-358-Z-10,5
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114117,1/12/2018 11:41,98,ng/mL,9.8,ng/µL,2,100,50.43,14337.22,,Blue,Green,2925.46,,SKA-064-Z-10,2
+2018-01-12_114034,dsDNA High sensitivity,Sample_#180112-114101,1/12/2018 11:41,131,ng/mL,13.1,ng/µL,2,100,50.43,14337.22,,Blue,Green,3900.24,,SKA-063-Z-10,1
