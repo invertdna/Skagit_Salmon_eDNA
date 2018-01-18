@@ -3,6 +3,15 @@
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
 ## 2018-01-08
+- Qubit of four samples:
+  - post PCR1, 2 replicates of each sample were pooled
+  - gel image IMG_4000 is of these
+  - they were then cleaned up with Qiagen minelute PCR cleanup kit, eluted into 16 uL water
+  - 1 uL from each of these was used for qubit
+  - the remaining 15 uL went into PCR2 (illumina index PCR)
+    - PCR2 details: 12 cycles, on machine bob, under user jimmy
+
+## 2018-01-08
 - Amplicon preparation:
   - The thermal cycler profile I have been using (Ford2016_PCR1) has lower denaturation temp; the mastermix I'm using should have higher denaturation temp. This might help improve success rate. Use protocol 'Prey16S-A_JD_2017' instead (see updated manuscript google doc).
 - qPCR:
