@@ -7,7 +7,7 @@ For all following procedures, conduct at LEAST three replicate PCRs per DNA samp
 
 
 **Inhibition**
-Marshal Hoy recommends checking for inhibitation first using an internal positive control.
+Marshal Hoy recommends checking for inhibition first using an internal positive control.
 
 First, rule out the possibility of falsely low concentration of target DNA by using an internal positive control:
 
@@ -17,7 +17,7 @@ If there is an indication of inhibition, you can use this to try to remove it:
 
 [Zymo Research OneStep PCR Inhibitor Removal Kit](https://www.zymoresearch.com/rna/rna-clean-up/rt-pcr-inhibitor-removal/onestep-pcr-inhibitor-removal-kit)
 
-Using a TaqMan gene expression assay from Life Technologies, custom designed by Marshal Hoy et al (in prep):
+Using a TaqMan gene expression assay from Life Technologies, designed by Marshal Hoy et al (in prep):
 
 MH: These come as 20x stock, and are then diluted to 10x working solution in ultrapure water.
 
