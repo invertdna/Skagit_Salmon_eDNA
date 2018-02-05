@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>printout.html</title>
+<style>
+* {
+    overflow: visible !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-decoration-break: clone;
+}
+
+html, body {
+    background: #FFF;
+    font-family: "Segoe UI", Arial, freesans, sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    color: #333;
+    word-wrap: break-word;
+	hyphens: auto;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid #EEE;
+}
+
+code {
+    padding: .1em .4em;
+    display: inline-block;
+    background-color: #f9f2f4;
+    color: #c7254e;
+    border-radius: 3px;
+    border: 0 none;
+    font: 9px Consolas, "Liberation Mono", Menlo, "Courier New", Courier, monospace;
+    hyphens: manual;
+}
+
+pre code {
+    padding: 15px;
+    display: block;
+    background-color: #F9F9F9;
+    color: #555;
+    font-size: 10px;
+    box-shadow: inset -1px -1px 0 rgba(0, 0, 0, .08);
+    word-wrap: normal;
+}
+
+/* replace light background for some hljs themes */
+code.github-css,
+code.github-gist-css,
+code.tomorrow-css,
+code.default-css,
+code.googlecode-css,
+code.ascetic-css,
+code.color-brewer-css,
+code.grayscale-css,
+code.idea-css,
+code.vs-css,
+code.xcode-css {
+    background-color: #F9F9F9 !important;
+}
+
+blockquote {
+    padding: 10px;
+    margin-left: 0;
+    color: #666;
+    border: 0 none;
+    border-left: 4px solid #EEE;
+}
+
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #FFF;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
+}
+
+table div {
+    page-break-inside: avoid;
+}
+
+th, td {
+    text-align: left;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px 14px;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody + tbody {
+    border-top: 2px solid #DDD;
+}
+
+table table {
+    background-color: #FFF;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    border: 1px solid #DDD;
+}
+
+table > thead > tr > th,
+table > thead > tr > td {
+    border-bottom-width: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 90%;
+}
+
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #F9F9F9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 1.1;
+    color: #111;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    page-break-after: avoid;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+h5, h6 {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+    position: relative;
+    bottom: 1px;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 2px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #4078C0;
+}
+
+.new-page,
+.page-break,
+.next-page,
+.page-end {
+    page-break-before: always;
+}
+
+#pageHeader,
+#pageHeader a,
+#pageHeader a:visited {
+    color: #777;
+}
+
+#pageHeader span {
+    vertical-align: middle;
+}
+
+#pageFooter {
+    border-top: 1px solid #EEE;
+    padding-top: 5px;
+    color: #777;
+    font-size: 80%;
+}
+#pageFooter a,
+#pageFooter a:visited {
+    color: #777;
+}
+
+/**
+ * Your markdown-themeable-pdf custom styles
+ *
+ * The default file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/templates
+ * The base css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/css
+ * The current highlight.js css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/node_modules/highlight.js/styles
+ */
+
+/*
+html, body {
+	color: red;
+}
+*/
+
+/**
+ * GitHub Gist Theme
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.hljs {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
+
+.hljs-comment,
+.hljs-meta {
+  color: #969896;
+}
+
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-strong,
+.hljs-emphasis,
+.hljs-quote {
+  color: #df5000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type {
+  color: #a71d5d;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute {
+  color: #0086b3;
+}
+
+.hljs-section,
+.hljs-name {
+  color: #63a35c;
+}
+
+.hljs-tag {
+  color: #333333;
+}
+
+.hljs-title,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #795da3;
+}
+
+.hljs-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.hljs-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+pre { white-space: pre-wrap !important; word-break: break-word !important; overflow: hidden !important;}
+</style>
+</head>
+<body>
+<div id="pageContent">
+<h3 id="pcr-2018-01-10">PCR: 2018-01-10</h3>
+<h4 id="samples">Samples</h4>
+<table>
+<thead>
+<tr>
+<th>row</th>
+<th>col</th>
+<th>sample</th>
+<th>rep</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>1</td>
+<td>SKA-063-Z-10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>b</td>
+<td>1</td>
+<td>SKA-064-Z-10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>c</td>
+<td>1</td>
+<td>SKA-069-Z-10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>d</td>
+<td>1</td>
+<td>SKA-358-Z-10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>e</td>
+<td>1</td>
+<td>AMCPMOO101−161012</td>
+<td>1</td>
+</tr>
+<tr>
+<td>f</td>
+<td>1</td>
+<td>DIH20</td>
+<td>1</td>
+</tr>
+<tr>
+<td>a</td>
+<td>2</td>
+<td>SKA-063-Z-10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>b</td>
+<td>2</td>
+<td>SKA-064-Z-10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>c</td>
+<td>2</td>
+<td>SKA-069-Z-10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>d</td>
+<td>2</td>
+<td>SKA-358-Z-10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>e</td>
+<td>2</td>
+<td>AMCPMOO101−161012</td>
+<td>2</td>
+</tr>
+<tr>
+<td>f</td>
+<td>2</td>
+<td>DIH20</td>
+<td>2</td>
+</tr>
+<tr>
+<td>a</td>
+<td>3</td>
+<td>SKA-063-Z-10</td>
+<td>3</td>
+</tr>
+<tr>
+<td>b</td>
+<td>3</td>
+<td>SKA-064-Z-10</td>
+<td>3</td>
+</tr>
+<tr>
+<td>c</td>
+<td>3</td>
+<td>SKA-069-Z-10</td>
+<td>3</td>
+</tr>
+<tr>
+<td>d</td>
+<td>3</td>
+<td>SKA-358-Z-10</td>
+<td>3</td>
+</tr>
+<tr>
+<td>e</td>
+<td>3</td>
+<td>AMCPMOO101−161012</td>
+<td>3</td>
+</tr>
+<tr>
+<td>f</td>
+<td>3</td>
+<td>DIH20</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+
+<p style="page-break-after: always;">&nbsp;</p>
+
+<h4 id="reagents">Reagents</h4>
+<table>
+<thead>
+<tr>
+<th>param_type</th>
+<th>param_name</th>
+<th>uL_per_rxn</th>
+<th>uL_batch</th>
+<th>uL_extra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mastermix</td>
+<td>Phusion High-Fidelity PCR Master Mix with HF Buffer</td>
+<td>12.5</td>
+<td>225</td>
+<td>250</td>
+</tr>
+<tr>
+<td>DMSO</td>
+<td>DMSO</td>
+<td>0.75</td>
+<td>13.5</td>
+<td>15</td>
+</tr>
+<tr>
+<td>primer</td>
+<td>50-50 mix of 16S groundfish and salmon forward primers with adapter</td>
+<td>1.25</td>
+<td>22.5</td>
+<td>25</td>
+</tr>
+<tr>
+<td>primer</td>
+<td>16S prey reverse with adapter</td>
+<td>1.25</td>
+<td>22.5</td>
+<td>25</td>
+</tr>
+<tr>
+<td>water</td>
+<td>water</td>
+<td>5.25</td>
+<td>94.5</td>
+<td>105</td>
+</tr>
+<tr>
+<td>template</td>
+<td>Zymo cleaned and diluted 1:10</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="thermocycling">Thermocycling</h4>
+<table>
+<thead>
+<tr>
+<th>param_name</th>
+<th>units</th>
+<th>value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>init_temp</td>
+<td>C</td>
+<td>98</td>
+</tr>
+<tr>
+<td>init_time</td>
+<td>seconds</td>
+<td>30</td>
+</tr>
+<tr>
+<td>n_cycles</td>
+<td>cycles</td>
+<td>35</td>
+</tr>
+<tr>
+<td>step1_temp</td>
+<td>C</td>
+<td>98</td>
+</tr>
+<tr>
+<td>step1_time</td>
+<td>seconds</td>
+<td>10</td>
+</tr>
+<tr>
+<td>step2_temp</td>
+<td>C</td>
+<td>60</td>
+</tr>
+<tr>
+<td>step2_time</td>
+<td>seconds</td>
+<td>30</td>
+</tr>
+<tr>
+<td>step3_temp</td>
+<td>C</td>
+<td>72</td>
+</tr>
+<tr>
+<td>step3_time</td>
+<td>seconds</td>
+<td>30</td>
+</tr>
+<tr>
+<td>final_temp</td>
+<td>C</td>
+<td>72</td>
+</tr>
+<tr>
+<td>final_time</td>
+<td>seconds</td>
+<td>420</td>
+</tr>
+</tbody>
+</table>
+
+</div></body>
+</html>
