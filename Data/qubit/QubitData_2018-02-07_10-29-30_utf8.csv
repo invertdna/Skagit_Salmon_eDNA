@@ -1,0 +1,6 @@
+Run ID,Assay Name,Test Name,Test Date,Qubit® tube conc.,Units,Original sample conc.,Units,Sample Volume (µL),Dilution Factor,Std 1 RFU,Std 2 RFU,Std 3 RFU,Excitation,Emission,Green RFU,Far Red RFU,Sample
+2018-02-07_084507,dsDNA High sensitivity,Sample_180207-084708,2/7/2018 8:47,346,ng/mL,69.2,ng/µL,1,200,47.94,14204.05,,Blue,Green,9993.14,,PosA
+2018-02-07_084507,dsDNA High sensitivity,Sample_180207-084658,2/7/2018 8:46,86.5,ng/mL,17.3,ng/µL,1,200,47.94,14204.05,,Blue,Green,2558.07,,358a
+2018-02-07_084507,dsDNA High sensitivity,Sample_180207-084647,2/7/2018 8:46,43.2,ng/mL,8.64,ng/µL,1,200,47.94,14204.05,,Blue,Green,1292.11,,69a
+2018-02-07_084507,dsDNA High sensitivity,Sample_180207-084636,2/7/2018 8:46,46.4,ng/mL,9.28,ng/µL,1,200,47.94,14204.05,,Blue,Green,1384.9,,64a
+2018-02-07_084507,dsDNA High sensitivity,Sample_180207-084619,2/7/2018 8:46,43,ng/mL,8.6,ng/µL,1,200,47.94,14204.05,,Blue,Green,1286.01,,63a
