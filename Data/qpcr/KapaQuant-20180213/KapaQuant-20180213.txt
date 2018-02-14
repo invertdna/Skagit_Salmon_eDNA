@@ -1,0 +1,59 @@
+SDS 2.4	Absolute QuantificationResults	1.0
+Filename	KapaQuant-20180213
+PlateID	C301D2LJ
+Assay Type	Absolute Quantification
+Run DateTime	2/13/18 5:35:31 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Position	Flag	Sample	Detector	Task	Ct	Ct Median	Quantity	Qty mean	Qty stddev	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+A1	Passed	A1	kapa-illumina	Standard	7.533634		20.0															
+A2	Passed	A2	kapa-illumina	Standard	7.28122		20.0															
+A3	Passed	A3	kapa-illumina	Standard	8.015793		20.0															
+A4	Passed	A4	kapa-illumina	Unknown	11.441434		1.3711914															
+A5	Passed	A5	kapa-illumina	Unknown	12.292103		0.7800504															
+A6	Passed	A6	kapa-illumina	Unknown	11.952755		0.9768952															
+B1	Passed	B1	kapa-illumina	Standard	10.319498		2.0															
+B2	Passed	B2	kapa-illumina	Standard	10.885219		2.0															
+B3	Passed	B3	kapa-illumina	Standard	10.537005		2.0															
+B4	Passed	B4	kapa-illumina	Unknown	13.162505		0.43799022															
+B5	Passed	B5	kapa-illumina	Unknown	14.330881		0.20183468															
+B6	Passed	B6	kapa-illumina	Unknown	13.381848		0.37870234															
+C1	Passed	C1	kapa-illumina	Standard	13.727527		0.2															
+C2	Passed	C2	kapa-illumina	Standard	14.443916		0.2															
+C3	Passed	C3	kapa-illumina	Standard	14.426969		0.2															
+C4	Passed	C4	kapa-illumina	Unknown	15.384479		0.10036471															
+C5	Passed	C5	kapa-illumina	Unknown	14.647432		0.16361964															
+C6	Passed	C6	kapa-illumina	Unknown	18.616285		0.0117729725															
+D1	Passed	D1	kapa-illumina	Standard	17.84403		0.02															
+D2	Passed	D2	kapa-illumina	Standard	17.844875		0.02															
+D3	Passed	D3	kapa-illumina	Standard	18.462267		0.02															
+D4	Passed	D4	kapa-illumina	Unknown	16.139606		0.060830235															
+D5	Passed	D5	kapa-illumina	Unknown	15.951082		0.06893037															
+D6	Passed	D6	kapa-illumina	Unknown	16.998026		0.034428023															
+E1	Passed	E1	kapa-illumina	Standard	21.116325		0.0020															
+E2	Passed	E2	kapa-illumina	Standard	21.399094		0.0020															
+E3	Passed	E3	kapa-illumina	Standard	21.602148		0.0020															
+E4		E4																				
+E5		E5																				
+E6		E6																				
+F1	Passed	F1	kapa-illumina	Standard	24.26012		2.0E-4															
+F2	Passed	F2	kapa-illumina	Standard	24.730738		2.0E-4															
+F3	Passed	F3	kapa-illumina	Standard	25.025574		2.0E-4															
+F4		F4																				
+F5		F5																				
+F6		F6																				
+G1	Passed	G1	kapa-illumina	NTC	33.561047		5.8492134E-7															
+G2	Passed	G2	kapa-illumina	NTC	33.95406		4.5073136E-7															
+G3	Flagged	G3	kapa-illumina	NTC	Undetermined		0.0								true							
+G4		G4																				
+G5		G5																				
+G6		G6																				
+H1		H1																				
+H2		H2																				
+H3		H3																				
+H4		H4																				
+H5		H5																				
+H6		H6																				
