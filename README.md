@@ -30,6 +30,8 @@ This repository documents the analysis of environmental DNA in the Skagit Bay of
 
 [Correigh Greene](correigh.greene@noaa.gov) (NWFSC)
 
+[Eric Beamer](ebeamer@skagitcoop.org) (SRSC)
+
 - NWFSC: Northwest Fisheries Science Center
 NOAA Fisheries
 2725 Montlake Blvd E
@@ -40,4 +42,7 @@ University of Washington
 3707 Brooklyn Ave NE
 Seattle, Washington 98105, USA
 
+- SRSC: Skagit River System Cooperative
+P.O. Box 368
+La Conner, WA 98257-0368
 
