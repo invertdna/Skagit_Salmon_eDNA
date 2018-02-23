@@ -2,6 +2,21 @@
 
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
+## 2018-02-22
+- Meeting: Ole, Jimmy, Linda. Jimmy's to-dos
+  - All further work will focus on seine sites only
+  - Put an aliquot of target samples into the fridge -- enough DNA for 3-6 qPCR reactions and 3-6 sequencing reactions
+  - make sure we have enough volume of DNA for the remaining qPCR + seq replicates
+  - ole will work on catch data next week
+    - Jimmy will send Ole R code
+  - qPCR:
+    - check which samples have been run for CKCO3
+    - which samples have been run for CYAG
+    - increase DNA into qPCR for improved efficiency
+  - sequencing
+    - get Abi a list of templates to start PCR1
+    - call Illumina, ask about cluster density on last run
+
 ## 2018-01-08
 - Qubit of four samples:
   - post PCR1, 2 replicates of each sample were pooled
