@@ -1,0 +1,101 @@
+date_collected,time,site_name,lab_label
+2016-05-31,1020,Strawberry Point North,SKA-001
+2016-05-31,1020,Strawberry Point North,SKA-002
+2016-05-31,1020,Strawberry Point North,SKA-003
+2016-05-31,1020,Strawberry Point North,SKA-004
+2016-05-31,1020,Strawberry Point North,SKA-005
+2016-05-31,1020,Strawberry Point North,SKA-006
+2016-05-31,1103,Brown Point,SKA-007
+2016-05-31,1103,Brown Point,SKA-008
+2016-05-31,1103,Brown Point,SKA-009
+2016-05-31,1103,Brown Point,SKA-010
+2016-05-31,1103,Brown Point,SKA-011
+2016-05-31,1103,Brown Point,SKA-012
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-013
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-014
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-015
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-016
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-017
+2016-05-31,1149,Random 1 2016-05-31 Utsalady Point,SKA-018
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-019
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-020
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-021
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-022
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-023
+2016-05-31,1215,Random 2 2016-05-31 Maple Grove,SKA-024
+2016-05-31,1325,Mariner's Bluff,SKA-025
+2016-05-31,1325,Mariner's Bluff,SKA-026
+2016-05-31,1325,Mariner's Bluff,SKA-027
+2016-05-31,1325,Mariner's Bluff,SKA-028
+2016-05-31,1325,Mariner's Bluff,SKA-029
+2016-05-31,1325,Mariner's Bluff,SKA-030
+2016-05-31,1700,NA,SKA-031
+2016-06-07,641,Brown Slough Outside,SKA-032
+2016-06-07,643,Brown Slough Outside,SKA-033
+2016-06-07,651,Brown Slough Outside,SKA-037
+2016-06-07,808,Brown Slough Dike Side,SKA-039
+2016-06-07,809,Brown Slough Dike Side,SKA-040
+2016-06-07,815,Brown Slough Dike Side,SKA-044
+2016-06-07,940,Brown Slough Outside,SKA-045
+2016-06-07,941,Brown Slough Outside,SKA-046
+2016-06-07,951,Brown Slough Outside,SKA-050
+2016-06-07,1200,Brown Slough Dike Side,SKA-051
+2016-06-07,1201,Brown Slough Dike Side,SKA-053
+2016-06-07,1206,Brown Slough Dike Side,SKA-056
+2016-06-07,NA,NA,SKA-038
+2016-06-08,821,Ika Upper,SKA-057
+2016-06-08,822,Ika Upper,SKA-058
+2016-06-08,830,Ika Upper,SKA-062
+2016-06-08,835,Ika Lower,SKA-063
+2016-06-08,837,Ika Lower,SKA-064
+2016-06-08,842,Ika Lower,SKA-069
+2016-06-08,852,Cattail,SKA-070
+2016-06-08,854,Cattail,SKA-071
+2016-06-08,859,Cattail,SKA-075
+2016-06-08,927,Grain of Sand,SKA-076
+2016-06-08,928,Grain of Sand,SKA-077
+2016-06-08,929,Grain of Sand,SKA-078
+2016-06-08,930,Grain of Sand,SKA-079
+2016-06-08,932,Grain of Sand,SKA-081
+2016-06-08,933,Grain of Sand,SKA-080
+2016-06-08,NA,NA,SKA-066
+2016-06-13,931,Lone Tree Point,SKA-083
+2016-06-13,932,Lone Tree Point,SKA-082
+2016-06-13,934,Lone Tree Point,SKA-084
+2016-06-13,941,Lone Tree Point,SKA-085
+2016-06-13,943,Lone Tree Point,SKA-086
+2016-06-13,945,Lone Tree Point,SKA-087
+2016-06-13,947,Lone Tree Point,SKA-088
+2016-06-13,1026,Hoypus,SKA-089
+2016-06-13,1027,Hoypus,SKA-090
+2016-06-13,1029,Hoypus,SKA-091
+2016-06-13,1040,Hoypus,SKA-092
+2016-06-13,1041,Hoypus,SKA-093
+2016-06-13,1042,Hoypus,SKA-094
+2016-06-13,1140,Dugualla Bluff,SKA-096
+2016-06-13,1143,Dugualla Bluff,SKA-097
+2016-06-13,1144,Dugualla Bluff,SKA-098
+2016-06-13,1152,Dugualla Bluff,SKA-099
+2016-06-13,1153,Dugualla Bluff,SKA-100
+2016-06-13,1154,Dugualla Bluff,SKA-101
+2016-06-13,1330,Random Middle 433,SKA-102
+2016-06-13,1335,Random Middle 433,SKA-106
+2016-06-13,1401,Turner's Spit North,SKA-107
+2016-06-13,1402,Turner's Spit North,SKA-108
+2016-06-13,1403,Turner's Spit North,SKA-109
+2016-06-13,1414,Turner's Spit North,SKA-112
+2016-06-13,NA,NA,SKA-095
+2016-06-15,907,Strawberry Point North,SKA-113
+2016-06-15,907,Strawberry Point North,SKA-114
+2016-06-15,908,Strawberry Point North,SKA-115
+2016-06-15,910,Strawberry Point North,SKA-118
+2016-06-15,1000,Brown Point,SKA-116
+2016-06-15,1001,Brown Point,SKA-121
+2016-06-15,1001,Brown Point,SKA-122
+2016-06-15,1116,Random near Camp Grande,SKA-126
+2016-06-15,1117,Random near Camp Grande,SKA-127
+2016-06-15,1117,Random near Camp Grande,SKA-128
+2016-06-15,1203,Mariner's Bluff,SKA-132
+2016-06-15,1218,Mariner's Bluff,SKA-136
+2016-06-15,1218,Mariner's Bluff,SKA-137
+2016-06-15,NA,NA,SKA-120

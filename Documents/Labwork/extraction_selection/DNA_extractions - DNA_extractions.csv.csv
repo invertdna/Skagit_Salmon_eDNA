@@ -1,0 +1,91 @@
+date_extracted,extractor,lab,project,source_label,extraction_label,sample_type,extraction_method,sample_destroyed,remaining_uL,shaken_incubation,visible_pellet,notes
+2016-10-05,JO,ParkLab,Skagit,SKA-018,SKA-018,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-05,JO,ParkLab,Skagit,SKA-024,SKA-024,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-05,JO,ParkLab,Skagit,SKA-106,SKA-106,environmental,PhenolChloroform,yes,300,TRUE,NA,NA
+2016-10-05,JO,ParkLab,Skagit,SKA-127,SKA-127,environmental,PhenolChloroform,yes,300,TRUE,NA,NA
+2016-10-05,JO,ParkLab,Skagit,JO-AMCP-MOO-103,AMCP-MOO-103,tissue-gill,PhenolChloroform,no,0,TRUE,NA,NA
+2016-10-05,JO,ParkLab,Skagit,NA,noDNA-161005,noDNA,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-032,SKA-032,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-039,SKA-039,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-045,SKA-045,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-051,SKA-051,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-057,SKA-057,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-063,SKA-063,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-070,SKA-070,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-076,SKA-076,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-085,SKA-085,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-090,SKA-090,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-100,SKA-100,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-102,SKA-102,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-107,SKA-107,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-113,SKA-113,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-116,SKA-116,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-120,SKA-120,environmental-blank,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-126,SKA-126,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,SKA-136,SKA-136,environmental,PhenolChloroform,yes,400,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,JO-AMCP-MOO-102,AMCP-MOO-102,tissue-gill,PhenolChloroform,no,0,TRUE,NA,NA
+2016-10-06,JO,ParkLab,Skagit,NA,noDNA-161006,noDNA,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-006,SKA-006,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-012,SKA-012,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-017,SKA-017,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-023,SKA-023,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-030,SKA-030,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-031,SKA-031,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-037,SKA-037,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-044,SKA-044,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-050,SKA-050,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-056,SKA-056,environmental,PhenolChloroform,yes,400,TRUE,NA,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JO,ParkLab,Skagit,SKA-062,SKA-062,environmental,PhenolChloroform,yes,400,TRUE,NA,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JO,ParkLab,Skagit,SKA-069,SKA-069,environmental,PhenolChloroform,yes,400,TRUE,NA,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JO,ParkLab,Skagit,SKA-075,SKA-075,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-080,SKA-080,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-087,SKA-087,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-088,SKA-088,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-094,SKA-094,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,SKA-101,SKA-101,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,POWI150903,POWI150903-161011,tissue-fin,PhenolChloroform,no,NA,TRUE,NA,NA
+2016-10-11,JO,ParkLab,Skagit,NA,noDNA-161011,noDNA,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-001,SKA-001,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-002,SKA-002,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-007,SKA-007,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-008,SKA-008,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-013,SKA-013,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-019,SKA-019,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-025,SKA-025,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-026,SKA-026,environmental,PhenolChloroform,yes,0,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-033,SKA-033,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-040,SKA-040,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-046,SKA-046,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-053,SKA-053,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-038,SKA-038,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-058,SKA-058,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-064,SKA-064,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-071,SKA-071,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-108,SKA-108,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-114,SKA-114,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-121,SKA-121,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,SKA-132,SKA-132,environmental,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,JO-AMCP-MOO-101,AMCP101-161012,tissue-fin,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-12,JO,ParkLab,Skagit,NA,NODNA-161012,noDNA,PhenolChloroform,no,400,TRUE,NA,NA
+2016-10-13,JO,ParkLab,Skagit,SKA-014,SKA-014,environmental,PhenolChloroform,no,0,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-016,SKA-016,environmental,PhenolChloroform,no,0,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-020,SKA-020,environmental,PhenolChloroform,no,0,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-022,SKA-022,environmental,PhenolChloroform,no,0,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-077,SKA-077,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-081,SKA-081,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-083,SKA-083,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-086,SKA-086,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-089,SKA-089,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-093,SKA-093,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-095,SKA-095,environmental,PhenolChloroform,yes,400,FALSE,FALSE,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-096,SKA-096,environmental,PhenolChloroform,yes,400,FALSE,FALSE,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-099,SKA-099,environmental,PhenolChloroform,yes,400,FALSE,FALSE,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-109,SKA-109,environmental,PhenolChloroform,yes,400,FALSE,FALSE,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-112,SKA-112,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-115,SKA-115,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-118,SKA-118,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-122,SKA-122,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-128,SKA-128,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,SKA-137,SKA-137,environmental,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,POWI-150903,POWI150903-161013,tissue-fin,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JO,ParkLab,Skagit,NA,NODNA-161012,noDNA,PhenolChloroform,yes,400,FALSE,NA,sat ~10 minutes and respun before adding to isopropanol
