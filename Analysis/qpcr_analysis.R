@@ -1,7 +1,7 @@
 # Analyze qPCR data, especially 
 model_dat <- list()
-model_dat[[1]] <- results1[Task == "Standard"]
-model_dat[[2]] <- results2[Task == "Standard"]
+model_dat[[1]] <- R1[Task == "Standard"]
+model_dat[[2]] <- R2[Task == "Standard"]
 model_dat[[3]] <- R3[Task == "Standard"]
 model_dat[[4]] <- R4[Task == "Standard"]
 
