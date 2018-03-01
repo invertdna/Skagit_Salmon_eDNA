@@ -1,0 +1,16 @@
+definitely include these, which have amplified highly in three separate plates:
+092
+093
+094
+
+
+'std1' concentration should be ~ 9e-1 ng/uL (i.e. chinook3 diluted 1:10) or ~1e-2
+nothing below ~9e-5
+7 step dilution series, by factor of 5:
+ng/ul:
+1e-3
+
+
+- USE FULL STRENGTH EDNA TEMPLATE
+- expected conc in sample 094 at full strength: ~20 pg/uL (0.02 ng/uL)
+- 
