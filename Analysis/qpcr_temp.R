@@ -27,7 +27,6 @@ x_in_y <- function(dt1, dt2){
 }
 x_in_y(res[[4]], res[[5]])
 
-rep(1, 8), rep(2, )
 QR <- rbindlist(res)
 
 QR[Task == 'Unknown', ]
@@ -52,10 +51,10 @@ temp <- QR[template_name %in% mult_rxns, .(template_name = as.factor(template_na
 
 temp[ , all(is.na(Ct)), by = template_name]
 
-pldat <- temp[ , if(all(!is.na(Ct))) .SD, by = template_name]
+pldat <- temp[ , if(!any(is.na(Ct))) .SD, by = template_name]
 
 library(ggplot2)
-myplot <- ggplot(temp, aes(x = template_name, y = Ct, color = plate_id))
+myplot <- ggplot(pldat, aes(x = template_name, y = Ct, color = plate_id))
 myplot + geom_point(shape = 1, stroke = 1.1) + coord_flip() # + geom_jitter()
 
 
