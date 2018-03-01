@@ -1,8 +1,4 @@
-R3 <- load_qpcr(
-  qpcr_data_file = "../Data/qpcr/CKCO3-170712/results/results_table.txt", 
-  sample_sheet_file = "../Data/qpcr/CKCO3-170712/setup/sample_sheet.csv", 
-  std_conc = 1
-)
+R3 <- res[[3]] # from qpcr_load.R
 
 R3[, logQuant := log(Quantity)]
 
