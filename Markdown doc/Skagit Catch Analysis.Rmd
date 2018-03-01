@@ -1,0 +1,128 @@
+---
+title: "Skagit catch analysis"
+author: "Ole Shelton"
+date: "3/1/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+source("/Users/ole.shelton/GitHub/Skagit_Salmon_eDNA/Analysis/catch analysis/parse catch data.R")
+```
+
+# Exploratory analysis 
+These are some analyses based on the 2017 beach seine data. I've done a bunch of processing in the file "parse catch data.R".  Here are some tentative analyses and plots.
+
+I first plotted a bunch of species together through the five months of sampling.  Then I plot individual species at each site and gin up an among site index.  For the multiple species plots, it is clear there is a shifting pattern in occurrence and total abundance with more species and individuals present as you get later in the year. This should be something worth looking using the multi-species primer.
+
+For the single species plots, I think this shows there is plenty of variation among sites and times in our qPCR species (Chinook salmon) to make that interesting in an of itself. There are several other patterns of variation in time and space among the other species / species groups.  Some are present at low levels always, others are really patchy, still others are clearly seasonal.  There is plenty of grist for the mill here.
+
+During the sampling, the beach seine sampling they observed a total of `r length(dat.set.sum$species.comb) - 3` species and species groups (some groups like smelt are not separated out by species).  Not all of these species are fish, but I left them all in for now.  We sampled alongside the Skagit river coop at 8 sites in most months.
+```{r echo=FALSE}
+dat.site.occur %>% group_by(month) %>% summarise(n.sites= max(n.obs)) %>% as.data.frame()
+```
+In April we missed the two most southerly sites, Mariners Bluff and Brown Point. Here is a map of the sampling sites
+!["Sampling Sites in Skagit Bay"](/Users/ole.shelton/GitHub/Skagit_Salmon_eDNA/Figures/Skagit Bay sites.pdf)
+
+\newpage
+## Decriptions of occurrence and density
+
+Here are the 40+ species ordered from most abundant (top) to least abundant (bottom) by code names.  Important names for reference are the salmonids: CK (Chinook), CO (Coho), CH (Chum), CT (Cutthroat), Herring (HERR.a for adults, Herr.pl for post-larvae), Smelt (with .a and .pl suffixes), Shiner Perch (SHINER), Starry flounder (STARRY), Staghorn sculpin (STAG), Snakehead prickleback (SNAKE), Stickleback (STICKL), and Sand lance (LANCE.a). 
+
+Here is the average, across site count by species
+```{r echo=FALSE, warning=FALSE, fig.sp.count, fig.height = 8, fig.width = 7,fig.align='center'}
+print(all.sp.count)
+```
+with grey indicating zero observations.  In general there are a lot more species presents at higher densities as you move from February to June.
+
+Here is the variabilty among sites (standard deviation) by species
+```{r echo=FALSE, warning=FALSE, fig.sp.sd, fig.height = 8, fig.width = 7,fig.align='center'}
+print(all.sp.sd)
+```
+with grey indicating zero observations and no variation. In general there are a lot more species presents at higher densities as you mover from February to June.
+
+
+
+We can also make plots of the occurrence.  Here a similar plot of the fraction of sites that had one or more individual of each species observed in the seine.
+```{r echo=FALSE, warning=FALSE, fig.sp.occur, fig.height = 8, fig.width = 7,fig.align='center'}
+print(all.sp.occur)
+```
+
+
+Together these plots show that there are a bunch of species that are rare (e.g., gobies, lingcod, midshipman), some species that occur at low but consistant levels (e.g., stickleback, pipefish, starry flounder, sharpnose sculpin), some that are relatively common but vary in abundance somewhat through time (the salmon, CK, CH, CO), and finally the species that are crazy variable (the forage fish, herring, smelt, shiner perch) among sites and even among beach seine tows.
+
+\newpage
+## Individual species
+
+Let's look as some individual species as time-series.
+
+### Chinook salmon (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.chin1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("Chin",sp.nom)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.chin2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("Chin",sp.nom)]])
+```
+Thick black line is among site mean count.  So there are almost always some Chinook salmon around but they vary from 0 to about 60 per individual haul. There should be plenty of variation here to be interesting.
+
+\newpage
+### Chum salmon (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.chum1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("Chum",sp.nom)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.chum2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("Chum",sp.nom)]])
+```
+Chum salmon are more abundant than I thought they were but vary from 0 in February to a lot in March, April, May, then almost zero again in June. 
+
+\newpage
+### Coho salmon (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.coho1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("Coho",sp.nom)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.coho2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("Coho",sp.nom)]])
+```
+Coho come out in one big pulse in May and are not observed except rarely in April.
+
+\newpage
+### Shiner Perch (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.shiner1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("Shiner",sp.nom)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.shiner2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("Shiner",sp.nom)]])
+```
+Shiner are absent until May, then explode.
+
+
+\newpage
+### Smelt (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.smelt1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("SMELT.a",sp.list)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.smelt2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("SMELT.a",sp.list)]])
+```
+Smelt are just really patchy.  If you catch one, you'll catch hundreds.
+
+
+\newpage
+### Starry flounder (by site, then all sites together)
+
+```{r echo=FALSE, warning=FALSE, fig.starry1, fig.height = 4, fig.width = 7,fig.align='center'}
+print(A[[grep("Starry",sp.nom)]])
+```
+```{r echo=FALSE, warning=FALSE, fig.starry2, fig.height = 3.5, fig.width = 5,fig.align='center'}
+print(B[[grep("Starry",sp.nom)]])
+```
+Starry flounder are everywhere at low density.
+
+
