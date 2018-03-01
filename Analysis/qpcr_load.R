@@ -46,7 +46,7 @@ res[[4]] <- load_qpcr(
 
 
 #-------------------------------------------------------------------------------
-# 5
+# 5: note the std quantity was 4.78 and was entered into the software on the qpcr machine.
 res[[5]] <- load_qpcr(
   qpcr_data_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180102/results/CKCO3-180102_result.txt",
   sample_sheet_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180102/setup/sample_sheet.csv", 
