@@ -30,6 +30,11 @@ to_pcr <- water[
 
 # fwrite(to_pcr, "to_pcr.csv")
 
+# which are already cleaned and ready for qpcr 2018-03-01
+forqpcr180301 <- to_pcr[lab_label %in% cleaned$Sample, 
+  .(site_name, datetime, event_id, field_rep, lab_label)
+  ]
+fwrite(forqpcr180301, 'to_qpcr_180301.csv')
 
 DNA <- load_dna()
 to_extract <- to_pcr[ # from choose_samples.R
