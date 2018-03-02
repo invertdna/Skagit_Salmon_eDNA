@@ -37,7 +37,7 @@ forqpcr180301 <- to_pcr[lab_label %in% cleaned$Sample,
   ]
 EXPORT <- FALSE
 if(EXPORT){
-  fwrite(forqpcr180301, 'to_qpcr_180301.csv')
+  fwrite(forqpcr180301[,'lab_label'], 'samples_qpcr_180301.csv')
 }
 
 
