@@ -16,7 +16,7 @@ plot_qpcr <- function(DT, ...){
   abline(h = 1:length(pltlist), col = grey(0, alpha = 0.2), lty = 3)
   grid()
 }
-plot_qpcr(res[[4]])
+plot_qpcr(res[[5]][template_name %like% '^0',], cex.axis = 0.5)
 res[[1]][template_name == '094']
 res[[1]][template_name == 'std_1']
 
