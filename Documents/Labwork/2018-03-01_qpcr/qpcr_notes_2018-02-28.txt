@@ -14,3 +14,12 @@ ng/ul:
 - USE FULL STRENGTH EDNA TEMPLATE
 - expected conc in sample 094 at full strength: ~20 pg/uL (0.02 ng/uL)
 - 
+
+
+Reagent protocol: ODonnell180112:
+mastermix: 5.0 uL
+primer1:   0.9 uL
+primer2:   0.9 uL
+probe:     0.2 ul
+template:  3.0 uL
+NO WATER
