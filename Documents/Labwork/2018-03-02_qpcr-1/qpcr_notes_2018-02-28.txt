@@ -11,9 +11,12 @@ ng/ul:
 1e-3
 
 
+Standard was from well 2A of plate from piper: 34372-A7 - Chinook from coastal OR
+Original conc ~3.95 (qubit 2018-03-02)
+Diluted in 1:4, new conc is ~1.05 (qubit 2018-03-02)
+
 - USE FULL STRENGTH EDNA TEMPLATE
 - expected conc in sample 094 at full strength: ~20 pg/uL (0.02 ng/uL)
-- 
 
 
 Reagent protocol: ODonnell180112:
