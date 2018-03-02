@@ -1,5 +1,5 @@
 plot_qpcr <- function(DT, ...){
-  pltlist <- split(DT[, Ct], DT[,template_name])
+  pltlist <- split(DT[, QuantBackCalc], DT[,template_name])
   par(mar = c(4,6,1,1))
   chartdat <- lapply(pltlist[gtools::mixedsort(names(pltlist))], function(x) x+1)
   mycols <- hsv(h = c(1/8, 0.6), s = 0.7)
@@ -15,6 +15,9 @@ plot_qpcr <- function(DT, ...){
     )
   abline(h = 1:length(pltlist), col = grey(0, alpha = 0.2), lty = 3)
   grid()
+}
+for(i in seq(res)){
+  plot_qpcr(res[[i]], cex.axis = 0.5)
 }
 plot_qpcr(res[[5]][template_name %like% '^0',], cex.axis = 0.5)
 res[[1]][template_name == '094']
