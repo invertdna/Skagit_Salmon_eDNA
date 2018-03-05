@@ -18,11 +18,14 @@ plot_qpcr <- function(DT, ...){
 }
 for(i in seq(res)){
   plot_qpcr(res[[i]], cex.axis = 0.5)
+  legend(x = 'bottomright', legend = res[[i]][1,plate_id])
 }
 plot_qpcr(res[[5]][template_name %like% '^0',], cex.axis = 0.5)
-res[[1]][template_name == '094']
-res[[1]][template_name == 'std_1']
 
+
+res[[6]][,.N, by = template_name]
+rbindlist(res)[template_name == '094']
+res[[1]][template_name == 'std_1']
 plot_qpcr(rbindlist(res)[Task == 'Unknown',], cex.axis = 0.5)
 
 x_in_y <- function(dt1, dt2){
