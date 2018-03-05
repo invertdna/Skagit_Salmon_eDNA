@@ -1,9 +1,8 @@
 # Analyze qPCR data, especially 
 model_dat <- list()
-model_dat[[1]] <- R1[Task == "Standard"]
-model_dat[[2]] <- R2[Task == "Standard"]
-model_dat[[3]] <- R3[Task == "Standard"]
-model_dat[[4]] <- R4[Task == "Standard"]
+for(i in seq(res)){ # object 'res' from qpcr_load.R
+  model_dat[[i]] <- res[[i]][Task == "Standard"]
+}
 
 model_out <- list()
 for(i in 1:length(model_dat)){
