@@ -5,6 +5,10 @@
 ## 2018-03-06
 - qPCR: note that the detector for the CKCO3 assay is named on the machine 'jimmy161209'
 
+## 2018-03-02
+- qPCR: used up the last of sample SKA-094 full strength
+- more than 3uL were put into well 9b
+
 ## 2018-02-22
 - Meeting: Ole, Jimmy, Linda. Jimmy's to-dos
   - All further work will focus on seine sites only
