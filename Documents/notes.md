@@ -2,6 +2,9 @@
 
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
+## 2018-03-06
+- qPCR: note that the detector for the CKCO3 assay is named on the machine 'jimmy161209'
+
 ## 2018-02-22
 - Meeting: Ole, Jimmy, Linda. Jimmy's to-dos
   - All further work will focus on seine sites only
