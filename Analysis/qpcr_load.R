@@ -48,17 +48,17 @@ res[[4]] <- load_qpcr(
 #-------------------------------------------------------------------------------
 # 5: note the std quantity was 4.78 and was entered into the software on the qpcr machine.
 res[[5]] <- load_qpcr(
-  qpcr_data_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180102/results/CKCO3-180102_result.txt",
-  sample_sheet_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180102/setup/sample_sheet.csv", 
+  qpcr_data_file = "../Data/qpcr_data/CKCO3-180102/results/CKCO3-180102_result.txt",
+  sample_sheet_file = "../Data/qpcr/CKCO3-180102/setup/sample_sheet.csv", 
   std_conc = 1)[,Quantity := Quantity/4.78]
 #-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
 # 6: note the std quantity was 1.05 and was entered into the software on the qpcr machine.
 res[[6]] <- load_qpcr(
-  qpcr_data_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180302/results/CKCO3-180302_result.txt",
-  sample_sheet_file = "~/GoogleDrive/Data/qpcr_data/CKCO3-180302/setup/sample_sheet.csv", 
-  std_conc = 1)[ , c('Quantity', 'V1') := list(Quantity/1.05, NULL)][]
+  qpcr_data_file = "../Data/qpcr/CKCO3-180302/results/CKCO3-180302_result.txt",
+  sample_sheet_file = "../Data/qpcr/CKCO3-180302/setup/sample_sheet.csv", 
+  std_conc = 1)[ , c('Quantity') := list(Quantity/1.05)][]
 #-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
