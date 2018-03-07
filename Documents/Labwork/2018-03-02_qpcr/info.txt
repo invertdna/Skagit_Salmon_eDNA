@@ -1,5 +1,0 @@
-
-prepared_by:, 
-date:, 
-reaction_name:,ODonnell180112
-thermocycler:, 
