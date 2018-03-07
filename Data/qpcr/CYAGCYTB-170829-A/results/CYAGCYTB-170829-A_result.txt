@@ -1,0 +1,73 @@
+SDS 2.4	AQ Results	1.0
+Filename	CYAGCYTB-170829-A
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	8/29/17 2:47:03 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	CYAG-F1	FAM	Standard	16.322666			1.0						Automatic Ct		Automatic			Automatic	0.13343531													
+2	A2	CYAG-F1	FAM	Standard	16.682873			1.0						Automatic Ct		Automatic			Automatic	0.13343531													
+3	A3	CYAG-F1	FAM	Standard	16.46524			1.0						Automatic Ct		Automatic			Automatic	0.13343531													
+25	B1	CYAG-F1	FAM	Standard	19.692362			0.1						Automatic Ct		Automatic			Automatic	0.13343531													
+26	B2	CYAG-F1	FAM	Standard	19.969723			0.1						Automatic Ct		Automatic			Automatic	0.13343531													
+27	B3	CYAG-F1	FAM	Standard	20.027647			0.1						Automatic Ct		Automatic			Automatic	0.13343531													
+49	C1	CYAG-F1	FAM	Standard	23.911732			0.01						Automatic Ct		Automatic			Automatic	0.13343531													
+50	C2	CYAG-F1	FAM	Standard	23.53398			0.01						Automatic Ct		Automatic			Automatic	0.13343531													
+51	C3	CYAG-F1	FAM	Standard	23.575037			0.01						Automatic Ct		Automatic			Automatic	0.13343531													
+73	D1	CYAG-F1	FAM	Standard	27.573053			0.0010						Automatic Ct		Automatic			Automatic	0.13343531													
+74	D2	CYAG-F1	FAM	Standard	27.724274			0.0010						Automatic Ct		Automatic			Automatic	0.13343531													
+75	D3	CYAG-F1	FAM	Standard	27.769087			0.0010						Automatic Ct		Automatic			Automatic	0.13343531													
+97	E1	CYAG-F1	FAM	Standard	32.220882			1.0E-4						Automatic Ct		Automatic			Automatic	0.13343531													
+98	E2	CYAG-F1	FAM	Standard	32.086964			1.0E-4						Automatic Ct		Automatic			Automatic	0.13343531													
+99	E3	CYAG-F1	FAM	Standard	32.03109			1.0E-4						Automatic Ct		Automatic			Automatic	0.13343531													
+121	F1	CYAG-F1	FAM	Standard	35.214115			1.0E-5						Automatic Ct		Automatic			Automatic	0.13343531													
+122	F2	CYAG-F1	FAM	Standard	35.15099			1.0E-5						Automatic Ct		Automatic			Automatic	0.13343531													
+123	F3	CYAG-F1	FAM	Standard	36.833088			1.0E-5						Automatic Ct		Automatic			Automatic	0.13343531													
+145	G1	CYAG-F1	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.13343531						true			true				
+146	G2	CYAG-F1	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.13343531						true			true				
+147	G3	CYAG-F1	FAM	Standard	37.005882			1.0E-6						Automatic Ct		Automatic			Automatic	0.13343531													
+169	H1	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.13343531						true							
+170	H2	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.13343531						true							
+171	H3	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.13343531						true							
+Slope	-3.7755442	cycles/log decade
+Y-Intercept		16.380943
+R^2		0.99079186
+
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+4	A4	CYAG-F2	FAM	Standard	16.921719			1.0						Automatic Ct		Automatic			Automatic	0.22733265													
+5	A5	CYAG-F2	FAM	Standard	17.344046			1.0						Automatic Ct		Automatic			Automatic	0.22733265													
+6	A6	CYAG-F2	FAM	Standard	17.436337			1.0						Automatic Ct		Automatic			Automatic	0.22733265													
+28	B4	CYAG-F2	FAM	Standard	20.807367			0.1						Automatic Ct		Automatic			Automatic	0.22733265													
+29	B5	CYAG-F2	FAM	Standard	20.810823			0.1						Automatic Ct		Automatic			Automatic	0.22733265													
+30	B6	CYAG-F2	FAM	Standard	20.85265			0.1						Automatic Ct		Automatic			Automatic	0.22733265													
+52	C4	CYAG-F2	FAM	Standard	24.752087			0.01						Automatic Ct		Automatic			Automatic	0.22733265													
+53	C5	CYAG-F2	FAM	Standard	24.433681			0.01						Automatic Ct		Automatic			Automatic	0.22733265													
+54	C6	CYAG-F2	FAM	Standard	24.567171			0.01						Automatic Ct		Automatic			Automatic	0.22733265													
+76	D4	CYAG-F2	FAM	Standard	29.37153			0.0010						Automatic Ct		Automatic			Automatic	0.22733265													
+77	D5	CYAG-F2	FAM	Standard	29.165802			0.0010						Automatic Ct		Automatic			Automatic	0.22733265													
+78	D6	CYAG-F2	FAM	Standard	29.161251			0.0010						Automatic Ct		Automatic			Automatic	0.22733265													
+100	E4	CYAG-F2	FAM	Standard	33.09779			1.0E-4						Automatic Ct		Automatic			Automatic	0.22733265													
+101	E5	CYAG-F2	FAM	Standard	31.914259			1.0E-4						Automatic Ct		Automatic			Automatic	0.22733265													
+102	E6	CYAG-F2	FAM	Standard	33.849556			1.0E-4						Automatic Ct		Automatic			Automatic	0.22733265													
+124	F4	CYAG-F2	FAM	Standard	36.92476			1.0E-5						Automatic Ct		Automatic			Automatic	0.22733265													
+125	F5	CYAG-F2	FAM	Standard	36.182693			1.0E-5						Automatic Ct		Automatic			Automatic	0.22733265													
+126	F6	CYAG-F2	FAM	Standard	36.57083			1.0E-5						Automatic Ct		Automatic			Automatic	0.22733265													
+148	G4	CYAG-F2	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.22733265						true			true				
+149	G5	CYAG-F2	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.22733265						true			true				
+150	G6	CYAG-F2	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.22733265						true			true				
+172	H4	CYAG-F2	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.22733265						true							
+173	H5	CYAG-F2	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.22733265						true							
+174	H6	CYAG-F2	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.22733265						true							
+Slope	-3.9333222	cycles/log decade
+Y-Intercept		17.064714
+R^2		0.99568737
+
+
+
+NAP	LPL
+	
