@@ -1,0 +1,7 @@
+param_type,param_name,uL_per_rxn,uL_batch,uL_extra
+mastermix,TaqMan Environmental Master Mix 2.0,5,280,
+primer,USGS-CKCO3-F,0.9,50.4,
+primer,USGS-CKCO3-R,0.9,50.4,
+probe,see ref,0.2,11.2,
+water,water,0,0,
+template,eDNA - 3 uL per 10uL rxn,3,,

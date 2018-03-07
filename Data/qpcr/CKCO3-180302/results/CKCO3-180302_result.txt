@@ -1,0 +1,73 @@
+SDS 2.4	AQ Results	1.0
+Filename	CKCO3-180302
+PlateID	C3909C8K
+Assay Type	Absolute Quantification
+Run DateTime	3/2/18 6:41:03 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	jimmy161209	FAM	Standard	21.132307			1.05						Automatic Ct		Automatic			Automatic	0.3852173													
+2	A2	jimmy161209	FAM	Standard	22.420765			1.05						Automatic Ct		Automatic			Automatic	0.3852173													
+3	A3	jimmy161209	FAM	Standard	22.331924			1.05						Automatic Ct		Automatic			Automatic	0.3852173													
+4	A4	jimmy161209	FAM	Unknown	32.356926			0.0015931028						Automatic Ct		Automatic			Automatic	0.3852173													
+5	A5	jimmy161209	FAM	Unknown	33.570583			7.443886E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+6	A6	jimmy161209	FAM	Unknown	34.470924			4.233141E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+7	A7	jimmy161209	FAM	Unknown	30.57949			0.004854989						Automatic Ct		Automatic			Automatic	0.3852173													
+8	A8	jimmy161209	FAM	Unknown	30.761343			0.004331867						Automatic Ct		Automatic			Automatic	0.3852173													
+9	A9	jimmy161209	FAM	Unknown	30.619944			0.004733409						Automatic Ct		Automatic			Automatic	0.3852173													
+25	B1	jimmy161209	FAM	Standard	24.609846			0.21						Automatic Ct		Automatic			Automatic	0.3852173													
+26	B2	jimmy161209	FAM	Standard	24.77013			0.21						Automatic Ct		Automatic			Automatic	0.3852173													
+27	B3	jimmy161209	FAM	Standard	24.57996			0.21						Automatic Ct		Automatic			Automatic	0.3852173													
+28	B4	jimmy161209	FAM	Unknown	33.71727			6.7898666E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+29	B5	jimmy161209	FAM	Unknown	33.73068			6.733027E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+30	B6	jimmy161209	FAM	Unknown	33.616653			7.231964E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+31	B7	jimmy161209	FAM	Unknown	30.567257			0.0048923683						Automatic Ct		Automatic			Automatic	0.3852173													
+32	B8	jimmy161209	FAM	Unknown	30.4405			0.005297018						Automatic Ct		Automatic			Automatic	0.3852173													
+33	B9	jimmy161209	FAM	Unknown	31.603483			0.002554963						Automatic Ct		Automatic			Automatic	0.3852173													
+49	C1	jimmy161209	FAM	Standard	27.401308			0.042						Automatic Ct		Automatic			Automatic	0.3852173													
+50	C2	jimmy161209	FAM	Standard	27.237465			0.042						Automatic Ct		Automatic			Automatic	0.3852173													
+51	C3	jimmy161209	FAM	Standard	27.20341			0.042						Automatic Ct		Automatic			Automatic	0.3852173													
+52	C4	jimmy161209	FAM	Unknown	33.615845			7.2356296E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+53	C5	jimmy161209	FAM	Unknown	34.264507			4.8179712E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+54	C6	jimmy161209	FAM	Unknown	33.729637			6.737423E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+73	D1	jimmy161209	FAM	Standard	29.938953			0.0084						Automatic Ct		Automatic			Automatic	0.3852173													
+74	D2	jimmy161209	FAM	Standard	29.60028			0.0084						Automatic Ct		Automatic			Automatic	0.3852173													
+75	D3	jimmy161209	FAM	Standard	29.71578			0.0084						Automatic Ct		Automatic			Automatic	0.3852173													
+76	D4	jimmy161209	FAM	Unknown	33.65622			7.0547813E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+77	D5	jimmy161209	FAM	Unknown	33.447136			8.042869E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+78	D6	jimmy161209	FAM	Unknown	33.67804			6.958929E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+97	E1	jimmy161209	FAM	Standard	30.973349			0.00168						Automatic Ct		Automatic			Automatic	0.3852173													
+98	E2	jimmy161209	FAM	Standard	31.995888			0.00168						Automatic Ct		Automatic			Automatic	0.3852173													
+99	E3	jimmy161209	FAM	Standard	32.370045			0.00168						Automatic Ct		Automatic			Automatic	0.3852173													
+100	E4	jimmy161209	FAM	Unknown	33.24041			9.155802E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+101	E5	jimmy161209	FAM	Unknown	33.604958			7.285185E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+102	E6	jimmy161209	FAM	Unknown	33.89949			6.0568633E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+121	F1	jimmy161209	FAM	Standard	34.79073			3.36E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+122	F2	jimmy161209	FAM	Standard	34.82925			3.36E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+123	F3	jimmy161209	FAM	Standard	35.23152			3.36E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+124	F4	jimmy161209	FAM	Unknown	34.0357			5.5611075E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+125	F5	jimmy161209	FAM	Unknown	33.84125			6.2820956E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+126	F6	jimmy161209	FAM	Unknown	33.67111			6.9892366E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+145	G1	jimmy161209	FAM	Standard	36.667732			6.72E-5						Automatic Ct		Automatic			Automatic	0.3852173													
+146	G2	jimmy161209	FAM	Standard	38.67137			6.72E-5						Automatic Ct		Automatic			Automatic	0.3852173													
+147	G3	jimmy161209	FAM	Standard	37.33358			6.72E-5						Automatic Ct		Automatic			Automatic	0.3852173													
+148	G4	jimmy161209	FAM	Unknown	33.239037			9.1636914E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+149	G5	jimmy161209	FAM	Unknown	33.059597			0.0010254789						Automatic Ct		Automatic			Automatic	0.3852173													
+150	G6	jimmy161209	FAM	Unknown	33.34523			8.573477E-4						Automatic Ct		Automatic			Automatic	0.3852173													
+169	H1	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.3852173						true							
+170	H2	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.3852173						true							
+171	H3	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.3852173						true							
+172	H4	jimmy161209	FAM	Unknown	32.36787			0.0015822089						Automatic Ct		Automatic			Automatic	0.3852173													
+173	H5	jimmy161209	FAM	Unknown	32.403606			0.0015471554						Automatic Ct		Automatic			Automatic	0.3852173													
+174	H6	jimmy161209	FAM	Unknown	32.464386			0.0014893116						Automatic Ct		Automatic			Automatic	0.3852173													
+Slope	-3.672808	cycles/log decade
+Y-Intercept		22.081305
+R^2		0.99049574
+
+
+
+NAP	LPL
+	
