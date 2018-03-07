@@ -1,0 +1,91 @@
+SDS 2.4	AQ Results	1.0
+Filename	CYAGCYTB-170829-B
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	8/29/17 6:27:37 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	CYAG-F1	FAM	Standard	15.348445			1.0						Automatic Ct		Automatic			Automatic	0.05528502													
+2	A2	CYAG-F1	FAM	Standard	15.730421			1.0						Automatic Ct		Automatic			Automatic	0.05528502													
+3	A3	CYAG-F1	FAM	Standard	16.01824			1.0						Automatic Ct		Automatic			Automatic	0.05528502													
+4	A4	CYAG-F1	FAM	Unknown	33.55984			2.2405256E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+5	A5	CYAG-F1	FAM	Unknown	33.19099			2.7795439E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+6	A6	CYAG-F1	FAM	Unknown	33.340855			2.5464453E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+7	A7	CYAG-F1	FAM	Unknown	32.715694			3.6695747E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+8	A8	CYAG-F1	FAM	Unknown	34.17677			1.5622769E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+9	A9	CYAG-F1	FAM	Unknown	33.759068			1.994258E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+25	B1	CYAG-F1	FAM	Standard	19.079643			0.1						Automatic Ct		Automatic			Automatic	0.05528502													
+26	B2	CYAG-F1	FAM	Standard	18.91522			0.1						Automatic Ct		Automatic			Automatic	0.05528502													
+27	B3	CYAG-F1	FAM	Standard	19.005194			0.1						Automatic Ct		Automatic			Automatic	0.05528502													
+28	B4	CYAG-F1	FAM	Unknown	32.654366			3.8034923E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+29	B5	CYAG-F1	FAM	Unknown	32.03645			5.457896E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+30	B6	CYAG-F1	FAM	Unknown	32.770473			3.5539528E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+31	B7	CYAG-F1	FAM	Unknown	36.544014			3.916442E-6						Automatic Ct		Automatic			Automatic	0.05528502						true							
+32	B8	CYAG-F1	FAM	Unknown	34.378555			1.3884796E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+33	B9	CYAG-F1	FAM	Unknown	35.015034			9.571614E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+49	C1	CYAG-F1	FAM	Standard	23.12495			0.01						Automatic Ct		Automatic			Automatic	0.05528502													
+50	C2	CYAG-F1	FAM	Standard	22.177357			0.01						Automatic Ct		Automatic			Automatic	0.05528502													
+51	C3	CYAG-F1	FAM	Standard	22.519926			0.01						Automatic Ct		Automatic			Automatic	0.05528502													
+52	C4	CYAG-F1	FAM	Unknown	32.312565			4.6445133E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+53	C5	CYAG-F1	FAM	Unknown	34.005955			1.7262946E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+54	C6	CYAG-F1	FAM	Unknown	33.701557			2.0624277E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+55	C7	CYAG-F1	FAM	Unknown	33.051056			3.016426E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+56	C8	CYAG-F1	FAM	Unknown	33.991634			1.7408038E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+57	C9	CYAG-F1	FAM	Unknown	34.38139			1.3861825E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+73	D1	CYAG-F1	FAM	Standard	27.919134			0.0010						Automatic Ct		Automatic			Automatic	0.05528502													
+74	D2	CYAG-F1	FAM	Standard	26.531963			0.0010						Automatic Ct		Automatic			Automatic	0.05528502													
+75	D3	CYAG-F1	FAM	Standard	27.228727			0.0010						Automatic Ct		Automatic			Automatic	0.05528502													
+76	D4	CYAG-F1	FAM	Unknown	32.208843			4.934775E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+77	D5	CYAG-F1	FAM	Unknown	33.120064			2.897187E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+78	D6	CYAG-F1	FAM	Unknown	33.579456			2.2149874E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+79	D7	CYAG-F1	FAM	Unknown	32.787853			3.5180332E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+80	D8	CYAG-F1	FAM	Unknown	32.6332			3.8508322E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+81	D9	CYAG-F1	FAM	Unknown	32.42013			4.3615113E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+97	E1	CYAG-F1	FAM	Standard	31.081259			1.0E-4						Automatic Ct		Automatic			Automatic	0.05528502													
+98	E2	CYAG-F1	FAM	Standard	30.42335			1.0E-4						Automatic Ct		Automatic			Automatic	0.05528502													
+99	E3	CYAG-F1	FAM	Standard	30.435253			1.0E-4						Automatic Ct		Automatic			Automatic	0.05528502													
+100	E4	CYAG-F1	FAM	Unknown	36.887733			3.2036621E-6						Automatic Ct		Automatic			Automatic	0.05528502						true							
+101	E5	CYAG-F1	FAM	Unknown	34.699497			1.1510035E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+102	E6	CYAG-F1	FAM	Unknown	33.008656			3.0921095E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+103	E7	CYAG-F1	FAM	Unknown	34.719086			1.1379015E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+104	E8	CYAG-F1	FAM	Unknown	35.46495			7.358428E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+105	E9	CYAG-F1	FAM	Unknown	34.483448			1.3059162E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+121	F1	CYAG-F1	FAM	Standard	34.901543			1.0E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+122	F2	CYAG-F1	FAM	Standard	36.25413			1.0E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+123	F3	CYAG-F1	FAM	Standard	Undetermined			1.0E-5						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+124	F4	CYAG-F1	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+125	F5	CYAG-F1	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+126	F6	CYAG-F1	FAM	Unknown	36.165802			4.885302E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+127	F7	CYAG-F1	FAM	Unknown	36.661358			3.656845E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+128	F8	CYAG-F1	FAM	Unknown	34.97476			9.799604E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+129	F9	CYAG-F1	FAM	Unknown	35.88254			5.7648745E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+145	G1	CYAG-F1	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+146	G2	CYAG-F1	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+147	G3	CYAG-F1	FAM	Standard	Undetermined			1.0E-6						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+148	G4	CYAG-F1	FAM	Unknown	33.73253			2.0254316E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+149	G5	CYAG-F1	FAM	Unknown	35.72993			6.3026937E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+150	G6	CYAG-F1	FAM	Unknown	34.57074			1.2409623E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+151	G7	CYAG-F1	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+152	G8	CYAG-F1	FAM	Unknown	34.278767			1.4718672E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+153	G9	CYAG-F1	FAM	Unknown	36.49837			4.022323E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+169	H1	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true							
+170	H2	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true							
+171	H3	CYAG-F1	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true							
+172	H4	CYAG-F1	FAM	Unknown	33.350643			2.5319174E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+173	H5	CYAG-F1	FAM	Unknown	33.707			2.055878E-5						Automatic Ct		Automatic			Automatic	0.05528502													
+174	H6	CYAG-F1	FAM	Unknown	35.141384			8.890262E-6						Automatic Ct		Automatic			Automatic	0.05528502													
+175	H7	CYAG-F1	FAM	Unknown	37.01362			2.9764176E-6						Automatic Ct		Automatic			Automatic	0.05528502						true							
+176	H8	CYAG-F1	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+177	H9	CYAG-F1	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.05528502						true			true				
+Slope	-3.939718	cycles/log decade
+Y-Intercept		15.241532
+R^2		0.99212986
+
+
+
+NAP	LPL
+	
