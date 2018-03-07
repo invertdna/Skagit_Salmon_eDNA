@@ -1,0 +1,6 @@
+- Sample SKA027 was empty. I replaced it in the plate with sample SKA057 (C,4:6)
+- Tips with samples intended to go into [A:H,5] briefly touched [A:H,8]. I pulled them out before ejecting.
+- Almost no sample went into wells [(I,N),12]Samples were frozen, ice formed, and flicked out when I put the pipette in the sample.
+- Sample SKA028 did not have much left in the tube, so I made a half strength dilution to add to the plate.
+- wells [(O,P),24] had standard 6.72e-05
+- wells [(O:P),(22:23)] contained sample 064
