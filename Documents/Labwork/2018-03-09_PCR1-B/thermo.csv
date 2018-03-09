@@ -1,0 +1,12 @@
+param_name,units,value
+init_temp,C,98
+init_time,seconds,30
+n_cycles,cycles,35
+step1_temp,C,98
+step1_time,seconds,10
+step2_temp,C,60
+step2_time,seconds,30
+step3_temp,C,72
+step3_time,seconds,30
+final_temp,C,72
+final_time,seconds,420
