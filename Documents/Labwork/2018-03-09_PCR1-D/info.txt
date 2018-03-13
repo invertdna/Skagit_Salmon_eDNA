@@ -1,5 +1,6 @@
 
-prepared_by:, 
-date:, 
-reaction_name:,Prey16S-A_JD_2017
-thermocycler:, 
+prepared_by: Jimmy
+date: 2018-03-12
+reaction_name: Prey16S-A_JD_2017
+thermocycler: Ichthyosaur block 2
+program: 16sprey1
