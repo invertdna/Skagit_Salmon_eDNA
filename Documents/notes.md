@@ -1,5 +1,7 @@
 # Notes
 
+_Add new items to the top_
+
 [Sampling schedule](https://docs.google.com/spreadsheets/d/1rGF1CfOnSjiN8vHExiMQmoFGV8nV1kTJqkbsKRKS8jc/edit?ts=5887f21e#gid=0)
 
 ## 2018-03-06
@@ -46,6 +48,16 @@
 - Abi caught an error:
   - *"The sample we have listed in our data sheets as 67 is actually sample 69. The label on the tube is hard to decipher so I went back and looked at the cleaning records, we never did 67, but we did do 69. I've changed it in the plate layout_updated sheet in the folder, and in my notes, but you'll want to change the sample to 69 in anything related to this qPCR (position I4-6), and in the Aug 30th 2017 qPCR (B22-24)."*
 
+## 2017-09-08
+  - Tapestation: samples, pooled amplicons: (27, 28, 92a, 94, 595); 595 failed.
+  - PCR: PCR2 (index PCR); 
+  - Cleanup: Ampure XP beads at 0.8 ratio
+  - Tapestation: 
+
+## 2017-09-07
+  - PCR: PCR1 (16S-prey); samples, 3 replicates each: (27, 28, 92a, 92b, 92c, 94a, 94b, 94c, 595, 598)
+  - Cleanup: Qiagen PCR cleanup kit
+
 ## 2017-08-03
 - After PCR1, our samples had between 3 and 14 ng/uL
 - Average expected fragment size after PCR1: 443bp
@@ -59,7 +71,6 @@
 - Wylie Boat Ramp and Goat Island not sampled in summer 2016
 - Sites sampled five times in 2017:
   - Turners, Strawberry, Lone Tree, Hoypus, Goat, Dugualla
-
 
 ## 2017-01-23
 - Skagit River Systems Coop sampling schedule:
