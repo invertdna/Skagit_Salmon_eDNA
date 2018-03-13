@@ -30,7 +30,7 @@ abiotic.seine.dat <- catch.dat %>% select("Site","Site.Type.1","Site.Type.2","ye
 
 # Identify a set of species to work with
 catch.dat <- catch.dat %>% select(-THESE,-grep("density",colnames(catch.dat)),-grep("catch",colnames(catch.dat)))
-these  <- c(grep("STURGEON",colnames(catch.dat)),grep("time",colnames(catch.dat)))
+these  <- c(grep("STURGEON",colnames(catch.dat)),which(colnames(catch.dat)=="O.U.fish.pl"))
 M.vars <- colnames(catch.dat)[these[1]:(these[2]-1)]
 
 dat.long <- melt(catch.dat,measure.vars = M.vars,variable.name="species")
@@ -155,6 +155,120 @@ pdf("Beach seince catch tile plots 2017.pdf",onefile=T,width=8,height=10)
   print(all.sp.occur)
 dev.off()
 
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+### FYKE DATA 
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+
+setwd(data.dir)
+
+fyke.dat  <- read.csv(file="Skagit eDNA fyke data 2017.csv")
+
+# parse dates 
+fyke.dat$time <- strptime(fyke.dat$Date,"%m/%d/%y")
+fyke.dat$julian <- round(as.numeric(difftime(fyke.dat$time,strptime("1/1/17","%m/%d/%y"),units="days")),0)
+
+### ANALYZE THE CATCH DATA FIRST
+# Pull out abiotic variables.
+NOM <- colnames(fyke.dat)
+THESE <-  c(  grep("Avg.",NOM),
+              grep("Gage",NOM),
+              grep("SetArea",NOM))
+
+abiotic.fyke.dat <- fyke.dat %>% select("Site","Site.Type.1","Site.Type.2","time","julian",THESE)
+
+# Identify a set of species to work with
+fyke.dat <- fyke.dat %>% select(-THESE,-grep("^NOR",colnames(fyke.dat)),-grep("^HOR",colnames(fyke.dat)))
+these  <- c(grep("STURGEON",colnames(fyke.dat)),which(colnames(fyke.dat)=="O.U.fish.pl"))
+M.vars <- colnames(fyke.dat)[these[1]:(these[2])]
+
+fyke.long <- melt(fyke.dat,measure.vars = M.vars,variable.name="species")
+fyke.long$year <- as.numeric(substr(as.character(fyke.long$time),1,4))
+fyke.long$month <- as.numeric(substr(as.character(fyke.long$time),6,7))
+fyke.long$day <- as.numeric(substr(as.character(fyke.long$time),9,10))
+fyke.long <- fyke.long %>% select(-time)
+
+fyke.long.sum <- fyke.long %>% group_by(species) %>% summarise(SUM = sum(value)) %>% as.data.frame()
+
+# filter out species that were never observed
+fyke.long.sum <- fyke.long.sum %>% filter(SUM >0) %>% arrange(SUM)
+SP.fyke <- fyke.long.sum$species ## list of species that have at least one observation
+
+# 
+fyke.long.trim <- fyke.long %>% filter(species %in% SP) %>% mutate(species.comb = species)
+fyke.long.trim$species.comb <- as.character(fyke.long.trim$species.comb)
+
+### Combine multiple types of salmonids of the same age.
+fyke.long.trim <- fyke.long.trim %>% #mutate(species.comb = if_else(grepl("LANCE",fyke.long.trim$species.comb),"LANCE",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CK.0",fyke.long.trim$species.comb),"CK",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CK.1",fyke.long.trim$species.comb),"CK",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CO.0",fyke.long.trim$species.comb),"CO",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CO.1",fyke.long.trim$species.comb),"CO",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CH.",fyke.long.trim$species.comb),"CH",species.comb)) %>%
+  mutate(species.comb = if_else(grepl("^CT.",fyke.long.trim$species.comb),"CT",species.comb)) #%>%
+#mutate(species.comb = if_else(grepl("SMELT",fyke.long.trim$species.comb),"SMELT",species.comb)) %>%
+#mutate(species.comb = if_else(grepl("HERR",fyke.long.trim$species.comb),"HERR",species.comb)) %>%
+
+
+# fyke.long.trim$Site <- factor(dat.long.trim$Site,
+#                              c("Turners Spit N",
+#                                "Hoypus Pt E",
+#                                "Lone Tree Pt",
+#                                "Dugualla Bluff",
+#                                "Goat Is",
+#                                "Strawberry Pt N",
+#                                "Mariners Bluff", 
+#                                "Brown Point (X)")) 
+
+############ STOPPED HERE!!!
+
+
+
+
+fyke.set <- fyke.long.trim %>% group_by(Site,year,month,julian,Set.Number,species.comb) %>% summarise(total = sum(value)) %>% as.data.frame()
+
+
+# dat.site.avg <- dat.set %>% group_by(Site,year,month,julian,species.comb) %>% summarise(avg = mean(total)) %>% as.data.frame()
+dat.skagit.avg <- dat.site.avg %>% group_by(year,month,species.comb) %>% summarise(AVG = mean(avg),SD =sd(avg),CV=SD/AVG) %>% as.data.frame()
+
+
+
+
+
+
+
+
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+### PARSE LENGTH DATA 
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+
+# length.dat is of interest
+
+length.dat$Species.Abbreviation <- as.character(length.dat$Species.Abbreviation)
+length.dat <- length.dat %>% mutate(species.comb = Species.Abbreviation) %>%
+              mutate(species.comb = if_else(grepl("^CK",length.dat$Species.Abbreviation),"CK",species.comb)) %>%
+              mutate(species.comb = if_else(grepl("^CO",length.dat$Species.Abbreviation),"CO",species.comb)) %>%
+              mutate(species.comb = if_else(grepl("^CH",length.dat$Species.Abbreviation),"CH",species.comb)) %>%
+              mutate(species.comb = if_else(grepl("^CT",length.dat$Species.Abbreviation),"CT",species.comb)) #%>%
 
 
 
