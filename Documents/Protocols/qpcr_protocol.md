@@ -5,10 +5,10 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 - primer 1 @ 10uM
 - primer 2 @ 10uM
 - probe @ 10uM
-- PCR Master Mix @ 1x
+- PCR Master Mix @ 2x
 - PCR grade water
-- DNA templates at 1:10 (5uL sample plus 45 uL water, total volume = 50uL)
-- Dilution series (3 replicates each of 1:1 through 1:1000000 and 0:1)
+- DNA templates
+- Dilution series (3 replicates each), 
 
 **CONSUMABLES** (per N samples)
 - 1.5mL tubes (1 per primer set)
@@ -20,15 +20,17 @@ Per N samples, where N = 3 * (number of samples + 8 dilution steps inclusive of 
 - centrifuge for plates
 - pipettes (including a repeater pipette and a multichannel pipette capable of loading 96 and/or 384 well plates)
 - vortexer
+- frozen block for 384 well plates
 
 #### PREPARING THE REACTIONS
+- **FIRST: Qubit the full-strength dilution step**
 - Get out all reagents and DNA samples
 - While these are coming to room temperature, arrange samples in the exact way you will load them on the plate.
 - **Vortex** the master mix, primers, and probe.
 - Make PCR soup by adding appropriate amounts of the following to a 1.5 mL tube:
   - **master mix**, **water**, **primer 1**, **primer 2**, and **probe**.
 - Pipette up and down to mix.
-- Get out a plate and set it on a Kimwipe. It is very important to keep it away from dust and lint, as this will affect the ability of the laser to get good readings.
+- Get out a plate and set it on a frozen block. _Note that dust and lint will affect the ability of the laser to get good readings._
 - Mark conspicuously the top left corner (well A1)
 - Mark the top of the plate to indicate where blocks of samples and controls go.
 - Using a repeater pipette, add the appropriate amount of PCR soup to each well. Consider first loading this into one strip, and then using a multichannel to distribute to the rest of the plate.

@@ -1,0 +1,403 @@
+SDS 2.4	AQ Results	1.0
+Filename	CKCO3-180306_setup
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	3/6/18 7:51:54 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	jimmy161209	FAM	Standard	21.75636			1.05						Automatic Ct		Automatic			Automatic	0.32486215													
+2	A2	jimmy161209	FAM	Standard	21.852964			1.05						Automatic Ct		Automatic			Automatic	0.32486215													
+3	A3	jimmy161209	FAM	Standard	21.77721			1.05						Automatic Ct		Automatic			Automatic	0.32486215													
+4	A4	jimmy161209	FAM	Unknown	37.639744			0.0019877576						Automatic Ct		Automatic			Automatic	0.32486215													
+5	A5	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+6	A6	jimmy161209	FAM	Unknown	37.710606			0.0019342469						Automatic Ct		Automatic			Automatic	0.32486215													
+7	A7	jimmy161209	FAM	Unknown	39.566208			9.465958E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+8	A8	jimmy161209	FAM	Unknown	39.240223			0.0010732112						Automatic Ct		Automatic			Automatic	0.32486215													
+9	A9	jimmy161209	FAM	Unknown	39.55382			9.511219E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+10	A10	jimmy161209	FAM	Unknown	36.864445			0.0026793608						Automatic Ct		Automatic			Automatic	0.32486215													
+11	A11	jimmy161209	FAM	Unknown	39.580254			9.414894E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+12	A12	jimmy161209	FAM	Unknown	36.81637			0.0027294294						Automatic Ct		Automatic			Automatic	0.32486215													
+13	A13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+14	A14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+15	A15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+16	A16	jimmy161209	FAM	Unknown	36.39146			0.0032146766						Automatic Ct		Automatic			Automatic	0.32486215													
+17	A17	jimmy161209	FAM	Unknown	36.277184			0.0033593085						Automatic Ct		Automatic			Automatic	0.32486215													
+18	A18	jimmy161209	FAM	Unknown	36.366795			0.0032453584						Automatic Ct		Automatic			Automatic	0.32486215													
+19	A19	jimmy161209	FAM	Unknown	34.962246			0.005574061						Automatic Ct		Automatic			Automatic	0.32486215													
+20	A20	jimmy161209	FAM	Unknown	34.5941			0.00642308						Automatic Ct		Automatic			Automatic	0.32486215													
+21	A21	jimmy161209	FAM	Unknown	35.123177			0.0052390937						Automatic Ct		Automatic			Automatic	0.32486215													
+22	A22	jimmy161209	FAM	Unknown	31.245329			0.023324989						Automatic Ct		Automatic			Automatic	0.32486215													
+23	A23	jimmy161209	FAM	Unknown	31.209337			0.023650533						Automatic Ct		Automatic			Automatic	0.32486215													
+24	A24	jimmy161209	FAM	Unknown	31.175991			0.023956204						Automatic Ct		Automatic			Automatic	0.32486215													
+25	B1	jimmy161209	FAM	Standard	24.247717			0.21						Automatic Ct		Automatic			Automatic	0.32486215													
+26	B2	jimmy161209	FAM	Standard	24.336573			0.21						Automatic Ct		Automatic			Automatic	0.32486215													
+27	B3	jimmy161209	FAM	Standard	24.305918			0.21						Automatic Ct		Automatic			Automatic	0.32486215													
+28	B4	jimmy161209	FAM	Unknown	39.22789			0.0010783208						Automatic Ct		Automatic			Automatic	0.32486215													
+29	B5	jimmy161209	FAM	Unknown	37.553547			0.0020548478						Automatic Ct		Automatic			Automatic	0.32486215													
+30	B6	jimmy161209	FAM	Unknown	38.058628			0.0016916308						Automatic Ct		Automatic			Automatic	0.32486215													
+31	B7	jimmy161209	FAM	Unknown	37.72266			0.0019252886						Automatic Ct		Automatic			Automatic	0.32486215													
+32	B8	jimmy161209	FAM	Unknown	38.57608			0.0013859969						Automatic Ct		Automatic			Automatic	0.32486215													
+33	B9	jimmy161209	FAM	Unknown	37.826145			0.0018500696						Automatic Ct		Automatic			Automatic	0.32486215													
+34	B10	jimmy161209	FAM	Unknown	36.26433			0.0033759768						Automatic Ct		Automatic			Automatic	0.32486215													
+35	B11	jimmy161209	FAM	Unknown	36.89358			0.0026494649						Automatic Ct		Automatic			Automatic	0.32486215													
+36	B12	jimmy161209	FAM	Unknown	36.9917			0.0025512208						Automatic Ct		Automatic			Automatic	0.32486215													
+37	B13	jimmy161209	FAM	Unknown	36.878925			0.0026644608						Automatic Ct		Automatic			Automatic	0.32486215													
+38	B14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+39	B15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+40	B16	jimmy161209	FAM	Unknown	37.373245			0.002202596						Automatic Ct		Automatic			Automatic	0.32486215													
+41	B17	jimmy161209	FAM	Unknown	37.109543			0.0024380295						Automatic Ct		Automatic			Automatic	0.32486215													
+42	B18	jimmy161209	FAM	Unknown	38.405407			0.0014801549						Automatic Ct		Automatic			Automatic	0.32486215													
+43	B19	jimmy161209	FAM	Unknown	35.087624			0.005311318						Automatic Ct		Automatic			Automatic	0.32486215													
+44	B20	jimmy161209	FAM	Unknown	34.723614			0.006110581						Automatic Ct		Automatic			Automatic	0.32486215													
+45	B21	jimmy161209	FAM	Unknown	35.299313			0.0048955064						Automatic Ct		Automatic			Automatic	0.32486215													
+46	B22	jimmy161209	FAM	Unknown	33.12737			0.011299326						Automatic Ct		Automatic			Automatic	0.32486215													
+47	B23	jimmy161209	FAM	Unknown	33.025326			0.011752199						Automatic Ct		Automatic			Automatic	0.32486215													
+48	B24	jimmy161209	FAM	Unknown	33.3905			0.010210436						Automatic Ct		Automatic			Automatic	0.32486215													
+49	C1	jimmy161209	FAM	Standard	31.425901			0.042						Automatic Ct		Automatic			Automatic	0.32486215													
+50	C2	jimmy161209	FAM	Standard	30.514013			0.042						Automatic Ct		Automatic			Automatic	0.32486215													
+51	C3	jimmy161209	FAM	Standard	30.301851			0.042						Automatic Ct		Automatic			Automatic	0.32486215													
+52	C4	jimmy161209	FAM	Unknown	33.607388			0.009392257						Automatic Ct		Automatic			Automatic	0.32486215													
+53	C5	jimmy161209	FAM	Unknown	33.469852			0.009903133						Automatic Ct		Automatic			Automatic	0.32486215													
+54	C6	jimmy161209	FAM	Unknown	33.68539			0.0091143185						Automatic Ct		Automatic			Automatic	0.32486215													
+55	C7	jimmy161209	FAM	Unknown	38.741432			0.001300491						Automatic Ct		Automatic			Automatic	0.32486215													
+56	C8	jimmy161209	FAM	Unknown	38.691853			0.0013255605						Automatic Ct		Automatic			Automatic	0.32486215													
+57	C9	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+58	C10	jimmy161209	FAM	Unknown	35.486973			0.0045541963						Automatic Ct		Automatic			Automatic	0.32486215													
+59	C11	jimmy161209	FAM	Unknown	35.883366			0.0039094477						Automatic Ct		Automatic			Automatic	0.32486215													
+60	C12	jimmy161209	FAM	Unknown	37.087666			0.0024586557						Automatic Ct		Automatic			Automatic	0.32486215													
+61	C13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+62	C14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+63	C15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+64	C16	jimmy161209	FAM	Unknown	32.753048			0.013051404						Automatic Ct		Automatic			Automatic	0.32486215													
+65	C17	jimmy161209	FAM	Unknown	32.274147			0.015694695						Automatic Ct		Automatic			Automatic	0.32486215													
+66	C18	jimmy161209	FAM	Unknown	32.775078			0.012941148						Automatic Ct		Automatic			Automatic	0.32486215													
+67	C19	jimmy161209	FAM	Unknown	35.280273			0.0049315332						Automatic Ct		Automatic			Automatic	0.32486215													
+68	C20	jimmy161209	FAM	Unknown	35.643456			0.004287855						Automatic Ct		Automatic			Automatic	0.32486215													
+69	C21	jimmy161209	FAM	Unknown	36.166405			0.0035057233						Automatic Ct		Automatic			Automatic	0.32486215													
+70	C22	jimmy161209	FAM	Unknown	31.41593			0.02184181						Automatic Ct		Automatic			Automatic	0.32486215													
+71	C23	jimmy161209	FAM	Unknown	31.529133			0.020910073						Automatic Ct		Automatic			Automatic	0.32486215													
+72	C24	jimmy161209	FAM	Unknown	31.780909			0.018977823						Automatic Ct		Automatic			Automatic	0.32486215													
+73	D1	jimmy161209	FAM	Standard	34.466694			0.0084						Automatic Ct		Automatic			Automatic	0.32486215													
+74	D2	jimmy161209	FAM	Standard	33.544487			0.0084						Automatic Ct		Automatic			Automatic	0.32486215													
+75	D3	jimmy161209	FAM	Standard	33.45474			0.0084						Automatic Ct		Automatic			Automatic	0.32486215													
+76	D4	jimmy161209	FAM	Unknown	37.656677			0.0019748372						Automatic Ct		Automatic			Automatic	0.32486215													
+77	D5	jimmy161209	FAM	Unknown	39.46351			9.84784E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+78	D6	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+79	D7	jimmy161209	FAM	Unknown	38.682777			0.0013302012						Automatic Ct		Automatic			Automatic	0.32486215													
+80	D8	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+81	D9	jimmy161209	FAM	Unknown	38.729786			0.0013063371						Automatic Ct		Automatic			Automatic	0.32486215													
+82	D10	jimmy161209	FAM	Unknown	40.479645			6.658763E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+83	D11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+84	D12	jimmy161209	FAM	Unknown	37.129185			0.0024196568						Automatic Ct		Automatic			Automatic	0.32486215													
+85	D13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+86	D14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+87	D15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+88	D16	jimmy161209	FAM	Unknown	32.333263			0.015341427						Automatic Ct		Automatic			Automatic	0.32486215													
+89	D17	jimmy161209	FAM	Unknown	32.653877			0.013559491						Automatic Ct		Automatic			Automatic	0.32486215													
+90	D18	jimmy161209	FAM	Unknown	33.19726			0.010999248						Automatic Ct		Automatic			Automatic	0.32486215													
+91	D19	jimmy161209	FAM	Unknown	35.124306			0.005236816						Automatic Ct		Automatic			Automatic	0.32486215													
+92	D20	jimmy161209	FAM	Unknown	35.203594			0.005079331						Automatic Ct		Automatic			Automatic	0.32486215													
+93	D21	jimmy161209	FAM	Unknown	35.143616			0.005198017						Automatic Ct		Automatic			Automatic	0.32486215													
+94	D22	jimmy161209	FAM	Unknown	35.4072			0.0046962765						Automatic Ct		Automatic			Automatic	0.32486215													
+95	D23	jimmy161209	FAM	Unknown	35.007557			0.005477638						Automatic Ct		Automatic			Automatic	0.32486215													
+96	D24	jimmy161209	FAM	Unknown	35.08548			0.005315705						Automatic Ct		Automatic			Automatic	0.32486215													
+97	E1	jimmy161209	FAM	Standard	39.776424			0.00168						Automatic Ct		Automatic			Automatic	0.32486215													
+98	E2	jimmy161209	FAM	Standard	36.652966			0.00168						Automatic Ct		Automatic			Automatic	0.32486215													
+99	E3	jimmy161209	FAM	Standard	37.357628			0.00168						Automatic Ct		Automatic			Automatic	0.32486215													
+100	E4	jimmy161209	FAM	Unknown	35.699623			0.0041961027						Automatic Ct		Automatic			Automatic	0.32486215													
+101	E5	jimmy161209	FAM	Unknown	37.02786			0.0025159402						Automatic Ct		Automatic			Automatic	0.32486215													
+102	E6	jimmy161209	FAM	Unknown	36.918545			0.0026241157						Automatic Ct		Automatic			Automatic	0.32486215													
+103	E7	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+104	E8	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+105	E9	jimmy161209	FAM	Unknown	39.12917			0.0011201049						Automatic Ct		Automatic			Automatic	0.32486215													
+106	E10	jimmy161209	FAM	Unknown	37.908386			0.0017923929						Automatic Ct		Automatic			Automatic	0.32486215													
+107	E11	jimmy161209	FAM	Unknown	38.7159			0.0013133409						Automatic Ct		Automatic			Automatic	0.32486215													
+108	E12	jimmy161209	FAM	Unknown	38.90002			0.0012234431						Automatic Ct		Automatic			Automatic	0.32486215													
+109	E13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+110	E14	jimmy161209	FAM	Unknown	39.260117			0.0010650207						Automatic Ct		Automatic			Automatic	0.32486215													
+111	E15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+112	E16	jimmy161209	FAM	Unknown	32.65377			0.013560049						Automatic Ct		Automatic			Automatic	0.32486215													
+113	E17	jimmy161209	FAM	Unknown	32.587437			0.013910908						Automatic Ct		Automatic			Automatic	0.32486215													
+114	E18	jimmy161209	FAM	Unknown	32.90048			0.012331041						Automatic Ct		Automatic			Automatic	0.32486215													
+115	E19	jimmy161209	FAM	Unknown	34.646076			0.006295795						Automatic Ct		Automatic			Automatic	0.32486215													
+116	E20	jimmy161209	FAM	Unknown	35.00619			0.0054805195						Automatic Ct		Automatic			Automatic	0.32486215													
+117	E21	jimmy161209	FAM	Unknown	35.541985			0.00445873						Automatic Ct		Automatic			Automatic	0.32486215													
+118	E22	jimmy161209	FAM	Unknown	33.07576			0.011526146						Automatic Ct		Automatic			Automatic	0.32486215													
+119	E23	jimmy161209	FAM	Unknown	33.200577			0.010985215						Automatic Ct		Automatic			Automatic	0.32486215													
+120	E24	jimmy161209	FAM	Unknown	33.416077			0.010110356						Automatic Ct		Automatic			Automatic	0.32486215													
+121	F1	jimmy161209	FAM	Standard	Undetermined			3.36E-4						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+122	F2	jimmy161209	FAM	Standard	Undetermined			3.36E-4						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+123	F3	jimmy161209	FAM	Standard	Undetermined			3.36E-4						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+124	F4	jimmy161209	FAM	Unknown	34.934006			0.005635011						Automatic Ct		Automatic			Automatic	0.32486215													
+125	F5	jimmy161209	FAM	Unknown	35.387844			0.0047314134						Automatic Ct		Automatic			Automatic	0.32486215													
+126	F6	jimmy161209	FAM	Unknown	35.62495			0.0043185228						Automatic Ct		Automatic			Automatic	0.32486215													
+127	F7	jimmy161209	FAM	Unknown	39.87318			8.4105425E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+128	F8	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+129	F9	jimmy161209	FAM	Unknown	39.720856			8.9186674E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+130	F10	jimmy161209	FAM	Unknown	40.893635			5.677462E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+131	F11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+132	F12	jimmy161209	FAM	Unknown	38.852856			0.0012458675						Automatic Ct		Automatic			Automatic	0.32486215													
+133	F13	jimmy161209	FAM	Unknown	39.974937			8.0873305E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+134	F14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+135	F15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+136	F16	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+137	F17	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+138	F18	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+139	F19	jimmy161209	FAM	Unknown	34.36056			0.00702753						Automatic Ct		Automatic			Automatic	0.32486215													
+140	F20	jimmy161209	FAM	Unknown	35.156906			0.005171481						Automatic Ct		Automatic			Automatic	0.32486215													
+141	F21	jimmy161209	FAM	Unknown	35.02718			0.0054364013						Automatic Ct		Automatic			Automatic	0.32486215													
+142	F22	jimmy161209	FAM	Unknown	33.99104			0.008102231						Automatic Ct		Automatic			Automatic	0.32486215													
+143	F23	jimmy161209	FAM	Unknown	34.140884			0.0076479185						Automatic Ct		Automatic			Automatic	0.32486215													
+144	F24	jimmy161209	FAM	Unknown	34.210033			0.0074469475						Automatic Ct		Automatic			Automatic	0.32486215													
+145	G1	jimmy161209	FAM	Standard	Undetermined			6.72E-5						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+146	G2	jimmy161209	FAM	Standard	Undetermined			6.72E-5						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+147	G3	jimmy161209	FAM	Standard	Undetermined			6.72E-5						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+148	G4	jimmy161209	FAM	Unknown	35.611794			0.004340458						Automatic Ct		Automatic			Automatic	0.32486215													
+149	G5	jimmy161209	FAM	Unknown	36.27572			0.0033612049						Automatic Ct		Automatic			Automatic	0.32486215													
+150	G6	jimmy161209	FAM	Unknown	36.46113			0.0031295745						Automatic Ct		Automatic			Automatic	0.32486215													
+151	G7	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+152	G8	jimmy161209	FAM	Unknown	38.666603			0.0013385125						Automatic Ct		Automatic			Automatic	0.32486215													
+153	G9	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+154	G10	jimmy161209	FAM	Unknown	38.647682			0.0013483013						Automatic Ct		Automatic			Automatic	0.32486215													
+155	G11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+156	G12	jimmy161209	FAM	Unknown	38.076225			0.001680206						Automatic Ct		Automatic			Automatic	0.32486215													
+157	G13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+158	G14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+159	G15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+160	G16	jimmy161209	FAM	Unknown	32.44904			0.0146724405						Automatic Ct		Automatic			Automatic	0.32486215													
+161	G17	jimmy161209	FAM	Unknown	32.707664			0.013281515						Automatic Ct		Automatic			Automatic	0.32486215													
+162	G18	jimmy161209	FAM	Unknown	33.02752			0.011742274						Automatic Ct		Automatic			Automatic	0.32486215													
+163	G19	jimmy161209	FAM	Unknown	36.103333			0.0035919165						Automatic Ct		Automatic			Automatic	0.32486215													
+164	G20	jimmy161209	FAM	Unknown	35.787376			0.004056669						Automatic Ct		Automatic			Automatic	0.32486215													
+165	G21	jimmy161209	FAM	Unknown	35.576206			0.0044003525						Automatic Ct		Automatic			Automatic	0.32486215													
+166	G22	jimmy161209	FAM	Unknown	34.20816			0.0074523212						Automatic Ct		Automatic			Automatic	0.32486215													
+167	G23	jimmy161209	FAM	Unknown	33.91325			0.008348623						Automatic Ct		Automatic			Automatic	0.32486215													
+168	G24	jimmy161209	FAM	Unknown	34.51619			0.006618721						Automatic Ct		Automatic			Automatic	0.32486215													
+169	H1	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true							
+170	H2	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true							
+171	H3	jimmy161209	FAM	NTC	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true							
+172	H4	jimmy161209	FAM	Unknown	34.490086			0.0066855904						Automatic Ct		Automatic			Automatic	0.32486215													
+173	H5	jimmy161209	FAM	Unknown	34.927383			0.005649399						Automatic Ct		Automatic			Automatic	0.32486215													
+174	H6	jimmy161209	FAM	Unknown	34.577744			0.0064636697						Automatic Ct		Automatic			Automatic	0.32486215													
+175	H7	jimmy161209	FAM	Unknown	38.747402			0.0012975045						Automatic Ct		Automatic			Automatic	0.32486215													
+176	H8	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+177	H9	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+178	H10	jimmy161209	FAM	Unknown	36.775616			0.0027726036						Automatic Ct		Automatic			Automatic	0.32486215													
+179	H11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+180	H12	jimmy161209	FAM	Unknown	37.794395			0.001872829						Automatic Ct		Automatic			Automatic	0.32486215													
+181	H13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+182	H14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+183	H15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+184	H16	jimmy161209	FAM	Unknown	37.633957			0.001992192						Automatic Ct		Automatic			Automatic	0.32486215													
+185	H17	jimmy161209	FAM	Unknown	37.999363			0.0017306833						Automatic Ct		Automatic			Automatic	0.32486215													
+186	H18	jimmy161209	FAM	Unknown	37.625732			0.0019985125						Automatic Ct		Automatic			Automatic	0.32486215													
+187	H19	jimmy161209	FAM	Unknown	34.361343			0.0070254123						Automatic Ct		Automatic			Automatic	0.32486215													
+188	H20	jimmy161209	FAM	Unknown	35.91647			0.0038599249						Automatic Ct		Automatic			Automatic	0.32486215													
+189	H21	jimmy161209	FAM	Unknown	35.990253			0.0037517902						Automatic Ct		Automatic			Automatic	0.32486215													
+190	H22	jimmy161209	FAM	Unknown	38.76402			0.0012892284						Automatic Ct		Automatic			Automatic	0.32486215													
+191	H23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+192	H24	jimmy161209	FAM	Unknown	38.28057			0.0015530519						Automatic Ct		Automatic			Automatic	0.32486215													
+193	I1	jimmy161209	FAM	Unknown	39.088577			0.0011377528						Automatic Ct		Automatic			Automatic	0.32486215													
+194	I2	jimmy161209	FAM	Unknown	36.53256			0.0030446604						Automatic Ct		Automatic			Automatic	0.32486215													
+195	I3	jimmy161209	FAM	Unknown	38.900665			0.0012231389						Automatic Ct		Automatic			Automatic	0.32486215													
+196	I4	jimmy161209	FAM	Unknown	36.453377			0.0031389315						Automatic Ct		Automatic			Automatic	0.32486215													
+197	I5	jimmy161209	FAM	Unknown	37.684013			0.0019541567						Automatic Ct		Automatic			Automatic	0.32486215													
+198	I6	jimmy161209	FAM	Unknown	36.35158			0.0032644277						Automatic Ct		Automatic			Automatic	0.32486215													
+199	I7	jimmy161209	FAM	Unknown	35.413395			0.0046850853						Automatic Ct		Automatic			Automatic	0.32486215													
+200	I8	jimmy161209	FAM	Unknown	36.170822			0.003499764						Automatic Ct		Automatic			Automatic	0.32486215													
+201	I9	jimmy161209	FAM	Unknown	38.194443			0.0016054276						Automatic Ct		Automatic			Automatic	0.32486215													
+202	I10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+203	I11	jimmy161209	FAM	Unknown	38.903263			0.001221916						Automatic Ct		Automatic			Automatic	0.32486215													
+204	I12	jimmy161209	FAM	Unknown	38.3948			0.0014862145						Automatic Ct		Automatic			Automatic	0.32486215													
+205	I13	jimmy161209	FAM	Unknown	39.94145			8.192305E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+206	I14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+207	I15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+208	I16	jimmy161209	FAM	Unknown	38.049908			0.001697321						Automatic Ct		Automatic			Automatic	0.32486215													
+209	I17	jimmy161209	FAM	Unknown	38.879524			0.0012331383						Automatic Ct		Automatic			Automatic	0.32486215													
+210	I18	jimmy161209	FAM	Unknown	38.780003			0.0012813166						Automatic Ct		Automatic			Automatic	0.32486215													
+211	I19	jimmy161209	FAM	Unknown	35.626045			0.0043167025						Automatic Ct		Automatic			Automatic	0.32486215													
+212	I20	jimmy161209	FAM	Unknown	36.118702			0.0035707203						Automatic Ct		Automatic			Automatic	0.32486215													
+213	I21	jimmy161209	FAM	Unknown	35.83265			0.003986556						Automatic Ct		Automatic			Automatic	0.32486215													
+214	I22	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+215	I23	jimmy161209	FAM	Unknown	38.67757			0.0013328715						Automatic Ct		Automatic			Automatic	0.32486215													
+216	I24	jimmy161209	FAM	Unknown	39.48239			9.776488E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+217	J1	jimmy161209	FAM	Unknown	38.09498			0.0016681147						Automatic Ct		Automatic			Automatic	0.32486215													
+218	J2	jimmy161209	FAM	Unknown	38.027035			0.0017123377						Automatic Ct		Automatic			Automatic	0.32486215													
+219	J3	jimmy161209	FAM	Unknown	38.19216			0.0016068384						Automatic Ct		Automatic			Automatic	0.32486215													
+220	J4	jimmy161209	FAM	Unknown	35.091927			0.0053025256						Automatic Ct		Automatic			Automatic	0.32486215													
+221	J5	jimmy161209	FAM	Unknown	35.128365			0.0052286377						Automatic Ct		Automatic			Automatic	0.32486215													
+222	J6	jimmy161209	FAM	Unknown	36.248867			0.003396142						Automatic Ct		Automatic			Automatic	0.32486215													
+223	J7	jimmy161209	FAM	Unknown	36.16165			0.0035121457						Automatic Ct		Automatic			Automatic	0.32486215													
+224	J8	jimmy161209	FAM	Unknown	36.11933			0.003569854						Automatic Ct		Automatic			Automatic	0.32486215													
+225	J9	jimmy161209	FAM	Unknown	36.23542			0.0034137745						Automatic Ct		Automatic			Automatic	0.32486215													
+226	J10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+227	J11	jimmy161209	FAM	Unknown	37.598896			0.0020192734						Automatic Ct		Automatic			Automatic	0.32486215													
+228	J12	jimmy161209	FAM	Unknown	38.145054			0.001636255						Automatic Ct		Automatic			Automatic	0.32486215													
+229	J13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+230	J14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+231	J15	jimmy161209	FAM	Unknown	38.753124			0.0012946485						Automatic Ct		Automatic			Automatic	0.32486215													
+232	J16	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+233	J17	jimmy161209	FAM	Unknown	39.000847			0.0011768488						Automatic Ct		Automatic			Automatic	0.32486215													
+234	J18	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+235	J19	jimmy161209	FAM	Unknown	35.054893			0.0053786887						Automatic Ct		Automatic			Automatic	0.32486215													
+236	J20	jimmy161209	FAM	Unknown	34.867867			0.0057803807						Automatic Ct		Automatic			Automatic	0.32486215													
+237	J21	jimmy161209	FAM	Unknown	34.5217			0.006604685						Automatic Ct		Automatic			Automatic	0.32486215													
+238	J22	jimmy161209	FAM	Unknown	39.99103			8.037361E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+239	J23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+240	J24	jimmy161209	FAM	Unknown	38.774334			0.0012841172						Automatic Ct		Automatic			Automatic	0.32486215													
+241	K1	jimmy161209	FAM	Unknown	37.37227			0.0022034256						Automatic Ct		Automatic			Automatic	0.32486215													
+242	K2	jimmy161209	FAM	Unknown	38.226944			0.001585459						Automatic Ct		Automatic			Automatic	0.32486215													
+243	K3	jimmy161209	FAM	Unknown	37.524612			0.0020778733						Automatic Ct		Automatic			Automatic	0.32486215													
+244	K4	jimmy161209	FAM	Unknown	36.76436			0.0027846498						Automatic Ct		Automatic			Automatic	0.32486215													
+245	K5	jimmy161209	FAM	Unknown	36.248886			0.0033961176						Automatic Ct		Automatic			Automatic	0.32486215													
+246	K6	jimmy161209	FAM	Unknown	34.998974			0.005495774						Automatic Ct		Automatic			Automatic	0.32486215													
+247	K7	jimmy161209	FAM	Unknown	37.78325			0.0018808853						Automatic Ct		Automatic			Automatic	0.32486215													
+248	K8	jimmy161209	FAM	Unknown	38.706642			0.001318032						Automatic Ct		Automatic			Automatic	0.32486215													
+249	K9	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+250	K10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+251	K11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+252	K12	jimmy161209	FAM	Unknown	38.806484			0.0012683164						Automatic Ct		Automatic			Automatic	0.32486215													
+253	K13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+254	K14	jimmy161209	FAM	Unknown	38.815742			0.0012638022						Automatic Ct		Automatic			Automatic	0.32486215													
+255	K15	jimmy161209	FAM	Unknown	38.927345			0.0012106359						Automatic Ct		Automatic			Automatic	0.32486215													
+256	K16	jimmy161209	FAM	Unknown	39.0139			0.0011709477						Automatic Ct		Automatic			Automatic	0.32486215													
+257	K17	jimmy161209	FAM	Unknown	38.838478			0.001252785						Automatic Ct		Automatic			Automatic	0.32486215													
+258	K18	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+259	K19	jimmy161209	FAM	Unknown	35.04312			0.005403128						Automatic Ct		Automatic			Automatic	0.32486215													
+260	K20	jimmy161209	FAM	Unknown	34.887623			0.005736569						Automatic Ct		Automatic			Automatic	0.32486215													
+261	K21	jimmy161209	FAM	Unknown	34.59428			0.006422639						Automatic Ct		Automatic			Automatic	0.32486215													
+262	K22	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+263	K23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+264	K24	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+265	L1	jimmy161209	FAM	Unknown	38.98791			0.0011827259						Automatic Ct		Automatic			Automatic	0.32486215													
+266	L2	jimmy161209	FAM	Unknown	38.15222			0.0016317447						Automatic Ct		Automatic			Automatic	0.32486215													
+267	L3	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+268	L4	jimmy161209	FAM	Unknown	35.339325			0.0048206514						Automatic Ct		Automatic			Automatic	0.32486215													
+269	L5	jimmy161209	FAM	Unknown	34.943336			0.0056147976						Automatic Ct		Automatic			Automatic	0.32486215													
+270	L6	jimmy161209	FAM	Unknown	35.77882			0.0040700575						Automatic Ct		Automatic			Automatic	0.32486215													
+271	L7	jimmy161209	FAM	Unknown	35.487858			0.0045526437						Automatic Ct		Automatic			Automatic	0.32486215													
+272	L8	jimmy161209	FAM	Unknown	38.65619			0.0013438918						Automatic Ct		Automatic			Automatic	0.32486215													
+273	L9	jimmy161209	FAM	Unknown	37.430897			0.0021542332						Automatic Ct		Automatic			Automatic	0.32486215													
+274	L10	jimmy161209	FAM	Unknown	37.06448			0.0024807076						Automatic Ct		Automatic			Automatic	0.32486215													
+275	L11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+276	L12	jimmy161209	FAM	Unknown	36.53583			0.0030408252						Automatic Ct		Automatic			Automatic	0.32486215													
+277	L13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+278	L14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+279	L15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+280	L16	jimmy161209	FAM	Unknown	38.125404			0.0016486837						Automatic Ct		Automatic			Automatic	0.32486215													
+281	L17	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+282	L18	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+283	L19	jimmy161209	FAM	Unknown	34.864296			0.0057883356						Automatic Ct		Automatic			Automatic	0.32486215													
+284	L20	jimmy161209	FAM	Unknown	35.140095			0.0052050706						Automatic Ct		Automatic			Automatic	0.32486215													
+285	L21	jimmy161209	FAM	Unknown	35.135242			0.005214806						Automatic Ct		Automatic			Automatic	0.32486215													
+286	L22	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+287	L23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+288	L24	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+289	M1	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+290	M2	jimmy161209	FAM	Unknown	38.76481			0.0012888364						Automatic Ct		Automatic			Automatic	0.32486215													
+291	M3	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+292	M4	jimmy161209	FAM	Unknown	34.887394			0.005737076						Automatic Ct		Automatic			Automatic	0.32486215													
+293	M5	jimmy161209	FAM	Unknown	35.290455			0.0049122353						Automatic Ct		Automatic			Automatic	0.32486215													
+294	M6	jimmy161209	FAM	Unknown	35.659657			0.0042611877						Automatic Ct		Automatic			Automatic	0.32486215													
+295	M7	jimmy161209	FAM	Unknown	36.119442			0.003569703						Automatic Ct		Automatic			Automatic	0.32486215													
+296	M8	jimmy161209	FAM	Unknown	36.730236			0.0028214825						Automatic Ct		Automatic			Automatic	0.32486215													
+297	M9	jimmy161209	FAM	Unknown	36.38777			0.003219247						Automatic Ct		Automatic			Automatic	0.32486215													
+298	M10	jimmy161209	FAM	Unknown	37.760128			0.0018977073						Automatic Ct		Automatic			Automatic	0.32486215													
+299	M11	jimmy161209	FAM	Unknown	37.97835			0.0017447437						Automatic Ct		Automatic			Automatic	0.32486215													
+300	M12	jimmy161209	FAM	Unknown	37.930954			0.0017768829						Automatic Ct		Automatic			Automatic	0.32486215													
+301	M13	jimmy161209	FAM	Unknown	37.912205			0.0017897597						Automatic Ct		Automatic			Automatic	0.32486215													
+302	M14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+303	M15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+304	M16	jimmy161209	FAM	Unknown	35.859592			0.003945404						Automatic Ct		Automatic			Automatic	0.32486215													
+305	M17	jimmy161209	FAM	Unknown	36.48274			0.0031036383						Automatic Ct		Automatic			Automatic	0.32486215													
+306	M18	jimmy161209	FAM	Unknown	35.890533			0.0038986714						Automatic Ct		Automatic			Automatic	0.32486215													
+307	M19	jimmy161209	FAM	Unknown	32.026997			0.017261894						Automatic Ct		Automatic			Automatic	0.32486215													
+308	M20	jimmy161209	FAM	Unknown	32.221058			0.016018871						Automatic Ct		Automatic			Automatic	0.32486215													
+309	M21	jimmy161209	FAM	Unknown	32.171165			0.01632963						Automatic Ct		Automatic			Automatic	0.32486215													
+310	M22	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+311	M23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+312	M24	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+313	N1	jimmy161209	FAM	Unknown	37.13454			0.0024146715						Automatic Ct		Automatic			Automatic	0.32486215													
+314	N2	jimmy161209	FAM	Unknown	38.201378			0.0016011456						Automatic Ct		Automatic			Automatic	0.32486215													
+315	N3	jimmy161209	FAM	Unknown	38.868435			0.0012384156						Automatic Ct		Automatic			Automatic	0.32486215													
+316	N4	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+317	N5	jimmy161209	FAM	Unknown	38.63724			0.0013537334						Automatic Ct		Automatic			Automatic	0.32486215													
+318	N6	jimmy161209	FAM	Unknown	37.74237			0.0019107296						Automatic Ct		Automatic			Automatic	0.32486215													
+319	N7	jimmy161209	FAM	Unknown	36.23817			0.0034101594						Automatic Ct		Automatic			Automatic	0.32486215													
+320	N8	jimmy161209	FAM	Unknown	35.262726			0.00496497						Automatic Ct		Automatic			Automatic	0.32486215													
+321	N9	jimmy161209	FAM	Unknown	36.330833			0.0032906146						Automatic Ct		Automatic			Automatic	0.32486215													
+322	N10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+323	N11	jimmy161209	FAM	Unknown	37.76602			0.0018934055						Automatic Ct		Automatic			Automatic	0.32486215													
+324	N12	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+325	N13	jimmy161209	FAM	Unknown	38.726368			0.0013080579						Automatic Ct		Automatic			Automatic	0.32486215													
+326	N14	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+327	N15	jimmy161209	FAM	Unknown	38.836117			0.0012539251						Automatic Ct		Automatic			Automatic	0.32486215													
+328	N16	jimmy161209	FAM	Unknown	38.208115			0.0015969968						Automatic Ct		Automatic			Automatic	0.32486215													
+329	N17	jimmy161209	FAM	Unknown	39.66162			9.124456E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+330	N18	jimmy161209	FAM	Unknown	37.480255			0.0021136727						Automatic Ct		Automatic			Automatic	0.32486215													
+331	N19	jimmy161209	FAM	Unknown	34.607323			0.006390458						Automatic Ct		Automatic			Automatic	0.32486215													
+332	N20	jimmy161209	FAM	Unknown	34.29904			0.007196008						Automatic Ct		Automatic			Automatic	0.32486215													
+333	N21	jimmy161209	FAM	Unknown	35.234257			0.005019704						Automatic Ct		Automatic			Automatic	0.32486215													
+334	N22	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+335	N23	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+336	N24	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+337	O1	jimmy161209	FAM	Unknown	38.813053			0.0012651121						Automatic Ct		Automatic			Automatic	0.32486215													
+338	O2	jimmy161209	FAM	Unknown	37.64476			0.0019839213						Automatic Ct		Automatic			Automatic	0.32486215													
+339	O3	jimmy161209	FAM	Unknown	40.890903			5.683437E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+340	O4	jimmy161209	FAM	Unknown	39.692978			9.014933E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+341	O5	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+342	O6	jimmy161209	FAM	Unknown	39.809586			8.619064E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+343	O7	jimmy161209	FAM	Unknown	34.929035			0.0056458088						Automatic Ct		Automatic			Automatic	0.32486215													
+344	O8	jimmy161209	FAM	Unknown	35.49114			0.0045468966						Automatic Ct		Automatic			Automatic	0.32486215													
+345	O9	jimmy161209	FAM	Unknown	35.561913			0.0044246414						Automatic Ct		Automatic			Automatic	0.32486215													
+346	O10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+347	O11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+348	O12	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+349	O13	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+350	O14	jimmy161209	FAM	Unknown	38.95863			0.0011961384						Automatic Ct		Automatic			Automatic	0.32486215													
+351	O15	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+352	O16	jimmy161209	FAM	Unknown	36.23529			0.003413945						Automatic Ct		Automatic			Automatic	0.32486215													
+353	O17	jimmy161209	FAM	Unknown	36.635555			0.0029262581						Automatic Ct		Automatic			Automatic	0.32486215													
+354	O18	jimmy161209	FAM	Unknown	36.736565			0.0028146151						Automatic Ct		Automatic			Automatic	0.32486215													
+355	O19	jimmy161209	FAM	Unknown	30.134401			0.03577855						Automatic Ct		Automatic			Automatic	0.32486215													
+356	O20	jimmy161209	FAM	Unknown	30.339396			0.033062648						Automatic Ct		Automatic			Automatic	0.32486215													
+357	O21	jimmy161209	FAM	Unknown	30.69736			0.028805057						Automatic Ct		Automatic			Automatic	0.32486215													
+358	O22	jimmy161209	FAM	Unknown	33.33758			0.010420648						Automatic Ct		Automatic			Automatic	0.32486215													
+359	O23	jimmy161209	FAM	Unknown	33.66435			0.009188471						Automatic Ct		Automatic			Automatic	0.32486215													
+360	O24	jimmy161209	FAM	Standard	Undetermined			6.72E-5						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+361	P1	jimmy161209	FAM	Unknown	38.56622			0.0013912707						Automatic Ct		Automatic			Automatic	0.32486215													
+362	P2	jimmy161209	FAM	Unknown	39.209854			0.0010858366						Automatic Ct		Automatic			Automatic	0.32486215													
+363	P3	jimmy161209	FAM	Unknown	39.749847			8.819648E-4						Automatic Ct		Automatic			Automatic	0.32486215													
+364	P4	jimmy161209	FAM	Unknown	38.95391			0.0011983139						Automatic Ct		Automatic			Automatic	0.32486215													
+365	P5	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+366	P6	jimmy161209	FAM	Unknown	37.736794			0.0019148374						Automatic Ct		Automatic			Automatic	0.32486215													
+367	P7	jimmy161209	FAM	Unknown	35.292763			0.0049078716						Automatic Ct		Automatic			Automatic	0.32486215													
+368	P8	jimmy161209	FAM	Unknown	36.48269			0.0031036981						Automatic Ct		Automatic			Automatic	0.32486215													
+369	P9	jimmy161209	FAM	Unknown	34.97654			0.005543462						Automatic Ct		Automatic			Automatic	0.32486215													
+370	P10	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+371	P11	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+372	P12	jimmy161209	FAM	Unknown	Undetermined			0.0						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+373	P13	jimmy161209	FAM	Unknown	36.346172			0.003271234						Automatic Ct		Automatic			Automatic	0.32486215													
+374	P14	jimmy161209	FAM	Unknown	38.12336			0.0016499821						Automatic Ct		Automatic			Automatic	0.32486215													
+375	P15	jimmy161209	FAM	Unknown	37.675644			0.001960465						Automatic Ct		Automatic			Automatic	0.32486215													
+376	P16	jimmy161209	FAM	Unknown	36.228466			0.0034229285						Automatic Ct		Automatic			Automatic	0.32486215													
+377	P17	jimmy161209	FAM	Unknown	36.81242			0.002733583						Automatic Ct		Automatic			Automatic	0.32486215													
+378	P18	jimmy161209	FAM	Unknown	36.961983			0.0025805847						Automatic Ct		Automatic			Automatic	0.32486215													
+379	P19	jimmy161209	FAM	Unknown	32.646114			0.013600091						Automatic Ct		Automatic			Automatic	0.32486215													
+380	P20	jimmy161209	FAM	Unknown	32.964977			0.012028525						Automatic Ct		Automatic			Automatic	0.32486215													
+381	P21	jimmy161209	FAM	Unknown	32.76881			0.01297242						Automatic Ct		Automatic			Automatic	0.32486215													
+382	P22	jimmy161209	FAM	Unknown	33.36376			0.010316112						Automatic Ct		Automatic			Automatic	0.32486215													
+383	P23	jimmy161209	FAM	Unknown	33.90848			0.008363969						Automatic Ct		Automatic			Automatic	0.32486215													
+384	P24	jimmy161209	FAM	Standard	Undetermined			6.72E-5						Automatic Ct		Automatic			Automatic	0.32486215						true			true				
+Slope	-5.9791174	cycles/log decade
+Y-Intercept		21.486341
+R^2		0.97185165
+
+
+
+NAP	LPL
+	

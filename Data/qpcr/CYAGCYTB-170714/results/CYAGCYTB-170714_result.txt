@@ -1,0 +1,121 @@
+SDS 2.4	AQ Results	1.0
+Filename	CYAGCYTB-170714
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	7/14/17 3:17:49 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+2	A2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+3	A3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+4	A4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+5	A5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+6	A6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+25	B1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+26	B2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+27	B3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+28	B4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+29	B5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+30	B6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+49	C1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+50	C2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+51	C3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+52	C4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+53	C5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+54	C6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+73	D1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+74	D2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+75	D3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+76	D4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+77	D5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+78	D6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+97	E1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+98	E2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+99	E3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+100	E4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+101	E5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+102	E6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+121	F1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+122	F2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+123	F3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+124	F4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+125	F5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+126	F6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+145	G1	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+146	G2	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+147	G3	CYAG-F1	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+148	G4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+149	G5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+150	G6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+169	H1	CYAG-F1	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true							
+170	H2	CYAG-F1	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true							
+171	H3	CYAG-F1	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true							
+172	H4	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+173	H5	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+174	H6	CYAG-F1	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.2						true			true		true		
+Slope		cycles/log decade
+Y-Intercept		
+R^2		
+
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+205	I13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+206	I14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+207	I15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+208	I16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+209	I17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+210	I18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+229	J13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+230	J14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+231	J15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+232	J16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+233	J17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+234	J18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+253	K13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+254	K14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+255	K15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+256	K16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+257	K17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+258	K18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+277	L13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+278	L14	CYAG-F2	FAM	Standard	19.048306									Automatic Ct		Automatic			Automatic	0.006526629						true							
+279	L15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+280	L16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+281	L17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+282	L18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+301	M13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+302	M14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+303	M15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+304	M16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+305	M17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+306	M18	CYAG-F2	FAM	Unknown	14.1184435									Automatic Ct		Automatic			Automatic	0.006526629						true							
+325	N13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+326	N14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+327	N15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+328	N16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+329	N17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+330	N18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+349	O13	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+350	O14	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+351	O15	CYAG-F2	FAM	Standard	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+352	O16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+353	O17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+354	O18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+373	P13	CYAG-F2	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true							
+374	P14	CYAG-F2	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true							
+375	P15	CYAG-F2	FAM	NTC	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true							
+376	P16	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+377	P17	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+378	P18	CYAG-F2	FAM	Unknown	Undetermined									Automatic Ct		Automatic			Automatic	0.006526629						true			true				
+Slope		cycles/log decade
+Y-Intercept		
+R^2		
+
+
+
+NAP	LPL
+	

@@ -13,6 +13,8 @@ But because DNA degrades each time it is frozen and thawed, you probably don't w
 Instead, it makes sense to make multiple batches, where each batch will be thawed only once before use, and contains enough for all the replicates needed per plate. 
 This should also yield better consistency across runs.
 
+Here is a good resource for calculating your dilution series: https://www.aatbio.com/tools/serial-dilution/
+
 #### Preparing Dilution Series
 
 If **V** is the volume of template needed for each reaction, 

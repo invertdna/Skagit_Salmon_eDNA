@@ -1,14 +1,16 @@
 plot_qpcr <- function(DT, ...){
-  pltlist <- split(DT[, Ct], DT[,template_name])
-  par(mar = c(4,6,1,1))
+  pltlist <- split(DT[, QuantBackCalc], DT[,template_name])
   chartdat <- lapply(pltlist[gtools::mixedsort(names(pltlist))], function(x) x+1)
+  gtzero <- sapply(chartdat, function(x) sum(x > 1))
+  print(gtzero)
   mycols <- hsv(h = c(1/8, 0.6), s = 0.7)
-  colvec <- rep(2, length(chartdat))
-  colvec[grep('^[s|S]t', names(chartdat))] <- 1
+  is.std <- grepl('^[s|S]t', names(chartdat))
+  par(mar = c(4,6,1,1))
   stripchart(
     chartdat, 
     method = 'jitter', 
-    pch = 21, lwd = 2, col = mycols[colvec], 
+    pch = ifelse(is.std, 2, 1), lwd = 2, 
+    col = ifelse(is.std, mycols[1], mycols[2]), 
     log = 'x', 
     las = 1, 
     ...
@@ -16,10 +18,16 @@ plot_qpcr <- function(DT, ...){
   abline(h = 1:length(pltlist), col = grey(0, alpha = 0.2), lty = 3)
   grid()
 }
+for(i in seq(res)){
+  plot_qpcr(res[[i]], cex.axis = 0.5)
+  legend(x = 'bottomright', legend = res[[i]][1,plate_id])
+}
 plot_qpcr(res[[5]][template_name %like% '^0',], cex.axis = 0.5)
-res[[1]][template_name == '094']
-res[[1]][template_name == 'std_1']
 
+
+res[[6]][,.N, by = template_name]
+rbindlist(res)[template_name == '094']
+res[[1]][template_name == 'std_1']
 plot_qpcr(rbindlist(res)[Task == 'Unknown',], cex.axis = 0.5)
 
 x_in_y <- function(dt1, dt2){
