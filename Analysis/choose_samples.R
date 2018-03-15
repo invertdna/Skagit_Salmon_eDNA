@@ -5,28 +5,68 @@ library(data.table)
 sites <- load_sites("../Data/sites.csv")
 water <- load_water_samples("1_ujmAo0uw0gamLh7AGc7_qz8AXIoBM0We-CjSoHFG1U")
 
-site.dt <- data.table(sites)
+# get index sites that were seined, except for boat ramp because it is up the river.
+seine_index <- sites[
+  net == "seine" & 
+    revisit == "index" &
+    site_name != "Wylie Boat Ramp", 
+  site_name]
 
-seine_index <- site.dt[net %like% "seine" & revisit %like% "index", site_name]
+# extra visits: Lone 5 16/17; Goat 6 19/21; Straw 5 16/17
+events_to_drop <- c('LOTRPT-170516', 'GOATIS-170619', 'STRPTN-170516')
 
-# DT <- water[site_name %in% seine_index, ]
-DT <- water[site_name %in% seine_index & date > "2016-12-31",] #unique(date), by = site_name
+# get samples taken at index seine sites in 2017
+seine_samples <- water[
+  (site_name %in% seine_index) & 
+    !(event_id %in% events_to_drop) &
+    (date > '2017-01-01') & 
+    (sample_type == 'water-marine'), # this excludes DIH2O samples taken to sites as controls
+  .(date, time, site_name,lab_label,event_id) # only include these columns
+][order(site_name)]
 
-DT <- DT[!field_notes %like% "no corresponding survey",]
+# fwrite(seine_samples, file = 'seine_samples.csv')
 
-site_dates <- DT[, unique(date), by = site_name]
+# this is a tally of the number of samples collected at those sites
+seine_samples[ , 
+  list('site_name' = unique(site_name), 'n_samples' = uniqueN(lab_label)), 
+  by = event_id]
 
-# which sites have >4 sampling events in 2017?
-goodsites <- site_dates[,.N > 4, by = site_name][,site_name[V1]]
+# these are the events of interest. might be useful later.
+target_events <- seine_samples[,unique(event_id)]
 
-to_pcr <- water[
-  !field_notes %like% "no corresponding survey" & 
-  sample_type %like% "water-marine" & 
-  date > "2016-12-31" & 
-  site_name %in% goodsites, 
-  .(site_name, datetime, event_id, field_rep, field_notes, filter_box, lab_label, 
-    filter_notes, preservative_ml)
-]
+# this yields a tally of the number of samples that have been extracted from each of the target events
+dna <- load_dna()
+dt <- merge(
+  seine_samples, 
+  dna[,.(date_extracted, extraction_label)], 
+  by.x = 'lab_label', by.y = 'extraction_label', all.x = TRUE)
+dt[ , extracted := !is.na(date_extracted)]
+dna_tally <- dt[ ,.(n_extracted = sum(extracted)), by = event_id][order(event_id)]
+to_extract_180315 <- dna_tally[n_extracted < 3][ , list(event_id, to_extract = 3-n_extracted)]
+
+# pick those from this list:
+seine_samples[event_id %in% to_extract_180315[,event_id]]
+
+# this yields a tally of the number of samples that have been cleaned from each of the events
+clean <- load_cleaned()
+clean[,date.clean := Date]
+dt <- merge(
+  seine_samples, 
+  clean[,.(date.clean, Sample)], 
+  by.x = 'lab_label', by.y = 'Sample', all.x = TRUE)
+dt[,cleaned := !is.na(date.clean)]
+clean_tally <- dt[,.(n_clean = sum(cleaned)), by = event_id][order(event_id)]
+clean_tally[n_clean < 3]
+
+# originally, I eliminated any that had 'no corresponding survey' in field_notes, or that had fewer than 5 visits
+# to_pcr <- water[
+#   !field_notes %like% "no corresponding survey" & 
+#   sample_type %like% "water-marine" & 
+#   date > "2016-12-31" & 
+#   site_name %in% goodsites, 
+#   .(site_name, datetime, event_id, field_rep, field_notes, filter_box, lab_label, 
+#     filter_notes, preservative_ml)
+# ]
 
 # fwrite(to_pcr, "to_pcr.csv")
 
