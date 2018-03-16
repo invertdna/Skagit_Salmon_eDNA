@@ -1,3 +1,13 @@
+# Amplicon Sequencing Protocol
+
+Author: Jimmy O'Donnell
+
+Revised: 2018-03-16
+
+## Background
+
+The workflow for preparing DNA for sequencing roughly follows the Illumina document ''
+
 # Primer setup for sample indexing using Nextera XT kit with 16S 'prey' primers 
 
 Note:
