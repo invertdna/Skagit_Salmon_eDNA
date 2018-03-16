@@ -18,6 +18,13 @@ Some general notes:
 - **Use IE-HPLC or PAGE purified primers.** Primers are very long, and unintentionally truncated primers can result in unintentional amplification of non-target DNA.
 - **Use Phusion High-Fidelity PCR Master Mix with HF Buffer.** From New England Biolabs (#M0531L)
 
+## Overview
+Here is an overview of the steps to get from a filter membrane in Longmire Buffer at room temperature to sequence data.
+
+1. Extract DNA
+2. Further purify DNA using Zymo PCR inhibitor removal kit
+3. Use this purified DNA 
+
 ## Protocols
 
 
