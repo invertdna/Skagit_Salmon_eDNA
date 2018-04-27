@@ -1,0 +1,52 @@
+---
+title: "Compare qPCR and Catch Skagit"
+author: "Ole Shelton"
+date: "3/26/2018"
+output: pdf_document
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+source("/Users/ole.shelton/GitHub/Skagit_Salmon_eDNA/Analysis/catch analysis/Merge catch and qPCR data.R")
+```
+## Compare qPCR and Catch data.
+
+This is a plot of the variance at different scales
+```{r echo=FALSE, warning=FALSE, fig.var.plot, fig.height = 4.5, fig.width = 6,fig.align='center'}
+print(var.plot)
+```
+
+This is a plot of qPCR indexes by site and all together
+```{r echo=FALSE, warning=FALSE, fig.index.1, fig.height = 4.5, fig.width = 6,fig.align='center'}
+print(pcr.index.by.site)
+```
+```{r echo=FALSE, warning=FALSE, fig.index.2, fig.height = 4.5, fig.width = 6,fig.align='center'}
+print(pcr.index)
+```
+
+
+Plots of mean-sd relationships for various scales
+```{r echo=FALSE, warning=FALSE, fig.mean-sd, fig.height = 3, fig.width = 6,fig.align='center'}
+print(mean.v.sd)
+```
+
+#### 
+Plots of space by time comparison between beach seine calculations
+```{r echo=FALSE, warning=FALSE, fig.space.by.time, fig.height = 4, fig.width = 6,fig.align='center'}
+print(s.by.t)
+```
+```{r echo=FALSE, warning=FALSE, fig.compare.s.by.t, fig.height = 4, fig.width = 6,fig.align='center'}
+print(compare.site.by.time)
+```
+
+```{r echo=FALSE, warning=FALSE, fig.compare.by.space, fig.height = 4, fig.width = 6,fig.align='center'}
+print(compare.by.site)
+```
+
+```{r echo=FALSE, warning=FALSE, fig.compare.by.time, fig.height = 4, fig.width = 6,fig.align='center'}
+print(compare.by.time)
+```
+
+```{r echo=FALSE, warning=FALSE, fig.index.time.series, fig.height = 4, fig.width = 6,fig.align='center'}
+print(index.standardization)
+```
+

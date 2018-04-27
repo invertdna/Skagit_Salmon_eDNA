@@ -1,0 +1,297 @@
+date_extracted,extractor,lab,project,source_label,extraction_label,sample_type,extraction_method,vol_buffer_orig,vol_buffer_remain,vol_PC,sample_destroyed,shaken_incubation,vol_supernatant1,vol_supernatant2,vol_supernatant3,visible_pellet,location_DNA,freezer,shelf,box,notes
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,018,018,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,024,024,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,106,106,environmental,PhenolChloroform,NA,300,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,127,127,environmental,PhenolChloroform,NA,300,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,JO-AMCP-MOO-103,AMCP-MOO-103,tissue-gill,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-05,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,noDNA-161005,noDNA,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,032,032,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,039,039,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,045,045,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,051,051,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,057,057,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,063,063,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,070,070,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,076,076,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,085,085,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,090,090,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,100,100,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,102,102,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,107,107,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,113,113,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,116,116,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,120,120,environmental-blank,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,126,126,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,136,136,environmental,PhenolChloroform,NA,400,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,JO-AMCP-MOO-102,AMCP-MOO-102,tissue-gill,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-06,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,noDNA-161006,noDNA,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,006,006,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,012,012,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,017,017,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,023,023,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,030,030,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,031,031,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,037,037,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,044,044,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,050,050,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,056,056,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,062,062,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,069,069,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,accidentally combined excess of SKA-056 SKA-062 and SKA-069
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,075,075,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,080,080,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,087,087,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,088,088,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,094,094,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,101,101,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,POWI150903,POWI150903-161011,tissue-fin,PhenolChloroform,NA,NA,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-11,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,noDNA-161011,noDNA,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,001,001,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,002,002,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,007,007,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,008,008,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,013,013,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,019,019,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,025,025,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,026,026,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,033,033,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,040,040,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,046,046,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,053,053,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,038,038,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,058,058,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,064,064,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,071,071,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,108,108,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,114,114,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,121,121,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,132,132,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,JO-AMCP-MOO-101,AMCP101-161012,tissue-fin,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-12,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,NODNA-161012,noDNA,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161005,NA
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,014,014,environmental,PhenolChloroform,NA,0,NA,FALSE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,016,016,environmental,PhenolChloroform,NA,0,NA,FALSE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,020,020,environmental,PhenolChloroform,NA,0,NA,FALSE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,022,022,environmental,PhenolChloroform,NA,0,NA,FALSE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,077,077,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,081,081,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,083,083,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,086,086,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,089,089,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,093,093,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,095,095,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,096,096,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,099,099,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,109,109,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,112,112,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,115,115,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,118,118,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,122,122,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,128,128,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,137,137,environmental,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,POWI-150903,POWI150903-161013,tissue-fin,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-13,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,NODNA-161013,noDNA,PhenolChloroform,NA,400,NA,TRUE,FALSE,NA,NA,NA,FALSE,NOAA Montlake,FZ02 Snowcone,NA,161014,sat ~10 minutes and respun before adding to isopropanol
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,003,003,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,004,004,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,005,005,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,009,009,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,010,010,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,011,011,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,015,015,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,021,021,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,027,027,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,028,028,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,029,029,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,078,078,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,079,079,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,066,066,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,082,082,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,084,084,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,091,091,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,092,092,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,097,097,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,098,098,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,AMCPMOO-102-161012,AMCPMOO102-161018,tissue-fin,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2016-10-18,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,NODNA-161018,noDNA,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,161014,NA
+2017-02-23,JasonDobry,NWFSC_CleanLab,Skagit,103,103,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,JasonDobry,NWFSC_CleanLab,Skagit,123,123,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,JasonDobry,NWFSC_CleanLab,Skagit,129,129,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,JasonDobry,NWFSC_CleanLab,Skagit,164,164,tissue-fin,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,AbiWells,NWFSC_CleanLab,Skagit,034,034,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,AbiWells,NWFSC_CleanLab,Skagit,043,043,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,AbiWells,NWFSC_CleanLab,Skagit,049,049,environmental,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-02-23,AbiWells,NWFSC_CleanLab,Skagit,301,301,noDNA,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,262,262,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,271,271,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,280,280,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,289,289,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,298,298,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,307,307,environmental,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,166-POWI-150903-161012B,166,tissue-fin,PhenolChloroform,NA,0,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-03-28,AbiWells,NWFSC_CleanLab,Skagit,367,367,noDNA,PhenolChloroform,NA,0,NA,TRUE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,NA
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,138,138,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,147,147,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,156,156,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,206,206,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,215,215,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,224,224,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,233,233,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,242,242,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,251,251,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,AQJO-160603-B,AQJO-160603-B,environmental,PhenolChloroform,NA,NA,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,252,252,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,261,261,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,270,270,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,279,279,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,288,288,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,297,297,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,306,306,environmental,PhenolChloroform,NA,400,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,315,315,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,324,324,environmental,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-10,JimmyODonnell,NWFSC_CleanLab,Skagit,NA,NODNA-170510,noDNA,PhenolChloroform,NA,200,NA,FALSE,TRUE,NA,NA,NA,NA,NOAA Montlake,FZ02 Snowcone,NA,,"very few pellets, immediate precipitation of salt when NaCl and isopropanol were mixed, ditched reagents"
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,325,325,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,334,334,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,343,343,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,352,352,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,361,361,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,371,371,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,380,380,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,389,389,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,393,393,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,402,402,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,411,411,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,420,420,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,429,429,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,438,438,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,447,447,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,456,456,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,458,458,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,467,467,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,476,476,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-05-31,JimmyODonnell,NWFSC_CleanLab,Skagit,485,485,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,all ~900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,139,139,environmental,PhenolChloroform,1000 maybe more,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,extremely full after PCI addition
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,148,148,environmental,PhenolChloroform,1000 maybe more,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,extremely full after PCI addition
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,157,157,environmental,PhenolChloroform,1000 maybe more,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,extremely full after PCI addition
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,207,207,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,216,216,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,225,225,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,234,234,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,243,243,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,clear supernatant but large wad of gunk at interface
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,254,254,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,263,263,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,272,272,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,281,281,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,290,290,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,299,299,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,308,308,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,317,317,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,326,326,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,335,335,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,344,344,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,353,353,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,362,362,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,372,372,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,381,381,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-06-01,JimmyODonnell,NWFSC_CleanLab,Skagit,390,390,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,900,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,547,547,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,548,548,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,549,549,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,241,241,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,245,245,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,244,244,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,356,356,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,357,357,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,358,358,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,359,359,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,360,360,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,421,421,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,422,422,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,423,423,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,424,424,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,459,459,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,460,460,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,461,461,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,585,585,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,586,586,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,587,587,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,588,588,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,DARE-170720,589,tissue,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-20,JimmyODonnell,NWFSC_CleanLab,Skagit,bufferonly,590,bufferonly,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,227,227,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,228,228,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,229,229,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,230,230,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,231,231,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,232,232,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,235,235,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,236,236,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,253,253,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,255,255,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,256,256,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,264,264,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,265,265,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,327,327,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,328,328,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,329,329,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,341,341,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,342,342,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,AQJO-160603-B,591,tissue,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-24,JimmyODonnell,NWFSC_CleanLab,Skagit,bufferonly,592,bufferonly,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,345,345,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,351,351,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,354,354,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,355,355,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,363,363,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,364,364,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,365,365,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,430,430,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,431,431,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,432,432,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,433,433,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,434,434,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,435,435,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,436,436,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,437,437,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,very cloudy after first chloroform addition
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,439,439,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,446,446,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,448,448,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,POWI-150903,593,tissue,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,MAYBE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,bufferonly,594,bufferonly,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,449,449,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,450,450,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,482,482,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,483,483,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,484,484,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,486,486,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,487,487,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,488,488,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,489,489,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,490,490,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,491,491,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,492,492,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,493,493,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,494,494,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,495,495,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,496,496,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,497,497,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,498,498,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,DARE-170720,595,tissue,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,MAYBE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,bufferonly,596,bufferonly,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,499,499,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,500,500,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,spilled some supernatant right before transferring to first chloroform
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,501,501,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,566,566,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,567,567,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,568,568,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,569,569,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,570,570,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,571,571,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,573,573,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,574,574,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,575,575,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,576,576,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,577,577,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,578,578,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,579,579,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,580,580,environmental,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,TRUE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,AQJO-160603-B,597,env-control,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,POWI-150903,598,tissue,PhenolChloroform,1000,0,800,FALSE,TRUE,all ~1200,all ~1000,1000,MAYBE,NOAA Montlake,FZ02 Snowcone,NA,,
+2017-07-25,JimmyODonnell,NWFSC_CleanLab,Skagit,bufferonly,599,bufferonly,PhenolChloroform,1000,0,800,TRUE,TRUE,all ~1200,all ~1000,1000,FALSE,NOAA Montlake,FZ02 Snowcone,NA,,

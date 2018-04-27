@@ -7,7 +7,7 @@ if(INTERACTIVE){
 } else {
   analysis_dir <- getwd()
 }
-data_dir <- file.path("..", "Data")
+data_dir <-  file.path("..", "Data")
 fig_dir <- file.path("..", "Figures")
 
 ################################################################################
