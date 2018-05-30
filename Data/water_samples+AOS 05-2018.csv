@@ -1,0 +1,554 @@
+date,time,sample_type,site_name,collector,field_label,field_notes,field_rep,photos_field,filterer,filter_start,filter_end,lab_label,filter_notes,preservative_ml,filter_box,EXTRACT
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,1,,1,,Jimmy O'Donnell,morning,,1,filtered on RV Minnow,1,,
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,16,,2,,Jimmy O'Donnell,morning,,2,filtered on RV Minnow,1,,
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,17,,3,,Jimmy O'Donnell,morning,,3,filtered on RV Minnow,1,,
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,3,,4,,Jimmy O'Donnell,morning,,4,filtered on RV Minnow,1,,
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,6,,5,,Jimmy O'Donnell,morning,,5,filtered on RV Minnow,1,,
+5/31/16,1020,water-marine,Strawberry Point North,Jimmy O'Donnell,11,,6,,Jimmy O'Donnell,morning,,6,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,13,,1,,Jimmy O'Donnell,morning,,7,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,18,,2,,Jimmy O'Donnell,morning,,8,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,9,,3,,Jimmy O'Donnell,morning,,9,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,10,,4,,Jimmy O'Donnell,morning,,10,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,14,,5,,Jimmy O'Donnell,morning,,11,filtered on RV Minnow,1,,
+5/31/16,1103,water-marine,Brown Point,Jimmy O'Donnell,7,,6,,Jimmy O'Donnell,morning,,12,filtered on RV Minnow,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,15,,1,,Jimmy O'Donnell,afternoon,,13,,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,2,,2,,Jimmy O'Donnell,afternoon,,14,,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,4,,3,,Jimmy O'Donnell,afternoon,,15,,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,48,,4,,Jimmy O'Donnell,afternoon,,16,,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,5,,5,,Jimmy O'Donnell,afternoon,,17,,1,,
+5/31/16,1149,water-marine,Random 1 2016-05-31 Utsalady Point,Jimmy O'Donnell,36,,6,,Jimmy O'Donnell,afternoon,,18,,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,34,,1,,Jimmy O'Donnell,afternoon,,19,eggs visible in sample while filtering,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,28,,2,,Jimmy O'Donnell,afternoon,,20,eggs visible in sample while filtering,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,24,,3,,Jimmy O'Donnell,afternoon,,21,eggs visible in sample while filtering,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,30,,4,,Jimmy O'Donnell,afternoon,,22,eggs visible in sample while filtering,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,29,,5,,Jimmy O'Donnell,afternoon,,23,eggs visible in sample while filtering,1,,
+5/31/16,1215,water-marine,Random 2 2016-05-31 Maple Grove,Jimmy O'Donnell,27,,7,,Jimmy O'Donnell,afternoon,,24,eggs visible in sample while filtering,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,45,,1,,Jimmy O'Donnell,afternoon,,25,,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,21,,2,,Jimmy O'Donnell,afternoon,,26,,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,33,,3,,Jimmy O'Donnell,afternoon,,27,,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,26,,4,,Jimmy O'Donnell,afternoon,,28,,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,37,,5,,Jimmy O'Donnell,afternoon,,29,,1,,
+5/31/16,1325,water-marine,Mariners Bluff,Jimmy O'Donnell,47,,6,,Jimmy O'Donnell,afternoon,,30,,1,,
+5/31/16,1700,water-deionized,,Jimmy O'Donnell,deionized water,,1,,Jimmy O'Donnell,afternoon,,31,,1,,
+6/7/16,641,water-marine,Browns Slough Out Side,Jimmy O'Donnell,42,high water,1,,Jimmy O'Donnell,830,,32,filtered at site,1.4,,
+6/7/16,643,water-marine,Browns Slough Out Side,Jimmy O'Donnell,33,high water,2,,Jimmy O'Donnell,858,,33,filtered at site,1.4,,
+6/7/16,645,water-marine,Browns Slough Out Side,Jimmy O'Donnell,40,high water,3,,Jimmy O'Donnell,918,,34,filtered at site,1.4,,
+6/7/16,647,water-marine,Browns Slough Out Side,Jimmy O'Donnell,48,high water,4,,Jimmy O'Donnell,1000,,35,filtered at site,1.4,,
+6/7/16,649,water-marine,Browns Slough Out Side,Jimmy O'Donnell,5,high water,5,,Jimmy O'Donnell,1110,,36,filtered at site,1.4,,
+6/7/16,651,water-marine,Browns Slough Out Side,Jimmy O'Donnell,34,high water,6,,Jimmy O'Donnell,1131,,37,filtered at site,1.4,,
+6/7/16,808,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,27,high water,1,,Jimmy O'Donnell,1510,,39,,1.4,,
+6/7/16,809,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,11,high water,2,,Jimmy O'Donnell,1510,,40,,1.4,,
+6/7/16,810,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,1,high water,3,,Jimmy O'Donnell,1510,,41,,1.4,,
+6/7/16,811,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,13,high water,4,,Jimmy O'Donnell,1530,,42,,1.4,,
+6/7/16,813,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,10,high water,5,,Jimmy O'Donnell,1530,,43,,1.4,,
+6/7/16,815,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,37,high water,6,,Jimmy O'Donnell,1530,,44,,1.4,,
+6/7/16,940,water-marine,Browns Slough Out Side,Jimmy O'Donnell,31,low water,1,,Jimmy O'Donnell,1600,,45,,1.4,,
+6/7/16,941,water-marine,Browns Slough Out Side,Jimmy O'Donnell,39,low water,2,,Jimmy O'Donnell,1600,,46,,1.4,,
+6/7/16,944,water-marine,Browns Slough Out Side,Jimmy O'Donnell,19,low water,3,,Jimmy O'Donnell,1615,,47,,1.4,,
+6/7/16,945,water-marine,Browns Slough Out Side,Jimmy O'Donnell,20,low water,4,,Jimmy O'Donnell,1622,,48,,1.4,,
+6/7/16,950,water-marine,Browns Slough Out Side,Jimmy O'Donnell,30,low water,5,,Jimmy O'Donnell,1631,,49,,1.4,,
+6/7/16,951,water-marine,Browns Slough Out Side,Jimmy O'Donnell,25,low water,6,,Jimmy O'Donnell,1633,,50,,1.4,,
+6/7/16,1200,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,35,low water,1,,Jimmy O'Donnell,,,51,,1.4,,
+6/7/16,1201,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,41,low water,2,,Jimmy O'Donnell,,,53,,1.4,,
+6/7/16,1202,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,22,low water,3,,Jimmy O'Donnell,,,52,,1.4,,
+6/7/16,1204,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,23,low water,4,,Jimmy O'Donnell,,,54,,1.4,,
+6/7/16,1205,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,32,low water,5,,Jimmy O'Donnell,,,55,,1.4,,
+6/7/16,1206,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,44,low water,6,,Jimmy O'Donnell,,,56,,1.4,,
+6/7/16,,water-deionized,,Jimmy O'Donnell,deionized water,,1,,Jimmy O'Donnell,1150,,38,filtered at site,1.4,,
+6/8/16,821,water-marine,Ika Upper,Jimmy O'Donnell,28,,1,,Jimmy O'Donnell,1312,,57,,1.4,,
+6/8/16,822,water-marine,Ika Upper,Jimmy O'Donnell,3,,2,,Jimmy O'Donnell,1313,,58,,1.4,,
+6/8/16,823,water-marine,Ika Upper,Jimmy O'Donnell,24,,3,,Jimmy O'Donnell,1314,,59,,1.4,,
+6/8/16,828,water-marine,Ika Upper,Jimmy O'Donnell,7,,4,,Jimmy O'Donnell,1340,,60,forceps used to handle filter were possibly not clean,1.4,,
+6/8/16,829,water-marine,Ika Upper,Jimmy O'Donnell,17,,5,,Jimmy O'Donnell,1341,,61,forceps used to handle filter were possibly not clean,1.4,,
+6/8/16,830,water-marine,Ika Upper,Jimmy O'Donnell,45,,6,,Jimmy O'Donnell,1342,,62,forceps used to handle filter were possibly not clean,1.4,,
+6/8/16,835,water-marine,Ika Lower,Jimmy O'Donnell,5,,1,,Jimmy O'Donnell,1411,,63,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,837,water-marine,Ika Lower,Jimmy O'Donnell,46,,2,,Jimmy O'Donnell,1411,,64,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,838,water-marine,Ika Lower,Jimmy O'Donnell,14,,3,,Jimmy O'Donnell,1411,,65,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,839,water-marine,Ika Lower,Jimmy O'Donnell,43,,4,,Jimmy O'Donnell,1500,,67,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,841,water-marine,Ika Lower,Jimmy O'Donnell,8,,5,,Jimmy O'Donnell,1500,,68,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,842,water-marine,Ika Lower,Jimmy O'Donnell,38,,6,,Jimmy O'Donnell,1500,,69,forceps used to handle filter were definitely not clean,1.4,,
+6/8/16,852,water-marine,Cattail,Jimmy O'Donnell,4,,1,,Jimmy O'Donnell,1532,,70,,1.4,,
+6/8/16,854,water-marine,Cattail,Jimmy O'Donnell,36,,2,,Jimmy O'Donnell,1533,,71,,1.4,,
+6/8/16,855,water-marine,Cattail,Jimmy O'Donnell,15,,3,,Jimmy O'Donnell,1534,,72,,1.4,,
+6/8/16,856,water-marine,Cattail,Jimmy O'Donnell,48,,4,,Jimmy O'Donnell,1607,,73,,1.4,,
+6/8/16,858,water-marine,Cattail,Jimmy O'Donnell,47,,5,,Jimmy O'Donnell,1607,,74,,1.4,,
+6/8/16,859,water-marine,Cattail,Jimmy O'Donnell,42,,6,,Jimmy O'Donnell,1607,,75,,1.4,,
+6/8/16,927,water-marine,Grain of Sand,Jimmy O'Donnell,40,,1,,Jimmy O'Donnell,1632,,76,,1.4,,
+6/8/16,928,water-marine,Grain of Sand,Jimmy O'Donnell,34,,2,,Jimmy O'Donnell,1632,,77,,1.4,,
+6/8/16,929,water-marine,Grain of Sand,Jimmy O'Donnell,12,,3,,Jimmy O'Donnell,1632,,78,,1.4,,
+6/8/16,930,water-marine,Grain of Sand,Jimmy O'Donnell,33,,4,,Jimmy O'Donnell,1710,,79,,1.4,,
+6/8/16,932,water-marine,Grain of Sand,Jimmy O'Donnell,26,,5,,Jimmy O'Donnell,1711,,81,,1.4,,
+6/8/16,933,water-marine,Grain of Sand,Jimmy O'Donnell,29,,6,,Jimmy O'Donnell,1712,,80,,1.4,,
+6/8/16,,water-deionized,,Jimmy O'Donnell,deionized water,,1,,Jimmy O'Donnell,1440,,66,forceps used to handle filter were definitely not clean,1.4,,
+6/13/16,931,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",35,after seine 1,1,,"Ole Shelton, LM, LB, Jimmy Kralj",1253,,83,filtered at site,1.4,,
+6/13/16,932,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",34,after seine 1,2,,"Ole Shelton, LM, LB, Jimmy Kralj",1240,,82,filtered at site,1.4,,
+6/13/16,934,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",38,after seine 1,3,,"Ole Shelton, LM, LB, Jimmy Kralj",1304,,84,filtered at site,1.4,,
+6/13/16,941,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",12,after seine 2,4,,Jimmy Kralj,,,85,solids made it past membrane,1.4,,
+6/13/16,943,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",39,after seine 2,5,,Jimmy Kralj,,,86,,1.4,,
+6/13/16,945,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",23,after seine 2,6,,Jimmy Kralj,,,87,,1.4,,
+6/13/16,947,water-marine,Lone Tree Point,"Ole Shelton, LM, LB, Jimmy Kralj",8,after seine 2,7,,Jimmy Kralj,,,88,,1.4,,
+6/13/16,1026,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",36,after seine 1,1,,Jimmy Kralj,,,89,,1.4,,
+6/13/16,1027,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",5,after seine 1,2,,Jimmy Kralj,,,90,solids made it past membrane,1.4,,
+6/13/16,1029,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",31,after seine 1,3,,Jimmy Kralj,,,91,,1.4,,
+6/13/16,1040,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",30,after seine 2,4,,Jimmy Kralj,,,92,,1.4,,
+6/13/16,1041,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",47,after seine 2,5,,Jimmy Kralj,,,93,,1.4,,
+6/13/16,1042,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",41,after seine 2,6,,Jimmy Kralj,,,94,,1.4,,
+6/13/16,1043,water-marine,Hoypus,"Ole Shelton, LM, LB, Jimmy Kralj",22,after seine 2,7,,,,,,did not filter,,,
+6/13/16,1140,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",25,after seine 1,1,,Jimmy Kralj,,,96,,1.4,,
+6/13/16,1143,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",48,after seine 1,2,,Jimmy Kralj,,,97,,1.4,,
+6/13/16,1144,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",28,after seine 1,3,,Jimmy Kralj,,,98,,1.4,,
+6/13/16,1152,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",7,after seine 2,4,,Jimmy Kralj,1820,,99,solids made it past membrane,1.4,,
+6/13/16,1153,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",4,after seine 2,5,,Jimmy Kralj,,,100,solids made it past membrane,1.4,,
+6/13/16,1154,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",14,after seine 2,6,,Jimmy Kralj,,,101,,1.4,,
+6/13/16,1155,water-marine,Dugualla Bluff,"Ole Shelton, LM, LB, Jimmy Kralj",33,after seine 2,7,,,,,,did not filter,,,
+6/13/16,1330,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",1,after seine 1,1,,Jimmy Kralj,,,102,,1.4,,
+6/13/16,1331,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",26,after seine 1,2,,Jimmy Kralj,,,103,,1.4,,
+6/13/16,1332,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",3,after seine 1,3,,Jimmy Kralj,,,104,,1.4,,
+6/13/16,1334,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",24,after seine 2,4,,Jimmy Kralj,,,105,,1.4,,
+6/13/16,1335,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",11,after seine 2,5,,Jimmy Kralj,,,106,,1.4,,
+6/13/16,1336,water-marine,Random Middle 433,"Ole Shelton, LM, LB, Jimmy Kralj",43,after seine 2,6,,,,,,did not filter,,,
+6/13/16,1401,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",20,after seine 1,1,,Jimmy Kralj,,,107,,1.4,,
+6/13/16,1402,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",32,after seine 1,2,,Jimmy Kralj,,,108,,1.4,,
+6/13/16,1403,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",40,after seine 1,3,,Jimmy Kralj,,,109,,1.4,,
+6/13/16,1411,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",42,after seine 2,4,,Jimmy Kralj,,,110,,1.4,,
+6/13/16,1413,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",44,after seine 2,5,,Jimmy Kralj,,,111,,1.4,,
+6/13/16,1414,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",37,after seine 2,6,,Jimmy Kralj,,,112,,1.4,,
+6/13/16,1415,water-marine,Turners Spit N,"Ole Shelton, LM, LB, Jimmy Kralj",27,after seine 2,7,,,,,,did not filter,,,
+6/13/16,,water-deionized,,"Ole Shelton, LM, LB, Jimmy Kralj",deionized water,,1,,Jimmy Kralj,,,95,,1.4,,
+6/15/16,907,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",20,after seine 1,1,,Jimmy O'Donnell,,,113,,1.4,,
+6/15/16,907,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",39,after seine 1,2,,Jimmy O'Donnell,,,114,,1.4,,
+6/15/16,908,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",23,after seine 1,3,,Jimmy O'Donnell,,,115,,1.4,,
+6/15/16,909,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",7,after seine 1,4,,Jimmy O'Donnell,1620,,119,,1.4,,
+6/15/16,909,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",4,after seine 1,5,,Jimmy O'Donnell,,,117,,1.4,,
+6/15/16,910,water-marine,Strawberry Point North,"Jimmy O'Donnell, Heather Jackson, LM",47,after seine 1,6,,Jimmy O'Donnell,,,118,,1.4,,
+6/15/16,1000,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",31,,1,,Jimmy O'Donnell,,,116,,1.4,,
+6/15/16,1001,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",1,,2,,Jimmy O'Donnell,,,121,,1.4,,
+6/15/16,1001,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",11,,3,,Jimmy O'Donnell,,,122,,1.4,,
+6/15/16,1007,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",24,,4,,Jimmy O'Donnell,,,123,,1.4,,
+6/15/16,1008,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",37,,5,,Jimmy O'Donnell,,,124,,1.4,,
+6/15/16,1008,water-marine,Brown Point,"Jimmy O'Donnell, Heather Jackson, LM",43,,6,,Jimmy O'Donnell,,,125,,1.4,,
+6/15/16,1116,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",8,,1,,Jimmy O'Donnell,,,126,,1.4,,
+6/15/16,1117,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",42,,2,,Jimmy O'Donnell,,,127,"piece of filter broke, dropped, added back in",1.4,,
+6/15/16,1117,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",32,,3,,Jimmy O'Donnell,,,128,,1.4,,
+6/15/16,1118,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",41,,4,,Jimmy O'Donnell,,,129,,1.4,,
+6/15/16,1118,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",44,,5,,Jimmy O'Donnell,,,130,,1.4,,
+6/15/16,1119,water-marine,Random near Camp Grande,"Jimmy O'Donnell, Heather Jackson, LM",27,,6,,Jimmy O'Donnell,1812,,131,,1.4,,
+6/15/16,1203,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",33,,1,,Jimmy O'Donnell,1827,,132,,1.4,,
+6/15/16,1204,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",48,,2,,Jimmy O'Donnell,1829,,133,,1.4,,
+6/15/16,1205,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",17,,3,,Jimmy O'Donnell,,,134,,1.4,,
+6/15/16,1217,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",26,,4,,Jimmy O'Donnell,1841,,135,,1.4,,
+6/15/16,1218,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",12,,5,,Jimmy O'Donnell,,,136,smudged filter with finger,1.4,,
+6/15/16,1218,water-marine,Mariners Bluff,"Jimmy O'Donnell, Heather Jackson, LM",36,,6,,Jimmy O'Donnell,,,137,,1.4,,
+6/15/16,,water-deionized,,Jimmy O'Donnell,deionized water,,1,,Jimmy O'Donnell,1700,,120,,1.4,,
+6/3/16,,water-aquarium,Aquarium323,Jimmy O'Donnell,,Danio rerio; Microsorum pteropus,1,,Jimmy O'Donnell,,,AQ323-160603,,5,,
+6/3/16,,water-aquarium,AquariumJimmy,Jimmy O'Donnell,,Poecilia wingei; Neocaridina denticulata davidi; Microsorum pteropus; Hypnaceae sp,1,,Jimmy O'Donnell,,,AQJO-160603A,,5,,
+6/3/16,,water-aquarium,AquariumJimmy,Jimmy O'Donnell,,Poecilia wingei; Neocaridina denticulata davidi; Microsorum pteropus; Hypnaceae sp,1,,Jimmy O'Donnell,,,AQJO-160603B,,5,,
+2/14/17,815,water-marine,Cattail,Jimmy O'Donnell,CT01,from shore side approx 3m upstream from post,1,,Abi Wells,1336,,138,,1,170215,Y
+2/14/17,816,water-marine,Cattail,Jimmy O'Donnell,CT02,from shore side approx 3m upstream from post,2,,Jimmy O'Donnell,1340,,139,,1,170215,Y
+2/14/17,817,water-marine,Cattail,Jimmy O'Donnell,CT03,from shore side approx 3m upstream from post,3,,Jimmy O'Donnell,1340,,140,,1,170215,Y
+2/14/17,818,water-marine,Cattail,Jimmy O'Donnell,CT04,from shore side approx 3m upstream from post,4,,Jimmy O'Donnell,1340,,141,,1,170215,Y
+2/14/17,819,water-marine,Cattail,Jimmy O'Donnell,CT05,from shore side approx 3m upstream from post,5,,Abi Wells,1350,,142,,1,170215,
+2/14/17,838,water-marine,Grain of Sand,Jimmy O'Donnell,GS01,from upstream side approx 2m from post,1,JimmyPhone,Jimmy O'Donnell,1320,,143,,1,170215,Y
+2/14/17,839,water-marine,Grain of Sand,Jimmy O'Donnell,GS02,from upstream side approx 2m from post,2,JimmyPhone,Jimmy O'Donnell,1320,,144,,1,170215,Y
+2/14/17,840,water-marine,Grain of Sand,Jimmy O'Donnell,GS03,from upstream side approx 2m from post,3,JimmyPhone,Jimmy O'Donnell,1320,,145,,1,170215,Y
+2/14/17,841,water-marine,Grain of Sand,Jimmy O'Donnell,GS04,from upstream side approx 2m from post,4,JimmyPhone,Abi Wells,1336,,146,,1,170215,Y
+2/14/17,842,water-marine,Grain of Sand,Jimmy O'Donnell,GS05,from upstream side approx 2m from post,5,JimmyPhone,Abi Wells,1336,,147,,1,170215,
+2/14/17,910,water-marine,Ika Upper,Ole Shelton,AG005,,1,,Abi Wells,1350,,148,,1,170215,Y
+2/14/17,911,water-marine,Ika Upper,Ole Shelton,no label,,2,,Abi Wells,1350,,149,,1,170215,Y
+2/14/17,912,water-marine,Ika Upper,Ole Shelton,no label,,3,,Jimmy O'Donnell,1400,,150,bottle not full: weight before - after = final; 761-93=668,1,170215,Y
+2/14/17,913,water-marine,Ika Upper,Ole Shelton,13,,4,,Jimmy O'Donnell,1400,,151,,1,170215,Y
+2/14/17,914,water-marine,Ika Upper,Ole Shelton,19,,5,,Jimmy O'Donnell,1400,,152,filter grid light gray,1,170215,
+2/14/17,923,water-marine,Ika Lower,Ole Shelton,29,,1,,Abi Wells,,,153,,1,170215,Y
+2/14/17,924,water-marine,Ika Lower,Ole Shelton,15,,2,,Abi Wells,,,154,filter grid light gray,1,170215,Y
+2/14/17,925,water-marine,Ika Lower,Ole Shelton,10,,3,,Abi Wells,,,155,filter grid light gray,1,170215,Y
+2/14/17,926,water-marine,Ika Lower,Ole Shelton,17,,4,,Jimmy O'Donnell,,,156,,1,170215,Y
+2/14/17,927,water-marine,Ika Lower,Ole Shelton,45,,5,,Jimmy O'Donnell,,,157,,1,170215,
+2/14/17,,water-deionized,,,DIH2O1,,1,,Jimmy O'Donnell,,,158,,1,170215,
+2/14/17,,water-deionized,,,DIH2O2,,1,,Jimmy O'Donnell,,,,,1,170215,
+2/15/17,849,water-marine,Tom Moore,Jimmy O'Donnell,GS01,collected downstream of codend,1,JimmyPhone,Abi Wells,1215,,200,filter extremeley gunky,1,170215,Y
+2/15/17,850,water-marine,Tom Moore,Jimmy O'Donnell,GS02,collected downstream of codend,2,JimmyPhone,Jimmy O'Donnell,1230,,201,,1,170215,Y
+2/15/17,851,water-marine,Tom Moore,Jimmy O'Donnell,GS03,collected downstream of codend,3,JimmyPhone,Jimmy O'Donnell,1230,,202,,1,170215,Y
+2/15/17,852,water-marine,Tom Moore,Jimmy O'Donnell,10,collected downstream of codend,4,JimmyPhone,Jimmy O'Donnell,1230,,203,,1,170215,Y
+2/15/17,853,water-marine,Tom Moore,Jimmy O'Donnell,45,collected downstream of codend,5,JimmyPhone,Abi Wells,1233,,204,,1,170215,
+2/15/17,910,water-marine,Deepwater,Jimmy O'Donnell,17,collected approx 1m upstream of tide gauge,1,JimmyPhone,Jimmy O'Donnell,1209,,205,,1,170215,Y
+2/15/17,911,water-marine,Deepwater,Jimmy O'Donnell,13,collected approx 1m upstream of tide gauge,2,JimmyPhone,Jimmy O'Donnell,1209,,206,,1,170215,Y
+2/15/17,912,water-marine,Deepwater,Jimmy O'Donnell,15,collected approx 1m upstream of tide gauge,3,JimmyPhone,Jimmy O'Donnell,1209,,207,,1,170215,Y
+2/15/17,912,water-marine,Deepwater,Jimmy O'Donnell,19,collected approx 1m upstream of tide gauge,4,JimmyPhone,Abi Wells,1215,,208,,1,170215,Y
+2/15/17,913,water-marine,Deepwater,Jimmy O'Donnell,29,collected approx 1m upstream of tide gauge,5,JimmyPhone,Abi Wells,1215,,209,,1,170215,
+2/15/17,,water-deionized,,Jimmy O'Donnell,DIH2O1,,1,,Abi Wells,1233,,210,,1,170215,
+2/15/17,800,water-marine,Wylie Boat Ramp,Ole Shelton,103,,1,JimmyPhone,Abi Wells,1233,,211,,1,170215,
+2/15/17,801,water-marine,Wylie Boat Ramp,Ole Shelton,108,,2,JimmyPhone,Abi Wells,1245,,212,,1,170215,
+2/15/17,802,water-marine,Wylie Boat Ramp,Ole Shelton,105,,3,JimmyPhone,Abi Wells,1245,,213,,1,170215,
+2/15/17,803,water-marine,Wylie Boat Ramp,Ole Shelton,107,,4,JimmyPhone,Abi Wells,1245,,214,,1,170215,
+2/15/17,804,water-marine,Wylie Boat Ramp,Ole Shelton,109,,5,JimmyPhone,Jimmy O'Donnell,1300,,215,,1,170215,
+2/15/17,826,water-marine,Freshwater Pond,Ole Shelton,106,near east fyke,1,LabCamera,Jimmy O'Donnell,1300,,216,,1,170215,Y
+2/15/17,826,water-marine,Freshwater Pond,Ole Shelton,101,near east fyke,2,LabCamera,Jimmy O'Donnell,1300,,217,,1,170215,Y
+2/15/17,836,water-marine,Freshwater Pond,Ole Shelton,100,near west fyke,3,LabCamera,Abi Wells,1315,,218,,1,170215,Y
+2/15/17,836,water-marine,Freshwater Pond,Ole Shelton,104,near west fyke,4,LabCamera,Abi Wells,1315,,219,,1,170215,Y
+2/15/17,836,water-marine,Freshwater Pond,Ole Shelton,102,near west fyke,5,LabCamera,Jimmy O'Donnell,1315,,220,,1,170215,
+2/17/17,939,water-marine,Browns Slough Diked Side,Ole Shelton,19,collected approx 3m upstream of net,1,,Jimmy O'Donnell,1145,1230,221,,1,170215,Y
+2/17/17,940,water-marine,Browns Slough Diked Side,Ole Shelton,10,collected approx 3m upstream of net,2,,Jimmy O'Donnell,1145,1230,222,,1,170215,Y
+2/17/17,941,water-marine,Browns Slough Diked Side,Ole Shelton,13,collected approx 3m upstream of net,3,,Jimmy O'Donnell,1145,1230,223,,1,170215,Y
+2/17/17,942,water-marine,Browns Slough Diked Side,Ole Shelton,17,collected approx 3m upstream of net,4,,Jimmy O'Donnell,1145,1230,224,,1,170215,Y
+2/17/17,943,water-marine,Browns Slough Diked Side,Ole Shelton,29,collected approx 3m upstream of net,5,,Jimmy O'Donnell,1145,1230,225,,1,170215,
+2/17/17,,water-deionized,,,DIH2O1,,1,,Jimmy O'Donnell,1145,1155,226,,1,170215,
+2/21/17,935,water-marine,Lone Tree Point,Ramon Gallego,113,set1,1,maybe,Jimmy O'Donnell,1600,,227,,1,170215,
+2/21/17,936,water-marine,Lone Tree Point,Ramon Gallego,114,set1,2,maybe,Jimmy O'Donnell,1600,,228,,1,170215,
+2/21/17,942,water-marine,Lone Tree Point,Ramon Gallego,115,set2,3,maybe,Jimmy O'Donnell,1600,,229,,1,170215,
+2/21/17,943,water-marine,Lone Tree Point,Ramon Gallego,116,set2,4,maybe,Ramon Gallego,1600,,230,,1,170215,
+2/21/17,944,water-marine,Lone Tree Point,Ramon Gallego,117,set2,5,maybe,Ramon Gallego,1600,,231,,1,170215,
+2/21/17,1013,water-marine,Hoypus,Ramon Gallego,118,after set1,1,maybe,Ramon Gallego,1600,,232,tube cap fell on ground,1,170215,
+2/21/17,1014,water-marine,Hoypus,Ramon Gallego,119,after set1,2,maybe,Jimmy O'Donnell,1610,,233,,1,170215,
+2/21/17,1020,water-marine,Hoypus,Ramon Gallego,120,after set1,3,maybe,Jimmy O'Donnell,1610,,234,,1,170215,
+2/21/17,1023,water-marine,Hoypus,Ramon Gallego,101,after set2,4,maybe,Jimmy O'Donnell,1610,,235,,1,170215,
+2/21/17,1025,water-marine,Hoypus,Ramon Gallego,112,after set2,5,maybe,Ramon Gallego,1610,,236,,1,170215,
+2/21/17,1058,water-marine,Random North 1041,Ramon Gallego,111,,1,maybe,Ramon Gallego,1610,,237,,1,170215,
+2/21/17,1059,water-marine,Random North 1041,Ramon Gallego,125,,2,maybe,Ramon Gallego,1610,,238,,1,170215,
+2/21/17,1101,water-marine,Random North 1041,Ramon Gallego,124,,3,maybe,Jimmy O'Donnell,1620,,239,,1,170215,
+2/21/17,1102,water-marine,Random North 1041,Ramon Gallego,123,,4,maybe,Jimmy O'Donnell,1620,,240,,1,170215,
+2/21/17,1119,water-marine,Turners Spit N,Ramon Gallego,122,after set1,1,maybe,Jimmy O'Donnell,1620,,241,,1,170215,
+2/21/17,1120,water-marine,Turners Spit N,Ramon Gallego,121,after set1,2,maybe,Ramon Gallego,1620,,243,,1,170215,
+2/21/17,1126,water-marine,Turners Spit N,Ramon Gallego,102,after set1,3,maybe,Ramon Gallego,1620,,242,,1,170215,
+2/21/17,1130,water-marine,Turners Spit N,Ramon Gallego,103,after set2,4,maybe,Ramon Gallego,1620,,245,,1,170215,
+2/21/17,1131,water-marine,Turners Spit N,Ramon Gallego,104,after set2,5,maybe,Jimmy O'Donnell,1630,,244,some gunk past membrane,1,170215,
+2/21/17,1315,water-marine,Dugualla Bluff,Ramon Gallego,105,after set1,1,maybe,Jimmy O'Donnell,1630,,246,,1,170215,
+2/21/17,1317,water-marine,Dugualla Bluff,Ramon Gallego,106,after set1,2,maybe,Jimmy O'Donnell,1630,,247,,1,170215,
+2/21/17,1324,water-marine,Dugualla Bluff,Ramon Gallego,107,after set1,3,maybe,Ramon Gallego,1630,,248,,1,170215,
+2/21/17,1329,water-marine,Dugualla Bluff,Ramon Gallego,108,after set2,4,maybe,Ramon Gallego,1630,,249,,1,170215,
+2/21/17,1330,water-marine,Dugualla Bluff,Ramon Gallego,109,after set2,5,maybe,Ramon Gallego,1630,,250,,1,170215,
+2/21/17,,water-deionized,,,DIH2O1,,1,,Jimmy O'Donnell,1640,,251,,1,170215,
+2/22/17,904,water-marine,Goat Island,,143,after set1,1,yes,Jimmy O'Donnell,1455,,252,,1,,
+2/22/17,905,water-marine,Goat Island,,142,after set1,2,yes,Jimmy O'Donnell,1455,,253,,1,,
+2/22/17,914,water-marine,Goat Island,,141,after set1,3,yes,Jimmy O'Donnell,1455,,254,,1,,
+2/22/17,918,water-marine,Goat Island,,140,after set2,4,yes,Jimmy O'Donnell,1455,,255,,1,,
+2/22/17,919,water-marine,Goat Island,,126,after set2,5,yes,Jimmy O'Donnell,1455,,256,,1,,
+2/22/17,952,water-marine,Random 364,,127,during set1,1,yes,Jimmy O'Donnell,1455,,257,,1,,
+2/22/17,952,water-marine,Random 364,,128,during set1,2,yes,Jimmy O'Donnell,1505,,258,,1,,
+2/22/17,953,water-marine,Random 364,,129,during set1,3,yes,Jimmy O'Donnell,1505,,259,,1,,
+2/22/17,954,water-marine,Random 364,,130,during set1,4,yes,Jimmy O'Donnell,1505,,260,,1,,
+2/22/17,1031,water-marine,Strawberry Point North,,144,after set1,1,yes,Jimmy O'Donnell,1505,,261,,1,,
+2/22/17,1032,water-marine,Strawberry Point North,,145,after set1,2,yes,Jimmy O'Donnell,1505,,262,,1,,
+2/22/17,1039,water-marine,Strawberry Point North,,147,after set2,3,yes,Jimmy O'Donnell,1505,,263,,1,,
+2/22/17,1041,water-marine,Strawberry Point North,,146,after set2,4,yes,Jimmy O'Donnell,1515,,264,,1,,
+2/22/17,1042,water-marine,Strawberry Point North,,148,after set2,5,yes,Jimmy O'Donnell,1515,,265,,1,,
+2/22/17,1108,water-marine,Mariners Bluff,,149,after set1,1,yes,Jimmy O'Donnell,1515,,266,,1,,
+2/22/17,1108,water-marine,Mariners Bluff,,150,after set1,2,yes,Jimmy O'Donnell,1525,,267,,1,,
+2/22/17,1114,water-marine,Mariners Bluff,,139,after set2,3,yes,Jimmy O'Donnell,1525,,268,,1,,
+2/22/17,1117,water-marine,Mariners Bluff,,138,after set2,4,yes,Jimmy O'Donnell,1525,,269,,1,,
+2/22/17,1118,water-marine,Mariners Bluff,,137,after set2,5,yes,Jimmy O'Donnell,1534,,270,,1,,
+2/22/17,1142,water-marine,Brown Point,,136,after set1,1,yes,Jimmy O'Donnell,1534,,271,,1,,
+2/22/17,1143,water-marine,Brown Point,,135,after set1,2,yes,Jimmy O'Donnell,1534,,272,,1,,
+2/22/17,1149,water-marine,Brown Point,,134,after set2,3,yes,Jimmy O'Donnell,1537,,273,,1,,
+2/22/17,1152,water-marine,Brown Point,,133,after set2,4,yes,Jimmy O'Donnell,1537,,274,,1,,
+2/22/17,1152,water-marine,Brown Point,,132,after set2,5,yes,Jimmy O'Donnell,1537,,275,finished filtering at 1545,1,,
+2/22/17,,water-deionized,,,DIH2O2,,1,,Jimmy O'Donnell,1532,,276,,1,,
+3/14/17,735,water-marine,Grain of Sand,Ryan Kelly,150,directly upstream of net,1,no,Jimmy O'Donnell,1440,1512,277,,1,,Y
+3/14/17,735,water-marine,Grain of Sand,Ryan Kelly,102,directly upstream of net,2,no,Jimmy O'Donnell,1440,1514,278,,1,,Y
+3/14/17,735,water-marine,Grain of Sand,Ryan Kelly,134,in small inlet approx 3m upstream of net,3,no,Jimmy O'Donnell,1443,1458,279,,1,,Y
+3/14/17,735,water-marine,Grain of Sand,Ryan Kelly,105,in small inlet approx 3m upstream of net,4,no,Jimmy O'Donnell,1441,,280,,1,,Y
+3/14/17,735,water-marine,Grain of Sand,Ryan Kelly,141,in small inlet approx 3m upstream of net,5,no,Jimmy O'Donnell,1441,,281,,1,,
+3/14/17,756,water-marine,Cattail,Ryan Kelly,114,off back of boat near net site,1,no,Jimmy O'Donnell,1441,,283,,1,,Y
+3/14/17,756,water-marine,Cattail,Ryan Kelly,123,off back of boat near net site,2,no,Jimmy O'Donnell,1511,,284,,1,,Y
+3/14/17,756,water-marine,Cattail,Ryan Kelly,121,from shore behind net,3,no,Jimmy O'Donnell,1511,,285,,1,,Y
+3/14/17,756,water-marine,Cattail,Ryan Kelly,133,from shore behind net,4,no,Jimmy O'Donnell,1511,,286,,1,,Y
+3/14/17,756,water-marine,Cattail,Ryan Kelly,135,from shore behind net,5,no,Jimmy O'Donnell,1511,,287,,1,,
+3/14/17,856,water-marine,Ika Upper,Jimmy O'Donnell,107,,1,no,Jimmy O'Donnell,1516,,288,piece of filter touched table,1,,Y
+3/14/17,857,water-marine,Ika Upper,Jimmy O'Donnell,117,,2,no,Jimmy O'Donnell,1517,,289,,1,,Y
+3/14/17,858,water-marine,Ika Upper,Jimmy O'Donnell,122,,3,no,Jimmy O'Donnell,1532,,290,,1,,Y
+3/14/17,859,water-marine,Ika Upper,Jimmy O'Donnell,148,,4,no,Jimmy O'Donnell,1533,1550,291,,1,,Y
+3/14/17,900,water-marine,Ika Upper,Jimmy O'Donnell,143,,5,no,Jimmy O'Donnell,1534,1550,292,,1,,
+3/14/17,904,water-marine,Ika Lower,Jimmy O'Donnell,138,,1,yes,Jimmy O'Donnell,1534,1550,293,,1,,Y
+3/14/17,905,water-marine,Ika Lower,Jimmy O'Donnell,149,,2,yes,Jimmy O'Donnell,1534,1550,294,,1,,Y
+3/14/17,906,water-marine,Ika Lower,Jimmy O'Donnell,104,,3,yes,Jimmy O'Donnell,1534,1550,295,filter cracked along edge,1,,Y
+3/14/17,907,water-marine,Ika Lower,Jimmy O'Donnell,144,,4,yes,Jimmy O'Donnell,,,296,,1,,Y
+3/14/17,908,water-marine,Ika Lower,Jimmy O'Donnell,137,,5,yes,Jimmy O'Donnell,,,297,,1,,
+3/14/17,,water-deionized,,,DIH2O-1,,1,,Jimmy O'Donnell,1500,,282,,1,,
+3/15/17,800,water-marine,Wylie Boat Ramp,Correigh Greene,140,,1,no,Jimmy O'Donnell,1337,1435,298,,1,,
+3/15/17,802,water-marine,Wylie Boat Ramp,Correigh Greene,115,,2,no,Jimmy O'Donnell,1337,1440,299,,1,,
+3/15/17,803,water-marine,Wylie Boat Ramp,Correigh Greene,128,,3,no,Jimmy O'Donnell,1337,1435,300,,1,,
+3/15/17,805,water-marine,Wylie Boat Ramp,Correigh Greene,145,,4,no,Jimmy O'Donnell,1339,1435,301,,1,,
+3/15/17,806,water-marine,Wylie Boat Ramp,Correigh Greene,113,,5,no,Jimmy O'Donnell,1339,1435,302,,1,,
+3/15/17,843,water-marine,Freshwater Pond,Correigh Greene,131,taken in channel just outside pond,1,no,Jimmy O'Donnell,1339,1445,303,,1,,Y
+3/15/17,846,water-marine,Freshwater Pond,Correigh Greene,146,inside pond,2,no,Jimmy O'Donnell,1450,,304,,1,,Y
+3/15/17,848,water-marine,Freshwater Pond,Correigh Greene,103,inside pond,3,no,Jimmy O'Donnell,1450,,305,,1,,Y
+3/15/17,850,water-marine,Freshwater Pond,Correigh Greene,119,inside pond,4,no,Jimmy O'Donnell,1450,,306,,1,,Y
+3/15/17,852,water-marine,Freshwater Pond,Correigh Greene,126,inside pond,5,no,Jason Dobry,1450,,307,,1,,
+3/15/17,845,water-marine,Tom Moore,Jason Dobry,125,,1,no,Jason Dobry,1450,,308,,1,,Y
+3/15/17,846,water-marine,Tom Moore,Jason Dobry,112,,2,no,Jason Dobry,1450,,309,,1,,Y
+3/15/17,847,water-marine,Tom Moore,Jason Dobry,136,,3,no,Jason Dobry,1610,,310,,1,,Y
+3/15/17,848,water-marine,Tom Moore,Jason Dobry,111,,4,no,Jason Dobry,1610,1700,311,,1,,Y
+3/15/17,849,water-marine,Tom Moore,Jason Dobry,130,,5,no,Jason Dobry,1610,,316,,1,,
+3/15/17,907,water-marine,Deepwater,Jason Dobry,127,,1,no,Jason Dobry,1610,,312,,1,,Y
+3/15/17,908,water-marine,Deepwater,Jason Dobry,139,,2,no,Jason Dobry,1610,,313,,1,,Y
+3/15/17,909,water-marine,Deepwater,Jason Dobry,124,,3,no,Jason Dobry,1610,,314,,1,,Y
+3/15/17,910,water-marine,Deepwater,Jason Dobry,129,,4,no,Jason Dobry,1710,,318,,1,,Y
+3/15/17,911,water-marine,Deepwater,Jason Dobry,109,,5,no,Jason Dobry,1710,,317,,1,,
+3/15/17,,water-deionized,,,DIH2O-1,,1,no,Jimmy O'Donnell,1650,,315,,1,,
+3/16/17,907,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,126,collected ~1ft upstream of net along cork line (from dingy),1,yes,Jimmy O'Donnell,1058,1210,319,,1,,Y
+3/16/17,908,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,108,collected ~1ft upstream of net along cork line (from dingy),2,yes,Jimmy O'Donnell,1058,1213,320,,1,,Y
+3/16/17,909,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,118,collected ~1ft upstream of net along cork line (from dingy),3,yes,Jimmy O'Donnell,1058,1206,321,piece of filter touched table,1,,Y
+3/16/17,910,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,110,collected ~1ft upstream of net along cork line (from dingy),4,yes,Jimmy O'Donnell,1101,1203,322,,1,,Y
+3/16/17,911,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,142,collected ~1ft upstream of net along cork line (from dingy),5,yes,Jimmy O'Donnell,1101,1200,323,,1,,
+3/16/17,,water-deionized,,,DIH2O,,1,yes,Jimmy O'Donnell,1101,1106,324,,1,,
+3/20/17,903,water-marine,Strawberry Point North,Jimmy O'Donnell,114,collected between set1 and set2,1,,Jimmy O'Donnell,1619,1640,325,,1,170320,
+3/20/17,905,water-marine,Strawberry Point North,Jimmy O'Donnell,112,collected between set1 and set2,2,,Jimmy O'Donnell,1619,1640,326,,1,170320,
+3/20/17,906,water-marine,Strawberry Point North,Jimmy O'Donnell,124,collected between set1 and set2,3,,Jimmy O'Donnell,1619,1640,327,,1,170320,
+3/20/17,906,water-marine,Strawberry Point North,Jimmy O'Donnell,149,collected between set1 and set2,4,,Jimmy O'Donnell,1623,1635,328,,1,170320,
+3/20/17,907,water-marine,Strawberry Point North,Jimmy O'Donnell,141,collected between set1 and set2,5,,Jimmy O'Donnell,1623,1640,329,,1,170320,
+3/20/17,1034,water-marine,Brown Point,Jimmy O'Donnell,136,collected between set1 and set2,1,,Jimmy O'Donnell,1623,1640,330,piece of filter touched table,1,170320,
+3/20/17,1035,water-marine,Brown Point,Jimmy O'Donnell,122,collected between set1 and set2,2,,Gary Longo,1640,,331,,1,170320,
+3/20/17,1035,water-marine,Brown Point,Jimmy O'Donnell,150,collected between set1 and set2,3,,Gary Longo,1640,,332,,1,170320,
+3/20/17,1036,water-marine,Brown Point,Jimmy O'Donnell,103,collected between set1 and set2,4,,Jimmy O'Donnell,1646,1640,333,,1,170320,
+3/20/17,1036,water-marine,Brown Point,Jimmy O'Donnell,133,collected between set1 and set2,5,,Jimmy O'Donnell,1646,1711,334,,1,170320,
+3/20/17,1254,water-marine,Mariners Bluff,Jimmy O'Donnell,105,collected between set1 and set2,1,maybe,,,,335,,1,170320,
+3/20/17,1255,water-marine,Mariners Bluff,Jimmy O'Donnell,142,collected between set1 and set2,2,maybe,,,,336,,1,170320,
+3/20/17,1255,water-marine,Mariners Bluff,Jimmy O'Donnell,110,collected between set1 and set2,3,maybe,Abi Wells,1700,1712,337,,1,170320,
+3/20/17,1256,water-marine,Mariners Bluff,Jimmy O'Donnell,118,collected between set1 and set2,4,maybe,Abi Wells,1700,1712,338,,1,170320,
+3/20/17,1256,water-marine,Mariners Bluff,Jimmy O'Donnell,148,collected between set1 and set2,5,maybe,Abi Wells,1704,,339,,1,170320,
+3/20/17,1346,water-marine,Goat Island,Jimmy O'Donnell,137,collected between set1 and set2,1,yes,Jimmy O'Donnell,1712,1721,341,,1,170320,
+3/20/17,1346,water-marine,Goat Island,Jimmy O'Donnell,131,collected between set1 and set2,2,yes,Jimmy O'Donnell,1712,1723,342,,1,170320,
+3/20/17,1347,water-marine,Goat Island,Jimmy O'Donnell,109,collected between set1 and set2,3,yes,Jimmy O'Donnell,1715,1725,343,,1,170320,
+3/20/17,1348,water-marine,Goat Island,Jimmy O'Donnell,126,collected between set1 and set2,4,yes,Abi Wells,1716,1726,344,,1,170320,
+3/20/17,1348,water-marine,Goat Island,Jimmy O'Donnell,134,collected between set1 and set2,5,yes,Abi Wells,1716,1725,345,,1,170320,
+3/20/17,900,water-deionized,,,DIH2O,collected between set1 and set2,1,,Abi Wells,1645,,340,,1,170320,
+3/21/17,954,water-marine,Dugualla Bluff,Jimmy O'Donnell,111,,1,yes,Jimmy O'Donnell,1609,1618,346,,1,170320,
+3/21/17,955,water-marine,Dugualla Bluff,Jimmy O'Donnell,108,,2,yes,Jimmy O'Donnell,1609,1618,347,,1,170320,
+3/21/17,957,water-marine,Dugualla Bluff,Jimmy O'Donnell,130,,3,yes,Jimmy O'Donnell,1609,1618,348,,1,170320,
+3/21/17,957,water-marine,Dugualla Bluff,Jimmy O'Donnell,127,,4,yes,Jimmy O'Donnell,1610,1618,349,,1,170320,
+3/21/17,958,water-marine,Dugualla Bluff,Jimmy O'Donnell,125,,5,yes,Jimmy O'Donnell,1610,1618,350,,1,170320,
+3/21/17,1038,water-marine,Lone Tree Point,Jimmy O'Donnell,116,,1,yes,Jimmy O'Donnell,1610,1618,351,,1,170320,
+3/21/17,1039,water-marine,Lone Tree Point,Jimmy O'Donnell,147,,2,yes,Jimmy O'Donnell,1620,1627,352,,1,170320,
+3/21/17,1040,water-marine,Lone Tree Point,Jimmy O'Donnell,101,,3,yes,Jimmy O'Donnell,1620,1627,353,,1,170320,
+3/21/17,1040,water-marine,Lone Tree Point,Jimmy O'Donnell,132,,4,yes,Jimmy O'Donnell,1620,1627,354,,1,170320,
+3/21/17,1041,water-marine,Lone Tree Point,Jimmy O'Donnell,106,,5,yes,Jimmy O'Donnell,1622,1628,355,,1,170320,
+3/21/17,1119,water-marine,Turners Spit N,Jimmy O'Donnell,117,,1,no,Jimmy O'Donnell,1622,1628,356,,1,170320,
+3/21/17,1120,water-marine,Turners Spit N,Jimmy O'Donnell,139,,2,no,Jimmy O'Donnell,1622,1628,357,,1,170320,
+3/21/17,1120,water-marine,Turners Spit N,Jimmy O'Donnell,138,,3,no,Jimmy O'Donnell,1629,1635,358,filter landed in trash right side up with paper underneath,1,170320,
+3/21/17,1121,water-marine,Turners Spit N,Jimmy O'Donnell,146,,4,no,Jimmy O'Donnell,1629,1635,359,,1,170320,
+3/21/17,1121,water-marine,Turners Spit N,Jimmy O'Donnell,113,,5,no,Jimmy O'Donnell,1629,1635,360,,1,170320,
+3/21/17,1205,water-marine,Hoypus,Jimmy O'Donnell,143,,1,no,Jimmy O'Donnell,1630,1635,361,,1,170320,
+3/21/17,1206,water-marine,Hoypus,Jimmy O'Donnell,128,,2,no,Jimmy O'Donnell,1630,1635,362,,1,170320,
+3/21/17,1206,water-marine,Hoypus,Jimmy O'Donnell,121,,3,no,Jimmy O'Donnell,1630,1635,363,,1,170320,
+3/21/17,1207,water-marine,Hoypus,Jimmy O'Donnell,107,,4,no,Jimmy O'Donnell,1640,,364,,1,170320,
+3/21/17,1207,water-marine,Hoypus,Jimmy O'Donnell,102,,5,no,Jimmy O'Donnell,1640,,365,,1,170320,
+3/21/17,926,water-deionized,,,DIH2O-2,,1,no,Jimmy O'Donnell,1640,,366,,1,170320,
+4/12/17,635,water-deionized,,,DIH2O-1,,1,no,Jimmy O'Donnell,1120,,369,,1,170320,
+4/12/17,655,water-deionized,,,DIH2O-2,,1,no,Jimmy O'Donnell,1120,,370,,1,170320,
+4/12/17,656,water-marine,Grain of Sand,Jimmy O'Donnell,116,,1,no,Jimmy O'Donnell,1110,,373,,1,170320,Y
+4/12/17,657,water-marine,Grain of Sand,Jimmy O'Donnell,107,,2,no,Jimmy O'Donnell,1110,,374,,1,170320,Y
+4/12/17,658,water-marine,Grain of Sand,Jimmy O'Donnell,101,,3,no,Jimmy O'Donnell,1110,,375,,1,170320,Y
+4/12/17,659,water-marine,Grain of Sand,Jimmy O'Donnell,103,,4,no,Gary Longo,1112,,376,,1,170320,Y
+4/12/17,700,water-marine,Grain of Sand,Jimmy O'Donnell,118,,5,no,Gary Longo,1112,,377,,1,170320,
+4/12/17,702,water-marine,Grain of Sand,Jimmy O'Donnell,Bag1,,6,no,Jimmy O'Donnell,1128,,371,,1,170320,
+4/12/17,703,water-marine,Grain of Sand,Jimmy O'Donnell,Bag2,,7,no,Jimmy O'Donnell,1128,,372,,1,170320,
+4/12/17,721,water-marine,Cattail,Jimmy O'Donnell,124,,1,JimmyPhone,Gary Longo,1128,,378,,1,170320,Y
+4/12/17,722,water-marine,Cattail,Jimmy O'Donnell,108,,2,JimmyPhone,Gary Longo,1128,,379,,1,170320,Y
+4/12/17,723,water-marine,Cattail,Jimmy O'Donnell,134,,3,JimmyPhone,Gary Longo,1122,,380,,1,170320,Y
+4/12/17,724,water-marine,Cattail,Jimmy O'Donnell,113,,4,JimmyPhone,Gary Longo,1122,,381,,1,170320,Y
+4/12/17,725,water-marine,Cattail,Jimmy O'Donnell,142,,5,JimmyPhone,Gary Longo,1140,,382,,1,170320,
+4/12/17,707,water-marine,Ika Lower,Gary Longo,128,,1,no,Gary Longo,1140,,383,,1,170320,Y
+4/12/17,70730,water-marine,Ika Lower,Gary Longo,131,,2,no,Gary Longo,1140,,384,,1,170320,Y
+4/12/17,708,water-marine,Ika Lower,Gary Longo,132,,3,no,Jimmy O'Donnell,1139,,385,,1,170320,Y
+4/12/17,70830,water-marine,Ika Lower,Gary Longo,138,,4,no,Jimmy O'Donnell,1139,,386,,1,170320,Y
+4/12/17,709,water-marine,Ika Lower,Gary Longo,121,,5,no,Jimmy O'Donnell,1139,,387,,1,170320,
+4/12/17,72200,water-marine,Ika Upper,Gary Longo,139,,1,no,Gary Longo,1152,,388,,1,170320,
+4/12/17,72230,water-marine,Ika Upper,Gary Longo,102,,2,no,Gary Longo,1152,,389,,1,170320,
+4/12/17,72300,water-marine,Ika Upper,Gary Longo,106,,3,no,Gary Longo,1155,,390,,1,170320,
+4/12/17,72330,water-marine,Ika Upper,Gary Longo,130,,4,no,Jimmy O'Donnell,1152,,391,,1,170320,
+4/12/17,72400,water-marine,Ika Upper,Gary Longo,127,,5,no,Jimmy O'Donnell,1152,,392,,1,170320,
+4/13/17,700,water-deionized,Wylie Boat Ramp,Jimmy O'Donnell,Nolabel,Opened for 60s as crew prepared,1,yes,Jimmy O'Donnell,1213,1220,413,,1,170413,Y
+4/13/17,70700,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,144,"collected on port side, downstream near post",1,yes,Jimmy O'Donnell,1117,1128,393,,1,170413,Y
+4/13/17,70730,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,145,"collected on port side, downstream near post",2,yes,Jimmy O'Donnell,1117,1128,394,,1,170413,Y
+4/13/17,708,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,115,"collected on port side, downstream near post",3,yes,Jimmy O'Donnell,1117,1128,395,,1,170413,Y
+4/13/17,709,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,129,"collected on port side, downstream near post",4,yes,Jimmy O'Donnell,1118,,396,,1,170413,
+4/13/17,710,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,119,"collected on port side, downstream near post",5,yes,Jimmy O'Donnell,1118,,397,,1,170413,
+4/13/17,744,water-marine,Tom Moore,Jimmy O'Donnell,120,~3m upstream of tide gauge on south side of channel,1,yes,Jimmy O'Donnell,1118,1136,398,,1,170413,Y
+4/13/17,745,water-marine,Tom Moore,Jimmy O'Donnell,104,~3m upstream of tide gauge on south side of channel,2,yes,Jimmy O'Donnell,1130,1212,399,,1,170413,Y
+4/13/17,746,water-marine,Tom Moore,Jimmy O'Donnell,135,~3m upstream of tide gauge on south side of channel,3,yes,Jimmy O'Donnell,1130,1216,400,,1,170413,Y
+4/13/17,747,water-marine,Tom Moore,Jimmy O'Donnell,123,~3m upstream of tide gauge on south side of channel,4,yes,Jimmy O'Donnell,1130,1215,401,,1,170413,Y
+4/13/17,748,water-marine,Tom Moore,Jimmy O'Donnell,140,~3m upstream of tide gauge on south side of channel,5,yes,Jimmy O'Donnell,1133,1200,402,,1,170413,
+4/13/17,806,water-marine,Deepwater,Jimmy O'Donnell,149,~4m upstream near tide gauge,1,yes,Jimmy O'Donnell,1133,1150,403,,1,170413,Y
+4/13/17,807,water-marine,Deepwater,Jimmy O'Donnell,150,~4m upstream near tide gauge,2,yes,Jimmy O'Donnell,1137,1150,404,,1,170413,Y
+4/13/17,80730,water-marine,Deepwater,Jimmy O'Donnell,147,~4m upstream near tide gauge,3,yes,Jimmy O'Donnell,1152,,405,,1,170413,Y
+4/13/17,808,water-marine,Deepwater,Jimmy O'Donnell,148,~4m upstream near tide gauge,4,yes,Jimmy O'Donnell,1152,,406,,1,170413,Y
+4/13/17,809,water-marine,Deepwater,Jimmy O'Donnell,143,~4m upstream near tide gauge,5,yes,Jimmy O'Donnell,1202,1215,407,,1,170413,
+4/13/17,834,water-marine,Freshwater Pond,Jimmy O'Donnell,146,"smattering of points in between traps, closer to eastern trap (beaver slide)",1,yes,Jimmy O'Donnell,1204,1216,408,,1,170413,Y
+4/13/17,835,water-marine,Freshwater Pond,Jimmy O'Donnell,141,"smattering of points in between traps, closer to eastern trap (beaver slide)",2,yes,Jimmy O'Donnell,1205,1215,409,,1,170413,Y
+4/13/17,836,water-marine,Freshwater Pond,Jimmy O'Donnell,105,"smattering of points in between traps, closer to eastern trap (beaver slide)",3,yes,Jimmy O'Donnell,1221,1230,410,,1,170413,Y
+4/13/17,837,water-marine,Freshwater Pond,Jimmy O'Donnell,112,"smattering of points in between traps, closer to eastern trap (beaver slide)",4,yes,Jimmy O'Donnell,1221,1233,411,,1,170413,Y
+4/13/17,839,water-marine,Freshwater Pond,Jimmy O'Donnell,114,"smattering of points in between traps, closer to eastern trap (beaver slide)",5,yes,Jimmy O'Donnell,1221,1234,412,,1,170413,
+4/14/17,831,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,126,"1st furthest upstream, west bank between two big stumps",1,yes,"Jimmy O'Donnell, Abi Wells",1038,1126,414,,1,170413,Y
+4/14/17,833,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,111,"2nd furthest upstream, west bank between two big stumps",2,yes,"Jimmy O'Donnell, Abi Wells",1038,1124,415,,1,170413,Y
+4/14/17,834,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,109,"3rd furthest upstream, west bank between two big stumps",3,yes,"Jimmy O'Donnell, Abi Wells",1038,1124,416,,1,170413,Y
+4/14/17,835,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,122,"4th furthest upstream, west bank between two big stumps",4,yes,"Jimmy O'Donnell, Abi Wells",1039,1222,417,,1,170413,Y
+4/14/17,836,water-marine,Browns Slough Diked Side,Jimmy O'Donnell,136,"5th furthest upstream, west bank between two big stumps",5,yes,"Jimmy O'Donnell, Abi Wells",1039,1117,418,,1,170413,
+4/14/17,838,water-deionized,Browns Slough Diked Side,Jimmy O'Donnell,Clear -- No label,,1,yes,Jimmy O'Donnell,1039,1045,419,,1,170413,
+4/17/17,951,water-marine,Turners Spit N,Abi Wells,121,bottle not filled to brim,1,no,Jimmy O'Donnell,1631,1636,420,,1,170413,
+4/17/17,953,water-marine,Turners Spit N,Abi Wells,108,bottle not filled to brim,2,no,Jimmy O'Donnell,1631,1636,421,,1,170413,
+4/17/17,954,water-marine,Turners Spit N,Abi Wells,124,bottle might not have filled completely,3,no,Jimmy O'Donnell,1631,1637,422,,1,170413,
+4/17/17,955,water-marine,Turners Spit N,Abi Wells,102,bottle might not have filled completely,4,no,Abi Wells,1632,1638,423,,1,170413,
+4/17/17,956,water-marine,Turners Spit N,Abi Wells,132,bottle might not have filled completely,5,no,Abi Wells,1632,1638,424,,1,170413,
+4/17/17,1114,water-marine,Dugualla Bluff,Abi Wells,103,bottle might not have filled completely,1,no,Abi Wells,1632,1638,425,,1,170413,
+4/17/17,1115,water-marine,Dugualla Bluff,Abi Wells,139,bottle might not have filled completely,2,no,Jimmy O'Donnell,1639,1644,426,,1,170413,
+4/17/17,1116,water-marine,Dugualla Bluff,Abi Wells,131,bottle might not have filled completely,3,no,Jimmy O'Donnell,1639,1644,427,,1,170413,
+4/17/17,1117,water-marine,Dugualla Bluff,Abi Wells,107,bottle might not have filled completely,4,no,Jimmy O'Donnell,1639,1645,428,,1,170413,
+4/17/17,1119,water-marine,Dugualla Bluff,Abi Wells,113,bottle might not have filled completely,5,no,Abi Wells,1642,1646,429,,1,170413,
+4/17/17,115400,water-marine,Hoypus,Abi Wells,145,bottle might not have filled completely,1,no,Abi Wells,1642,1647,430,,1,170413,
+4/17/17,115430,water-marine,Hoypus,Abi Wells,135,bottle might not have filled completely,2,no,Abi Wells,1642,1647,431,,1,170413,
+4/17/17,115500,water-marine,Hoypus,Abi Wells,104,bottle might not have filled completely,3,no,Gary Longo,1650,1655,433,,1,170413,
+4/17/17,115600,water-marine,Hoypus,Abi Wells,149,bottle might not have filled completely,4,no,Gary Longo,1650,1655,434,,1,170413,
+4/17/17,115630,water-marine,Hoypus,Abi Wells,116,bottle might not have filled completely,5,no,Gary Longo,1650,1655,432,,1,170413,
+4/17/17,1330,water-marine,Lone Tree Point,Jimmy O'Donnell,118,,1,no,Abi Wells,1653,1659,435,,1,170413,
+4/17/17,1331,water-marine,Lone Tree Point,Jimmy O'Donnell,130,,2,no,Abi Wells,1653,1659,436,,1,170413,
+4/17/17,1332,water-marine,Lone Tree Point,Jimmy O'Donnell,123,,3,no,Abi Wells,1653,1659,437,,1,170413,
+4/17/17,133230,water-marine,Lone Tree Point,Jimmy O'Donnell,128,,4,no,Jimmy O'Donnell,1659,1710,438,,1,170413,
+4/17/17,1333,water-marine,Lone Tree Point,Jimmy O'Donnell,120,,5,no,Jimmy O'Donnell,1659,1710,439,,1,170413,
+4/17/17,1157,water-deionized,Hoypus,Abi Wells,DIH2O1,,1,no,Jimmy O'Donnell,1659,1704,440,,1,170413,
+4/18/17,1031,water-marine,Random - Waypoint0333,Jimmy O'Donnell,140,,1,no,Jimmy O'Donnell,1419,1426,441,,1,170413,
+4/18/17,1032,water-marine,Random - Waypoint0333,Jimmy O'Donnell,106,,2,no,Jimmy O'Donnell,1419,1426,442,,1,170413,
+4/18/17,1033,water-marine,Random - Waypoint0333,Jimmy O'Donnell,150,,3,no,Jimmy O'Donnell,1419,1426,443,,1,170413,
+4/18/17,103330,water-marine,Random - Waypoint0333,Jimmy O'Donnell,134,,4,no,Abi Wells,1421,1427,445,,1,170413,
+4/18/17,1034,water-marine,Random - Waypoint0333,Jimmy O'Donnell,101,,5,no,Abi Wells,1421,1427,444,,1,170413,
+4/18/17,1107,water-marine,Strawberry Point North,Jimmy O'Donnell,115,mesh removed for remaining ~300mL,1,no,Abi Wells,1421,1427,446,,1,170413,
+4/18/17,1109,water-marine,Strawberry Point North,Jimmy O'Donnell,144,,2,no,Jimmy O'Donnell,1429,1435,447,,1,170413,
+4/18/17,1111,water-marine,Strawberry Point North,Jimmy O'Donnell,147,mesh fell off,3,no,Jimmy O'Donnell,1429,1435,448,,1,170413,
+4/18/17,1113,water-marine,Strawberry Point North,Jimmy O'Donnell,148,,4,no,Jimmy O'Donnell,1429,1435,449,,1,170413,
+4/18/17,1114,water-marine,Strawberry Point North,Jimmy O'Donnell,127,,5,no,Abi Wells,1430,1436,450,,1,170413,
+4/18/17,1137,water-marine,Goat Island,Jimmy O'Donnell,105,no corresponding survey,1,no,Abi Wells,1430,1436,451,,1,170413,
+4/18/17,113730,water-marine,Goat Island,Jimmy O'Donnell,119,no corresponding survey,2,no,Abi Wells,1430,1436,452,,1,170413,
+4/18/17,1138,water-marine,Goat Island,Jimmy O'Donnell,112,no corresponding survey,3,no,Gary Longo,1438,1444,453,,1,170413,
+4/18/17,113830,water-marine,Goat Island,Jimmy O'Donnell,138,no corresponding survey,4,no,Gary Longo,1438,1445,454,,1,170413,
+4/18/17,1139,water-marine,Goat Island,Jimmy O'Donnell,143,no corresponding survey,5,no,Gary Longo,1438,1445,455,,1,170413,
+4/18/17,113930,water-deionized,Goat Island,Jimmy O'Donnell,DIH2O2,,1,no,Abi Wells,1438,1441,456,,1,170413,
+4/18/17,1439,water-aquarium,Aquarium323,Jimmy O'Donnell,Clear -- No label,survey id: Aquarium323-1704181439,1,no,Abi Wells,1440,1444,457,,1,170413,
+5/16/17,850,water-marine,Turners Spit N,Jimmy O'Donnell,130,,1,no,Jimmy O'Donnell,1614,1711,458,,1,170516,
+5/16/17,85030,water-marine,Turners Spit N,Jimmy O'Donnell,136,,2,no,Jimmy O'Donnell,1614,,459,,1,170516,
+5/16/17,851,water-marine,Turners Spit N,Jimmy O'Donnell,131,,3,no,Jimmy O'Donnell,1624,1740,460,,1,170516,
+5/16/17,85130,water-marine,Turners Spit N,Jimmy O'Donnell,135,,4,no,Jimmy O'Donnell,1624,1735,461,,1,170516,
+5/16/17,937,water-marine,Dugualla Bluff,Jimmy O'Donnell,126,,1,yes,Jimmy O'Donnell,1624,1634,462,,1,170516,
+5/16/17,93730,water-marine,Dugualla Bluff,Jimmy O'Donnell,109,,2,yes,Jimmy O'Donnell,1627,1636,463,,1,170516,
+5/16/17,938,water-marine,Dugualla Bluff,Jimmy O'Donnell,103,,3,yes,Jimmy O'Donnell,1639,1648,464,,1,170516,
+5/16/17,93830,water-marine,Dugualla Bluff,Jimmy O'Donnell,145,,4,yes,Jimmy O'Donnell,1639,1649,465,,1,170516,
+5/16/17,1047,water-marine,Mariners Bluff,Jimmy O'Donnell,123,,1,yes,Jimmy O'Donnell,1650,1659,466,,1,170516,
+5/16/17,1048,water-marine,Mariners Bluff,Jimmy O'Donnell,151,,2,yes,Jimmy O'Donnell,1650,1659,467,,1,170516,
+5/16/17,1049,water-marine,Mariners Bluff,Jimmy O'Donnell,128,,3,yes,Jimmy O'Donnell,1701,1708,468,,1,170516,
+5/16/17,1050,water-marine,Mariners Bluff,Jimmy O'Donnell,148,,4,yes,Jimmy O'Donnell,1701,1708,469,,1,170516,
+5/16/17,1249,water-marine,Brown Point,Jimmy O'Donnell,102,,1,yes,Jimmy O'Donnell,1710,1720,470,,1,170516,
+5/16/17,1251,water-marine,Brown Point,Jimmy O'Donnell,143,,2,yes,Jimmy O'Donnell,1710,1720,471,,1,170516,
+5/16/17,125130,water-marine,Brown Point,Jimmy O'Donnell,147,,3,yes,Jimmy O'Donnell,1712,1727,472,,1,170516,
+5/16/17,1252,water-marine,Brown Point,Jimmy O'Donnell,104,,4,yes,Jimmy O'Donnell,1722,1734,473,,1,170516,
+5/16/17,1307,water-marine,Strawberry Point North,Jimmy O'Donnell,139,no corresponding survey,1,no,Jimmy O'Donnell,1722,1735,474,,1,170516,
+5/16/17,1308,water-marine,Strawberry Point North,Jimmy O'Donnell,113,no corresponding survey,2,no,Jimmy O'Donnell,1727,,475,,1,170516,
+5/16/17,1309,water-marine,Strawberry Point North,Jimmy O'Donnell,115,no corresponding survey,3,no,Jimmy O'Donnell,1729,,476,,1,170516,
+5/16/17,1310,water-marine,Strawberry Point North,Jimmy O'Donnell,DIH2O2,no corresponding survey; not a control - emptied bottle to collect sample,4,no,Jimmy O'Donnell,1735,1746,477,,1,170516,
+5/16/17,1328,water-marine,Lone Tree Point,Jimmy O'Donnell,111,no corresponding survey; bottle used to collect water at Turner Spit earlier in the day; emptied and rinsed in water at this site before collected sample,1,no,Jimmy O'Donnell,1614,1625,478,,1,170516,
+5/16/17,1329,water-marine,Lone Tree Point,Jimmy O'Donnell,Big Bag 1 > D150,no corresponding survey; DNA-free bag used to hold bottles; flushed with water several times before filling with water at site,2,no,Jimmy O'Donnell,1614,1620,479,,1,170516,
+5/16/17,1330,water-marine,Lone Tree Point,Jimmy O'Donnell,Big Bag 2 > D125,no corresponding survey; DNA-free bag used to hold bottles; flushed with water several times before filling with water at site,3,no,Jimmy O'Donnell,1614,1620,480,,1,170516,
+5/16/17,1332,water-marine,Lone Tree Point,Jimmy O'Donnell,Little Bag > NoLabel,no corresponding survey; DNA-free bag used to hold caps; flushed with water several times before filling with water at site,4,no,Jimmy O'Donnell,1614,1620,481,,1,170516,
+5/17/17,807,water-marine,Goat Island,,149,,1,no,Jimmy O'Donnell,1538,1545,482,,1,170516,
+5/17/17,80730,water-marine,Goat Island,,112,,2,no,Jimmy O'Donnell,1538,1545,483,,1,170516,
+5/17/17,808,water-marine,Goat Island,,134,,3,no,Jimmy O'Donnell,1538,1546,484,,1,170516,
+5/17/17,80830,water-marine,Goat Island,,119,,4,no,Jimmy O'Donnell,1539,1547,485,,1,170516,
+5/17/17,809,water-marine,Goat Island,,144,,5,no,Jimmy O'Donnell,1539,1545,486,,1,170516,
+5/17/17,1112,water-marine,Strawberry Point North,,150,,1,no,Jimmy O'Donnell,1539,,487,,1,170516,
+5/17/17,111230,water-marine,Strawberry Point North,,106,,2,no,Jimmy O'Donnell,1550,1556,488,,1,170516,
+5/17/17,1113,water-marine,Strawberry Point North,,127,,3,no,Jimmy O'Donnell,1550,1558,489,,1,170516,
+5/17/17,1114,water-marine,Strawberry Point North,,138,,4,no,Jimmy O'Donnell,1550,1557,490,,1,170516,
+5/17/17,1115,water-marine,Strawberry Point North,,116,,5,no,Abi Wells,1551,1557,491,,1,170516,
+5/17/17,1224,water-marine,Hoypus,,122,lots of smelt,1,no,Abi Wells,1551,1555,492,,1,170516,
+5/17/17,122430,water-marine,Hoypus,,121,lots of smelt,2,no,Abi Wells,1551,1555,493,,1,170516,
+5/17/17,1225,water-marine,Hoypus,,118,lots of smelt,3,no,Jimmy O'Donnell,1600,1606,494,,1,170516,
+5/17/17,1226,water-marine,Hoypus,,132,lots of smelt,4,no,Jimmy O'Donnell,1600,1606,495,,1,170516,
+5/17/17,122630,water-marine,Hoypus,,120,lots of smelt,5,no,Jimmy O'Donnell,1600,1606,496,,1,170516,
+5/17/17,1239,water-marine,Lone Tree Point,,140,~ 1hr before SRSC,1,no,Abi Wells,1600,1606,497,,1,170516,
+5/17/17,1240,water-marine,Lone Tree Point,,108,~ 1hr before SRSC,2,no,Abi Wells,1600,1606,498,,1,170516,
+5/17/17,124030,water-marine,Lone Tree Point,,124,~ 1hr before SRSC,3,no,Abi Wells,1600,1606,499,,1,170516,
+5/17/17,1241,water-marine,Lone Tree Point,,101,~ 1hr before SRSC,4,no,Jimmy O'Donnell,1609,1616,500,,1,170516,
+5/17/17,1242,water-marine,Lone Tree Point,,107,~ 1hr before SRSC,5,no,Jimmy O'Donnell,1609,1616,501,,1,170516,
+5/17/17,1227,water-deionized,,,DIH2O1,,1,no,Jimmy O'Donnell,1609,1614,502,,1,170516,
+5/30/17,900,water-marine,Ika Upper,Jimmy O'Donnell,136,,1,no,Jimmy O'Donnell,1148,1204,503,,1,170516,Y
+5/30/17,902,water-marine,Ika Upper,Jimmy O'Donnell,109,,2,no,Jimmy O'Donnell,1148,,504,,1,170516,Y
+5/30/17,901,water-marine,Ika Upper,Jimmy O'Donnell,148,,3,no,Jimmy O'Donnell,1207,1226,505,,1,170516,Y
+5/30/17,903,water-marine,Ika Upper,Jimmy O'Donnell,145,,4,no,Jimmy O'Donnell,1207,1230,506,,1,170516,Y
+5/30/17,904,water-marine,Ika Upper,Jimmy O'Donnell,130,,5,no,Jimmy O'Donnell,1207,1226,507,,1,170516,
+5/30/17,905,water-deionized,Ika Upper,Jimmy O'Donnell,DIH2O1,,1,no,Jimmy O'Donnell,1222,1228,523,,1,170516,
+5/30/17,914,water-marine,Ika Lower,Jimmy O'Donnell,102,,1,no,Jimmy O'Donnell,1210,1221,508,very small fly in the sample picked out with clean forceps,1,170516,Y
+5/30/17,915,water-marine,Ika Lower,Jimmy O'Donnell,115,,2,no,Jimmy O'Donnell,1210,1226,509,filter fell face-down on clean lab bench,1,170516,Y
+5/30/17,916,water-marine,Ika Lower,Jimmy O'Donnell,131,,3,no,Jimmy O'Donnell,1210,1228,510,,1,170516,Y
+5/30/17,917,water-marine,Ika Lower,Jimmy O'Donnell,147,,4,no,Jimmy O'Donnell,1229,1251,511,,1,170516,Y
+5/30/17,918,water-marine,Ika Lower,Jimmy O'Donnell,111,,5,no,Jimmy O'Donnell,1229,1251,512,,1,170516,
+5/30/17,856,water-marine,Cattail,Abi Wells,114,,1,no,Jimmy O'Donnell,1126,1141,513,,1,170516,Y
+5/30/17,857,water-marine,Cattail,Abi Wells,142,,2,no,Jimmy O'Donnell,1126,1142,514,,1,170516,Y
+5/30/17,858,water-marine,Cattail,Abi Wells,117,,3,no,Jimmy O'Donnell,1126,1142,515,,1,170516,Y
+5/30/17,859,water-marine,Cattail,Abi Wells,137,,4,no,Jimmy O'Donnell,1127,1144,516,,1,170516,Y
+5/30/17,900,water-marine,Cattail,Abi Wells,110,,5,no,Jimmy O'Donnell,1127,1144,517,,1,170516,
+5/30/17,917,water-marine,Grain of Sand,Abi Wells,129,,1,no,Jimmy O'Donnell,1127,,518,,1,170516,Y
+5/30/17,919,water-marine,Grain of Sand,Abi Wells,125,,2,no,Jimmy O'Donnell,1144,1200,519,,1,170516,Y
+5/30/17,920,water-marine,Grain of Sand,Abi Wells,146,,3,no,Jimmy O'Donnell,1144,1202,520,,1,170516,Y
+5/30/17,921,water-marine,Grain of Sand,Abi Wells,141,,4,no,Jimmy O'Donnell,1144,1200,521,,1,170516,Y
+5/30/17,922,water-marine,Grain of Sand,Abi Wells,133,,5,no,Jimmy O'Donnell,1148,1204,522,,1,170516,
+5/30/17,923,water-deionized,Grain of Sand,Abi Wells,DIH2O2,,1,no,Jimmy O'Donnell,1227,1233,524,,1,170516,
+5/31/17,831,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,123,taken near pole on west side of ramp,1,yes,Jimmy O'Donnell,1154,1210,525,,1,,
+5/31/17,832,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,139,taken near pole on west side of ramp,2,yes,Jimmy O'Donnell,1154,1208,526,,1,,
+5/31/17,833,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,118,taken near pole on west side of ramp,3,yes,Jimmy O'Donnell,1154,1212,527,,1,,
+5/31/17,834,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,113,taken near pole on west side of ramp,4,yes,Jimmy O'Donnell,1154,1211,529,,1,,
+5/31/17,835,water-marine,Wylie Boat Ramp,Jimmy O'Donnell,112,taken near pole on west side of ramp,5,yes,Jimmy O'Donnell,1154,1212,528,,1,,
+5/31/17,945,water-deionized,Wylie Boat Ramp,Jimmy O'Donnell,nolabel-clear,,1,yes,Jimmy O'Donnell,1239,1244,546,,1,,
+5/31/17,902,water-marine,Freshwater Pond,Jimmy O'Donnell,126,collected near stump near beaver slide exit,1,yes,Jimmy O'Donnell,1216,1307,530,at room temp for 20 min after filtering,1,,Y
+5/31/17,903,water-marine,Freshwater Pond,Jimmy O'Donnell,104,collected near stump near beaver slide exit,2,yes,Jimmy O'Donnell,1216,1302,531,,1,,Y
+5/31/17,904,water-marine,Freshwater Pond,Jimmy O'Donnell,127,collected near stump near beaver slide exit,3,yes,Jimmy O'Donnell,1246,1334,532,,1,,Y
+5/31/17,905,water-marine,Freshwater Pond,Jimmy O'Donnell,150,collected near stump near beaver slide exit,4,yes,Jimmy O'Donnell,1246,1336,533,,1,,Y
+5/31/17,906,water-marine,Freshwater Pond,Jimmy O'Donnell,134,collected near stump near beaver slide exit,5,yes,Jimmy O'Donnell,1246,1331,534,,1,,
+5/31/17,907,water-deionized,Freshwater Pond,Jimmy O'Donnell,nolabel-clear,submerged closed bottle at sample site then left open for about one minute,1,yes,Jimmy O'Donnell,1239,1244,545,,1,,
+5/31/17,922,water-marine,Deepwater,Jimmy O'Donnell,107,,1,yes,Jimmy O'Donnell,1250,1308,535,at room temp for 20 min after filtering,1,,Y
+5/31/17,923,water-marine,Deepwater,Jimmy O'Donnell,128,,2,yes,Jimmy O'Donnell,1305,1326,536,,1,,Y
+5/31/17,924,water-marine,Deepwater,Jimmy O'Donnell,121,,3,yes,Jimmy O'Donnell,1310,1325,537,,1,,Y
+5/31/17,925,water-marine,Deepwater,Jimmy O'Donnell,132,,4,yes,Jimmy O'Donnell,1310,1325,538,,1,,Y
+5/31/17,926,water-marine,Deepwater,Jimmy O'Donnell,149,,5,yes,Jimmy O'Donnell,1327,1344,539,,1,,
+5/31/17,914,water-marine,Tom Moore,Correigh Greene,143,,1,yes,Jimmy O'Donnell,1154,1211,540,,1,,Y
+5/31/17,915,water-marine,Tom Moore,Correigh Greene,103,,2,yes,Jimmy O'Donnell,1209,1235,541,,1,,Y
+5/31/17,916,water-marine,Tom Moore,Correigh Greene,144,,3,yes,Jimmy O'Donnell,1213,1238,542,,1,,Y
+5/31/17,917,water-marine,Tom Moore,Correigh Greene,151,,4,yes,Jimmy O'Donnell,1213,1242,543,,1,,Y
+5/31/17,919,water-marine,Tom Moore,Correigh Greene,119,,5,yes,Jimmy O'Donnell,1213,1248,544,,1,,
+6/19/17,93500,water-marine,Strawberry Point North,Ole Shelton,111,,1,no,Ole Shelton,,,566,,1,170619,
+6/19/17,93530,water-marine,Strawberry Point North,Ole Shelton,121,,2,no,Ole Shelton,,,567,,1,170619,
+6/19/17,936,water-marine,Strawberry Point North,Ole Shelton,132,,3,no,Ole Shelton,,,547,,1,170619,
+6/19/17,938,water-marine,Strawberry Point North,Ole Shelton,107,,4,no,Ole Shelton,,,548,,1,170619,
+6/19/17,939,water-marine,Strawberry Point North,Ole Shelton,149,,5,no,Ole Shelton,,,549,,1,170619,
+6/19/17,940,water-deionized,Strawberry Point North,Ole Shelton,C101,opened and closed,1,no,Ole Shelton,,,550,,1,170619,
+6/19/17,105800,water-marine,Brown Point,Ole Shelton,104,,1,no,Ole Shelton,,,551,,1,170619,
+6/19/17,105830,water-marine,Brown Point,Ole Shelton,126,,2,no,Ole Shelton,,,552,,1,170619,
+6/19/17,1055,water-marine,Brown Point,Ole Shelton,128,,3,no,Ole Shelton,,,563,,1,170619,
+6/19/17,1100,water-marine,Brown Point,Ole Shelton,134,,4,no,Ole Shelton,,,554,,1,170619,
+6/19/17,1101,water-marine,Brown Point,Ole Shelton,127,,5,no,Ole Shelton,,,555,,1,170619,
+6/19/17,1215,water-marine,Mariners Bluff,Ole Shelton,138,,1,no,Ole Shelton,,,556,,1,170619,
+6/19/17,1216,water-marine,Mariners Bluff,Ole Shelton,140,,2,no,Ole Shelton,,,557,,1,170619,
+6/19/17,1217,water-marine,Mariners Bluff,Ole Shelton,116,,3,no,Ole Shelton,,,558,,1,170619,
+6/19/17,1218,water-marine,Mariners Bluff,Ole Shelton,101,,4,no,Ole Shelton,,,559,,1,170619,
+6/19/17,1219,water-marine,Mariners Bluff,Ole Shelton,122,,5,no,Ole Shelton,,,560,,1,170619,
+6/19/17,1243,water-marine,Goat Island,Ole Shelton,120,no corresponding survey,1,no,Ole Shelton,,,561,,1,170619,
+6/19/17,1244,water-marine,Goat Island,Ole Shelton,124,no corresponding survey,2,no,Ole Shelton,,,562,,1,170619,
+6/19/17,1245,water-marine,Goat Island,Ole Shelton,106,no corresponding survey,3,no,Ole Shelton,,,553,,1,170619,
+6/19/17,1246,water-marine,Goat Island,Ole Shelton,135,no corresponding survey,4,no,Ole Shelton,,,564,,1,170619,
+6/19/17,1247,water-marine,Goat Island,Ole Shelton,108,no corresponding survey,5,no,Ole Shelton,,,565,,1,170619,
+6/21/17,944,water-marine,Hoypus,Jimmy O'Donnell,129,,1,yes,Jimmy O'Donnell,1649,1655,568,,1,170619,
+6/21/17,94430,water-marine,Hoypus,Jimmy O'Donnell,141,,2,yes,Jimmy O'Donnell,1649,1655,569,,1,170619,
+6/21/17,945,water-marine,Hoypus,Jimmy O'Donnell,150,,3,yes,Jimmy O'Donnell,1649,1655,570,,1,170619,
+6/21/17,946,water-marine,Hoypus,Jimmy O'Donnell,151,,4,yes,Jimmy O'Donnell,1650,1655,571,,1,170619,
+6/21/17,948,water-deionized,Hoypus,Jimmy O'Donnell,C102,opened for 1 minute then closed and dipped in seawater,1,yes,Jimmy O'Donnell,1650,1655,572,,1,170619,
+6/21/17,1150,water-marine,Lone Tree Point,Jimmy O'Donnell,DIH2O2,,1,yes,Jimmy O'Donnell,1650,1700,573,,1,170619,
+6/21/17,1151,water-marine,Lone Tree Point,Jimmy O'Donnell,113,,2,yes,Jimmy O'Donnell,1701,1711,574,,1,170619,
+6/21/17,115130,water-marine,Lone Tree Point,Jimmy O'Donnell,115,,3,yes,Jimmy O'Donnell,1701,1710,575,,1,170619,
+6/21/17,1152,water-marine,Lone Tree Point,Jimmy O'Donnell,142,,4,yes,Jimmy O'Donnell,1701,1711,576,,1,170619,
+6/21/17,1311,water-marine,Goat Island,Jimmy O'Donnell,DIH2O1,,1,yes,Jimmy O'Donnell,1704,1711,577,,1,170619,
+6/21/17,1312,water-marine,Goat Island,Jimmy O'Donnell,unlabeled,,2,yes,Jimmy O'Donnell,1704,1712,578,,1,170619,
+6/21/17,1313,water-marine,Goat Island,Jimmy O'Donnell,133,,3,yes,Jimmy O'Donnell,1704,1716,579,,1,170619,
+6/21/17,1313,water-marine,Goat Island,Jimmy O'Donnell,112,,4,yes,Jimmy O'Donnell,1715,1730,580,,1,170619,
+6/21/17,1328,water-marine,Dugualla Bluff,Jimmy O'Donnell,118,no corresponding survey,1,yes,Jimmy O'Donnell,1715,1733,581,,1,170619,
+6/21/17,1329,water-marine,Dugualla Bluff,Jimmy O'Donnell,136,no corresponding survey,2,yes,Jimmy O'Donnell,1715,1735,582,,1,170619,
+6/21/17,1330,water-marine,Dugualla Bluff,Jimmy O'Donnell,125,no corresponding survey,3,yes,Jimmy O'Donnell,1718,1733,583,,1,170619,
+6/21/17,1331,water-marine,Dugualla Bluff,Jimmy O'Donnell,114,no corresponding survey,4,yes,Jimmy O'Donnell,1718,,584,,1,170619,
+6/21/17,1349,water-marine,Turners Spit N,Jimmy O'Donnell,119,collected before seine,1,yes,Jimmy O'Donnell,1718,1741,585,,1,170619,
+6/21/17,1350,water-marine,Turners Spit N,Jimmy O'Donnell,103,collected before seine,2,yes,Jimmy O'Donnell,1731,1758,586,,1,170619,
+6/21/17,1351,water-marine,Turners Spit N,Jimmy O'Donnell,123,collected before seine,3,yes,Jimmy O'Donnell,1734,1748,587,,1,170619,
+6/21/17,1352,water-marine,Turners Spit N,Jimmy O'Donnell,144,collected before seine,4,yes,Jimmy O'Donnell,1734,1748,588,,1,170619,
