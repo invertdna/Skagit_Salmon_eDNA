@@ -13,7 +13,7 @@ plot.dir <- "/Users/ole.shelton/Github/Skagit_Salmon_eDNA/Plots"
 setwd(data.dir)
 
 catch.dat  <- read.csv(file="Skagit eDNA catch data 2017.csv")
-length.dat <- read.csv(file="Skagit eDNA length data 2017.csv")
+length.dat <- read.csv(file="Skagit eDNA length data 2017.csv")       
 
 # parse dates 
 catch.dat$time <- strptime(catch.dat$Date,"%m/%d/%y")
@@ -26,15 +26,15 @@ THESE <-  c(  grep("Avg.",NOM),
                 grep("Max.Water",NOM),
                 grep("SetArea",NOM))
 
-abiotic.seine.dat <- catch.dat %>% select("Site","Site.Type.1","Site.Type.2","year","month","time","julian",THESE)
+abiotic.seine.dat <- catch.dat %>% dplyr::select("Site","Site.Type.1","Site.Type.2","year","month","time","julian",THESE)
 
 # Identify a set of species to work with
-catch.dat <- catch.dat %>% select(-THESE,-grep("density",colnames(catch.dat)),-grep("catch",colnames(catch.dat)))
+catch.dat <- catch.dat %>% dplyr::select(-THESE,-grep("density",colnames(catch.dat)),-grep("catch",colnames(catch.dat)))
 these  <- c(grep("STURGEON",colnames(catch.dat)),which(colnames(catch.dat)=="O.U.fish.pl"))
 M.vars <- colnames(catch.dat)[these[1]:(these[2]-1)]
 
 dat.long <- melt(catch.dat,measure.vars = M.vars,variable.name="species")
-dat.long <- dat.long %>% select(-time)
+dat.long <- dat.long %>% dplyr::select(-time)
 dat.long.sum <- dat.long %>% group_by(species) %>% summarise(SUM = sum(value)) %>% as.data.frame()
 
 # filter out species that were never observed
